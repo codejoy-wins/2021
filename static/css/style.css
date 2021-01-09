@@ -28,3 +28,6 @@ a{
 a:hover{
     color: rgb(57, 46, 207);
 }
+.current{
+    font-weight: bold;
+}
