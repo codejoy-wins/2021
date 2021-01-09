@@ -31,3 +31,6 @@ a:hover{
 .current{
     font-weight: bold;
 }
+#poem{
+    text-align: center;
+}
