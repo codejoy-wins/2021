@@ -50,7 +50,13 @@ a:hover{
     bottom: 0;
     right: 0;
     text-align: right;
+    z-index: 4;
 }
 #nav{
     text-align: center;
+    z-index:8;
+}
+#show{
+    z-index: 5;
+    position: absolute;
 }
