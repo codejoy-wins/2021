@@ -31,3 +31,9 @@ a:hover{
 .current{
     font-weight: bold;
 }
+#nav{
+    text-align: center;
+}
+#vids{
+    text-align: center;
+}
