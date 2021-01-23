@@ -8,6 +8,9 @@ html, body{
 #heading{
     text-align: center;
 }
+#reviews h2{
+    text-align: center;
+}
 #rapper{
     margin: 0 auto;
     padding-left: 1.5vw;
