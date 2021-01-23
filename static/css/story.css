@@ -5,6 +5,10 @@ html, body{
     margin: 0;
     padding: 0;
 }
+.vid{
+    max-width: 100%;
+    width: 600px;
+}
 #heading{
     text-align: center;
 }
