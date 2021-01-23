@@ -8,6 +8,10 @@ html, body{
 #heading{
     text-align: center;
 }
+#collage{
+    height: auto;
+    width: 100%;
+}
 #reviews h2{
     text-align: center;
 }
