@@ -1,5 +1,7 @@
 *{
     font-family: 'Spectral', serif;
+    cursor: url(../img/note2.png), auto;
+
 }
 html, body{
     margin: 0;
@@ -19,18 +21,22 @@ html, body{
     padding: 1vw;
 }
 #nav{
-    background-color: rgb(43, 226, 156, 0.363);
+    background-color: rgba(236, 72, 21, 0.794);
     width: 100%;
 }
 a{
     text-decoration: none;
-    color: gray;
+    color: black
 }
 a:hover{
-    color: rgb(57, 46, 207);
+    color: whitesmoke;
 }
 .current{
     font-weight: bold;
+    color: whitesmoke;
+}
+#nav:hover .current{
+    color: black;
 }
 #nav{
     text-align: center;
