@@ -60,6 +60,16 @@ a:hover{
 .pic{
     max-width: 100%;
 }
+.pic2{
+    max-width: 100%;
+    max-height: 600px;
+}
 h1 a{
     color: purple;
+}
+#reviews a{
+    color: purple;
+}
+#reviews a:hover{
+    color: black;
 }

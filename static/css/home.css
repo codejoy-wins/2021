@@ -11,7 +11,6 @@ html, body{
 }
 #heading{
     text-align: center;
-    
 }
 #collage{
     height: auto;
@@ -25,23 +24,25 @@ html, body{
     padding-top: 2px;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
-    background-image: url("../img/ucsc.jpg");
-    background-size: cover;
-    height: 90vw;
+    background-image: url("../img/ellie.jpg");
+    background-size: contain;
+    height: 70vw;
     background-repeat: no-repeat;
+    color: aqua;
+    text-align: center;
 }
 .option{
     display: inline-block;
     padding: 1vw;
 }
 #nav{
-    background-color: rgba(92, 43, 226, 0.363);
+    background-color: rgb(43, 226, 156, 0.363);
     width: 100%;
 }
 a{
     text-decoration: none;
     color: rgb(57, 46, 207);
-    
+    cursor: cell;
 }
 a:hover{
     color: gold
@@ -61,4 +62,17 @@ a:hover{
 }
 .pic{
     max-width: 100%;
+}
+.genre{
+    display: inline-block;
+    position: relative;
+    top: 13vw;
+    padding: 3ch;
+}
+.genre a{
+    color: aqua;
+}
+.genre a:hover{
+    color: forestgreen;
+    cursor: cell;
 }
