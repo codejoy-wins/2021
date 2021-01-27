@@ -1,0 +1,94 @@
+*{
+    font-family: 'Spectral', serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.vid{
+    max-width: 100%;
+    width: 600px;
+}
+#heading{
+    text-align: center;
+}
+#collage{
+    height: auto;
+    width: 100%;
+}
+#reviews h2{
+    text-align: center;
+}
+#rapper{
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-image: url("../img/ellie.jpg");
+    background-size: contain;
+    height: 70vw;
+    background-repeat: no-repeat;
+    color: aqua;
+    text-align: center;
+}
+.option{
+    display: inline-block;
+    padding: 1vw;
+}
+#nav{
+    background-color: rgb(43, 226, 156, 0.363);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(57, 46, 207);
+    cursor: cell;
+}
+a:hover{
+    color: gold
+}
+#nav a:hover{
+    color: black;
+    font-weight: bold;
+}
+.current{
+    font-weight: bold;
+}
+#poem{
+    text-align: center;
+}
+#nav{
+    text-align: center;
+}
+.pic{
+    max-width: 100%;
+}
+.genre{
+    display: inline-block;
+    position: relative;
+    top: 13vw;
+    padding: 3ch;
+}
+.genre a{
+    color: aqua;
+}
+.genre a:hover{
+    color: forestgreen;
+    cursor: cell;
+}
+#dev a{
+    color: pink;
+}
+#dev a:hover{
+    color: rgb(238, 18, 238);
+}
+#dev{
+    height: 20vw;
+    overflow:auto;
+    margin: 90px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.i{
+    font-style: italic;
+}
