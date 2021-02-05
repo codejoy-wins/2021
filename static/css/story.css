@@ -28,6 +28,7 @@ html, body{
     padding-left: 1.5vw;
     padding-right: 1.5vw;
 }
+
 .option{
     display: inline-block;
     padding: 1vw;
@@ -76,4 +77,28 @@ h1 a{
 }
 #reviews a:hover{
     color: black;
+}
+#rapper2{
+    margin: 0 auto;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    height: 90vw;
+    background-image: url("../img/Welcome\ To\ Your\ Doom.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: elam 7s 1;
+}
+@keyframes elam{
+    0%{
+        background-image: url(../img/Welcome\ Empty.png);
+    }
+    60%{
+        background-image:url(../img/Welcome\ Only.png);
+    }
+    70%{
+        background-image: url(../img/Welcome\ To.png);
+    }
+    80%{
+        background-image: url(../img/Welcome\ To\ Your.png);
+    }
 }
