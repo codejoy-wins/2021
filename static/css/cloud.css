@@ -52,7 +52,7 @@ html, body{
 
 #story p:hover{
     /* background-color: rgba(255, 192, 203, 0.603); */
-    background: linear-gradient(90deg, rgba(47, 37, 184, 0.575) 0%, rgba(152, 45, 194, 0.356) 35%, rgba(241, 246, 247, 0) 100%);
+    background: linear-gradient(90deg, rgba(42, 104, 197, 0.425) 0%, rgba(152, 45, 194, 0.356) 35%, rgba(241, 246, 247, 0) 100%);
 }
 
 .option{
