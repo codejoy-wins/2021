@@ -83,10 +83,12 @@ h1 a{
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     height: 90vw;
-    background-image: url("../img/Welcome\ To\ Your\ Doom.png");
+    background-image: url("../img/Welcome\ Empty.png");
     background-size: contain;
     background-repeat: no-repeat;
     animation: elam 4s 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 @keyframes elam{
     0%{
@@ -98,7 +100,10 @@ h1 a{
     60%{
         background-image: url(../img/Welcome\ To.png);
     }
-    90%{
+    80%{
         background-image: url(../img/Welcome\ To\ Your.png);
+    }
+    100%{
+        background-image: url(../img/Welcome\ To\ Your\ Doom.png);
     }
 }
