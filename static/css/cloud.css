@@ -38,14 +38,26 @@ html, body{
     background-size: contain;
     height: 55vw;
 }
+
+
 #story{
-    background-color: rgba(0, 0, 255, 0.336);
+
+    background-color: rgba(0, 0, 0, 0.436);
+
     max-height: 100%;
+
     overflow: auto;
+
     padding: 2ch;
+
     border-radius: 1ch;
+
     height: 45vw;
+
+    color: white;
+
 }
+
 #story p{
     padding: 1ch;
 }
