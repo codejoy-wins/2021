@@ -87,7 +87,7 @@ h1 a{
     background-size: contain;
     background-repeat: no-repeat;
     animation: elam 4s 1;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 @keyframes elam{
