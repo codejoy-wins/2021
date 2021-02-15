@@ -36,7 +36,7 @@ html, body{
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     padding-top: 1.0vw;
-    background-image: url(../img/dragon.jpg);
+    background-image: url(../img/aurora.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 55vw;
@@ -153,29 +153,32 @@ h1 a{
     color: black;
 }
 
-.chapter:hover{
-    animation-play-state: paused;
+.inline a:hover{
+    color: rgb(33, 185, 33);
 }
-
+.inline a{
+    color: gray;
+}
 .chapter{
     color: aquamarine;
-    animation: aurora 5s infinite;
+    animation: aurora 3s infinite;
+}
+.title{
+    color: aquamarine;
+    font-size: x-large;
 }
 
 @keyframes aurora{
     0%{
-        color: rgb(64, 64, 165);
+        color: blue;
     }
-    20%{
+    30%{
         color: turquoise;
     }
-    40%{
-        color: rgb(255, 50, 255);
-    }
     60%{
-        color: aquamarine;
+        color: rgb(228, 95, 117);
     }
-    80%{
-        color: rgba(0, 0, 128, 0.671);
+    90%{
+        color: aquamarine;
     }
 }
