@@ -63,6 +63,9 @@ a:hover{
     text-align: center;
     font-size: larger;
 }
+.purple{
+    color: purple;
+}
 .pic{
     max-width: 100%;
 }
