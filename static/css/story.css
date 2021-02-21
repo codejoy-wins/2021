@@ -137,14 +137,14 @@ h1 a{
 .post{
     border-radius: 1ch;
     padding: 3vw;
-    background-color: rgba(55, 83, 211, 0.677);
+    background-color: rgba(55, 83, 211, 0.760);
     color: black;
     font-size: larger;
 }
 .post2{
     border-radius: 1ch;
     padding: 3vw;
-    background-color: rgba(211, 5, 5, 0.505);
+    background-color: rgba(211, 5, 5, 0.535);
     color: wheat;
     font-size: larger;
 }
