@@ -5,13 +5,21 @@ html, body{
     margin: 0;
     padding: 0;
 }
-.vid{
+.vid4{
     max-width: 100%;
     width: 600px;
 }
 .vid2{
     max-width: 100%;
     max-height: 100%;
+}
+.vid{
+    max-width: 100%;
+    max-height: 100%;
+    width: 40%;
+    height: 315px;
+    float: left;
+    padding-right: 1vw;
 }
 #heading{
     text-align: center;
@@ -160,7 +168,6 @@ h1 a{
 .post p{
     /* background-color: rgba(255, 192, 203, 0.521); */
     background-color: rgba(250, 189, 250, 0.621);
-
     padding: 1vw;
     border-radius: 1vw;
 }
@@ -168,7 +175,13 @@ h1 a{
     background-color: rgba(250, 189, 250, 0.621);
     padding: 1vw;
     border-radius: 1vw;
+
 }
 h2, h3{
     color: wheat;
+    text-align: right;
+}
+.central{
+    float: left;
+    padding: 1vw;
 }
