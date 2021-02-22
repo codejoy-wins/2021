@@ -193,3 +193,7 @@ h4{
     float: left;
     padding: 1vw;
 }
+.song{
+    max-width: 100%;
+    width: 40vw;
+}
