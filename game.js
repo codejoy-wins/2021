@@ -106,9 +106,12 @@ function rga(){
     <iframe frameborder="0" src="https://itch.io/embed-upload/1076577?color=333333" allowfullscreen="" width="1024" height="788"><a href="https://codejoy-wins.itch.io/rgia3">Play RGIA3 on itch.io</a></iframe>
     `
     document.getElementById("instructions").innerHTML=`
-    <h4>Mad Portfolio Instructions</h4>
+    <h4>Red Grass Instructions</h4>
                 <p>
                 Hold Shift to Sprint
+                </p>
+                <p>
+                Collect the Gems
                 </p>
     `
 }
