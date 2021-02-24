@@ -101,4 +101,5 @@ a:hover{
 }
 .game h5:hover{
     color: pink;
+    cursor: cell;
 }

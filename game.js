@@ -31,6 +31,9 @@ shift to walk
     <p>
 V to toggle ghost mode
     </p>
+    <p>
+Collect the powerups to jump higher and run faster
+    </p>
     `
 }
 function starsenal(){
