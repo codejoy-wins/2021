@@ -60,7 +60,7 @@ a{
     color: whitesmoke;
 }
 a:hover{
-    color: rgb(255, 0, 0);
+    color: wheat;
     font-weight: bold;
     cursor: cell;
 }
