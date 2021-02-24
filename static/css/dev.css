@@ -26,8 +26,6 @@ html, body{
     padding-right: 1.5vw;
     background-image: url("../img/ellie.jpg");
     background-size: contain;
-    height: 70vw;
-    background-repeat: no-repeat;
     color: aqua;
     text-align: center;
 }
@@ -83,12 +81,24 @@ a:hover{
     color: rgb(238, 18, 238);
 }
 #dev{
-    height: 20vw;
+    height: 70vw;
     overflow:auto;
     margin: 90px;
     margin-bottom: 0px;
     margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.363);
 }
 .i{
     font-style: italic;
+}
+#game{
+    max-width: 100%;
+    max-height: 100%;
+}
+.game h5{
+    display: inline-block;
+    padding: 1vw;
+}
+.game h5:hover{
+    color: pink;
 }

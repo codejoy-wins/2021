@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="static/css/dev.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap" rel="stylesheet">
+    <script src="game.js"></script>
 </head>
 <div id="nav">
     <div class="option"><a href="essay.html">Essay</a></div>
@@ -28,29 +29,30 @@
 <body>
     
     <div id="rapper">
+        <div id="game">
+            <iframe frameborder="0" src="https://itch.io/embed-upload/932686?color=333333" allowfullscreen="" width="1024" height="788"><a href="https://codejoy-wins.itch.io/starbros">Play Starbros on itch.io</a></iframe>
+        </div>
+        
         <div id="dev">
-            <p class="i">This text overflows</p>
-            <p>I used to design games with Unity in C#</p>
-            <p>My most memorable games are <a href="#star">Starbros</a>, <a href="#ghost">I am Ghost</a>, <a href="#mad">Mad Portfolio</a>, and <a href="#starsenal">Starsenal 4</a></p>
-            <p>I made a <a href="https://cocky-leavitt-f7e993.netlify.app/">website</a> that let's you shuffle a lot of my games and play them.</p>
-            <p>Or you can view all of my games I uploaded directly on <a href="https://codejoy-wins.itch.io/">itch.io</a></p>
-            <p id="star"><a href="https://codejoy-wins.itch.io/starbros">Starbros</a> is the first game I ever designed.  I made it at my coding bootcamp for fun in my spare time.  I designed all the art in the game just by using basic shapes and colors.  It is my favorite game and my most popular.  I had everyone in bootcamp playing it.</p>
-
-            <p id="ghost"><a href="https://codejoy-wins.itch.io/i-am-forgotten-ghost">I am Forgotten Ghost</a> is the further developed version of I am Ghost.  This game is reallllly cool but the only person who has beaten it is me which means it was improperly designed.  It's a game that uses music really nicely.  It's an adventure, puzzle solving game where you have the ability to turn into a ghost to travel through walls.  The way to get out of the map is by first collecting the power ups to make yourself jump faster and higher, and then to jump into the light tunnel.  It's solid cubes stacked so you have to turn invisable in midair, go through the wall, and then turn normal inside the cube so you stay there intead of passing through.  Then you have to jump to the upper cube by turning into a ghost in midair again to pass through the ceiling before turning back to normal before you fall through the floor.  This concept is really cool and I haven't seen it anywhere.  The problem is the controls are a bit clunky and the instructions aren't clear.  The plot is that you are dead and have to get up to heaven using your ghost powers.</p>
-
-            <p id="mad"><a href="https://codejoy-wins.itch.io/mad-portfolio">Mad Portfolio</a> is an interactive portfolio I designed where you fly a spaceship around a 3d space and encounter 3d text listing my various credentials.</p>
-
-            <p>Mad Portfolio Directions:
-                The instructions are written inside the 3D space, but if you're stuck... s looks up and w looks down. space propels you forward.  holding and releasing j really propels you.  shift slows you down. You're supposed to fly to the different landing pads and then discover differnt urls and facts about me.  It's got my music in it to.  Pretty cool stuff I think.
-            </p>
-
-            <p id="starsenal"><a href="https://codejoy-wins.itch.io/starsenal-4-the-hunt-for-dark-kirby">Starsenal 4: The Hunt for Dark Kirby</a> is an awesome platforming game I designed where you can ride bullets in mid air to reach your objective.  This is probably my second most popular game, so I'm much better with 2D platformers than 3D.  The thing about this game is only I really know how to play it. </p>
-            <p>Starsenal Directions: WASD is always the arrow keys I use to move.  Q and E are used to aim up or down.  You can jump with W a few times but that's it unless you hit a bullet and then you're jumps reset so you can fly by riding bullets and just keep jumping on to more bullets.  If the dark stars touch you you reset and lose. You can destroy them with many bullets.  There's a lot to this game and even a second level. I and O can even spin you around allowing you to fly if you do it while shooting and jumping.  There is a Dark Kirby and you can kill him and win.  No one has but me.</p>
-
-            <h4>Conclusion</h4>
-            <p>I stopped doing game design because it wasn't making me money and my skills couldn't match my creativity.  I had an idea for a platforming game where the goal is to kill yourself but you have a guardian angel preventing all attempts. This would require AI.  </p>
-            <p>I also had an idea about traveling to an alternate universe temporarily to traverse objects in a 3D platformer, I posted it online, and then Ratchet and Clank: Rift Apart either stole the idea or came up with it simultaneously.  When I saw what they had done I deleted Unity but maybe it's time I try again.</p>
+            <div class="game">
+                <h5 onclick="ghost()">I am Ghost</h5>
+                <h5 onclick="starsenal()">Starsenal</h5>
+                <h5 onclick="fps()">FPS</h5>
+                <h5 onclick="mad()">Mad Portfolio</h5>
+                <h5 onclick="rga()">Red Grass Island</h5>
+                <h5 onclick="starbros()">Starbros</h5>
+            </div>
+            <div id="instructions">
+                <h4>Starbros Instructions</h4>
+                <p>This is the first game I ever designed and still my best.</p>
+                <p>wasd or arrow keys move.  Jump is w up or space bar.  I recommend using the arrow keys and the space bar.</p>
+                <p>I coded it so that you can only jump once in mid air.  You cannot jump again until you hit the "Ground".  I made every object in the game count as the "Ground" so you can spam the space bar in mid air and if you hit something you can double jump.</p>
+                <p>If you can't figure it out there is a youtube demo of it.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yxxDWVSn93c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+            </div>
             
+
         </div>
     </div>
     
