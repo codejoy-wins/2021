@@ -83,6 +83,11 @@ a:hover{
     max-width: 100%;
     max-height: 600px;
 }
+.pic3{
+    max-width: 100%;
+    float: left;
+    padding-right: 1vw;
+}
 h1 a{
     color: purple;
 }
