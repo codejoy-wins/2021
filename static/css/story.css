@@ -202,3 +202,7 @@ h4{
     max-width: 100%;
     width: 40vw;
 }
+.special{
+    float: left;
+    color: purple;
+}
