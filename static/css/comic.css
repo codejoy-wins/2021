@@ -101,20 +101,23 @@ a:hover{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    color: aqua;
+    color: black;
     text-align: center;;
+    background-color: blueviolet;
 }
+
 #options h3{
     display: inline-block;
     padding: 1vw;
-    color: blueviolet;
+    color: violet;
 }
 #options h3:hover{
     color: aqua;
     cursor: cell;
 }
 #article{
-    color: blue;
+    color: black;
+    padding: 1vw;
 }
 #picture{
     max-width: 100%;
@@ -124,7 +127,7 @@ a:hover{
     height: 50vw;
 }
 .black{
-    color: black;
+    color: aqua;
 }
 .pic3{
     height: 20vw;
