@@ -118,6 +118,7 @@ a:hover{
 #article{
     color: black;
     padding: 1vw;
+    background-color: rgba(245, 222, 179, 0.281);
 }
 #picture{
     max-width: 100%;
