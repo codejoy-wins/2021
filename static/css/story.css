@@ -248,3 +248,8 @@ h4{
     width: 400px;
     padding: 1vw;
 }
+.wbc{
+    max-width: 100%;
+    width: 500px;
+    float: right;
+}
