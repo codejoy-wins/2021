@@ -253,3 +253,8 @@ h4{
     width: 500px;
     float: right;
 }
+.pic8{
+    float: left;
+    max-width: 100%;
+    padding: 1vw;
+}
