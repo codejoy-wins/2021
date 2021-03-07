@@ -258,3 +258,13 @@ h4{
     max-width: 100%;
     padding: 1vw;
 }
+.left{
+    text-align: left;
+}
+.post2 .rebuttal{
+    color: red;
+    background-color: black;
+}
+.pic10{
+    max-width: 100%;
+}
