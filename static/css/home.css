@@ -26,8 +26,7 @@ html, body{
     padding-right: 1.5vw;
     background-image: url("../img/ellie.jpg");
     background-size: contain;
-    height: 70vw;
-    background-repeat: no-repeat;
+    height:1000px;
     color: aqua;
     text-align: center;
 }

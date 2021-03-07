@@ -24,9 +24,19 @@ html, body{
     padding-top: 2px;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
+    background-image: url("../img/god.jpeg");
+    background-size: contain;
+    color: white;
+    text-align: center;
+}
+#rapper10{
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
     background-image: url("../img/ellie.jpg");
     background-size: contain;
-    color: rgba(0, 255, 255, 0.582);
+    color: aqua;
     text-align: center;
 }
 .option{
@@ -36,6 +46,13 @@ html, body{
 #nav{
     background-color: rgb(43, 226, 156, 0.363);
     width: 100%;
+}
+
+p a{
+    color: plum;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 1vw;
+    padding: 1vw;
 }
 a{
     text-decoration: none;
@@ -75,18 +92,26 @@ a:hover{
     cursor: cell;
 }
 #dev a{
-    color: pink;
+    color: aqua;
 }
 #dev a:hover{
     color: rgb(238, 18, 238);
 }
 #dev{
-    height: 70vw;
+    height: 1300px;
     overflow:auto;
-    margin: 90px;
     margin-bottom: 0px;
     margin-top: 0px;
-    background-color: rgba(0, 0, 0, 0.363);
+    background-color: rgba(0, 0, 0, 0.185);
+    margin: 2vw;
+    max-width: 100%;
+}
+#dev2{
+    height: 800px;
+    overflow: auto;
+}
+#dev2 p{
+    padding-top: 20vw;
 }
 .i{
     font-style: italic;

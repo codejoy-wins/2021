@@ -26,9 +26,14 @@ html, body{
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     background-image: url("../img/ucsc.jpg");
-    background-size: cover;
-    height: 90vw;
-    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1000px;
+}
+#rapper a{
+    color: plum;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 1vw;
+    border-radius: 1vw;
 }
 .option{
     display: inline-block;
