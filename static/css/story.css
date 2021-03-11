@@ -258,6 +258,19 @@ h4{
     max-width: 100%;
     padding: 1vw;
 }
+.logo{
+    float: left;
+    max-width: 100%;
+    padding: 1vw;
+    width: 500px;
+}
+.logo2{
+    float: left;
+    max-width: 100%;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    width: 400px;
+}
 .left{
     text-align: left;
 }
@@ -270,4 +283,13 @@ h4{
 }
 #spoiler{
     color: blue;
+}
+.company2{
+    padding: 2vw;
+    padding-bottom: 8vw;
+    text-align: left;
+}
+.company{
+    padding: 2vw;
+    text-align: left;
 }
