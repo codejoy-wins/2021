@@ -293,3 +293,8 @@ h4{
     padding: 2vw;
     text-align: left;
 }
+.chess{
+    max-width: 100%;
+    float: left;
+    padding-right: 1vw;
+}
