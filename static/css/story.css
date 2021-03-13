@@ -107,45 +107,6 @@ h1 a{
 #reviews a:hover{
     color: black;
 }
-#rapper2{
-    margin: 0 auto;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-    height: 90vw;
-    background-image: url("../img/Welcome\ Empty.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    animation: elam 4s 1;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-}
-#rapper4{
-    margin: 0 auto;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-    height: 90vw;
-    max-height: 800px;
-    background-image: url("../img/Welcome\ To\ Your\ Doom.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-@keyframes elam{
-    0%{
-        background-image: url(../img/Welcome\ Empty.png);
-    }
-    30%{
-        background-image:url(../img/Welcome\ Only.png);
-    }
-    60%{
-        background-image: url(../img/Welcome\ To.png);
-    }
-    80%{
-        background-image: url(../img/Welcome\ To\ Your.png);
-    }
-    100%{
-        background-image: url(../img/Welcome\ To\ Your\ Doom.png);
-    }
-}
 
 .post{
     border-radius: 1ch;
@@ -289,4 +250,8 @@ h4{
 }
 .hidden{
     display: none;
+}
+body{
+    background-image: url(/static/img/ink.jpg);
+    background-size: contain;
 }
