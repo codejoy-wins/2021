@@ -122,7 +122,10 @@ h1 a{
 .post2{
     border-radius: 1ch;
     padding: 3vw;
-    background-color: rgba(211, 5, 5, 0.535);
+    /* background-color: rgba(221, 160, 221, 0.733); */
+    background-color: rgba(175, 6, 175, 0.582);
+
+
     color: black;
     font-size: larger;
 }
