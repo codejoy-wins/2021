@@ -122,7 +122,7 @@ function starbros(){
     document.getElementById("instructions").innerHTML=`
     <h4>Starbros Instructions</h4>
                 <p>This is the first game I ever designed and still my best.</p>
-                <p>wasd or arrow keys move.  Jump is w up or space bar.  I recommend using the arrow keys and the space bar.</p>
+                <p>wasd or arrow keys move.  Jump is w up or space bar.  I recommend using wasd and the space bar.</p>
                 <p>I coded it so that you can only jump once in mid air.  You cannot jump again until you hit the "Ground".  I made every object in the game count as the "Ground" so you can spam the space bar in mid air and if you hit something you can double jump.</p>
                 <p>If you can't figure it out there is a youtube demo of it below.</p>
                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
