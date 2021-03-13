@@ -42,6 +42,10 @@ html, body{
     padding-left: 1.5vw;
     padding-right: 1.5vw;
 }
+#rapper p{
+    background-color: rgba(240, 248, 255, 0.692);
+    padding: 1vw;
+}
 .option{
     display: inline-block;
     padding: 1vw;
@@ -252,5 +256,6 @@ h4{
     display: none;
 }
 body{
+    background-image: url(/static/img/ink.jpg);
     background-size: contain;
 }
