@@ -1,0 +1,60 @@
+*{
+    font-family: 'Spectral', serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    background-color: rgba(55, 83, 211, 0.680);
+    width: 100%;
+    text-align: center;
+}
+.option{
+    display: inline-block;
+    padding: 1vw;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: wheat;
+    font-weight: bold;
+    cursor: cell;
+}
+.current{
+    font-weight: bold;
+    color: silver;
+}
+
+
+#rapper-welcome{
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1vw;
+    max-height: 100%;
+}
+.pic{
+    max-width: 100%;
+}
+#intro{
+    overflow: auto;
+    height: 900px;
+}
+#intro p{
+    padding: 1vw;
+    border-radius: 1vw;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+#intro{
+    background-image: url(../img/got.jpg);
+    background-size: contain;
+    border-radius: 2vw;
+}
+#intro h2{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.37);
+}

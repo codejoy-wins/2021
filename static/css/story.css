@@ -42,8 +42,6 @@ html, body{
     padding-left: 1.5vw;
     padding-right: 1.5vw;
 }
-
-
 .option{
     display: inline-block;
     padding: 1vw;
@@ -123,6 +121,7 @@ h1 a{
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     height: 90vw;
+    max-height: 800px;
     background-image: url("../img/Welcome\ To\ Your\ Doom.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -144,19 +143,7 @@ h1 a{
         background-image: url(../img/Welcome\ To\ Your\ Doom.png);
     }
 }
-.hidden{
-    display: none;
-}
-#rapper-new{
-    margin: 0 auto;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-    padding-top: 1.5vw;
-    background-image: url(../img/ink.jpg);
-    background-size: contain;
-    height: 100%;
-    max-width: 100%;
-}
+
 .post{
     border-radius: 1ch;
     padding: 3vw;
