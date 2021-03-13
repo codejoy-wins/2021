@@ -285,8 +285,7 @@ h4{
 }
 .chess{
     max-width: 100%;
-    float: left;
-    padding-right: 1vw;
+    max-height: 420px;
 }
 .hidden{
     display: none;
