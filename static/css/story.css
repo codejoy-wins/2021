@@ -285,3 +285,6 @@ h4{
     float: left;
     padding-right: 1vw;
 }
+.hidden{
+    display: none;
+}
