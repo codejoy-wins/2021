@@ -254,3 +254,8 @@ h4{
 body{
     background-size: contain;
 }
+
+#chess{
+    background-color: peachpuff;
+    float: right;
+}
