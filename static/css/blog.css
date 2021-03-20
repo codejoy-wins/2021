@@ -268,3 +268,11 @@ body{
     background-image: url(/static/img/ink.jpg);
     background-size: contain;
 }
+.pic100{
+    max-width: 100%;
+    float: left;
+    padding-right: 1vw;
+}
+.verse{
+    border: solid gold;
+}
