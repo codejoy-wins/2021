@@ -282,3 +282,8 @@ body{
     float: left;
     padding-right: 1vw;
 }
+.picfloat{
+    float: left;
+    max-width: 100%;
+    padding-right: 1vw;
+}
