@@ -1,3 +1,23 @@
+function play(){
+    document.getElementById("play").innerHTML=`
+                    <div class="vid">
+                        <iframe src="https://ugetube.com/embed/yPzOBdydY5VjluB" frameborder="0" width="100%" height="400" allowfullscreen autoplay="0"  ></iframe>
+                    </div>
+    `
+    document.getElementById("controls").innerHTML=`
+                    <a onclick="hide()" > Hide Video?</a>
+    `
+}
+function hide(){
+    document.getElementById("play").innerHTML=`
+                    
+    `
+    document.getElementById("controls").innerHTML=`
+                    <a onclick="hide()" > Play Video?</a>
+    `
+}
+
+
 function cocktail(){
     document.getElementById("cocktail_comments").classList.remove("hidden");
     document.getElementById("shower").classList.add("hidden");
