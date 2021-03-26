@@ -143,3 +143,14 @@ function noone(){
                 </p>
     `
 }
+
+function alien(){
+    document.getElementById("switch").innerHTML=`
+    DJ Aliens
+    `
+}
+function blog(){
+    document.getElementById("switch").innerHTML=`
+    Blog
+    `
+}

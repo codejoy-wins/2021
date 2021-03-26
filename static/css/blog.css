@@ -1,6 +1,13 @@
 *{
     font-family: 'Spectral', serif;
 }
+#heading a{
+    color: wheat;
+}
+#heading a:hover{
+    color: silver;
+}
+
 html, body{
     margin: 0;
     padding: 0;
