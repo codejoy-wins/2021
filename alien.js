@@ -1,7 +1,7 @@
 let x = "steady";
 let y = "Reckoner";
-let womanr = ["Broke", "Reckoner", "Wait", "Sore", "Tiny"];
-let manr = ["Chemistry", "Auto", "Paranoid"];
+let womanr = ["Broke", "Reckoner", "Wait", "Sore", "Tiny", "Angeles", "Between", "Cigarette", "Nothing", "Grapevine", "Motion", "Parallel", "Strawberry"];
+let manr = ["Chemistry", "Auto", "Paranoid", "Motion","Agenda", "Dont", "Closer", "End", "First", "Hey", "Trouble", "You"];
 
 
 function woman(){
