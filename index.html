@@ -13,7 +13,7 @@
 <body>
     <div id="rapper">
         <div id="master">
-            <audio id="music">
+            <audio id="music" onended="playlist()">
                 <source src="static/audio/Reckoner.mp3" type="audio/mpeg">
             </audio>
         </div>
@@ -23,9 +23,9 @@
         <div id="heading">
             <a href="blog.html" onmouseover="blog()" onmouseout="alien()" target="_blank" rel="noopener noreferrer" ><h1 id="switch">DJ Aliens</h1></a>
         </div>
-        <img src="static/img/eli4.jpg" alt="woman" class="pic" onclick="woman()">
+        <img src="static/img/eli4.jpg" alt="woman" class="pic" onclick="newwoman()">
         
-        <img src="static/img/eli5.jpg" alt="woman" class="pic" onclick="man()">
+        <img src="static/img/eli5.jpg" alt="woman" class="pic" onclick="newman()">
         <div id="info">
 
         </div>
