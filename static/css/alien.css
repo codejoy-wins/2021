@@ -1,0 +1,30 @@
+html,body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.pic{
+    max-width: 100%;
+    max-height: 600px;
+    padding: 0;
+}
+html{
+    /* color: greenyellow; */
+    color: gold;
+
+    text-align: center;
+    background-image: url("../img/eli10.jpg");
+    background-size: contain;
+}
+.hide{
+    display: none;
+    color: blue;
+}
+.btn{
+    max-height: 20vw;
+    max-width: 20vw;
+    height: 200px;
+    width: 200px;
+    /* background-color: rgba(0, 128, 0, 0.062); */
+}
