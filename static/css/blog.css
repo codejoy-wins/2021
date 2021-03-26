@@ -93,6 +93,11 @@ a:hover{
 .pic{
     max-width: 100%;
 }
+.picsmall{
+    max-width: 100%;
+    max-height: 35vw;
+    float: inline-end;
+}
 .pic11{
     max-width: 100%;
     max-height: 400px;
