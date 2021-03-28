@@ -25,7 +25,8 @@ let manobj = [
     {
         "song": "Agenda",
         "artist": "The Faint",
-        "fullsong": "Agenda Suicide"
+        "fullsong": "Agenda Suicide",
+        "picture": ""
     },
     {
         "song": "Don't",
@@ -35,7 +36,8 @@ let manobj = [
     {
         "song": "Closer",
         "artist": "Kings of Leon",
-        "fullsong": "Closer"
+        "fullsong": "Closer",
+        "picture": "kings.jpg"
     },
     {
         "song": "End",
@@ -46,12 +48,14 @@ let manobj = [
     {
         "song": "First",
         "artist": "Cold War Kids",
-        "fullsong": "First"
+        "fullsong": "First",
+        "picture": "cold.jpg"
     },
     {
         "song": "Hey",
         "artist": "The Pixies",
-        "fullsong": "Hey"
+        "fullsong": "Hey",
+        "picture": ""
     },
     {
         "song": "Trouble",
@@ -68,12 +72,14 @@ let manobj = [
     {
         "song": "Like",
         "artist": "Audioslave",
-        "fullsong": "Like a Stone"
+        "fullsong": "Like a Stone",
+        "picture": "audioslave.jpg"
     },
     {
         "song": "Hospital",
         "artist": "Cold War Kids",
-        "fullsong": "Hospital Beds"
+        "fullsong": "Hospital Beds",
+        "picture": "cold.jpg"
     },
     {
         "song": "Not",
@@ -108,12 +114,14 @@ let manobj = [
     {
         "song": "Yourself",
         "artist": "Audioslave",
-        "fullsong": "Be Yourself"
+        "fullsong": "Be Yourself",
+        "picture": "audioslave.jpg"
     },
     {
         "song": "Wish",
         "artist": "Incubus",
-        "fullsong": "Wish You Were Here"
+        "fullsong": "Wish You Were Here",
+        "picture": ""
     },
     {
         "song": "Undone",
@@ -160,12 +168,14 @@ let manobj = [
     {
         "song": "Quiet",
         "artist": "Brand New",
-        "fullsong": "Quiet Thing That No One Ever Knows"
+        "fullsong": "Quiet Thing That No One Ever Knows",
+        "picture": "brand.jpg"
     },
     {
         "song": "Okay",
         "artist": "Brand New",
-        "fullsong": "Okay, I Believe You But My Tommy Gun Doesn't"
+        "fullsong": "Okay, I Believe You But My Tommy Gun Doesn't",
+        "picture": "brand.jpg"
     },
     {
         "song": "Otherside",
@@ -176,17 +186,20 @@ let manobj = [
     {
         "song": "Moonlight",
         "artist": "XXXtentacion",
-        "fullsong": "Moonlight"
+        "fullsong": "Moonlight",
+        "picture": "x.jpg"
     },
     {
         "song": "Love",
         "artist": "Incubus",
-        "fullsong": "Love Hurts"
+        "fullsong": "Love Hurts",
+        "picture": ""
     },
     {
         "song": "Bullet",
         "artist": "Smashing Pumpkins",
-        "fullsong": "Bullet With Butterfly Wings"
+        "fullsong": "Bullet With Butterfly Wings",
+        "picture": ""
     },
     {
         "song": "Calls",
@@ -203,7 +216,8 @@ let manobj = [
     {
         "song": "Jesus",
         "artist": "Kanye West",
-        "fullsong": "Jesus Walks"
+        "fullsong": "Jesus Walks",
+        "picture": ""
     },
     {
         "song": "Good",
@@ -239,13 +253,13 @@ let manobj = [
         "song": "Alot",
         "artist": "21 Savage",
         "fullsong": "A lot",
-        "picture": "",
+        "picture": "savage.jpg",
     },
     {
         "song": "Black",
         "artist": "Rolling Stones",
         "fullsong": "Painted Black",
-        "picture": "",
+        "picture": ""
     },
     {
         "song": "Blur",
@@ -257,7 +271,7 @@ let manobj = [
         "song": "High",
         "artist": "Broken Bells",
         "fullsong": "High Road",
-        "picture": "",
+        "picture": ""
     },
     {
         "song": "Feeling",
@@ -269,7 +283,7 @@ let manobj = [
         "song": "Holding",
         "artist": "Broken Bells",
         "fullsong": "Holding On for Dear Life",
-        "picture": "",
+        "picture": ""
     },
     {
         "song": "Molly",
@@ -401,7 +415,8 @@ let womanobj = [
     {
         "song": "Hand",
         "artist": "Alanis Morissette",
-        "fullsong": "Hand in My Pocket"
+        "fullsong": "Hand in My Pocket",
+        "picture": "alanis.jpg"
     },
     {
         "song": "Hows",
@@ -417,7 +432,8 @@ let womanobj = [
     {
         "song": "Maps",
         "artist": "Yeah Yeah Yeahs",
-        "fullsong": "Maps"
+        "fullsong": "Maps",
+        "picture": ""
     },
     {
         "song": "Night",
@@ -434,7 +450,8 @@ let womanobj = [
     {
         "song": "Outta",
         "artist": "Alanis Morissette",
-        "fullsong": "You Outta Know"
+        "fullsong": "You Outta Know",
+        "picture": "alanis.jpg"
     },
     {
         "song": "Simple",
@@ -445,7 +462,8 @@ let womanobj = [
     {
         "song": "Torn",
         "artist": "Natalie Imbruglia",
-        "fullsong": "Torn"
+        "fullsong": "Torn",
+        "picture": "natalie.jpg"
     },
     {
         "song": "Tune",
@@ -492,12 +510,14 @@ let womanobj = [
     {
         "song": "Angeles",
         "artist": "Elliot Smith",
-        "fullsong": "Angeles"
+        "fullsong": "Angeles",
+        "picture": ""
     },
     {
         "song": "Between",
         "artist": "Elliot Smith",
-        "fullsong": "Between"
+        "fullsong": "Between",
+        "picture": ""
     },
     {
         "song": "Cigarette",
@@ -508,7 +528,8 @@ let womanobj = [
     {
         "song": "Nothing",
         "artist": "Cigarettes After Sex",
-        "fullsong": "Nothing's Gonna Hurt You, Baby"
+        "fullsong": "Nothing's Gonna Hurt You, Baby",
+        "picture": ""
     },
     {
         "song": "Grapevine",
