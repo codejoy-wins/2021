@@ -400,12 +400,12 @@ function pauseplay(){
 }
 
 function blog(){
-    document.getElementById("switch").innerText=`
+    document.getElementById("switch").innerHTML=`
     Blog
     `;
 }
 function alien(){
-    document.getElementById("switch").innerText=`
+    document.getElementById("switch").innerHTML=`
     DJ Aliens
     `;
 }
