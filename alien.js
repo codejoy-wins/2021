@@ -127,7 +127,7 @@ let manobj = [
         "song": "Undone",
         "artist": "Weezer",
         "fullsong": "Undone: The Sweater Song",
-        "picture": "weezer.jpg",
+        "picture": "weezer2.jpg",
     },
     {
         "song": "Time",
@@ -157,7 +157,7 @@ let manobj = [
         "song": "Scorcho",
         "artist": "Weezer",
         "fullsong": "El Scorcho",
-        "picture": "weezer.jpg",
+        "picture": "weezer2.jpg",
     },
     {
         "song": "Ready",
@@ -223,7 +223,7 @@ let manobj = [
         "song": "Good",
         "artist": "Weezer",
         "fullsong": "The Good Life",
-        "picture": "weezer.jpg",
+        "picture": "weezer2.jpg",
     },
     {
         "song": "Shrinking",
@@ -301,7 +301,7 @@ let manobj = [
         "song": "Revolution",
         "artist": "The Beatles",
         "fullsong": "Revolution",
-        "picture": "beatles.jpg",
+        "picture": "abbey.jpg",
     },
     {
         "song": "Sleeping",
@@ -313,6 +313,12 @@ let manobj = [
 ];
 
 let womanobj = [
+    {
+        "song": "Title",
+        "artist": "Death Cab for Cutie",
+        "fullsong": "Title And Registration",
+        "picture": "death5.jpg"
+    },
     {
         "song": "Life",
         "artist": "No Doubt",
@@ -359,7 +365,7 @@ let womanobj = [
         "song": "Let",
         "artist": "The Beatles",
         "fullsong": "Let it Be",
-        "picture": "beatles.jpg",
+        "picture": "abbey.jpg",
     },
     {
         "song": "Careful",
@@ -434,7 +440,7 @@ let womanobj = [
         "song": "Maps",
         "artist": "Yeah Yeah Yeahs",
         "fullsong": "Maps",
-        "picture": ""
+        "picture": "yeah.jpg"
     },
     {
         "song": "Night",
@@ -554,12 +560,13 @@ let womanobj = [
         "song": "Strawberry",
         "artist": "The Beatles",
         "fullsong": "Strawberry Fields Forever",
-        "picture": "beatles.jpg",
+        "picture": "abbey.jpg",
     },
     {
         "song": "District",
         "artist": "The Postal Service",
-        "fullsong": "The District Sleeps Alone Tonight"
+        "fullsong": "The District Sleeps Alone Tonight",
+        "picture": "postal2.jpeg"
     },
     {
         "song": "Cemetary",
