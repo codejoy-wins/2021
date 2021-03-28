@@ -11,6 +11,12 @@ let manobj = [
         "picture": "qotsa.jpg",
     },
     {
+        "song":"Pyro",
+        "artist": "Kings of Leon",
+        "fullsong": "Pyro",
+        "picture": "kings.jpg",
+    },
+    {
         "song": "Auto",
         "artist": "Queens of the Stone Age",
         "fullsong": "Auto Pilot",
@@ -37,6 +43,12 @@ let manobj = [
         "song": "Closer",
         "artist": "Kings of Leon",
         "fullsong": "Closer",
+        "picture": "kings.jpg"
+    },
+    {
+        "song": "Stormy",
+        "artist": "Kings of Leon",
+        "fullsong": "Stormy Weather",
         "picture": "kings.jpg"
     },
     {
@@ -145,7 +157,7 @@ let manobj = [
         "song": "Sick",
         "artist": "Red Hot Chili Peppers",
         "fullsong": "Sick Love",
-        "picture": "chili.jpeg",
+        "picture": "rhcp.jpg",
     },
     {
         "song": "Self",
@@ -181,7 +193,7 @@ let manobj = [
         "song": "Otherside",
         "artist": "Red Hot Chili Peppers",
         "fullsong": "Otherside",
-        "picture": "chili.jpeg",
+        "picture": "rhcp.jpg",
     },
     {
         "song": "Moonlight",
@@ -318,6 +330,24 @@ let womanobj = [
         "artist": "Death Cab for Cutie",
         "fullsong": "Title And Registration",
         "picture": "death5.jpg"
+    },
+    {
+        "song": "Disguise",
+        "artist": "Kings of Leon",
+        "fullsong": "Time in Disguise",
+        "picture": "kings.jpg"
+    },
+    {
+        "song": "Wave",
+        "artist": "Kings of Leon",
+        "fullsong": "Wave",
+        "picture": "kings.jpg"
+    },
+    {
+        "song": "Gooey",
+        "artist": "Glass Animals",
+        "fullsong": "Gooey",
+        "picture": "glass.jpg"
     },
     {
         "song": "Life",
@@ -560,7 +590,7 @@ let womanobj = [
         "song": "Parallel",
         "artist": "Red Hot Chili Peppers",
         "fullsong": "Parallel Universe",
-        "picture": "chili.jpeg",
+        "picture": "rhcp.jpg",
     },
     {
         "song": "Strawberry",
