@@ -122,7 +122,8 @@ let manobj = [
     {
         "song": "Time",
         "artist": "Muse",
-        "fullsong": "Time is Running Out"
+        "fullsong": "Time is Running Out",
+        "picture": "muse.jpg"
     },
     {
         "song": "Stay",
@@ -211,7 +212,8 @@ let manobj = [
     {
         "song": "Shrinking",
         "artist": "Muse",
-        "fullsong": "Shrinking Universe"
+        "fullsong": "Shrinking Universe",
+        "picture": "muse.jpg"
     },
     {
         "song": "Tundra",
