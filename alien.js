@@ -395,10 +395,14 @@ function pauseplay(){
 }
 
 function blog(){
-    document.getElementById("switch").innerHTML=`Blog`;
+    document.getElementById("switch").innerHTML=`
+    Blog
+    `;
 }
 function alien(){
-    document.getElementById("switch").innerHTML=`DJ Aliens`;
+    document.getElementById("switch").innerHTML=`
+    DJ Aliens
+    `;
 }
 
 function playlist(){

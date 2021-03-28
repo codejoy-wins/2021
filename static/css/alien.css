@@ -49,6 +49,11 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.52);
     border-radius: 2vw;
 }
+.silver{
+    color: silver;
+    background-color: rgba(0, 0, 0, 0.52);
+    border-radius: 2vw;
+}
 .gold:hover{
     color: silver;
 }
