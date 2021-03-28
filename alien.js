@@ -11,9 +11,39 @@ let manobj = [
         "picture": "qotsa.jpg",
     },
     {
+        "song":"Go",
+        "artist": "Queens of the Stone Age",
+        "fullsong": "Go With the Flow",
+        "picture": "qotsa.jpg",
+    },
+    {
+        "song":"Little",
+        "artist": "Queens of the Stone Age",
+        "fullsong": "Little Sister",
+        "picture": "qotsa.jpg",
+    },
+    {
+        "song":"Noone",
+        "artist": "Queens of the Stone Age",
+        "fullsong": "No One Knows",
+        "picture": "qotsa.jpg",
+    },
+    {
+        "song":"1251",
+        "artist": "The Strokes",
+        "fullsong": "12:51",
+        "picture": "strokes.jpg",
+    },
+    {
         "song":"Pyro",
         "artist": "Kings of Leon",
         "fullsong": "Pyro",
+        "picture": "kings.jpg",
+    },
+    {
+        "song":"California",
+        "artist": "Kings of Leon",
+        "fullsong": "California Waiting",
         "picture": "kings.jpg",
     },
     {
@@ -330,6 +360,12 @@ let womanobj = [
         "artist": "Death Cab for Cutie",
         "fullsong": "Title And Registration",
         "picture": "death5.jpg"
+    },
+    {
+        "song": "Requiem",
+        "artist": "Mozart",
+        "fullsong": "Requiem",
+        "picture": ""
     },
     {
         "song": "Disguise",
