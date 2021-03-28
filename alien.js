@@ -402,7 +402,7 @@ function alien(){
 }
 
 function playlist(){
-    if(dj == woman){
+    if(dj == "woman"){
         newwoman();
     }
     else{
