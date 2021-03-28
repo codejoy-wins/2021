@@ -55,7 +55,8 @@ let manobj = [
     {
         "song": "Trouble",
         "artist": "Cage the Elephant",
-        "fullsong": "Trouble"
+        "fullsong": "Trouble",
+        "picture": "cage.png"
     },
     {
         "song": "You",
@@ -151,7 +152,7 @@ let manobj = [
         "song": "Ready",
         "artist": "Cage the Elephant",
         "fullsong": "Ready to Let Go",
-        "picture": "cage.jpg",
+        "picture": "cage.png",
     },
     {
         "song": "Quiet",
@@ -492,7 +493,7 @@ let womanobj = [
         "song": "Cigarette",
         "artist": "Cage the Elephant",
         "fullsong": "Cigarette Daydreams",
-        "picture": "cage.jpg",
+        "picture": "cage.png",
     },
     {
         "song": "Nothing",
