@@ -164,9 +164,79 @@ let manobj = [
         "artist": "Incubus",
         "fullsong": "Love Hurts"
     },
+    {
+        "song": "Bullet",
+        "artist": "Smashing Pumpkins",
+        "fullsong": "Bullet With Butterfly Wings"
+    },
+    {
+        "song": "Calls",
+        "artist": "Mac Miller",
+        "fullsong": "Missed Calls"
+    },
+    {
+        "song": "Darling",
+        "artist": "Eminem",
+        "fullsong": "My Darling"
+    },
+    {
+        "song": "Jesus",
+        "artist": "Kanye West",
+        "fullsong": "Jesus Walks"
+    },
+    {
+        "song": "Good",
+        "artist": "Weezer",
+        "fullsong": "The Good Life"
+    },
+    {
+        "song": "Shrinking",
+        "artist": "Muse",
+        "fullsong": "Shrinking Universe"
+    },
+    {
+        "song": "Tundra",
+        "artist": "Modest Mouse",
+        "fullsong": "Tundra Desert"
+    },
+    {
+        "song": "When",
+        "artist": "Eminem",
+        "fullsong": "When I'm Gone"
+    },
 ];
 
 let womanobj = [
+    {
+        "song": "Madness",
+        "artist": "Muse",
+        "fullsong": "Madness"
+    },
+    {
+        "song": "There",
+        "artist": "Radiohead",
+        "fullsong": "There There"
+    },
+    {
+        "song": "Melancholy",
+        "artist": "Gorillaz",
+        "fullsong": "On Melancholy Hill"
+    },
+    {
+        "song": "Edit",
+        "artist": "Modest Mouse",
+        "fullsong": "Edit the Sad Parts"
+    },
+    {
+        "song": "Boat",
+        "artist": "Modest Mouse",
+        "fullsong": "Missed the Boat"
+    },
+    {
+        "song": "1979",
+        "artist": "Smashing Pumpkins",
+        "fullsong": "1979"
+    },
     {
         "song": "Hand",
         "artist": "Alanis Morissette",
