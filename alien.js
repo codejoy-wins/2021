@@ -40,7 +40,8 @@ let manobj = [
     {
         "song": "End",
         "artist": "The Strokes",
-        "fullsong": "The End Has No End"
+        "fullsong": "The End Has No End",
+        "picture": "strokes.jpg"
     },
     {
         "song": "First",
@@ -61,7 +62,8 @@ let manobj = [
     {
         "song": "You",
         "artist": "The Strokes",
-        "fullsong": "You Only Live Once"
+        "fullsong": "You Only Live Once",
+        "picture": "strokes.jpg"
     },
     {
         "song": "Like",
@@ -298,6 +300,12 @@ let manobj = [
 
 let womanobj = [
     {
+        "song": "Life",
+        "artist": "No Doubt",
+        "fullsong": "It's my life",
+        "picture": "gwenhot.jpg"
+    },
+    {
         "song": "Sonata",
         "artist": "Beethoven",
         "fullsong": "Moonlight Sonata",
@@ -432,7 +440,7 @@ let womanobj = [
         "song": "Simple",
         "artist": "No Doubt",
         "fullsong": "A Simple Kind of Life",
-        "picture": "doubt.jpg",
+        "picture": "gwenhot.jpg",
     },
     {
         "song": "Torn",
