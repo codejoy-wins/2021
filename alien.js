@@ -1,6 +1,7 @@
 let x = "steady";
 let y = "Reckoner";
 let current = "";
+let dj = "";
 
 let manobj = [
     {
@@ -330,7 +331,9 @@ function newman(){
         console.log(`current is ${current}`);
         console.log(`Playing ${manobj[k].fullsong} by ${manobj[k].artist}`);
 
-
+        dj = "man"
+        document.getElementById("man").classList.add("dj");
+        document.getElementById("woman").classList.remove("dj");
 }
 
 function newwoman(){
@@ -364,6 +367,9 @@ function newwoman(){
         console.log(`current is ${current}`);
         console.log(`Playing ${womanobj[k].fullsong} by ${womanobj[k].artist}`);
 
+        dj = "woman";
+        document.getElementById("woman").classList.add("dj");
+        document.getElementById("man").classList.remove("dj");
 
 }
 function pauseplay(){
@@ -396,12 +402,10 @@ function alien(){
 }
 
 function playlist(){
-    let xx = Math.floor(Math.random()*2);
-    console.log(`${xx} is xx`);
-    if(xx ==0){
-        newwoman()
+    if(dj == woman){
+        newwoman();
     }
-    if(xx ==1){
+    else{
         newman();
     }
 }

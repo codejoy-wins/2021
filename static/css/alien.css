@@ -26,7 +26,9 @@ html{
     max-width: 20vw;
     height: 200px;
     width: 200px;
-    /* background-color: rgba(0, 128, 0, 0.062); */
+    color: gold;
+    background-color: rgba(255, 217, 0, 0.178);
+    border-radius: 6.4vw;
 }
 a{
     text-decoration: none;
@@ -35,4 +37,10 @@ a{
 a:hover{
     text-decoration: none;
     color: silver;
+}
+.dj{
+    border: .2vw solid silver;
+}
+.xy{
+    display: inline-block;
 }
