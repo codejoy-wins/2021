@@ -93,9 +93,129 @@ let manobj = [
         "artist": "Glass Animals",
         "fullsong": "Poplar St"
     },
+    {
+        "song": "Yourself",
+        "artist": "Audioslave",
+        "fullsong": "Be Yourself"
+    },
+    {
+        "song": "Wish",
+        "artist": "Incubus",
+        "fullsong": "Wish You Were Here"
+    },
+    {
+        "song": "Undone",
+        "artist": "Weezer",
+        "fullsong": "Undone: The Sweater Song"
+    },
+    {
+        "song": "Time",
+        "artist": "Muse",
+        "fullsong": "Time is Running Out"
+    },
+    {
+        "song": "Stay",
+        "artist": "Blink-182",
+        "fullsong": "Stay Together for the Kids"
+    },
+    {
+        "song": "Sick",
+        "artist": "Red Hot Chili Peppers",
+        "fullsong": "Sick Love"
+    },
+    {
+        "song": "Self",
+        "artist": "Mac Miller",
+        "fullsong": "Self Care"
+    },
+    {
+        "song": "Scorcho",
+        "artist": "Weezer",
+        "fullsong": "El Scorcho"
+    },
+    {
+        "song": "Ready",
+        "artist": "Cage the Elephant",
+        "fullsong": "Ready to Let Go"
+    },
+    {
+        "song": "Quiet",
+        "artist": "Brand New",
+        "fullsong": "Quiet Thing That No One Ever Knows"
+    },
+    {
+        "song": "Otherside",
+        "artist": "Red Hot Chili Peppers",
+        "fullsong": "Otherside"
+    },
+    {
+        "song": "Moonlight",
+        "artist": "XXXtentacion",
+        "fullsong": "Moonlight"
+    },
+    {
+        "song": "Love",
+        "artist": "Incubus",
+        "fullsong": "Love Hurts"
+    },
 ];
 
 let womanobj = [
+    {
+        "song": "Hand",
+        "artist": "Alanis Morissette",
+        "fullsong": "Hand in My Pocket"
+    },
+    {
+        "song": "Hows",
+        "artist": "Third Eye Blind",
+        "fullsong": "How's it Gonna Be?"
+    },
+    {
+        "song": "Make",
+        "artist": "Queens of the Stone Age",
+        "fullsong": "Make it Wit Chu"
+    },
+    {
+        "song": "Maps",
+        "artist": "Yeah Yeah Yeahs",
+        "fullsong": "Maps"
+    },
+    {
+        "song": "Night",
+        "artist": "Modest Mouse",
+        "fullsong": "Night on the Sun"
+    },
+    {
+        "song": "Now",
+        "artist": "Blink-182",
+        "fullsong": "Not Now"
+    },
+    {
+        "song": "Outta",
+        "artist": "Alanis Morissette",
+        "fullsong": "You Outta Know"
+    },
+    {
+        "song": "Simple",
+        "artist": "No Doubt",
+        "fullsong": "A Simple Kind of Life"
+    },
+    {
+        "song": "Torn",
+        "artist": "Natalie Imbruglia",
+        "fullsong": "Torn"
+    },
+    {
+        "song": "Tune",
+        "artist": "The Format",
+        "fullsong": "Tune Out"
+    },
+    {
+        "song": "Youth",
+        "artist": "Glass Animals",
+        "fullsong": "Youth"
+    },
     {
         "song":"Broke",
         "artist": "Modest Mouse",
