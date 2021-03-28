@@ -382,7 +382,8 @@ let womanobj = [
     {
         "song": "Madness",
         "artist": "Muse",
-        "fullsong": "Madness"
+        "fullsong": "Madness",
+        "picture": "muse.jpg"
     },
     {
         "song": "There",
