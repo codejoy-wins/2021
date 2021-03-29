@@ -241,7 +241,7 @@ let manobj = [
         "song": "Bullet",
         "artist": "Smashing Pumpkins",
         "fullsong": "Bullet With Butterfly Wings",
-        "picture": ""
+        "picture": "smashingpumpkins.jpg"
     },
     {
         "song": "Calls",
@@ -483,7 +483,8 @@ let womanobj = [
     {
         "song": "1979",
         "artist": "Smashing Pumpkins",
-        "fullsong": "1979"
+        "fullsong": "1979",
+        "picture": "smashingpumpkins.jpg"
     },
     {
         "song": "Hand",
