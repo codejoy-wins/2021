@@ -139,7 +139,7 @@ let manobj = [
         "song": "Heat",
         "artist": "Glass Animals",
         "fullsong": "Heat Waves",
-        "picture": "glass.jpg",
+        "picture": "glass2.jpg",
     },
     {
         "song": "Fast",
@@ -151,7 +151,7 @@ let manobj = [
         "song": "Poplar",
         "artist": "Glass Animals",
         "fullsong": "Poplar St",
-        "picture": "glass.jpg",
+        "picture": "glass2.jpg",
     },
     {
         "song": "Yourself",
@@ -383,7 +383,7 @@ let womanobj = [
         "song": "Gooey",
         "artist": "Glass Animals",
         "fullsong": "Gooey",
-        "picture": "glass.jpg"
+        "picture": "glass2.jpg"
     },
     {
         "song": "Life",
@@ -554,7 +554,7 @@ let womanobj = [
         "song": "Youth",
         "artist": "Glass Animals",
         "fullsong": "Youth",
-        "picture": "glass.jpg",
+        "picture": "glass2.jpg",
     },
     {
         "song":"Broke",
