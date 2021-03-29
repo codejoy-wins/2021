@@ -163,7 +163,7 @@ let manobj = [
         "song": "Wish",
         "artist": "Incubus",
         "fullsong": "Wish You Were Here",
-        "picture": ""
+        "picture": "incubus.jpg"
     },
     {
         "song": "Undone",
@@ -235,7 +235,7 @@ let manobj = [
         "song": "Love",
         "artist": "Incubus",
         "fullsong": "Love Hurts",
-        "picture": ""
+        "picture": "incubus.jpg"
     },
     {
         "song": "Bullet",
