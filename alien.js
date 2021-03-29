@@ -250,6 +250,24 @@ let manobj = [
         "picture": "mac.jpg",
     },
     {
+        "song": "Nikes",
+        "artist": "Mac Miller",
+        "fullsong": "Nikes on My Feet",
+        "picture": "mac.jpg",
+    },
+    {
+        "song": "Warning",
+        "artist": "Notorious B.I.G.",
+        "fullsong": "Warning",
+        "picture": "biggie.jpeg",
+    },
+    {
+        "song": "ny",
+        "artist": "Nas",
+        "fullsong": "New York State of Mind",
+        "picture": "nas.jpg",
+    },
+    {
         "song": "Darling",
         "artist": "Eminem",
         "fullsong": "My Darling",
@@ -259,7 +277,7 @@ let manobj = [
         "song": "Jesus",
         "artist": "Kanye West",
         "fullsong": "Jesus Walks",
-        "picture": ""
+        "picture": "kanye.jpg"
     },
     {
         "song": "Good",
@@ -313,7 +331,7 @@ let manobj = [
         "song": "High",
         "artist": "Broken Bells",
         "fullsong": "High Road",
-        "picture": ""
+        "picture": "brokenbells.jpg"
     },
     {
         "song": "Feeling",
@@ -325,7 +343,7 @@ let manobj = [
         "song": "Holding",
         "artist": "Broken Bells",
         "fullsong": "Holding On for Dear Life",
-        "picture": ""
+        "picture": "brokenbells.jpg"
     },
     {
         "song": "Molly",
@@ -351,10 +369,112 @@ let manobj = [
         "fullsong": "Sleeping Lessons",
         "picture": "shins.jpg",
     },
+    {
+        "song": "Paradise",
+        "artist": "Coldplay",
+        "fullsong": "Paradise",
+        "picture": "coldplay.png"
+    },
+    {
+        "song": "Ticktock",
+        "artist": "Joji",
+        "fullsong": "Tick Tock",
+        "picture": "joji.jpg"
+    },
+    {
+        "song": "430",
+        "artist": "Atmosphere",
+        "fullsong": "4:30 A.M.",
+        "picture": "atmos.jpg"
+    },
+    {
+        "song": "Bathroom",
+        "artist": "Atmosphere",
+        "fullsong": "God's Bathroom Floor",
+        "picture": "atmos.jpg"
+    },
+    {
+        "song": "Vibration",
+        "artist": "Atmosphere",
+        "fullsong": "Sound is Vibration",
+        "picture": "atmos.jpg"
+    },
+    {
+        "song": "FeelGood",
+        "artist": "Gorillaz",
+        "fullsong": "Feel Good Inc.",
+        "picture": "gorillaz.jpg"
+    },
+    {
+        "song": "SunshineInABag",
+        "artist": "Gorillaz",
+        "fullsong": "Sunshine In A Bag",
+        "picture": "gorillaz.jpg"
+    },
     
 ];
 
 let womanobj = [
+    {
+        "song": "Feather",
+        "artist": "Nujabes",
+        "fullsong": "Feather",
+        "picture": "nujabes.jpg",
+    },
+    {
+        "song": "luvsic",
+        "artist": "Nujabes",
+        "fullsong": "Luv Sic pt3",
+        "picture": "nujabes.jpg",
+    },
+    {
+        "song": "DoForLove",
+        "artist": "Tupac Shakur",
+        "fullsong": "Do For Love",
+        "picture": "pac.jpg",
+    },
+    {
+        "song": "Spiderwebs",
+        "artist": "No Doubt",
+        "fullsong": "Spiderwebs",
+        "picture": "gwenhot.jpg"
+    },
+    {
+        "song": "Somewhere",
+        "artist": "Keane",
+        "fullsong": "Somewhere Only We Know",
+        "picture": ""
+    },
+    {
+        "song": "Afterthought",
+        "artist": "Joji",
+        "fullsong": "Afterthought",
+        "picture": "Joji.jpg"
+    },
+    {
+        "song": "Bittersweet",
+        "artist": "The Verve",
+        "fullsong": "Bittersweet Symphony",
+        "picture": "verve.jpeg"
+    },
+    {
+        "song": "Death",
+        "artist": "Coldplay",
+        "fullsong": "Death and All of His Friends",
+        "picture": "coldplay.png"
+    },
+    {
+        "song": "Lost",
+        "artist": "Coldplay",
+        "fullsong": "Lost!",
+        "picture": "coldplay.png"
+    },
+    {
+        "song": "LuckyMan",
+        "artist": "The Verve",
+        "fullsong": "Lucky Man",
+        "picture": "verve.jpeg"
+    },
     {
         "song": "Title",
         "artist": "Death Cab for Cutie",
@@ -466,7 +586,8 @@ let womanobj = [
     {
         "song": "Melancholy",
         "artist": "Gorillaz",
-        "fullsong": "On Melancholy Hill"
+        "fullsong": "On Melancholy Hill",
+        "picture": "gorillaz.jpg"
     },
     {
         "song": "Edit",
@@ -501,7 +622,8 @@ let womanobj = [
     {
         "song": "Hows",
         "artist": "Third Eye Blind",
-        "fullsong": "How's it Gonna Be?"
+        "fullsong": "How's it Gonna Be?",
+        "picture": "thirdeye.jpg"
     },
     {
         "song": "Make",
@@ -654,6 +776,14 @@ let womanobj = [
         "picture": "radiohead.jpg",
     },
 ];
+
+console.log(`${manobj.length} is man length`);
+
+console.log(`${womanobj.length} is woman length`);
+
+console.log(`${womanobj.length + manobj.length} is total length`);
+
+
 
 function newman(){
     console.log("new man");
