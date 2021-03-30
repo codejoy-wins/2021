@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song":"Put",
+        "artist": "Big L",
+        "fullsong": "Put It On",
+        "picture": "l.jpg",
+    },
+    {
         "song":"Chemistry",
         "artist": "Queens of the Stone Age",
         "fullsong": "Better Living Through Chemistry",
@@ -783,8 +789,6 @@ console.log(`${womanobj.length} is woman length`);
 
 console.log(`${womanobj.length + manobj.length} is total length`);
 
-
-
 function newman(){
     console.log("new man");
     let k = Math.floor(Math.random()*manobj.length);
@@ -799,7 +803,6 @@ function newman(){
     document.getElementById("info").innerHTML=`
     <p>${manobj[k].fullsong}</p>
     <p>${manobj[k].artist}</p>
-
     `;
 
     if(manobj[k].picture){

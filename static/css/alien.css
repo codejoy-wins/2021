@@ -70,10 +70,32 @@ a:hover{
         border-color: rgba(255, 217, 0, 0.822);
     }
 }
+
+@keyframes ellie{
+    20%{
+        color: silver;
+    }
+    40%{
+        color: aqua;
+    }
+    60%{
+        color: aquamarine;
+    }
+    80%{
+        color: cyan;
+    }
+}
 .dj{
     border: .1vw solid silver;
     animation: elam 7s infinite;
 }
 #info{
     padding-bottom: 1vw;
+}
+
+.red{
+    border: 1vw solid red;
+}
+p{
+    animation: ellie 5s infinite;
 }
