@@ -434,6 +434,12 @@ let manobj = [
 
 let womanobj = [
     {
+        "song": "Dejavu",
+        "artist": "Olivia Rodrigo",
+        "fullsong": "Deja Vu",
+        "picture": "olivia.jpg",
+    },
+    {
         "song": "Feather",
         "artist": "Nujabes",
         "fullsong": "Feather",
