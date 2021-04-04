@@ -1,0 +1,128 @@
+html,body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.pic{
+    max-width: 100%;
+    max-height: 600px;
+    padding: 0;
+}
+html{
+    /* color: greenyellow; */
+    color: gold;
+
+    text-align: center;
+    background-image: url("../img/eli10.jpg");
+    background-size: contain;
+}
+.hide{
+    display: none;
+    color: blue;
+}
+@keyframes pauser{
+    20% {
+        background-color: rgba(255, 217, 0, 0.609);
+    }
+    40%{
+        background-color: rgba(255, 192, 203, 0);
+    }
+    70%{
+        background-color: rgba(192, 192, 192, 0.466);
+    }
+    80%{
+        background-color: rgba(127, 255, 212, 0);
+    }
+}
+
+
+.btn{
+    max-height: 20vw;
+    max-width: 20vw;
+    height: 200px;
+    width: 200px;
+    color: gold;
+    /* background-color: rgba(255, 217, 0, 0.178); */
+    background-color: rgba(204, 213, 219, 0);
+    border-radius: 17vw;
+    animation: pauser 10s infinite;
+}
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: gold;
+}
+a:hover{
+    text-decoration: none;
+    color: silver;
+}
+
+.xy{
+    display: inline-block;
+}
+.gold{
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.52);
+    border-radius: 2vw;
+}
+.silver{
+    color: silver;
+    background-color: rgba(0, 0, 0, 0.52);
+    border-radius: 2vw;
+}
+.gold:hover{
+    color: silver;
+}
+
+@keyframes elam{
+    20% {
+        border-color: rgba(128, 0, 128, 0.795);
+    }
+    40%{
+        border-color: rgba(255, 192, 203, 0.705);
+    }
+    60%{
+        border-color: rgba(0, 255, 255, 0.883);
+    }
+    80%{
+        border-color: rgba(255, 217, 0, 0.822);
+    }
+}
+
+@keyframes ellie{
+    20%{
+        color: silver;
+    }
+    40%{
+        color: aqua;
+    }
+    60%{
+        color: aquamarine;
+    }
+    80%{
+        color: cyan;
+    }
+}
+.dj{
+    border: .1vw solid silver;
+    animation: elam 7s infinite;
+}
+#info{
+    padding-bottom: 1vw;
+}
+
+.red{
+    border: 1vw solid red;
+}
+p{
+    animation: ellie 5s infinite;
+}
