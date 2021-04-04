@@ -6,6 +6,12 @@ html,body{
 }
 .card{
     max-width: 100%;
+    max-height: 500px;
+}
+.clear{
+    color: whitesmoke;
+    font-size: 3vw;
+    background-color: black;
 }
 .formulaic{
     max-width: 100%;
@@ -18,12 +24,22 @@ html,body{
     background-color: rgba(255, 218, 185, 0.521);
     display: inline-block;
 }
-.mastermove{
+.red{
     background-color: rgba(190, 7, 7, 0.616);
 }
-.mastermove2{
+.blue{
     background-color: rgba(7, 34, 190, 0.616);
 }
+.gold{
+    background-color: rgba(190, 156, 7, 0.616);
+}
+.dark{
+    background-color: rgba(20, 21, 24, 0.466);
+}
+.purple{
+    background-color: rgba(159, 7, 190, 0.616);
+}
+
 .supermove{
     display: inline-block;
     border: .1vw solid gold;
@@ -148,10 +164,6 @@ a:hover{
     padding-bottom: 1vw;
     overflow: auto;
     max-height: 20vw;
-}
-
-.red{
-    border: 1vw solid red;
 }
 p{
     animation: ellie 5s infinite;
