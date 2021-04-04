@@ -429,6 +429,18 @@ let manobj = [
         "fullsong": "Sunshine In A Bag",
         "picture": "gorillaz.jpg"
     },
+    {
+        "song": "Trump",
+        "artist": "Mac Miller",
+        "fullsong": "Donald Trump",
+        "picture": "mac.jpg"
+    },
+    {
+        "song": "Jet",
+        "artist": "Mac Miller",
+        "fullsong": "Jet Fuel",
+        "picture": "mac.jpg"
+    },
     
 ];
 
