@@ -431,6 +431,14 @@ let players = [
     mew
 ]
 
+let deadenemies = [
+
+]
+
+let deadplayers = [
+    
+]
+
 function randomize(){
     console.log("randomizing");
     let x = Math.floor(Math.random()*players.length);
@@ -480,8 +488,8 @@ initialize();
 function reset(){
     console.log("resetting");
     // reset variables
-    deathcount =0;
-    playerdeaths=0;
+    deadenemies =[];
+    deadplayers =[];
 
     // randomly select new pokemon
     randomize();
@@ -598,10 +606,9 @@ function updateEnemy(){
     <p>Enemy sent out ${enemy.name}!</p>
     `
 }
-let deathcount = 0;
 function chooseRandomEnemy(){
-    console.log(`deathcount is ${deathcount}`);
-    if(deathcount >5){
+    console.log(`deadenemies length is ${deadenemies.length}`);
+    if(deadenemies.length >5){
         console.log("end of enemy team");
         document.getElementById("info").innerHTML+=`
         <h1>You won</h1>
@@ -618,7 +625,6 @@ function chooseRandomEnemy(){
         let k = Math.floor(Math.random()*enemies.length);
         if(enemies[k].health<=0){
             console.log(`${enemies[k].name} is already dead`);
-            deathcount++;
             chooseRandomEnemy();
         }else{
             if(enemy==enemies[k]){
@@ -627,7 +633,6 @@ function chooseRandomEnemy(){
             }else{
                 enemy = enemies[k];
                 console.log(`${enemy.name} was chosen`);
-                deathcount = 0;
                 updateEnemy();
             }
         }
@@ -637,6 +642,11 @@ function chooseRandomEnemy(){
 
 function enemy_fainted(){
     console.log("enemy fainted");
+    console.log(`${enemy.name} fainted`);
+    deadenemies.push(enemy);
+    for(var i =0; i <deadenemies.length; i++){
+        console.log(`${deadenemies[i].name} is very dead`);
+    }
     setTimeout(function(){
         console.log("getting new enemy");
         newEnemy();
@@ -656,10 +666,9 @@ function newEnemy(){
         chooseRandomEnemy();
     }, 2000);
 }
-let playerdeaths = 0;
 function playerFainted(){
-    playerdeaths =0;
     console.log(`${player.name} has fainted`);
+    deadplayers.push(player);
     document.getElementById("mover").innerHTML=`Choose your next pokemon`;
     document.getElementById("playermove").innerHTML=`
     
@@ -670,10 +679,10 @@ function playerFainted(){
             <p onclick=newplayer(${i})>${players[i].name} has ${players[i].health} health</p>
             `;
         }else{
-            playerdeaths++;
+            console.log("xpxpxp");
         }
-        console.log(`player deaths are at ${playerdeaths}`);
-        if(playerdeaths >5){
+        console.log(`dead players length is at ${deadplayers.length}`);
+        if(deadplayers.length >5){
             console.log("you lose");
             document.getElementById("mover").innerHTML=`
             <p onclick=reset() >Try Again?</p>
