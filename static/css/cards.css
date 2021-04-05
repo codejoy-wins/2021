@@ -39,6 +39,9 @@ html,body{
 .purple{
     background-color: rgba(159, 7, 190, 0.616);
 }
+.greeen{
+    background-color: rgba(7, 190, 38, 0.616);
+}
 
 .supermove{
     display: inline-block;
@@ -94,7 +97,9 @@ html{
 }
 
 
-
+#deck{
+    padding-bottom: 1vw;
+}
 
 
 

@@ -8,7 +8,7 @@ let enemy = {
 
 let charizard = {
     "name": "Charizard",
-    "health": 120,
+    "health": 220,
     "moves": [
         {
             "name": "flamethrowerr",
@@ -34,7 +34,7 @@ let charizard = {
     "type": "fire",
     "weakness": "water",
     "picture": "charizard.jpg",
-    "maxhp": 120,
+    "maxhp": 220,
     "color": "red"
 }
 
@@ -238,7 +238,7 @@ let legendarymew = {
 }
 let zapdos = {
     "name": "Zapdos",
-    "health": 80,
+    "health": 90,
     "moves": [
         {
             "name": "thunder",
@@ -264,7 +264,7 @@ let zapdos = {
     "type": "electric",
     "weakness": "rock",
     "picture": "zapdos.jpg",
-    "maxhp": 80,
+    "maxhp": 90,
     "color": "gold"
 }
 let ninetales = {
@@ -298,6 +298,106 @@ let ninetales = {
     "maxhp": 145,
     "color": "red"
 }
+
+let venasaur = {
+    "name": "Venasaur",
+    "health": 115,
+    "moves": [
+        {
+            "name": "razorleaf",
+            "damage": 75,
+            "fullname": "Razor Leaf",
+        },
+        {
+            "name": "solarbeam",
+            "damage": 120,
+            "fullname": "Solar Beam"
+        },
+        {
+            "name": "megadrain",
+            "damage": 60,
+            "fullname": "Mega Drain"
+        },
+        {
+            "name": "gigadrain",
+            "damage": 80,
+            "fullname": "Giga Drain",
+        },
+    ],
+    "type": "grass",
+    "weakness": "fire",
+    "picture": "venasaur.jpg",
+    "maxhp": 115,
+    "color": "green"
+}
+
+let onix = {
+    "name": "Onix",
+    "health": 100,
+    "moves": [
+        {
+            "name": "rockslide",
+            "damage": 85,
+            "fullname": "Rock Slide",
+        },
+        {
+            "name": "bodyslam",
+            "damage": 50,
+            "fullname": "Body Slam"
+        },
+        {
+            "name": "harden",
+            "damage": 0,
+            "fullname": "Harden"
+        },
+        {
+            "name": "earthquake",
+            "damage": 100,
+            "fullname": "Earthquake",
+        },
+    ],
+    "type": "rock",
+    "weakness": "grass",
+    "picture": "onix.jpg",
+    "maxhp": 100,
+    "color": "dark"
+}
+
+let haunter = {
+    "name": "Haunter",
+    "health": 60,
+    "moves": [
+        {
+            "name": "hypnosis",
+            "damage": 0,
+            "fullname": "Hypnosis",
+        },
+        {
+            "name": "dreameater",
+            "damage": 50,
+            "fullname": "Dream Eater"
+        },
+        {
+            "name": "psychic",
+            "damage": 85,
+            "fullname": "Psychic"
+        },
+        {
+            "name": "shadowball",
+            "damage": 80,
+            "fullname": "Shadow Ball",
+        },
+    ],
+    "type": "ghost",
+    "weakness": "rock",
+    "picture": "haunter.jpg",
+    "maxhp": 60,
+    "color": "dark"
+}
+
+
+
+
 let pokemon = [
     charizard,
     blastoise,
@@ -308,34 +408,41 @@ let pokemon = [
     legendarymew,
     zapdos,
     ninetales,
+    venasaur,
+    onix,
+    haunter
+]
+
+let enemies = [
+    legendarymew,
+    blastoise,
+    venasaur,
+    zapdos,
+    onix,
+    absol
+]
+
+let players = [
+    charizard,
+    lapras,
+    ninetales,
+    haunter,
+    pikachu,
+    mew
 ]
 
 function randomize(){
     console.log("randomizing");
-    let x = Math.floor(Math.random()*pokemon.length);
-    player = pokemon[x];
-    let y = Math.floor(Math.random()*pokemon.length);
-    enemy = pokemon[y];
-    if(x==y){
-        console.log("mewtwo within randomizer");
-        console.log("**********************");
-        console.log("**********************");
-
-        randomize();
-    }
+    let x = Math.floor(Math.random()*players.length);
+    player = players[x];
+    let y = Math.floor(Math.random()*enemies.length);
+    enemy = enemies[y];
 }
 
 function initialize(){
     console.log("initializing");
     // choose random pokemon
-    let x = Math.floor(Math.random()*pokemon.length);
-    player = pokemon[x];
-    let y = Math.floor(Math.random()*pokemon.length);
-    enemy = pokemon[y];
-    if(x==y){
-        console.log(`mewtwo on initialization with ${player.name}`);
-        randomize();
-    }
+    randomize();
     // use chosen pokemon's pictures
     document.getElementById("enemy_img").innerHTML=`
     <img src="static/img/${enemy.picture}" alt="enemy" class="card">
@@ -372,15 +479,12 @@ initialize();
 
 function reset(){
     console.log("resetting");
+    // reset variables
+    deathcount =0;
+    playerdeaths=0;
+
     // randomly select new pokemon
-    let x = Math.floor(Math.random()*pokemon.length);
-    player = pokemon[x];
-    let y = Math.floor(Math.random()*pokemon.length);
-    enemy = pokemon[y];
-    if(x==y){
-        console.log(`mewtwo on resetting with ${player.name}`);
-        randomize();
-    }
+    randomize();
     // log new pokemon to console
     console.log(`player is ${player.name} and enemy is ${enemy.name}`);
     // display chosen pokemon pictures
@@ -391,6 +495,10 @@ function reset(){
         <img src="static/img/${player.picture}" alt="player" class="card">
     `
     //reset player and enemy health to maxhp
+    for(var i=0; i< players.length; i++){
+        players[i].health = players[i].maxhp;
+        enemies[i].health = enemies[i].maxhp;
+    }
     player.health = player.maxhp;
     enemy.health = enemy.maxhp;
 
@@ -432,6 +540,7 @@ function retaliate(i){
             document.getElementById("player_health").innerHTML=`
             <div class="clear">${player.name} Fainted</div>
             `
+            playerFainted();
         }
         
     }
@@ -462,14 +571,148 @@ function attack(name, move, dmg){
             document.getElementById("enemy_health").innerHTML=`
             <div class="clear">${enemy.name} Fainted</div>
         `
+        enemy_fainted();
         }
         else{
             document.getElementById("enemy_health").innerHTML=`
             <div class="clear">${enemy.name}'s Health: ${enemy.health} HP</div>
         `
         }
-        let k = Math.floor(Math.random()*enemy.moves.length);
-        console.log(`k is ${k}`);
-        retaliate(k);
+        let z = Math.floor(Math.random()*enemy.moves.length);
+        console.log(`z is ${z}`);
+        retaliate(z);
+    }
+}
+
+function updateEnemy(){
+    console.log(`updating ${enemy.name}`);
+    // update enemy picture
+    document.getElementById("enemy_img").innerHTML=`
+    <img src="static/img/${enemy.picture}" alt="enemy" class="card">
+    `
+    // update enemy health display
+    document.getElementById("enemy_health").innerHTML=`
+    <div class="clear">${enemy.name}'s Health: ${enemy.health} HP</div>
+    `;
+    document.getElementById("info").innerHTML+=`
+    <p>Enemy sent out ${enemy.name}!</p>
+    `
+}
+let deathcount = 0;
+function chooseRandomEnemy(){
+    console.log(`deathcount is ${deathcount}`);
+    if(deathcount >5){
+        console.log("end of enemy team");
+        document.getElementById("info").innerHTML+=`
+        <h1>You won</h1>
+        `;
+        document.getElementById("enemy_health").innerHTML=`
+        <h1>Pokemon Master</h1>
+        `
+        document.getElementById("mover").innerHTML=`
+        <p onclick=reset() >Play Again?</p>
+        `;
+        document.getElementById("playermove").innerHTML=``;
+
+    }else{
+        let k = Math.floor(Math.random()*enemies.length);
+        if(enemies[k].health<=0){
+            console.log(`${enemies[k].name} is already dead`);
+            deathcount++;
+            chooseRandomEnemy();
+        }else{
+            if(enemy==enemies[k]){
+                console.log("choosing another random");
+                chooseRandomEnemy();
+            }else{
+                enemy = enemies[k];
+                console.log(`${enemy.name} was chosen`);
+                deathcount = 0;
+                updateEnemy();
+            }
+        }
+    }
+    
+}
+
+function enemy_fainted(){
+    console.log("enemy fainted");
+    setTimeout(function(){
+        console.log("getting new enemy");
+        newEnemy();
+    }, 5000);
+}
+
+function newEnemy(){
+    console.log("new enemy inbound");
+    document.getElementById("enemy_health").innerHTML=`
+    <div class="clear">New Enemy Coming Out! </div>
+    `;
+    document.getElementById("info").innerHTML+=`
+    <p>${enemy.name} fainted</p>
+    `
+    setTimeout(() => {
+        console.log("xp");
+        chooseRandomEnemy();
+    }, 2000);
+}
+let playerdeaths = 0;
+function playerFainted(){
+    playerdeaths =0;
+    console.log(`${player.name} has fainted`);
+    document.getElementById("mover").innerHTML=`Choose your next pokemon`;
+    document.getElementById("playermove").innerHTML=`
+    
+    `
+    for(var i =0; i<players.length; i++){
+        if(players[i].health>0){
+            document.getElementById("deck").innerHTML+=`
+            <p onclick=newplayer(${i})>${players[i].name} has ${players[i].health} health</p>
+            `;
+        }else{
+            playerdeaths++;
+        }
+        console.log(`player deaths are at ${playerdeaths}`);
+        if(playerdeaths >5){
+            console.log("you lose");
+            document.getElementById("mover").innerHTML=`
+            <p onclick=reset() >Try Again?</p>
+            `
+        }
+    }
+    ;
+}
+function newplayer(i){
+    console.log(`choosing ${players[i].name} to keep fighting!`);
+    player = players[i];
+    updatePlayer();
+}
+
+function updatePlayer(){
+    console.log(`updating ${player.name}`);
+    // update player picture
+    document.getElementById("player_img").innerHTML=`
+    <img src="static/img/${player.picture}" alt="player" class="card">
+    `
+    // update player health display
+    document.getElementById("player_health").innerHTML=`
+    <div class="clear">${player.name}'s Health: ${player.health} HP</div>
+    `;
+    document.getElementById("info").innerHTML+=`
+    <p>player sent out ${player.name}!</p>
+    `
+    document.getElementById("deck").innerHTML=``;
+    document.getElementById("mover").innerHTML=`
+        <p>${player.name}'s Moves</p>
+    `
+    for(var i =0; i < player.moves.length; i++){
+        document.getElementById("playermove").innerHTML+=`
+            <div class="${player.color}">
+            <div class="supermove" onclick=attack("${player.name}","${player.moves[i].name}",${player.moves[i].damage})>
+            <div class= "move">${player.moves[i].fullname}</div>
+            <div class= "move">${player.moves[i].damage}</div>
+            </div>
+            </div>
+        `
     }
 }
