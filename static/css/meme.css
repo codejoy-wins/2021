@@ -9,6 +9,24 @@ html,body{
     max-height: 600px;
     padding: 0;
 }
+.picbig{
+    max-width: 100%;
+    max-height: 900px;
+    padding: 0;
+    height: 600px;
+}
+.picbigno{
+    max-width: 100%;
+    max-height: 900px;
+    padding: 0;
+    opacity: .2;
+    height: 600px;
+}
+.pictrick{
+    max-width: 100%;
+    min-height: 800px;
+    padding: 0;
+}
 html{
     /* color: greenyellow; */
     color: gold;
@@ -49,7 +67,10 @@ html{
     animation: pauser 10s infinite;
 }
 
-
+#master{
+    border: 1vw solid gold;
+    animation: elam 4s infinite;
+}
 
 
 
@@ -116,13 +137,36 @@ a:hover{
     border: .1vw solid silver;
     animation: elam 7s infinite;
 }
-#info{
-    padding-bottom: 1vw;
-}
-
+/* #info{
+    padding-bottom: 19vw;
+    background-image: url("https://i.pinimg.com/474x/5a/e1/5f/5ae15f2ef63ecded7dbe6cf55dc47ae8.jpg");
+} */
 .red{
     border: 1vw solid red;
 }
 p{
     animation: ellie 5s infinite;
+}
+.in{
+    background-color: rgba(81, 81, 255, 0.918);
+    padding: 1vw;
+}
+#spacer{
+    height: 500px;
+    background-color: rgba(0, 128, 0, 0.322);
+}
+
+.glass{
+    opacity: .2;
+    display: none;
+}
+
+#trick2{
+    border: 1vw solid teal;
+    animation: elam 6s infinite;
+    min-height: 800px;
+}
+.pickle{
+    opacity: .01;
+    min-height: 800px;
 }

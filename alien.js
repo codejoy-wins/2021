@@ -446,6 +446,18 @@ let manobj = [
 
 let womanobj = [
     {
+        "song": "Loser",
+        "artist": "Beck",
+        "fullsong": "Loser",
+        "picture": "",
+    },
+    {
+        "song": "Rolling",
+        "artist": "Childish Gambino feat. Adelle",
+        "fullsong": "Rolling in the Deep",
+        "picture": "childish.jpg",
+    },
+    {
         "song": "Dejavu",
         "artist": "Olivia Rodrigo",
         "fullsong": "Deja Vu",
