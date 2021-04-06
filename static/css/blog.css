@@ -173,7 +173,27 @@ h1 a{
     padding: 1vw;
     border-radius: 1vw;
 }
-
+.dark p{
+    color: whitesmoke;
+    background-color: rgba(29, 1, 29, 0.746);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.dark{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(221, 160, 221, 0.733); */
+    background-color: rgba(36, 10, 36, 0.582);
+    color: black;
+    font-size: larger;
+    padding-bottom: 6vw;
+}
+.dark a{
+    color: wheat;
+}
+.dark a:hover{
+    color: red;
+}
 
 
 .post p{
