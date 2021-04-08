@@ -188,6 +188,25 @@ h1 a{
     font-size: larger;
     padding-bottom: 6vw;
 }
+.dark2 p{
+    color: black;
+    background-color: rgba(243, 234, 243, 0.746);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.dark2{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(221, 160, 221, 0.733); */
+    background-color: rgba(36, 10, 36, 0.582);
+    color: black;
+    font-size: larger;
+    padding-bottom: 6vw;
+}
+.god{
+    max-width: 100%;
+
+}
 .dark a{
     color: wheat;
 }
