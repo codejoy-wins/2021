@@ -154,3 +154,15 @@ function blog(){
     Blog
     `
 }
+
+function april(){
+    document.getElementById("switch").innerHTML=`
+    April
+    `
+}
+
+function All(){
+    document.getElementById("switch").innerHTML=`
+    All
+    `
+}

@@ -1,11 +1,44 @@
 *{
     font-family: 'Spectral', serif;
 }
+
+@keyframes elam{
+    20%{
+        color: wheat;
+    }
+    40%{
+        color: black;
+    }
+    60%{
+        color: wheat;
+    }
+    80%{
+        color: silver;
+    }
+
+}
+.month{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border-radius: 2vw;
+}
+.month:hover{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 2vw;
+    animation: elam 3s infinite;
+}
+
 #heading a{
     color: wheat;
 }
 #heading a:hover{
     color: silver;
+}
+#heading .month{
+    color: black;
+    animation: elam 10s infinite;
 }
 
 html, body{
@@ -188,6 +221,7 @@ h1 a{
     font-size: larger;
     padding-bottom: 6vw;
 }
+
 .dark2 p{
     color: black;
     background-color: rgba(243, 234, 243, 0.746);
