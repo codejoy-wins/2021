@@ -5,56 +5,64 @@ html, body{
     margin: 0;
     padding: 0;
 }
-#nav{
-    background-color: rgba(55, 83, 211, 0.680);
-    width: 100%;
-    text-align: center;
-}
-.option{
-    display: inline-block;
-    padding: 1vw;
-}
-a{
-    text-decoration: none;
-    color: whitesmoke;
-}
-a:hover{
-    color: wheat;
-    font-weight: bold;
-    cursor: cell;
-}
-.current{
-    font-weight: bold;
-    color: silver;
-}
-
-
-#rapper-welcome{
+#rapper{
     margin: 0 auto;
+    background-image: url("/static/img/love.jpg");
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    padding-bottom: 1vw;
+}
+.transparent{
+    opacity: .45;
     max-width: 100%;
-    padding: 1vw;
-    max-height: 100%;
+    max-height: 400px;
+
+}
+.red{
+    /* border: 1vw solid red; */
+    /* opacity: .65; */
+    max-width: 100%;
+    max-height: 400px;
+
+}
+.spotsubmain{
+    display:inline-block;
+    /* border: .3vw solid gold; */
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
 }
 .pic{
     max-width: 100%;
+    max-height: 100%;
 }
-#intro{
-    overflow: auto;
-    height: 900px;
+.picmain{
+    max-width: 100%;
+    max-height: 590px;
 }
-#intro p{
-    padding: 1vw;
-    border-radius: 1vw;
-    color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.37);
+.spotsubmain2{
+    display:block;
+    /* border: .3vw solid blue; */
+    min-width: 290px;
+    min-height: 210px;
+    /* min-width: 20vw; */
+    /* height: 11vw; */
+    max-height: 590px;
 }
-#intro{
-    background-image: url(../img/got.jpg);
-    background-size: contain;
-    border-radius: 2vw;
-}
-#intro h2{
+#main{
+    /* border: 1vw dotted pink; */
+    max-width: 100%;
     text-align: center;
-    color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.37);
+}
+#main2{
+    /* border: 1vw dotted pink; */
+    max-width: 100%;
+    text-align: center;
+}
+#main3{
+    /* border: 1vw dotted pink; */
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
 }
