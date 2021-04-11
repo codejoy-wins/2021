@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song":"Cause",
+        "artist": "Immortal Technique",
+        "fullsong": "Cause of Death",
+        "picture": "tech.jpg",
+    },
+    {
         "song":"Minds",
         "artist": "Flume",
         "fullsong": "Some Minds",
