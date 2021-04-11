@@ -33,6 +33,26 @@ html, body{
     min-height: 210px;
     max-height: 400px;
 }
+@keyframes elam {
+    25%{
+        border-color: aliceblue;
+    }
+    50%{
+        border-color: navy;
+    }
+    75%{
+        border-color: chartreuse;
+    }
+}
+.spotsubmainvid{
+    /* display:inline-block; */
+    border: .3vw solid gold;
+    animation: elam 7s infinite;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 600px;
+    max-width: 600px;
+}
 .pic{
     max-width: 100%;
     max-height: 100%;
@@ -65,4 +85,7 @@ html, body{
     max-height: 100%;
     max-width: 100%;
     text-align: center;
+}
+.vid{
+    max-width: 100%;
 }
