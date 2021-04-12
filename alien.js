@@ -5,6 +5,18 @@ let dj = "";
 
 let manobj = [
     {
+        "song":"Patience",
+        "artist": "Damien Marley featuring Nas",
+        "fullsong": "Patience",
+        "picture": "damien.jpg",
+    },
+    {
+        "song":"Zion",
+        "artist": "Damien Marley featuring Nas",
+        "fullsong": "Road to Zion",
+        "picture": "damien.jpg",
+    },
+    {
         "song":"Cause",
         "artist": "Immortal Technique",
         "fullsong": "Cause of Death",
@@ -453,10 +465,151 @@ let manobj = [
         "fullsong": "Jet Fuel",
         "picture": "mac.jpg"
     },
+    {
+        "song": "Ashes",
+        "artist": "Pepper",
+        "fullsong": "Ashes",
+        "picture": ""
+    },
+    {
+        "song": "Auditorium",
+        "artist": "Mos Def featuring Slick Rick",
+        "fullsong": "Auditorium",
+        "picture": ""
+    },
+    {
+        "song": "Beef",
+        "artist": "Biggie Smalls",
+        "fullsong": "What's Beef?",
+        "picture": "biggie.jpeg"
+    },
+    {
+        "song": "Shook",
+        "artist": "Mobb Deep",
+        "fullsong": "Shook Ones Pt II",
+        "picture": "mobb.jpeg"
+    },
+    {
+        "song": "Survival",
+        "artist": "Mobb Deep",
+        "fullsong": "Survival of the Fittest",
+        "picture": "mobb.jpeg"
+    },
     
 ];
 
 let womanobj = [
+    {
+        "song": "Sun",
+        "artist": "Slightly Stoopid",
+        "fullsong": "Closer to the Sun",
+        "picture": ""
+    },
+    {
+        "song": "firstSingle",
+        "artist": "The Format",
+        "fullsong": "First Single",
+        "picture": "format.jpg",
+    },
+    {
+        "song": "giveItUp",
+        "artist": "The Format",
+        "fullsong": "Give it Up",
+        "picture": "format.jpg",
+    },
+    {
+        "song": "Honk",
+        "artist": "Limbeck",
+        "fullsong": "Honk and Wave",
+        "picture": "limbeck.jpg",
+    },
+    {
+        "song": "Silver",
+        "artist": "Limbeck",
+        "fullsong": "Silver Things",
+        "picture": "limbeck.jpg",
+    },
+    {
+        "song": "Julia",
+        "artist": "Limbeck",
+        "fullsong": "Julia",
+        "picture": "limbeck.jpg",
+    },
+    {
+        "song": "Ohio",
+        "artist": "Limbeck",
+        "fullsong": "In Ohio in Some Steps",
+        "picture": "limbeck.jpg",
+    },
+    {
+        "song": "Wrote",
+        "artist": "Limbeck",
+        "fullsong": "We Wrote This Down For You",
+        "picture": "limbeck.jpg",
+    },
+    {
+        "song": "isThisLove",
+        "artist": "Bob Marley",
+        "fullsong": "Is This Love",
+        "picture": "bob.jpg",
+    },
+    {
+        "song": "threeLittleBirds",
+        "artist": "Bob Marley",
+        "fullsong": "Three Little Birds",
+        "picture": "bob.jpg",
+    },
+    {
+        "song": "Crazy",
+        "artist": "Gnarles Barkley",
+        "fullsong": "Crazy",
+        "picture": "",
+    },
+    {
+        "song": "Drummer",
+        "artist": "Wilco",
+        "fullsong": "Heavy Metal Drummer",
+        "picture": "wilco.jpg",
+    },
+    {
+        "song": "JesusEtc",
+        "artist": "Wilco",
+        "fullsong": "Jesus, Etc.",
+        "picture": "wilco.jpg",
+    },
+    {
+        "song": "loudPipes",
+        "artist": "Ratatat",
+        "fullsong": "Loud Pipes",
+        "picture": "",
+    },
+    {
+        "song": "lastChance",
+        "artist": "Brand New",
+        "fullsong": "Last Chance to Lose Your Keys",
+        "picture": "brand.jpg",
+    },
+
+    {
+        "song": "Aside",
+        "artist": "Weakerthans",
+        "fullsong": "Aside",
+        "picture": "",
+    },
+    {
+        "song": "breakYourHeart",
+        "artist": "Weakerthans",
+        "fullsong": "I am Trying to Break Your Heart",
+        "picture": "",
+    },
+    {
+        "song": "couldYouBeLoved",
+        "artist": "Bob Marley",
+        "fullsong": "Could You Be Loved",
+        "picture": "bob.jpg",
+    },
+    
+    
     {
         "song": "Loser",
         "artist": "Beck",
