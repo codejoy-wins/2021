@@ -1007,11 +1007,37 @@ function newman(){
         console.log(`trying to play ${manobj[k].song}`);
         k = Math.floor(Math.random()*manobj.length);
     }
+    // info
     document.getElementById("info").innerHTML=`
     <p>${manobj[k].fullsong}</p>
     <p>${manobj[k].artist}</p>
     `;
+    // new playspot
 
+    
+
+    document.getElementById("status").classList.remove("hide");
+    x = "playing";
+    // change song
+    document.getElementById("master").innerHTML=`
+            <audio id="music" onended="playlist()">
+                <source src="static/audio/${manobj[k].song}.mp3" type="audio/mpeg">
+            </audio>
+    `;
+    // play song
+    document.getElementById("music").play();
+
+    document.getElementById("status").innerHTML=`
+        <img src="static/img/pause.png" alt="pause" class="btn" onclick="pauseplay()">
+        `;
+        current = manobj[k].song;
+        console.log(`current is ${current}`);
+        console.log(`Playing ${manobj[k].fullsong} by ${manobj[k].artist}`);
+
+        dj = "man"
+        document.getElementById("man").classList.add("dj");
+        document.getElementById("woman").classList.remove("dj");
+        // pic
     if(manobj[k].picture){
         console.log("there is a pic");
         document.getElementById("picture").innerHTML=`
@@ -1024,25 +1050,6 @@ function newman(){
     
     `
     }
-
-    document.getElementById("status").classList.remove("hide");
-    x = "playing";
-    document.getElementById("master").innerHTML=`
-            <audio id="music" onended="playlist()">
-                <source src="static/audio/${manobj[k].song}.mp3" type="audio/mpeg">
-            </audio>
-    `;
-    document.getElementById("music").play();
-    document.getElementById("status").innerHTML=`
-        <img src="static/img/pause.png" alt="pause" class="btn" onclick="pauseplay()">
-        `;
-        current = manobj[k].song;
-        console.log(`current is ${current}`);
-        console.log(`Playing ${manobj[k].fullsong} by ${manobj[k].artist}`);
-
-        dj = "man"
-        document.getElementById("man").classList.add("dj");
-        document.getElementById("woman").classList.remove("dj");
 }
 
 function newwoman(){
@@ -1061,18 +1068,7 @@ function newwoman(){
     <p>${womanobj[k].artist}</p>
 
     `;
-    if(womanobj[k].picture){
-        console.log("there is a pic");
-        document.getElementById("picture").innerHTML=`
-    <img src="static/img/${womanobj[k].picture}" alt="${womanobj[k].artist}" class="pic">
-    `
-    }
-    else{
-        console.log("no pic");
-        document.getElementById("picture").innerHTML=`
     
-    `
-    }
     
 
 
@@ -1094,6 +1090,19 @@ function newwoman(){
         dj = "woman";
         document.getElementById("woman").classList.add("dj");
         document.getElementById("man").classList.remove("dj");
+
+        if(womanobj[k].picture){
+            console.log("there is a pic");
+            document.getElementById("picture").innerHTML=`
+        <img src="static/img/${womanobj[k].picture}" alt="${womanobj[k].artist}" class="pic">
+        `
+        }
+        else{
+            console.log("no pic");
+            document.getElementById("picture").innerHTML=`
+        
+        `
+        }
 
 }
 function pauseplay(){
