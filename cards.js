@@ -40,7 +40,7 @@ let charizard = {
 
 let blastoise = {
     "name": "Blastoise",
-    "health": 100,
+    "health": 200,
     "moves": [
         {
             "name": "waterpulse",
@@ -68,7 +68,7 @@ let blastoise = {
     "type": "water",
     "weakness": "electric",
     "picture": "blastoise.jpg",
-    "maxhp": 100,
+    "maxhp": 200,
     "color": "blue"
 }
 
@@ -279,6 +279,7 @@ let ninetales = {
         {
             "name": "rest",
             "damage": 0,
+            "healthgain": 140,
             "fullname": "Rest"
         },
         {
@@ -301,7 +302,7 @@ let ninetales = {
 
 let venasaur = {
     "name": "Venasaur",
-    "health": 115,
+    "health": 190,
     "moves": [
         {
             "name": "razorleaf",
@@ -316,18 +317,20 @@ let venasaur = {
         {
             "name": "megadrain",
             "damage": 60,
+            "healthgain": 30,
             "fullname": "Mega Drain"
         },
         {
             "name": "gigadrain",
             "damage": 80,
+            "healthgain": 40,
             "fullname": "Giga Drain",
         },
     ],
     "type": "grass",
     "weakness": "fire",
     "picture": "venasaur.jpg",
-    "maxhp": 115,
+    "maxhp": 190,
     "color": "green"
 }
 
@@ -473,7 +476,7 @@ function initialize(){
     for(var i =0; i < player.moves.length; i++){
         document.getElementById("playermove").innerHTML+=`
             <div class="${player.color}">
-            <div class="supermove" onclick=attack("${player.name}","${player.moves[i].name}",${player.moves[i].damage})>
+            <div class="supermove" onclick=attack("${player.name}","${player.moves[i].name}",${player.moves[i].damage},${player.moves[i].healthgain})>
             <div class= "move">${player.moves[i].fullname}</div>
             <div class= "move">${player.moves[i].damage}</div>
             </div>
@@ -524,7 +527,7 @@ function reset(){
     for(var i =0; i < player.moves.length; i++){
         document.getElementById("playermove").innerHTML+=`
             <div class="${player.color}">
-            <div class="supermove" onclick=attack("${player.name}","${player.moves[i].name}",${player.moves[i].damage})>
+            <div class="supermove" onclick=attack("${player.name}","${player.moves[i].name}",${player.moves[i].damage},${player.moves[i].healthgain})>
             <div class= "move">${player.moves[i].fullname}</div>
             <div class= "move">${player.moves[i].damage}</div>
             </div>
@@ -540,6 +543,22 @@ function retaliate(i){
         <p>It did ${enemy.moves[i].damage} damage!!</p>
         `
         player.health-=enemy.moves[i].damage
+
+        if(enemy.moves[i].healthgain){
+            enemy.health+=enemy.moves[i].healthgain;
+            if(enemy.health>enemy.maxhp){
+                console.log("cannot go above max");
+                enemy.health=enemy.maxhp;
+            }
+            console.log(`Enemy gained back ${enemy.moves[i].healthgain} health!`);
+            updateEnemy();
+            document.getElementById("info").innerHTML+=`
+            <p>${enemy.name} used ${enemy.moves[i].fullname}</p>
+            <p>It did ${enemy.moves[i].damage} damage!!</p>
+            <p>Enemy gained back ${enemy.moves[i].healthgain} health!</p>
+            `
+        }
+
         if(player.health >0){
             document.getElementById("player_health").innerHTML=`
             <div class="clear">${player.name}'s Health: ${player.health}</div>
@@ -556,7 +575,7 @@ function retaliate(i){
     
 }
 
-function attack(name, move, dmg){
+function attack(name, move, dmg, healthgain){
     if(player.health<=0 || enemy.health<=0){
         document.getElementById("info").innerHTML +=`
     <p>
@@ -564,6 +583,8 @@ function attack(name, move, dmg){
     </p>
     `
     }else{
+        // rest code here later
+        
         console.log(`${name} used ${move}`);
         console.log(`It caused ${dmg} damage!`);
         document.getElementById("info").innerHTML +=`
@@ -574,6 +595,13 @@ function attack(name, move, dmg){
             It caused ${dmg} damage!
         </p>
         `
+        if(healthgain){
+            console.log("health gain xp");
+            player.health=player.maxhp;
+            document.getElementById("info").innerHTML+=`
+            <p>${name} recovered HP! to ${player.maxhp}</p>
+            `
+        }
         enemy.health-=dmg;
         if(enemy.health<=0){
             document.getElementById("enemy_health").innerHTML=`
@@ -602,7 +630,7 @@ function updateEnemy(){
     document.getElementById("enemy_health").innerHTML=`
     <div class="clear">${enemy.name}'s Health: ${enemy.health} HP</div>
     `;
-    document.getElementById("info").innerHTML+=`
+    document.getElementById("info").innerHTML=`
     <p>Enemy sent out ${enemy.name}!</p>
     `
 }
@@ -707,7 +735,7 @@ function updatePlayer(){
     document.getElementById("player_health").innerHTML=`
     <div class="clear">${player.name}'s Health: ${player.health} HP</div>
     `;
-    document.getElementById("info").innerHTML+=`
+    document.getElementById("info").innerHTML=`
     <p>player sent out ${player.name}!</p>
     `
     document.getElementById("deck").innerHTML=``;
@@ -717,7 +745,7 @@ function updatePlayer(){
     for(var i =0; i < player.moves.length; i++){
         document.getElementById("playermove").innerHTML+=`
             <div class="${player.color}">
-            <div class="supermove" onclick=attack("${player.name}","${player.moves[i].name}",${player.moves[i].damage})>
+            <div class="supermove" onclick=attack("${player.name}","${player.moves[i].name}",${player.moves[i].damage},${player.moves[i].healthgain})>
             <div class= "move">${player.moves[i].fullname}</div>
             <div class= "move">${player.moves[i].damage}</div>
             </div>

@@ -11,7 +11,10 @@ html,body{
 .clear{
     color: whitesmoke;
     font-size: 3vw;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 2vw;
+    padding: 1vw;
+    display: inline-block;
 }
 .formulaic{
     max-width: 100%;
