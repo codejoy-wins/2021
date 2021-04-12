@@ -145,7 +145,7 @@ let manobj = [
         "song": "Trouble",
         "artist": "Cage the Elephant",
         "fullsong": "Trouble",
-        "picture": "cage.png"
+        "picture": "cage.jpg"
     },
     {
         "song": "You",
@@ -247,7 +247,7 @@ let manobj = [
         "song": "Ready",
         "artist": "Cage the Elephant",
         "fullsong": "Ready to Let Go",
-        "picture": "cage.png",
+        "picture": "cage.jpg",
     },
     {
         "song": "Quiet",
@@ -415,7 +415,7 @@ let manobj = [
         "song": "Paradise",
         "artist": "Coldplay",
         "fullsong": "Paradise",
-        "picture": "coldplay.png"
+        "picture": "coldplay2.jpg"
     },
     {
         "song": "Ticktock",
@@ -674,13 +674,13 @@ let womanobj = [
         "song": "Death",
         "artist": "Coldplay",
         "fullsong": "Death and All of His Friends",
-        "picture": "coldplay.png"
+        "picture": "coldplay2.jpg"
     },
     {
         "song": "Lost",
         "artist": "Coldplay",
         "fullsong": "Lost!",
-        "picture": "coldplay.png"
+        "picture": "coldplay2.jpg"
     },
     {
         "song": "LuckyMan",
@@ -938,7 +938,7 @@ let womanobj = [
         "song": "Cigarette2",
         "artist": "Cage the Elephant",
         "fullsong": "Cigarette Daydreams",
-        "picture": "cage.png",
+        "picture": "cage.jpg",
     },
     {
         "song": "Nothing",
