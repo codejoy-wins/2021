@@ -1129,7 +1129,7 @@ function pauseplay(){
 
 function blog(){
     document.getElementById("switch").innerHTML=`
-    Blog
+    Welcome
     `;
 }
 function alien(){

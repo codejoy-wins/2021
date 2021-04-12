@@ -163,6 +163,6 @@ function april(){
 
 function All(){
     document.getElementById("switch").innerHTML=`
-    All
+    Index
     `
 }
