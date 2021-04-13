@@ -103,7 +103,7 @@ a:hover{
     background-repeat: no-repeat;
     color: black;
     text-align: center;;
-    background-color: blueviolet;
+    background-color: black;
 }
 
 #options h3{
@@ -118,7 +118,7 @@ a:hover{
 #article{
     color: black;
     padding: 1vw;
-    background-color: rgba(245, 222, 179, 0.281);
+    background-color: rgba(0, 255, 255, 0.897);
 }
 #picture{
     max-width: 100%;
