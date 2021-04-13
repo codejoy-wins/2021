@@ -45,7 +45,7 @@ html, body{
     }
 }
 .spotsubmainvid{
-    /* display:inline-block; */
+    display:inline-block;
     border: .3vw solid gold;
     animation: elam 7s infinite;
     min-width: 290px;
