@@ -1,0 +1,28 @@
+.newsfeed{
+    height: 80ch;
+    background-color: blue;
+    color: whitesmoke;
+    overflow: auto;
+    display: inline-block;
+    max-width: 40vw;
+    padding: 1vw;
+}
+.newsfeed2{
+    height: 80ch;
+    background-color: red;
+    overflow: auto;
+    display: inline-block;
+    max-width: 40vw;
+    padding: 1vw;
+}
+.pic{
+    max-width: 100%;
+}
+#rapper{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+p{
+    padding: 1vw;
+}
