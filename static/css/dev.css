@@ -44,7 +44,7 @@ html, body{
     padding: 1vw;
 }
 #nav{
-    background-color: rgb(43, 226, 156, 0.363);
+    background-color: rgba(75, 0, 71, 0.212);
     width: 100%;
 }
 
@@ -56,7 +56,8 @@ p a{
 }
 a{
     text-decoration: none;
-    color: rgb(57, 46, 207);
+    font-style: italic;
+    color: rgb(251, 151, 0);
     cursor: cell;
 }
 a:hover{

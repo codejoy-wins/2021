@@ -268,3 +268,11 @@ body{
     background-color: peachpuff;
     float: right;
 }
+.tv{
+    background-color: rgba(128, 128, 128, 0.13);
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.tv2{
+    padding: 1vw;
+}
