@@ -1,0 +1,26 @@
+#nav{
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 100%;
+    text-align: center;
+}
+#nav:hover{
+    cursor: cell;
+}
+#nav2{
+    background-color: rgb(43, 226, 156, 0.363);
+    width: 100%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: wheat;
+    font-weight: bold;
+    cursor: cell;
+}
+.current{
+    font-weight: bold;
+    color: silver;
+}
