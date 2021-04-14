@@ -1,6 +1,6 @@
 /// script link must be at bottom of html to process form locally
 
-
+let p = "p";
 // Prevent form default submission.  Log values of fields.
 const preventing = (e)=>{
     e.preventDefault();
@@ -11,6 +11,8 @@ const preventing = (e)=>{
     let top = document.getElementById("top").value;
     let bottom = document.getElementById("bottom").value;
     let pic = document.getElementById("pic").value;
+    let color = document.getElementById("color").value;
+
 
     console.log(`top is ${top} and bottom is ${bottom} and ${pic} is pic`);
 
@@ -18,7 +20,8 @@ const preventing = (e)=>{
         "top": top,
         "bottom": bottom,
         "pic": pic,
-        "false": "https://i.pinimg.com/474x/5a/e1/5f/5ae15f2ef63ecded7dbe6cf55dc47ae8.jpg"
+        "false": "https://i.pinimg.com/474x/5a/e1/5f/5ae15f2ef63ecded7dbe6cf55dc47ae8.jpg",
+        "color": color,
     }
     makememe(meme);
     document.getElementById("info").innerHTML="";
@@ -26,16 +29,20 @@ const preventing = (e)=>{
 }
 
 function makememe(meme){
-    console.log(`meme.pic = ${meme.pic}`);
+    console.log(`meme.color = ${meme.color}`);
     console.log(`${meme.pic}`);
+    console.log(`${meme.color}`);
+
 
     document.getElementById("master").innerHTML=`
-    <div id="picture2" style="background-image: url('${meme.pic}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
-        <div id="trick2">
-        <h1>${meme.top}</h1>
-        <img src="${meme.pic}" alt="idk" class="pickle">
-        <h1>${meme.bottom}</h1>
+    <div id="wtf" style="background-image: url('${meme.pic}');">
+    <h2 style="color: ${meme.color};" >${meme.top}</h2>
+    <div id="picture2" >
+        <div id="trick2" >
+        <img src="${meme.pic}" alt="id2k" class="pickle">
         </div>
+    </div>
+    <h2 style="color: ${meme.color};" >${meme.bottom}</h2>
     </div>
     `
 }

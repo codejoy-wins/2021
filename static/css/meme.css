@@ -35,48 +35,12 @@ html{
     background-image: url("../img/eli10.jpg");
     background-size: contain;
 }
-.hide{
-    display: none;
-    color: blue;
-}
-@keyframes pauser{
-    20% {
-        background-color: rgba(255, 217, 0, 0.609);
-    }
-    40%{
-        background-color: rgba(255, 192, 203, 0);
-    }
-    70%{
-        background-color: rgba(192, 192, 192, 0.466);
-    }
-    80%{
-        background-color: rgba(127, 255, 212, 0);
-    }
-}
 
-
-.btn{
-    max-height: 20vw;
-    max-width: 20vw;
-    height: 200px;
-    width: 200px;
-    color: gold;
-    /* background-color: rgba(255, 217, 0, 0.178); */
-    background-color: rgba(204, 213, 219, 0);
-    border-radius: 17vw;
-    animation: pauser 10s infinite;
-}
 
 #master{
-    border: 1vw solid gold;
+    /* border: 1vw solid gold; */
     animation: elam 4s infinite;
 }
-
-
-
-
-
-
 
 a{
     text-decoration: none;
@@ -150,6 +114,7 @@ p{
 .in{
     background-color: rgba(81, 81, 255, 0.918);
     padding: 1vw;
+    max-width: 100%;
 }
 #spacer{
     height: 500px;
@@ -162,11 +127,54 @@ p{
 }
 
 #trick2{
-    border: 1vw solid teal;
-    animation: elam 6s infinite;
-    min-height: 800px;
+    /* border: 1vw solid teal; */
+    max-height: 800px;
+    display: inline-block;
 }
 .pickle{
+    max-height: 800px;
+    max-width: 100%;
+    display: inline-block;
     opacity: .01;
-    min-height: 800px;
+
+}
+.pickle2{
+    max-height: 800px;
+    max-width: 90ch;
+    display: inline-block;
+    opacity: .4;
+}
+#picture2{
+    /* background-color: black; */
+    /* border: 1ch solid orange; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+#picture3{
+    background-image: url("../img/spacejam.jpg");
+    /* border: 1ch solid orange; */
+    background-size: cover;
+    /* background-size: contain; */
+
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
+#wtf{
+    border: 2ch solid blueviolet;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    display: inline-block;
+    /* min-width: 50ch; */
+    /* min-height: 50ch; */
+}
+#sir{
+    max-width: 100%;
 }
