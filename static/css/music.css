@@ -12,12 +12,19 @@ html, body{
 }
 #rapper{
     margin: 0 auto;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
+    padding: 1.5vw;
+    text-align: center;
 }
 .song{
     max-width: 100%;
-    width: 40vw;
+    width: 70ch;
+    text-align: center;
+}
+.songframe{
+    max-width: 100%;
+    width: 70ch;
+    text-align: center;
+    background-color: pink;
 }
 .option{
     display: inline-block;
