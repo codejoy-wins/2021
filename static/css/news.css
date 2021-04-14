@@ -1,5 +1,5 @@
 .newsfeed{
-    height: 80ch;
+    height: 85ch;
     background-color: blue;
     color: whitesmoke;
     overflow: auto;
@@ -8,7 +8,7 @@
     padding: 1vw;
 }
 .newsfeed2{
-    height: 80ch;
+    height: 85ch;
     background-color: red;
     overflow: auto;
     display: inline-block;
@@ -20,8 +20,9 @@
 }
 #rapper{
     margin: 0 auto;
-    padding: 0;
+    padding: 1vw;
     width: 100%;
+    text-align: center;
 }
 p{
     padding: 1vw;
