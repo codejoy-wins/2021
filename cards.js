@@ -678,7 +678,7 @@ function enemy_fainted(){
     setTimeout(function(){
         console.log("getting new enemy");
         newEnemy();
-    }, 5000);
+    }, 3500);
 }
 
 function newEnemy(){
@@ -692,7 +692,7 @@ function newEnemy(){
     setTimeout(() => {
         console.log("xp");
         chooseRandomEnemy();
-    }, 2000);
+    }, 1500);
 }
 function playerFainted(){
     console.log(`${player.name} has fainted`);
@@ -705,6 +705,7 @@ function playerFainted(){
         if(players[i].health>0){
             document.getElementById("deck").innerHTML+=`
             <p onclick=newplayer(${i})>${players[i].name} has ${players[i].health} health</p>
+            <img onclick=newplayer(${i}) src="static/img/${players[i].picture}" alt="player" class="card2">
             `;
         }else{
             console.log("xpxpxp");
