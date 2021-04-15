@@ -7,7 +7,8 @@ html, body{
 }
 #rapper{
     margin: 0 auto;
-    background-image: url("/static/img/love.jpg");
+    /* background-image: url("/static/img/love.jpg"); */
+    background-color: black;
     /* background-size: cover; */
     /* background-position: center; */
     background-repeat: no-repeat;
@@ -50,36 +51,49 @@ html, body{
     max-height: 400px;
     opacity: 1;
     animation: wbc 10s infinite;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
+
 }
 .green{
     max-width: 100%;
     max-height: 400px;
     opacity: 1;
     animation: wbc 10s infinite 3s;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
 }
 .purple{
     max-width: 100%;
     max-height: 400px;
     opacity: 1;
     animation: wbc 10s infinite 5s;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
 }
 .pink{
     max-width: 100%;
     max-height: 400px;
     opacity: 1;
     animation: wbc 12s infinite 2s;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
 }
 .yellow{
     max-width: 100%;
     max-height: 400px;
     opacity: 1;
     animation: wbc 8.5s infinite 2.5s;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
 }
 .poke{
     max-width: 100%;
     max-height: 400px;
     opacity: 1;
     animation: wbc 11s infinite;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
 }
 .spotsubmain{
     display:inline-block;
@@ -107,7 +121,6 @@ html, body{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     display:inline-block;
     min-width: 290px;
     min-height: 210px;
@@ -127,7 +140,7 @@ html, body{
 }
 .spotsubmain6{
     /* background-color: blue; */
-    background-image: url(../img/jp.jpg);
+    background-image: url(../img/worldball.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
