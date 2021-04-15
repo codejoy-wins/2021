@@ -63,6 +63,24 @@ html, body{
     opacity: 1;
     animation: wbc 10s infinite 5s;
 }
+.pink{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 12s infinite 2s;
+}
+.yellow{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 8.5s infinite 2.5s;
+}
+.poke{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 11s infinite;
+}
 .spotsubmain{
     display:inline-block;
     /* border: .3vw solid gold; */
@@ -75,6 +93,8 @@ html, body{
     background-image: url(../img/coldwar.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
+
     display:inline-block;
     min-width: 290px;
     min-height: 210px;
@@ -86,6 +106,8 @@ html, body{
     background-image: url(../img/m.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
+
     display:inline-block;
     min-width: 290px;
     min-height: 210px;
@@ -96,6 +118,43 @@ html, body{
     background-image: url(../img/yes.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    display:inline-block;
+    background-position: center;
+
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain6{
+    /* background-color: blue; */
+    background-image: url(../img/jp.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain7{
+    /* background-color: blue; */
+    background-image: url(../img/mad.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain8{
+    /* background-color: blue; */
+    background-image: url(../img/mew.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     display:inline-block;
     min-width: 290px;
     min-height: 210px;
