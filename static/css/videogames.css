@@ -1,0 +1,127 @@
+*{
+    font-family: 'Spectral', serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.vid{
+    max-width: 100%;
+    width: 600px;
+}
+#heading{
+    text-align: center;
+}
+#collage{
+    height: auto;
+    width: 100%;
+}
+#reviews h2{
+    text-align: center;
+}
+#rapper{
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-size: contain;
+    color: black;
+    text-align: center;
+}
+.option{
+    display: inline-block;
+    padding: 1vw;
+}
+#nav{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+p a{
+    color: plum;
+    background-color: rgba(0, 0, 0, 0.959);
+    border-radius: 1vw;
+    padding: 1vw;
+}
+a{
+    text-decoration: none;
+    color: rgb(4, 0, 251);
+    cursor: cell;
+}
+a:hover{
+    color: gold
+}
+#nav a:hover{
+    color: black;
+    font-weight: bold;
+}
+.current{
+    font-weight: bold;
+}
+#nav{
+    text-align: center;
+}
+.pic{
+    max-width: 100%;
+}
+.genre{
+    display: inline-block;
+    position: relative;
+    top: 13vw;
+    padding: 3ch;
+}
+.genre a{
+    color: aqua;
+}
+.genre a:hover{
+    color: forestgreen;
+    cursor: cell;
+}
+#dev a{
+    color: aqua;
+}
+#dev a:hover{
+    color: rgb(238, 18, 238);
+}
+#dev{
+    height: 1300px;
+    overflow:auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.185);
+    margin: 2vw;
+    max-width: 100%;
+}
+#dev2{
+    height: 800px;
+    overflow: auto;
+}
+#dev2 p{
+    padding-top: 20vw;
+}
+.i{
+    font-style: italic;
+}
+#game{
+    max-width: 100%;
+    max-height: 100%;
+}
+.game h5{
+    display: inline-block;
+    padding: 1vw;
+}
+.game h5:hover{
+    color: pink;
+    cursor: cell;
+}
+#heading a{
+    background-color: black;
+    color: white;
+    padding: .5vw;
+}
+#heading a:hover{
+    background-color: white;
+    color: black;
+    padding: .5vw;
+}
