@@ -38,6 +38,38 @@ let charizard = {
     "color": "red"
 }
 
+let raichu = {
+    "name": "Raichu",
+    "health": 110,
+    "moves": [
+        {
+            "name": "thunderwave",
+            "damage": 0,
+            "fullname": "Thunder Wave",
+        },
+        {
+            "name": "headbutt",
+            "damage": 70,
+            "fullname": "Headbutt"
+        },
+        {
+            "name": "thunderbolt",
+            "damage": 95,
+            "fullname": "Thunderbolt"
+        },
+        {
+            "name": "volt tackle",
+            "damage": 135,
+            "fullname": "Volt Tackle",
+        },
+    ],
+    "type": "electric",
+    "weakness": "rock",
+    "picture": "raichu.jpg",
+    "maxhp": 110,
+    "color": "gold"
+}
+
 let blastoise = {
     "name": "Blastoise",
     "health": 200,
@@ -108,7 +140,7 @@ let pikachu = {
 
 let absol = {
     "name": "Absol",
-    "health": 70,
+    "health": 170,
     "moves": [
         {
             "name": "swordsdance",
@@ -136,7 +168,7 @@ let absol = {
     "type": "dark",
     "weakness": "ghost",
     "picture": "absol.jpg",
-    "maxhp": 70,
+    "maxhp": 170,
     "attackpower": 1,
     "defense": 1,
     "color": "black"
@@ -413,7 +445,8 @@ let pokemon = [
     ninetales,
     venasaur,
     onix,
-    haunter
+    haunter,
+    raichu
 ]
 
 let enemies = [
@@ -422,7 +455,8 @@ let enemies = [
     venasaur,
     zapdos,
     onix,
-    absol
+    absol,
+    raichu
 ]
 
 let players = [
@@ -636,7 +670,7 @@ function updateEnemy(){
 }
 function chooseRandomEnemy(){
     console.log(`deadenemies length is ${deadenemies.length}`);
-    if(deadenemies.length >5){
+    if(deadenemies.length >=enemies.length){
         console.log("end of enemy team");
         document.getElementById("info").innerHTML+=`
         <h1>You won</h1>
@@ -711,7 +745,7 @@ function playerFainted(){
             console.log("xpxpxp");
         }
         console.log(`dead players length is at ${deadplayers.length}`);
-        if(deadplayers.length >5){
+        if(deadplayers.length >=players.length){
             console.log("you lose");
             document.getElementById("mover").innerHTML=`
             <p onclick=reset() >Try Again?</p>
