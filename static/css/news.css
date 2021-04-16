@@ -4,28 +4,32 @@
     color: whitesmoke;
     overflow: auto;
     display: inline-block;
-    max-width: 40vw;
-    padding: 1vw;
+    max-width: 48vw;
+    padding: .5vw;
 }
 .newsfeed2{
     height: 85ch;
     background-color: red;
     overflow: auto;
     display: inline-block;
-    max-width: 40vw;
-    padding: 1vw;
+    max-width: 48vw;
+    padding: .5vw;
+}
+html,body{
+    padding: 0;
+    margin: 0;
 }
 .pic{
     max-width: 100%;
 }
 #rapper{
     margin: 0 auto;
-    padding: 1vw;
+    padding: .5vw;
     width: 100%;
     text-align: center;
 }
 p{
-    padding: 1vw;
+    padding: .5vw;
 }
 a{
     text-decoration: none;
