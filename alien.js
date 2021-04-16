@@ -495,6 +495,30 @@ let manobj = [
         "fullsong": "Survival of the Fittest",
         "picture": "mobb.jpeg"
     },
+    {
+        "song": "Prayer",
+        "artist": "Rise Against",
+        "fullsong": "Prayer of the Refugee",
+        "picture": ""
+    },
+    {
+        "song": "Rock",
+        "artist": "Eminem",
+        "fullsong": "Rock Bottom",
+        "picture": "m.jpg"
+    },
+    {
+        "song": "Repeat",
+        "artist": "The Offspring",
+        "fullsong": "Can't Repeat",
+        "picture": "theoffspring.jpg"
+    },
+    {
+        "song": "Kids",
+        "artist": "The Offspring",
+        "fullsong": "The Kids Aren't Alright",
+        "picture": "theoffspring.jpg"
+    },
     
 ];
 
