@@ -33,7 +33,7 @@ let charizard = {
     ],
     "type": "fire",
     "weakness": "water",
-    "picture": "charizard.jpg",
+    "picture": "charizard2.jpg",
     "maxhp": 220,
     "color": "red"
 }
