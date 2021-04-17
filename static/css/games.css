@@ -5,9 +5,18 @@ html, body{
     margin: 0;
     padding: 0;
 }
+#instructions{
+    text-align: center;
+}
+html{
+    background-image: url("../img/ellie.jpg");
+    background-size: contain;
+}
 .vid{
-    max-width: 100%;
-    width: 600px;
+    max-width: 50%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
 #heading{
     text-align: center;
@@ -34,8 +43,6 @@ html, body{
     padding-top: 2px;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
-    background-image: url("../img/ellie.jpg");
-    background-size: contain;
     color: aqua;
     text-align: center;
 }
@@ -44,7 +51,7 @@ html, body{
     padding: 1vw;
 }
 #nav{
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.486);
     width: 100%;
     text-align: center;
 }
@@ -53,7 +60,7 @@ html, body{
 }
 p a{
     color: forestgreen;
-    background-color: rgba(0, 0, 0, 0.39);
+    background-color: rgba(0, 0, 0, 0.178);
     border-radius: 1vw;
     padding: 1vw;
 }
@@ -133,4 +140,7 @@ a:hover{
 .game h5:hover{
     color: forestgreen;
     cursor: cell;
+}
+.center{
+    text-align: center;
 }

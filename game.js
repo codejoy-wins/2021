@@ -1,6 +1,8 @@
 function ghost(){
     document.getElementById("game").innerHTML=`
+    <div class="center">
     <iframe frameborder="0" src="https://itch.io/embed-upload/1234744?color=333333" allowfullscreen="" width="1024" height="788"><a href="https://codejoy-wins.itch.io/i-am-forgotten-ghost">Play I am Forgotten Ghost on itch.io</a></iframe>
+    </div>
     `
     document.getElementById("instructions").innerHTML=`
     <h4>I am Ghost Instructions</h4>
@@ -34,6 +36,13 @@ V to toggle ghost mode
     <p>
 Collect the powerups to jump higher and run faster
     </p>
+    <p>Demo Below</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/P5cpbYrbvKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     `
 }
 function starsenal(){
