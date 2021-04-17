@@ -1,6 +1,10 @@
 *{
     font-family: 'Spectral', serif;
 }
+html{
+    background-image: url("../img/ellie.jpg");
+    background-size: contain;
+}
 html, body{
     margin: 0;
     padding: 0;
@@ -24,11 +28,9 @@ html, body{
     padding-top: 2px;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
-    background-image: url("../img/ellie.jpg");
-    background-size: contain;
-    height:1000px;
     color: aqua;
     text-align: center;
+    height: 100ch;
 }
 .option{
     display: inline-block;
@@ -40,14 +42,14 @@ html, body{
 }
 a{
     text-decoration: none;
-    color: rgb(57, 46, 207);
+    color: black;
     cursor: cell;
 }
 a:hover{
     color: gold
 }
 #nav a:hover{
-    color: black;
+    color: beige;
     font-weight: bold;
 }
 .current{

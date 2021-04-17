@@ -1,0 +1,93 @@
+*{
+    font-family: 'Spectral', serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.vid{
+    max-width: 100%;
+    width: 600px;
+}
+#heading{
+    text-align: center;
+    
+}
+#collage{
+    height: auto;
+    width: 100%;
+}
+#reviews h2{
+    text-align: center;
+}
+html{
+    background-image: url("../img/ucsc.jpg");
+    background-size: cover;
+
+}
+#rapper{
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-size: contain;
+}
+#rapper a{
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.315); */
+    padding: 1vw;
+    border-radius: 1vw;
+}
+#rapper a:hover{
+    color: plum;
+    /* background-color: rgba(0, 0, 0, 0.315); */
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.option{
+    display: inline-block;
+    padding: 1vw;
+}
+#nav{
+    /* background-color: rgba(0, 98, 255, 0.267); */
+    background-color: rgba(55, 83, 211, 0.680);
+
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: gold;
+}
+a:hover{
+    color: gold
+}
+#nav a:hover{
+    color: rebeccapurple;
+    font-weight: bold;
+}
+.current{
+    font-weight: bold;
+}
+#poem{
+    text-align: center;
+}
+#nav{
+    text-align: center;
+}
+.pic{
+    max-width: 100%;
+}
+h2{
+    color: gold;
+    background-color: rgba(105, 12, 133, 0.64);
+    padding: 1vw;
+    display: inline-block;
+    border-radius: 1vw;
+}
+h1{
+    color: gold;
+    background-color: rgba(105, 12, 133, 0.64);
+    padding: 1vw;
+    display: inline-block;
+    border-radius: 1vw;
+}
