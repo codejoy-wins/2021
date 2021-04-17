@@ -1,7 +1,18 @@
+#nav:hover{
+    cursor: url(../img/note2.png), auto;
+}
+#nav a:hover{
+    cursor: cell;
+}
 *{
     font-family: 'Spectral', serif;
     cursor: url(../img/note2.png), auto;
 
+}
+
+html{
+    background-image: url(../img/lion.png);
+    background-size: contain;
 }
 html, body{
     margin: 0;
@@ -19,6 +30,8 @@ html, body{
     max-width: 100%;
     width: 70ch;
     text-align: center;
+    opacity: .8;
+    
 }
 .songframe{
     max-width: 100%;
@@ -31,7 +44,7 @@ html, body{
     padding: 1vw;
 }
 #nav{
-    background-color: rgba(236, 72, 21, 0.794);
+    background-color: rgba(21, 229, 236, 0.445);
     width: 100%;
 }
 a{
