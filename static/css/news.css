@@ -4,7 +4,7 @@
     color: whitesmoke;
     overflow: auto;
     display: inline-block;
-    max-width: 48vw;
+    max-width: 47vw;
     padding: .5vw;
 }
 .newsfeed2{
@@ -12,7 +12,7 @@
     background-color: red;
     overflow: auto;
     display: inline-block;
-    max-width: 48vw;
+    max-width: 47vw;
     padding: .5vw;
 }
 html,body{
