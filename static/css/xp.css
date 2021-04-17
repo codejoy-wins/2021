@@ -87,6 +87,14 @@ html, body{
     border-bottom: 1ch solid black;
     border-top: 1ch solid black;
 }
+.silver{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 11.5s infinite 12.5s;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
+}
 .poke{
     max-width: 100%;
     max-height: 400px;
@@ -165,6 +173,17 @@ html, body{
 .spotsubmain8{
     /* background-color: blue; */
     background-image: url(../img/mew.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain9{
+    /* background-color: blue; */
+    background-image: url(../img/musical.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
