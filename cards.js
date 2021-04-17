@@ -270,7 +270,7 @@ let legendarymew = {
 }
 let zapdos = {
     "name": "Zapdos",
-    "health": 90,
+    "health": 110,
     "moves": [
         {
             "name": "thunder",
@@ -296,7 +296,7 @@ let zapdos = {
     "type": "electric",
     "weakness": "rock",
     "picture": "zapdos.jpg",
-    "maxhp": 90,
+    "maxhp": 110,
     "color": "gold"
 }
 let ninetales = {

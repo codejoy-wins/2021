@@ -1074,7 +1074,18 @@ function newman(){
         document.getElementById("man").classList.add("dj");
         document.getElementById("woman").classList.remove("dj");
         // pic
-        picturing(manobj[k]);
+    if(manobj[k].picture){
+        console.log("there is a pic");
+        document.getElementById("picture").innerHTML=`
+    <img src="static/img/${manobj[k].picture}" alt="${manobj[k].artist}" class="pic">
+    `
+    }
+    else{
+        console.log("no pic");
+        document.getElementById("picture").innerHTML=`
+    
+    `
+    }
 }
 
 function newwoman(){
@@ -1115,26 +1126,21 @@ function newwoman(){
         dj = "woman";
         document.getElementById("woman").classList.add("dj");
         document.getElementById("man").classList.remove("dj");
-        picturing(womanobj[k]);
 
-}
-function picturing(i){
-    console.log(`picturing ${i} is i`);
-    console.log(`picturing ${i.fullsong} is i's song`);
-    if(i.picture){
-        console.log(`picturing there is a pic`);
-        document.getElementById("picture").innerHTML=`
-        <img src="static/img/${i.picture}" alt="${i.artist}" class="pic">
-        `;
-    }
-    else{
-        console.log(`picturing there is no pic`);
-        document.getElementById("picture").innerHTML=`
+        if(womanobj[k].picture){
+            console.log("there is a pic");
+            document.getElementById("picture").innerHTML=`
+        <img src="static/img/${womanobj[k].picture}" alt="${womanobj[k].artist}" class="pic">
+        `
+        }
+        else{
+            console.log("no pic");
+            document.getElementById("picture").innerHTML=`
         
-        `;
-    }
-}
+        `
+        }
 
+}
 function pauseplay(){
     if(x == "steady"){
         console.log("x steady");
@@ -1142,19 +1148,18 @@ function pauseplay(){
     if(x=="paused"){
         console.log("status is now playing");
         document.getElementById("music").play();
+        x = "playing";
         document.getElementById("status").innerHTML=`
         <img src="static/img/pause.png" alt="pause" class="btn" onclick="pauseplay()">
-        `;
-        x = "playing";
-
+        `
     }
     else if(x=="playing"){
         console.log("status is now paused");
         document.getElementById("music").pause();
+        x = "paused";
         document.getElementById("status").innerHTML=`
         <img src="static/img/play.png" alt="resume" class="btn" onclick="pauseplay()">
-        `;
-        x = "paused";
+        `
     }
 }
 

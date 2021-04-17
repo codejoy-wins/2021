@@ -2,83 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Max Jann's Personal Website">
-    <meta name="author" content="Max Jann">
-    <meta name="keywords" content="blog, music, games, chess, pokemon, reviews, apps, art">
-
-
-    <title>Max Jann XP5</title>
-    <link rel="stylesheet" href="static/css/xp.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap" rel="stylesheet">
+    <title>Alien</title>
+    <link rel="stylesheet" href="static/css/alien.css">
+    <script src="alien.js"></script>
     <link rel="shortcut icon" type="image/jpg" href="static/img/blueknight.png"/>
-    <script src="welcome.js"></script>
+
 </head>
 <body>
     <div id="rapper">
-        <div id="main">
-            <a href="april.html">
-                <div class="bigguy">
-                    <img src="static/img/Blog22.jpg" alt="godzilla" class="picmain">
-                </div>
-            </a>
-            <a href="alien.html">
-                <div class="spotsubmain3">
-                    <img src="static/img/DJAliensJ.jpg" alt="mac miller"  class="blue">
-                </div>
-            </a>
-            <a href="home.html">
-                <div class="spotsubmain4">
-                    <img src="static/img/Reviews2.jpg" alt="ellie" class="green">
-                </div>
-            </a>
-            <a href="cards.html">
-                <div class="spotsubmain8">
-                    <img src="static/img/charizard2.jpg" alt="legendary" class="poke">
-                </div>
-            </a>
-            <a href="meme.html">
-                <div class="spotsubmain5">
-                    <img src="static/img/Meme.jpg" alt="black spidey" class="purple">
-                </div>
-            </a>
-            <a href="comic.html">
-                <div class="spotsubmain">
-                    <img src="static/img/quantum.png" alt="quantum" class="red">
-                </div>
-            </a>
-            <a href="art.html">
-                <div class="spotsubmain6">
-                    <img src="static/img/jag.jpg" alt="jag" class="pink">
-                </div>
-            </a>
-            <a href="music.html">
-                <div class="spotsubmain">
-                    <img src="static/img/taylor.png" alt="music" class="red">
-                </div>
-            </a>
-            <a href="game.html">
-                <div class="spotsubmain7">
-                    <img src="static/img/star.png" alt="starbros" class="yellow">
-                </div>
-            </a>
-            <a href="chess.html">
-                <div class="spotsubmain">
-                    <img src="static/img/Chess.jpg" alt="chess" class="red">
-                </div>
-            </a>
-            <a href="news.html">
-                <div class="spotsubmain">
-                    <img src="static/img/news3.jpg" alt="news" class="red">
-                </div>
-            </a>
+        <div id="master">
+            <audio id="music" onended="playlist()">
+                <source src="static/audio/Reckoner.mp3" type="audio/mpeg">
+            </audio>
         </div>
-        <div id="footer">
-            <h3>&copy; Jann Software 2021</h3>
+        <div id="status" class="hide">
+            <img src="static/img/pause.png" alt="pause" class="btn" onclick="pauseplay()">
         </div>
+        <div id="heading">
+            <a href="welcome.html" onmouseover="blog()" onmouseout="alien()" target="_blank" rel="noopener noreferrer" ><h1 id="switch"><span class="gold">DJ Aliens</span></h1></a>
+        </div>
+        <div id="picture">
+            
+        </div>
+        <div id="woman" class="xy">
+        <img src="static/img/eli4.jpg" alt="woman" class="pic" onclick="newwoman()">
+        </div>
+        <div id="man" class="xy">
+            <img src="static/img/eli5.jpg" alt="man" class="pic" onclick="newman()">
+        </div>
+        <div id="info">
 
+        </div>
     </div>
-    
 </body>
 </html>
