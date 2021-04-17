@@ -24,10 +24,10 @@ let data = [
     },
     {
         "name":"miss",
-        "img": "sohot.jpg",
-        "story": "On Friday Max turned down miss america on the grounds that she wasn't pretty enough.",
-        "headline": "Miss America turned down",
-        "fullstory": "Sorry ladies, I only date models.",
+        "img": "fine.jpg",
+        "story": "On Thursday a woman was photographed and thought to be an angel by the press.",
+        "headline": "Woman or Angelic Being?",
+        "fullstory": "Either way, she's hot.",
     },
     {
         "name":"vax",
