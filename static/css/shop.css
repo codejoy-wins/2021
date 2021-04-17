@@ -1,0 +1,81 @@
+#nav:hover{
+    cursor: url(../img/note2.png), auto;
+}
+#nav a:hover{
+    cursor: cell;
+}
+*{
+    font-family: 'Spectral', serif;
+
+}
+
+html{
+    background-image: url(../img/beauty.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    text-align: center;
+    color: white;
+}
+#rapper{
+    margin: 0 auto;
+    padding: 1.5vw;
+    text-align: center;
+}
+.song{
+    max-width: 100%;
+    width: 70ch;
+    text-align: center;
+    opacity: .8;
+    
+}
+.songframe{
+    max-width: 100%;
+    width: 70ch;
+    text-align: center;
+    background-color: pink;
+}
+.option{
+    display: inline-block;
+    padding: 1vw;
+}
+#nav{
+    background-color: rgba(21, 229, 236, 0.445);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+a:hover{
+    color: whitesmoke;
+}
+.current{
+    font-weight: bold;
+    color: whitesmoke;
+}
+#nav:hover .current{
+    color: black;
+}
+#nav{
+    text-align: center;
+}
+#vids{
+    text-align: center;
+}
+.vid{
+    max-width: 100%;
+    width: 600px;
+    text-align: center;
+}
+.pic{
+    max-width: 100%;
+}
+.item{
+    max-width: 100%;
+}

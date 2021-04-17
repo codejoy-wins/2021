@@ -63,7 +63,7 @@ a{
     text-decoration: none;
     color: black;
 }
-a:hover{
+#nav a:hover{
     background-color: black;
     color: wheat;
     padding: 1vw;
