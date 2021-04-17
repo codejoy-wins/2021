@@ -166,7 +166,7 @@ p{
     display: inline-block;
 }
 #wtf{
-    border: 2ch solid blueviolet;
+    border: 2ch solid black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

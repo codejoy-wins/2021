@@ -27,6 +27,10 @@ const preventing = (e)=>{
     document.getElementById("info").innerHTML="";
     
 }
+function clearurl(){
+    console.log(`clearing`);
+    document.getElementById("pic").value=``;
+}
 
 function makememe(meme){
     console.log(`meme.color = ${meme.color}`);
