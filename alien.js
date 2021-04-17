@@ -1074,7 +1074,15 @@ function newman(){
         document.getElementById("man").classList.add("dj");
         document.getElementById("woman").classList.remove("dj");
         // pic
-        picturing(manobj[k]);
+        if(manobj[k].picture){
+            picturing(manobj[k].picture);
+        }else{
+            clearpic();
+        }
+        document.getElementById("tight").innerHTML=manobj[k].fullsong;
+}
+function clearpic(){
+    document.getElementById("picture").innerHTML=``;
 }
 
 function newwoman(){
@@ -1115,24 +1123,18 @@ function newwoman(){
         dj = "woman";
         document.getElementById("woman").classList.add("dj");
         document.getElementById("man").classList.remove("dj");
-        picturing(womanobj[k]);
+        if(womanobj[k].picture){
+            picturing(womanobj[k].picture);
+        }else{
+            clearpic();
+        }
+        document.getElementById("tight").innerHTML=womanobj[k].fullsong;
 
 }
 function picturing(i){
-    console.log(`picturing ${i} is i`);
-    console.log(`picturing ${i.fullsong} is i's song`);
-    if(i.picture){
-        console.log(`picturing there is a pic`);
-        document.getElementById("picture").innerHTML=`
-        <img src="static/img/${i.picture}" alt="${i.artist}" class="pic">
+    document.getElementById("picture").innerHTML=`
+        <img src="static/img/${i}" alt="failed" class="pic">
         `;
-    }
-    else{
-        console.log(`picturing there is no pic`);
-        document.getElementById("picture").innerHTML=`
-        
-        `;
-    }
 }
 
 function pauseplay(){
