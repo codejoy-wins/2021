@@ -630,13 +630,13 @@ let womanobj = [
         "song": "Aside",
         "artist": "Weakerthans",
         "fullsong": "Aside",
-        "picture": "",
+        "picture": "weakerthans.jpeg",
     },
     {
         "song": "breakYourHeart",
         "artist": "Weakerthans",
         "fullsong": "I am Trying to Break Your Heart",
-        "picture": "",
+        "picture": "weakerthans.jpeg",
     },
     {
         "song": "couldYouBeLoved",
