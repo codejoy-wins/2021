@@ -1,6 +1,10 @@
 *{
     font-family: 'Spectral', serif;
 }
+html{
+    background-image: url("../img/god.jpeg");
+    background-size: contain;
+}
 html, body{
     margin: 0;
     padding: 0;
@@ -21,12 +25,11 @@ html, body{
 }
 #rapper{
     margin: 0 auto;
+    line-height: 10vw;
     padding-top: 2px;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
-    background-image: url("../img/god.jpeg");
-    background-size: contain;
-    color: white;
+    color: rgba(255, 255, 255, 0.808);
     text-align: center;
 }
 #rapper10{
@@ -110,9 +113,11 @@ a:hover{
 #dev2{
     height: 800px;
     overflow: auto;
+    padding-bottom: 1vw;
 }
 #dev2 p{
     padding-top: 20vw;
+    font-size: larger;
 }
 .i{
     font-style: italic;
@@ -128,4 +133,12 @@ a:hover{
 .game h5:hover{
     color: pink;
     cursor: cell;
+}
+.clear{
+    background-color: rgba(0, 0, 0, 0.431);
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.name{
+    color: rgba(228, 215, 231, 0.685);
 }
