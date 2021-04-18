@@ -519,10 +519,21 @@ let manobj = [
         "fullsong": "The Kids Aren't Alright",
         "picture": "theoffspring.jpg"
     },
-    
+    {
+        "song": "Everything",
+        "artist": "Radiohead",
+        "fullsong": "Everything in its Right Place",
+        "picture": "radiohead.jpg"
+    },
 ];
 
 let womanobj = [
+    {
+        "song": "Underwater",
+        "artist": "Death Cab for Cutie",
+        "fullsong": "Underwater",
+        "picture": "deathcab.jpg"
+    },
     {
         "song": "Way",
         "artist": "Ingrid Michaelson",
@@ -539,12 +550,6 @@ let womanobj = [
         "song": "Police",
         "artist": "Radiohead",
         "fullsong": "Karma Police",
-        "picture": "radiohead.jpg"
-    },
-    {
-        "song": "Everything",
-        "artist": "Radiohead",
-        "fullsong": "Everything in its Right Place",
         "picture": "radiohead.jpg"
     },
     {
