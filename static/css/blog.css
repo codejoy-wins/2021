@@ -421,7 +421,7 @@ body{
 }
 .picfloatverysmall{
     float: left;
-    max-width: 45%;
+    max-width: 100%;
     padding-right: 1vw;
     max-height: 350px;
 }
