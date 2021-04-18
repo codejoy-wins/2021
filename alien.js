@@ -530,6 +530,30 @@ let womanobj = [
         "picture": ""
     },
     {
+        "song": "Dry",
+        "artist": "Radiohead",
+        "fullsong": "High and Dry",
+        "picture": "radiohead.jpg"
+    },
+    {
+        "song": "Police",
+        "artist": "Radiohead",
+        "fullsong": "Karma Police",
+        "picture": "radiohead.jpg"
+    },
+    {
+        "song": "Everything",
+        "artist": "Radiohead",
+        "fullsong": "Everything in its Right Place",
+        "picture": "radiohead.jpg"
+    },
+    {
+        "song": "Tapez",
+        "artist": "AmpLive Radiohead ft Del the Funky Homosapien",
+        "fullsong": "VideoTapez",
+        "picture": "radiohead.jpg"
+    },
+    {
         "song": "Lying",
         "artist": "Max Jann",
         "fullsong": "Lying",
