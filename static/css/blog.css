@@ -174,11 +174,31 @@ h1 a{
     border-radius: 1ch;
     padding: 3vw;
     /* background-color: rgba(221, 160, 221, 0.733); */
-    background-color: rgba(175, 6, 175, 0.582);
+    background-color: rgba(175, 6, 175, 0.87);
 
 
     color: black;
     font-size: larger;
+}
+.postnew{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(221, 160, 221, 0.733); */
+    /* background-color: rgba(138, 91, 138, 0.582); */
+    background-color: rgba(246, 4, 4, 0.603);
+
+
+
+    color: black;
+    font-size: larger;
+}
+.postnew p{
+    /* background-color: rgba(246, 4, 4, 0.621); */
+    background-color: rgba(255, 255, 255, 0.795);
+
+    padding: 1vw;
+    border-radius: 1vw;
+
 }
 .post3{
     color: wheat;
@@ -287,6 +307,7 @@ h1 a{
     border-radius: 1vw;
 
 }
+
 h2, h3{
     color: wheat;
     text-align: right;
