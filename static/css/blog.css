@@ -460,3 +460,16 @@ body{
     padding-left: 1vw;
 }
 
+#cold:hover{
+    color: whitesmoke;
+}
+#blog .post #shell p{
+    padding: .3vw;
+    color: pink;
+    background-color: rgba(55, 84, 211, 0);
+}
+#blog .post #shell p:hover{
+    padding: .3vw;
+    color: wheat;
+    background-color: rgba(55, 84, 211, 0);
+}

@@ -125,3 +125,14 @@ a:hover{
     color: black;
     padding: .5vw;
 }
+.strategy{
+    background-color: silver;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+#normal p a{
+    color: white;
+}
+.strategy #normal a{
+    color: whitesmoke;
+}
