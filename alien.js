@@ -5,10 +5,58 @@ let dj = "";
 
 let manobj = [
     {
+        "song":"Babylon",
+        "artist": "Sublime",
+        "fullsong": "Rivers of Babylon",
+        "picture": "sublimedog.jpg",
+    },
+    {
+        "song":"Badfish",
+        "artist": "Sublime",
+        "fullsong": "Badfish",
+        "picture": "sublimedog.jpg",
+    },
+    {
         "song":"Patience",
-        "artist": "Damien Marley featuring Nas",
+        "artist": "Sublime",
         "fullsong": "Patience",
-        "picture": "damien.jpg",
+        "picture": "sublimedog.jpg",
+    },
+    {
+        "song":"Diamonds",
+        "artist": "Transplants",
+        "fullsong": "Diamonds and Guns",
+        "picture": "",
+    },
+    {
+        "song":"Ruca",
+        "artist": "Sublime",
+        "fullsong": "Waiting for My Ruca",
+        "picture": "sublimedog.jpg",
+    },
+    {
+        "song":"Summertime",
+        "artist": "Sublime",
+        "fullsong": "Doin Time",
+        "picture": "sublimedog.jpg",
+    },
+    {
+        "song":"TimeBomb",
+        "artist": "Rancid",
+        "fullsong": "Time Bomb",
+        "picture": "",
+    },
+    {
+        "song":"Thief",
+        "artist": "Box Car Racer",
+        "fullsong": "Cat Like Thief",
+        "picture": "",
+    },
+    {
+        "song":"Tall",
+        "artist": "Transplants",
+        "fullsong": "Tall Cans in the Air",
+        "picture": "",
     },
     {
         "song":"Zion",
@@ -528,6 +576,12 @@ let manobj = [
 ];
 
 let womanobj = [
+    {
+        "song": "Thereis",
+        "artist": "Box Car Racer",
+        "fullsong": "There is",
+        "picture": ""
+    },
     {
         "song": "Underwater",
         "artist": "Death Cab for Cutie",
