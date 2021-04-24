@@ -577,6 +577,12 @@ let manobj = [
 
 let womanobj = [
     {
+        "song": "Lovesong",
+        "artist": "The Cure",
+        "fullsong": "Lovesong",
+        "picture": ""
+    },
+    {
         "song": "Thereis",
         "artist": "Box Car Racer",
         "fullsong": "There is",
