@@ -18,9 +18,9 @@ let manobj = [
     },
     {
         "song":"Patience",
-        "artist": "Sublime",
+        "artist": "Damien Marley featuring Nas",
         "fullsong": "Patience",
-        "picture": "sublimedog.jpg",
+        "picture": "damien.jpg",
     },
     {
         "song":"Diamonds",
