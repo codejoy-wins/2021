@@ -1,0 +1,39 @@
+h1{
+    color: blue;
+}
+#rapper{
+    text-align: center;
+}
+.choice{
+    display: inline-block;
+    padding: 1vw;
+    border-radius: 1vw;
+    margin: 2vw;
+    background-color: rgba(255, 217, 0, 0.815);
+}
+#choices{
+    /* background-color: pink; */
+    padding-bottom: 25ch;
+    padding-top: 25ch;
+}
+#log{
+    background-color: black;
+    color: rgb(2, 255, 2);
+    padding: 1vw;
+    height: 17ch;
+    overflow: auto;
+}
+.gold{
+    color: gold;
+    font-style: italic;
+    background-color: black;
+    padding: 2vw;
+    border-radius: 1vw;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+a:hover h1{
+    color: gold;
+}
