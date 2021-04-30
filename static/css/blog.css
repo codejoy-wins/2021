@@ -168,6 +168,25 @@ h1 a{
     color: black;
     font-size: larger;
 }
+.post33{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(8, 250, 0, 0.68);
+    color: black;
+    font-size: larger;
+}
+.post33 h2{
+    color: black;
+}
+.post33 h3{
+    color: black;
+}
+.post33 p{
+    color: black;
+    background-color: rgba(243, 234, 243, 0.746);
+    padding: 1vw;
+    border-radius: 1vw;
+}
 .post1advanced{
     border-radius: 1ch;
     padding: 3vw;
