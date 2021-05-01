@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song":"Fly",
+        "artist": "Max Jann",
+        "fullsong": "Fly",
+        "picture": "fly.jpg",
+    },
+    {
         "song":"Babylon",
         "artist": "Sublime",
         "fullsong": "Rivers of Babylon",
