@@ -290,3 +290,21 @@ h3{
 .post{
     color: white;
 }
+#playa{
+    color: whitesmoke;
+}
+li{
+    text-align: left;
+}
+.option{
+    display: inline-block;
+    padding: 4vw;
+}
+.option:hover{
+    display: inline-block;
+    padding: 4vw;
+    color: gold;
+}
+.current{
+    color: gold;
+}
