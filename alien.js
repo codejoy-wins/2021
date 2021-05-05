@@ -328,6 +328,18 @@ let manobj = [
         "picture": "x.jpg"
     },
     {
+        "song": "Hope",
+        "artist": "XXXtentacion",
+        "fullsong": "Hope",
+        "picture": "x.jpg"
+    },
+    {
+        "song": "Run",
+        "artist": "XXXtentacion",
+        "fullsong": "Run",
+        "picture": "x.jpg"
+    },
+    {
         "song": "Love",
         "artist": "Incubus",
         "fullsong": "Love Hurts",
