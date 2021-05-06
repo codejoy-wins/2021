@@ -511,3 +511,15 @@ body{
 .verse h4{
     padding: 1vw;
 }
+.guest{
+    /* background-color: rgba(255, 255, 255, 0.678); */
+    background-color: whitesmoke;
+    max-width: 100%;
+}
+.guest p{
+    background-color: whitesmoke;
+}
+
+.guest a{
+    color: blue;
+}
