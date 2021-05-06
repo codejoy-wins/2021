@@ -1,0 +1,33 @@
+#songs{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.song{
+    background-color: rgba(255, 217, 0, 0.623);
+    padding: 1vw;
+    margin: 3vw;
+    border-radius: 1vw;
+}
+.pic{
+    max-width: 100%;
+    max-height: 600px;
+}
+.songsub{
+    color: white;
+    background-color: rebeccapurple;
+    display: inline-block;
+    border-radius: 1vw;
+    opacity: .4;
+}
+h1{
+    text-align: center;
+    color: gold;
+}
+.song:hover{
+    cursor: url(../img/note2.png), auto;
+}
+a{
+    text-decoration: none;
+}
+a h1:hover{
+    color: black;
+}
