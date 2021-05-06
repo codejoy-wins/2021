@@ -1275,7 +1275,7 @@ function pauseplay(){
 
 function blog(){
     document.getElementById("switch").innerHTML=`
-    Welcome
+    Freedom
     `;
 }
 function alien(){
