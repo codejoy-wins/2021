@@ -505,3 +505,9 @@ body{
     color: wheat;
     background-color: rgba(55, 84, 211, 0);
 }
+.pdf{
+    max-width: 100%;
+}
+.verse h4{
+    padding: 1vw;
+}
