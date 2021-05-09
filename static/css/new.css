@@ -37,3 +37,12 @@ a{
 a:hover h1{
     color: gold;
 }
+
+body{
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+}
+
+html {
+    font-family: 'Spectral', serif;
+
+}
