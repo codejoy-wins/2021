@@ -217,6 +217,14 @@ h1 a{
     color: black;
     font-size: larger;
 }
+.lucifer{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(221, 160, 221, 0.733); */
+    background-color: rgba(211, 17, 17, 0.65);
+    color: black;
+    font-size: larger;
+}
 .postpink{
     border-radius: 1ch;
     padding: 3vw;
@@ -337,6 +345,12 @@ h1 a{
     background-color: rgba(250, 189, 250, 0.621);
     padding: 1vw;
     border-radius: 1vw;
+}
+.lucifer p{
+    background-color: rgba(245, 245, 245, 0.781);
+    padding: 1vw;
+    border-radius: 1vw;
+    color: black;
 }
 .postpink p{
     background-color: rgba(250, 189, 250, 0.621);
@@ -465,6 +479,12 @@ body{
     float: left;
     max-width: 100%;
     padding-right: 1vw;
+}
+.picfloatnew{
+    float: left;
+    max-width: 100%;
+    padding-right: 1vw;
+    max-height: 900px;
 }
 .picfloatsmall{
     float: left;
