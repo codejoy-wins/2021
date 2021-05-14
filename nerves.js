@@ -1,3 +1,13 @@
+function timingiseverything(){
+    let numeroly = new Date;
+    let month = numeroly.getMonth()+1;
+    let day = numeroly.getDate();
+    let year = numeroly.getFullYear();
+    document.getElementById("neo").innerHTML=`${month}/${day}/${year}`;
+}
+timingiseverything();
+
+
 function play(){
     document.getElementById("play").innerHTML=`
                     <div class="vid">
