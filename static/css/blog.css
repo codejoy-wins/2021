@@ -65,6 +65,14 @@ html, body{
     float: left;
     padding-right: 1vw;
 }
+.vidright{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 315px;
+    float: right;
+    padding-left: 1vw;
+}
 #heading{
     text-align: center;
 }
@@ -536,14 +544,7 @@ body{
     max-width: 100%;
     padding-left: 1vw;
 }
-.vidright{
-    max-width: 100%;
-    max-height: 100%;
-    width: 600px;
-    height: 315px;
-    float: right;
-    padding-left: 1vw;
-}
+
 
 #cold:hover{
     color: whitesmoke;
