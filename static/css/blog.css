@@ -225,6 +225,14 @@ h1 a{
     color: black;
     font-size: larger;
 }
+.post2advanced{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(211, 17, 17, 0.65);
+    padding-bottom: 7vw;
+    color: black;
+    font-size: larger;
+}
 .lucifer{
     border-radius: 1ch;
     padding: 3vw;
@@ -383,6 +391,11 @@ ol{
     border-radius: 1vw;
 }
 .post2 p{
+    background-color: rgba(250, 189, 250, 0.621);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.post2advanced p{
     background-color: rgba(250, 189, 250, 0.621);
     padding: 1vw;
     border-radius: 1vw;
