@@ -1,10 +1,57 @@
 let manobj = [
-    
+    {
+        "song":"soundIsVibration",
+        "artist": "Atmosphere",
+        "fullsong": "Sound is Vibration",
+        "picture": "atmos.jpg",
+    },
+    {
+        "song":"Sabotage",
+        "artist": "Beastie Boys",
+        "fullsong": "Sabotage",
+        "picture": "",
+    },
+    {
+        "song":"Difference",
+        "artist": "Flume",
+        "fullsong": "Difference",
+        "picture": "flume.jpg",
+    },
+    {
+        "song":"Godzilla",
+        "artist": "Eminem",
+        "fullsong": "Godzilla feat Juice Wrld",
+        "picture": "m.jpg",
+    },
+    {
+        "song":"Homicide",
+        "artist": "Logic",
+        "fullsong": "Homicide feat Eminem",
+        "picture": "m.jpg",
+    },
+    {
+        "song":"bestday",
+        "artist": "Atmosphere",
+        "fullsong": "Best Day",
+        "picture": "atmos.jpg",
+    },
+    {
+        "song":"Bagpipes",
+        "artist": "Eminem",
+        "fullsong": "Bagpipes from Bahgdad",
+        "picture": "m.jpg",
+    },
     {
         "song":"Babylon",
         "artist": "Sublime",
         "fullsong": "Rivers of Babylon",
         "picture": "sublimedog.jpg",
+    },
+    {
+        "song":"revengex",
+        "artist": "XXXTENTACION",
+        "fullsong": "Revenge",
+        "picture": "x.jpg",
     },
     {
         "song":"Badfish",
