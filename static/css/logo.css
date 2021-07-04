@@ -1,0 +1,71 @@
+#rapper{
+    margin: 0 auto;
+    max-width: 100%;
+    color: black;
+}
+html{
+    background-color: limegreen;
+}
+
+@font-face {
+    font-family: jingle;
+    src: url(../fonts/Jingleberry.otf);
+}
+/* animate the h1 to shine */
+
+@keyframes elam {
+    10%{
+        text-shadow: 2ch gold;
+        color: gold;
+    }
+    40%{
+        text-shadow: 3ch silver;
+        color: silver;
+    }
+    80%{
+        text-shadow: 2.5ch gold;
+        color: gold;
+    }
+}
+
+@keyframes delayer {
+    10%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 100%;
+    }
+}
+.pic{
+    max-width: 100%;
+}
+h1{
+    color: black;
+    font-family: jingle;
+    font-size: 10vw;
+    max-width: 100%;
+    animation: elam 4s infinite;
+}
+/* delay this h2 */
+h2{
+    color: black;
+    animation: delayer 14s infinite;
+    opacity: 0%;
+}
+h3{
+    animation: spark 3s infinite;
+    max-width: 100%;
+}
+#spark{
+    max-width: 100%;
+}
+
+.logo{
+    text-align: center;
+    max-width: 100%;
+    padding: 2vw;
+    padding-top: 10vw;
+}
