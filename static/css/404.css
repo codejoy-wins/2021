@@ -1,0 +1,9 @@
+html{
+    background-image: url(../img/odell.jpeg);
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
