@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phone Quotes</title>
+
+    <link rel="stylesheet" href="static/css/quote.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="static/img/mj3.png"/>
+
+</head>
+
+<body>
+
+    <div id="rapper">
+
+        <h1 id="heading">Phone Quote Form</h1>
+
+        <!-- I can code it to say good afternoon or morning or evening depending on time of day -->
+
+        <form id="master">
+
+            <p class="question">What is Your Name and Date of Birth? <input class="big" type="text" name="first" id="first" placeholder="First"><input class="big" type="text" name="last" id="last" placeholder="Last"><input class="small" type="date" name="dob" id="dob" placeholder="DOB"></p>
+<!-- Married Radio Boxes can both be checked which isn't good right now -->
+            <p class="question2">What is the Year Make and Model? <input class="big" type="text" name="year" id="year" placeholder="Year"><input class="big" type="text" name="make" id="make" placeholder="Make"><input class="big" type="text" name="model" id="model" placeholder="Model"></p>
+
+            <p class="question">What is the Unit Value? <input class="big" type="text" name="val" id="val" placeholder="Value" value=0><input class="big" type="text" name="length" id="length" placeholder="Length"><input class="big" type="text" name="slides" id="slides" placeholder="Slides"></p>
+
+            <p class="question2">What is the VIN <input class="big" type="text" name="vin" id="vin" placeholder="VIN"><input type="text" class="big" name="cc" id="cc" placeholder="CC Size"> Safety Course?<input class="small" type="checkbox" name="safety" id="safety"></p>
+
+            <p class="question">Mailing Address? <input class="big" type="text" name="street" id="street" placeholder="Street"><input class="big" type="text" name="city" id="city" placeholder="City"><input class="small" type="text" name="state" id="state" placeholder="State"><input class="small" type="text" name="zip" id="zip" placeholder="Zip"></p>
+
+            <p class="question2">Storage Address? <input class="big" type="text" name="storestreet" id="storestreet" placeholder="Street"><input class="big" type="text" name="storecity" id="storecity" placeholder="City"><input class="small" type="text" name="storestate" id="storestate" placeholder="State"><input class="small" type="text" name="storezip" id="storezip" placeholder="Zip"></p>
+
+            <p class="question">Is it just you on the policy? <input class="small" type="checkbox" name="you" id="you"></p>
+
+            <p class="question2">2nd Driver <input class="big" type="text" name="secondfirst" id="secondfirst" placeholder="First"><input class="big" type="text" name="secondlast" id="secondlast" placeholder="Last"><input class="small" type="date" name="seconddob" id="seconddob" placeholder="DOB"></p>
+
+            <p class="question">Married?<input class="small" name="married" id="married" type="radio"> Single?<input class="small" name="single" id="single" type="radio"></p>
+
+            <p class="question2">Email Address You want the quote sent to? <input class="big" type="email" name="email" id="email"></p>
+
+            <p class="question">Are you shopping at a dealership?  Which Dealership?  Who is your contact their? <input class="big" type="text" name="dlr" id="dlr"></p>
+
+            
+
+            <p class="question2">DL number and state? <input class="big" type="text" name="dl" id="dl"></p>
+
+            <p class="question">Phone Number <input class="big" type="number" name="phone" id="phone"></p>
+
+            <p class="question2">Stationary? <input class="small" type="checkbox" name="stationary" id="stationary"></p>
+
+            <p class="question">Full Time? <input class="small" type="checkbox" name="fulltime" id="fulltime"></p>
+
+            <p class="question2">Homeowner <input class="small" type="checkbox" name="homeowner" id="homeowner"></p>
+
+            <p class="question">Years of Experience? <input class="small" type="text" name="xp" id="xp" value="0"></p>
+
+            <p class="question2">Previous Insurance <input class="big" type="text" name="prev" id="prev"></p>
+
+            <p class="question">RV Association? <input class="big" type="text" name="member" id="member"></p>
+
+            <p class="question2">Lienholder Info <input class="big" type="text" name="lien" id="lien" placeholder="name"><input type="text" class="big" name="lienadd" id="lienadd" placeholder="address"></p>
+
+            <p class="question">How Submitted? <input class="big" type="text" name="how" id="how"></p>
+
+            <p class="question2">Lead Source? <input class="big" type="text" name="lead" id="lead"></p>
+
+            <p class="question3">Anything Else we should know? </p>
+
+            <textarea name="anything" id="anything" cols="200" rows="10"></textarea>
+
+            <p class="question">Agent Name? <input class="big" type="text" name="agent" id="agent"></p>
+            <div id="sub" class="blue">
+                <button>Submit To Access</button>
+            </div>
+            <div id="reset" class="red">
+                Clear Form
+            </div>
+
+        </form>
+        <div id="info">
+            
+        </div>
+
+        <div>
+
+            <h3>&copy; Jann Software -- Beta -- API not set up</h3>
+
+        </div>
+
+    </div>
+
+
+    <script src="quote.js"></script>
+<!-- 
+    Submit form to API
+    Secure Data.
+
+    For Now - Submit form to js and just append it to the html to show the field ids and values -->
+    
+
+</body>
+
+</html>
+
+ 

@@ -1,0 +1,93 @@
+*{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#rapper{
+
+    margin: 0 auto;
+
+    padding: 2.4vw
+
+}
+
+.question{
+
+    background-color: rgba(173, 216, 230, 0.534);
+
+    padding: 1vw;
+
+    border-radius: 1vw;
+
+}
+
+.question3{
+
+    background-color: rgba(33, 179, 70, 0.534);
+
+    padding: 1vw;
+
+    border-radius: 1vw;
+
+}
+button{
+    background-color: rgba(0, 255, 255, 0.315);
+    padding: 1vw;
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.555);
+    padding: 1vw;
+    border-radius: 1vw;
+    display: inline-block;
+}
+.blue{
+    background-color: rgba(21, 60, 231, 0.555);
+    display: inline-block;
+}
+.peep{
+    max-width: 100%;
+    background-color: rgba(46, 177, 230, 0.527);
+    margin: .4vw;
+    padding: .2vw;
+
+}
+
+.big{
+    padding: .5vw;
+
+    max-width: 100%;
+
+    width: 40ch;
+}
+.small{
+    padding: .5vw;
+
+    max-width: 100%;
+
+    min-width: 10ch;
+}
+
+/* input{
+
+    padding: .5vw;
+
+    max-width: 100%;
+
+    width: 40ch;
+
+} */
+
+
+h1{
+
+    text-align: center;
+    color: blueviolet;
+
+}
+
+textarea{
+
+    max-width: 100%;
+
+}
