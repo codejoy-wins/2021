@@ -5,6 +5,18 @@ let dj = "";
 
 let manobj = [
     {
+        "song":"Queen",
+        "artist": "Perfume Genius",
+        "fullsong": "Queen",
+        "picture": "",
+    },
+    {
+        "song":"Hurt",
+        "artist": "Oliver Tree",
+        "fullsong": "Hurt",
+        "picture": "",
+    },
+    {
         "song":"soundIsVibration",
         "artist": "Atmosphere",
         "fullsong": "Sound is Vibration",
