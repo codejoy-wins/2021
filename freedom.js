@@ -6,6 +6,12 @@ let manobj = [
         "picture": "cute.jpg"
     },
     {
+        "song": "hopeurok",
+        "artist":"Olivia Rodrigo",
+        "fullsong": "Hope ur ok",
+        "picture": "oliviar.jpg"
+    },
+    {
         "song":"Queen",
         "artist": "Perfume Genius",
         "fullsong": "Queen",
