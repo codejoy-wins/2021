@@ -1,5 +1,11 @@
 let manobj = [
     {
+        "song":"TeenSpirit",
+        "artist": "Malia J",
+        "fullsong": "Smells Like Teen Spirit Cover",
+        "picture": "",
+    },
+    {
         "song": "positions",
         "artist":"Ariana Grande",
         "fullsong": "Positions",
