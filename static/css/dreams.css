@@ -163,7 +163,7 @@ html, body{
     max-height: 400px;
 }
 .spotsubmain118{
-    background-image: url(../img/dk.jpeg);
+    background-image: url(../img/alvin.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -185,6 +185,18 @@ html, body{
     max-height: 400px;
 }
 .spotsubmain6{
+    /* background-color: blue; */
+    background-image: url(../img/worldball.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain667{
     /* background-color: blue; */
     background-image: url(../img/worldball.jpg);
     background-size: contain;
