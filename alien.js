@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song": "allmyfav",
+        "artist": "Weezer",
+        "fullsong": "All My Favorite Songs",
+        "picture": "weezer2.jpg",
+    },
+    {
         "song":"TeenSpirit",
         "artist": "Malia J",
         "fullsong": "Smells Like Teen Spirit Cover",
