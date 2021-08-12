@@ -297,10 +297,32 @@ h1 a{
     padding: 1vw;
     border-radius: 1vw;
 }
+/* background-color: rgba(78, 166, 218, 0.746); */
+
+.purplenew p{
+    color: rgb(0, 0, 0);
+    background-color: rgba(235, 223, 223, 0.746);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.purplenew a{
+    color: rgb(0, 162, 255);
+}
+.purplenew a:hover{
+    color: rgba(238, 130, 238, 0.829);
+}
 .dark{
     border-radius: 1ch;
     padding: 3vw;
     background-color: rgba(36, 10, 36, 0.582);
+    color: black;
+    font-size: larger;
+    padding-bottom: 6vw;
+}
+.purplenew{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(146, 22, 146, 0.582);
     color: black;
     font-size: larger;
     padding-bottom: 6vw;
