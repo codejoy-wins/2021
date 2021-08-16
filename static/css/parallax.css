@@ -62,11 +62,11 @@ html, body{
 }
 .parallax{
     background-image: url("../img/tyreek.jpg");
-    min-height: 1000px;
+    min-height: 600px;
     background-attachment: fixed;
     /* background-position: center; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin-top: -50px;
     max-width: 100%;
 }
@@ -79,27 +79,30 @@ a:hover{
 }
 .parallax2{
     background-image: url("../img/diggs.jpeg");
-    min-height: 1000px;
+    min-height: 600px;
     background-attachment: fixed;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: contain;
 }
 .parallax3{
     background-image: url("../img/mike.jpg");
-    min-height: 1000px;
+    min-height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: contain;
 }
 .parallax4{
     background-image: url("../img/arob.jpg");
-    min-height: 1000px;
+    min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: contain;
 }
 h1{
     text-align: center;
