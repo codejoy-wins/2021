@@ -1,3 +1,7 @@
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+
+
+
 html, body{
     height: 100%;
     background-color: black;
@@ -65,7 +69,7 @@ html, body{
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin-top: -50px;
     max-width: 100%;
 }
@@ -81,7 +85,7 @@ a:hover{
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .parallax3{
     background-image: url("../img/mike.jpg");
@@ -89,7 +93,7 @@ a:hover{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .parallax4{
     background-image: url("../img/arob.jpg");
@@ -97,7 +101,15 @@ a:hover{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+}
+.parallax5{
+    background-image: url("../img/alvin.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     text-align: center;
@@ -112,3 +124,26 @@ p{
     padding: 1vw;
     color: gold;
 }
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+      background-image: url(../img/tyreek.jpg);
+    }
+    .parallax2 {
+        background-attachment: scroll;
+        background-image: url(../img/diggs.jpeg);
+      }
+      .parallax3 {
+        background-attachment: scroll;
+        background-image: url(../img/mike.jpg);
+      }
+      .parallax4 {
+        background-attachment: scroll;
+        background-image: url(../img/dk.jpeg);
+      }
+      .parallax5 {
+        background-attachment: scroll;
+        background-image: url(../img/tyreek.jpg);
+        background-size: contain;
+      }
+  }
