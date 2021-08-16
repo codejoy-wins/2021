@@ -62,9 +62,8 @@ html, body{
 }
 .parallax{
     background-image: url("../img/tyreek.jpg");
-    min-height: 600px;
+    height: 100vw;
     background-attachment: fixed;
-    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: -50px;
@@ -79,29 +78,25 @@ a:hover{
 }
 .parallax2{
     background-image: url("../img/diggs.jpeg");
-    min-height: 600px;
+    height: 100vw;
     background-attachment: fixed;
-    /* background-position: center; */
     background-repeat: no-repeat;
-    /* background-size: cover; */
     background-size: contain;
 }
 .parallax3{
     background-image: url("../img/mike.jpg");
-    min-height: 600px;
+    height: 100vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
     background-size: contain;
 }
 .parallax4{
     background-image: url("../img/arob.jpg");
-    min-height: 800px;
+    height: 100vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
     background-size: contain;
 }
 h1{
