@@ -1,0 +1,115 @@
+html, body{
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+*{
+    font-family: 'Spectral', serif;
+}
+.right{
+   float: right;
+}
+#first{
+    color: red;
+    font-size: xx-large;
+}
+#goldfirst{
+    color: gold;
+    font-size: xx-large;
+}
+#bluefirst{
+    color: royalblue;
+    font-size: xx-large;
+}
+.tiny{
+    max-width: 200px;
+    max-height: 50px;
+}
+#foot{
+    background-color: white;
+    padding: 1vw;
+}
+.special{
+    display: inline-block;
+}
+.texzt{
+    background-color: white;
+    padding: 1vw;
+}
+#left{
+    /* background-color: purple; */
+    padding: 0;
+    margin: 0;
+    max-width: 46%;
+    height: 100%;
+    display: inline-block;
+}
+#right{
+    color: orange;
+    max-width: 46%;
+    height: 100%;
+    display: inline-block;
+}
+.feature{
+    max-width: 100%;
+}
+#banner{
+    background-color: rgba(146, 25, 25, 0.116);
+    max-height: 50px;
+}
+.parallax{
+    background-image: url("../img/tyreek.jpg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: gold;
+}
+.parallax2{
+    background-image: url("../img/diggs.jpeg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3{
+    background-image: url("../img/mike.jpg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4{
+    background-image: url("../img/arob.jpg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.pikachu{
+    color: orange;
+}
+p{
+    color: rgba(24, 23, 23, 0.918);
+}
+.team{
+    padding: 1vw;
+    color: gold;
+}
