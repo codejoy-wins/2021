@@ -75,10 +75,10 @@ html, body{
 }
 a{
     text-decoration: none;
-    color: blue;
+    color: gold;
 }
 a:hover{
-    color: gold;
+    color: black;
 }
 .parallax2{
     background-image: url("../img/diggs.jpeg");
@@ -143,7 +143,6 @@ p{
       }
       .parallax5 {
         background-attachment: scroll;
-        background-image: url(../img/tyreek.jpg);
-        background-size: contain;
+        background-image: url(../img/alvin.jpg);
       }
   }
