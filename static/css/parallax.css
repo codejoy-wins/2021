@@ -96,7 +96,7 @@ a:hover{
     background-size: cover;
 }
 .parallax4{
-    background-image: url("../img/arob.jpg");
+    background-image: url("../img/dk.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -105,6 +105,46 @@ a:hover{
 }
 .parallax5{
     background-image: url("../img/alvin.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax6{
+    background-image: url("../img/aiyuk.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.parallax7{
+    background-image: url("../img/lamar.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax8{
+    background-image: url("../img/mixon.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax9{
+    background-image: url("../img/arob.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax10{
+    background-image: url("../img/draft.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -139,10 +179,30 @@ p{
       }
       .parallax4 {
         background-attachment: scroll;
-        background-image: url(../img/dk.jpeg);
+        background-image: url(../img/dk.jpg);
       }
       .parallax5 {
         background-attachment: scroll;
         background-image: url(../img/alvin.jpg);
+      }
+      .parallax6 {
+        background-attachment: scroll;
+        background-image: url(../img/aiyuk.jpg);
+      }
+      .parallax7 {
+        background-attachment: scroll;
+        background-image: url(../img/lamar.jpg);
+      }
+      .parallax8 {
+        background-attachment: scroll;
+        background-image: url(../img/mixon.jpg);
+      }
+      .parallax9 {
+        background-attachment: scroll;
+        background-image: url(../img/alvin.jpg);
+      }
+      .parallax10 {
+        background-attachment: scroll;
+        background-image: url(../img/draft.jpg);
       }
   }
