@@ -233,6 +233,10 @@ p{
       }
       .parallax10 {
         background-attachment: scroll;
+        background-image: url(../img/draft.jpg);
+      }
+      .parallax11 {
+        background-attachment: scroll;
         background-image: url(../img/dhop.jpg);
       }
       .secret{
