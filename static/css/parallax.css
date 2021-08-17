@@ -11,6 +11,7 @@ html, body{
 }
 *{
     font-family: 'Spectral', serif;
+    font-size: large;
 }
 .right{
    float: right;
@@ -80,9 +81,22 @@ html, body{
 a{
     text-decoration: none;
     color: gold;
+    padding: 1vw;
+    border-radius: 1vw;
 }
 a:hover{
     color: black;
+}
+.real a{
+    text-decoration: none;
+    color: gold;
+    background-color: black;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.real a:hover{
+    color: black;
+    background-color: white;
 }
 .parallax2{
     background-image: url("../img/diggs.jpeg");
@@ -108,7 +122,7 @@ a:hover{
     background-size: cover;
 }
 .parallax5{
-    background-image: url("../img/alvin.jpg");
+    background-image: url("../img/ak.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -155,6 +169,14 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallax11{
+    background-image: url("../img/dhop.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1{
     text-align: center;
 }
@@ -187,7 +209,7 @@ p{
       }
       .parallax5 {
         background-attachment: scroll;
-        background-image: url(../img/alvin.jpg);
+        background-image: url(../img/ak.jpg);
       }
       .parallax6 {
         background-attachment: scroll;
@@ -208,5 +230,12 @@ p{
       .parallax10 {
         background-attachment: scroll;
         background-image: url(../img/draft.jpg);
+      }
+      .parallax10 {
+        background-attachment: scroll;
+        background-image: url(../img/dhop.jpg);
+      }
+      .secret{
+          display: none;
       }
   }
