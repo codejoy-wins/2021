@@ -28,6 +28,10 @@ html, body{
     color: royalblue;
     font-size: xx-large;
 }
+#purplefirst{
+    color: purple;
+    font-size: xx-large;
+}
 .tiny{
     max-width: 200px;
     max-height: 50px;
@@ -128,7 +132,7 @@ a:hover{
     background-size: cover;
 }
 .parallax8{
-    background-image: url("../img/mixon.jpg");
+    background-image: url("../img/joe.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -136,7 +140,7 @@ a:hover{
     background-size: cover;
 }
 .parallax9{
-    background-image: url("../img/arob.jpg");
+    background-image: url("../img/justin.jpeg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -195,11 +199,11 @@ p{
       }
       .parallax8 {
         background-attachment: scroll;
-        background-image: url(../img/mixon.jpg);
+        background-image: url(../img/joe.jpg);
       }
       .parallax9 {
         background-attachment: scroll;
-        background-image: url(../img/alvin.jpg);
+        background-image: url(../img/justin.jpeg);
       }
       .parallax10 {
         background-attachment: scroll;
