@@ -106,7 +106,7 @@ a:hover{
     background-size: cover;
 }
 .parallax3{
-    background-image: url("../img/mike.jpg");
+    background-image: url("../img/abpunch.jpeg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -201,7 +201,7 @@ p{
       }
       .parallax3 {
         background-attachment: scroll;
-        background-image: url(../img/mike.jpg);
+        background-image: url(../img/abpunch.jpeg);
       }
       .parallax4 {
         background-attachment: scroll;
