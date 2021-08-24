@@ -29,8 +29,13 @@ html, body{
     color: royalblue;
     font-size: xx-large;
 }
+
 #purplefirst{
     color: purple;
+    font-size: xx-large;
+}
+#orangefirst{
+    color: orange;
     font-size: xx-large;
 }
 .tiny{
@@ -177,6 +182,22 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.devon{
+    background-image: url("../img/swift.jpeg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ernie{
+    background-image: url("../img/chubb.jpeg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1{
     text-align: center;
 }
@@ -234,12 +255,29 @@ p{
       .parallax10 {
         background-attachment: scroll;
         background-image: url(../img/draft.jpg);
+        background-size: contain;
       }
       .parallax11 {
         background-attachment: scroll;
         background-image: url(../img/dhop.jpg);
       }
+      .devon {
+        background-attachment: scroll;
+        background-image: url(../img/swift.jpeg);
+      }
+      .ernie{
+        background-attachment: scroll;
+        background-image: url(../img/swift.jpeg);
+      }
       .secret{
           display: none;
       }
   }
+  .real a:hover{
+    background-color: white;
+    color: black;
+}
+.real a{
+    background-color: black;
+    color: white;
+}
