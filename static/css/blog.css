@@ -219,7 +219,7 @@ h1 a{
     border-radius: 1ch;
     padding: 3vw;
     /* background-color: rgba(221, 160, 221, 0.733); */
-    background-color: rgba(211, 17, 17, 0.65);
+    background-color: rgba(211, 17, 17, 0.507);
 
 
     color: black;
@@ -417,8 +417,10 @@ ol{
     padding: 1vw;
     border-radius: 1vw;
 }
+/* background-color: rgba(51, 139, 255, 0.596); */
+
 .post2advanced p{
-    background-color: rgba(250, 189, 250, 0.621);
+    background-color: rgba(95, 164, 255, 0.596);
     padding: 1vw;
     border-radius: 1vw;
 }
