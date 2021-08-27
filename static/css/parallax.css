@@ -281,3 +281,17 @@ p{
     background-color: black;
     color: white;
 }
+.impact{
+    background-color: black;
+    color: gold;
+    display: inline-block;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.question{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border-radius: 1vw;
+    padding: 1vw;
+}
