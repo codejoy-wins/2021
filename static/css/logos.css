@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+#background-video2{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1{
+    color: black;
+}
+
+@keyframes spark {
+    30%{
+        color: white;
+    }
+    60%{
+        color: aqua;
+    }
+    90%{
+        color: paleturquoise;
+    }
+}
+
+
+.elam{
+    animation: spark 8s infinite;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 166, 0, 0.452);
+}
+
+.super{
+    display: none;
+}
+
+.burger div{
+    background-color: black;
+    width: 34px;
+    height: 6px;
+    margin: 5px;
+}
+/* .burger .line2{
+    background-color: blue;
+} */
