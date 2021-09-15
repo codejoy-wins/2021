@@ -39,15 +39,18 @@ h1{
     }
 }
 
-
+.burger div:hover{
+    background-color: white;
+}
 .elam{
-    animation: spark 8s infinite;
+    animation: spark 12s infinite;
 }
 
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: rgba(255, 166, 0, 0.452);
+    background-color: rgba(255, 166, 0, 0.294);
+    padding: 1vw;
 }
 
 .super{
@@ -60,7 +63,26 @@ nav{
     height: 6px;
     margin: 5px;
 }
-
+.special{
+    position: absolute;
+    bottom: 5vw;
+}
 li{
     height: 50px;
+    list-style: none;
+}
+h2{
+    color: black;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: cell;
+    animation: spark 7s infinite;
 }
