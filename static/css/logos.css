@@ -60,6 +60,7 @@ nav{
     height: 6px;
     margin: 5px;
 }
-/* .burger .line2{
-    background-color: blue;
-} */
+
+li{
+    height: 50px;
+}
