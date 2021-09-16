@@ -75,7 +75,7 @@ html, body{
     max-height: 50px;
 }
 .parallax{
-    background-image: url("../img/tyreek.jpg");
+    background-image: url("../img/landryhurdle.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -198,6 +198,22 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.charlie{
+    background-image: url("../img/ridley.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.michael{
+    background-image: url("../img/antonio.jpeg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1{
     text-align: center;
 }
@@ -214,7 +230,7 @@ p{
 @media only screen and (max-device-width: 1366px) {
     .parallax {
       background-attachment: scroll;
-      background-image: url(../img/tyreek.jpg);
+      background-image: url(../img/landryhurdle.jpg);
     }
     .parallax2 {
         background-attachment: scroll;
@@ -269,6 +285,15 @@ p{
         background-attachment: scroll;
         background-image: url(../img/chubb.jpeg);
       }
+      .charlie{
+        background-attachment: scroll;
+        background-image: url(../img/ridley.jpg);
+
+    }
+    .michael{
+        background-image: url("../img/antonio.jpeg");
+        background-attachment: scroll;
+    }
       .secret{
           display: none;
       }
@@ -286,12 +311,12 @@ p{
     color: gold;
     display: inline-block;
     border-radius: 1vw;
-    padding: 1vw;
+    padding: .5vw;
 }
 .question{
     background-color: red;
     color: white;
     display: inline-block;
     border-radius: 1vw;
-    padding: 1vw;
+    padding: .5vw;
 }
