@@ -28,18 +28,6 @@
     animation: fadin 10s infinite;
 }
 
-#background-video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-
 #background-video2{
     width: 100%;
     height: 100%;
@@ -138,3 +126,42 @@ a:hover{
     cursor: cell;
     opacity: 1;
 }
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+
+  /* .blue{
+        max-width: 100%;
+        object-fit: cover;
+        object-position: 80% 0;
+}
+
+.red{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+} */
+
+@media only screen and (max-width: 600px) {
+    .blue {
+        max-width: 100%;
+        object-fit: cover;
+        object-position: 80% 0;
+      }
+  }
