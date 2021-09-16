@@ -1,10 +1,68 @@
+const album = [
+    {
+        "song":"This Town Hates Me",
+        "fullsong": "caliv2",
+    },
+    {
+        "song":"California",
+        "fullsong":"cali",
+    },
+    {
+        "song": "Lying",
+        "fullsong": "Lying",
+    },
+    {
+        "song":"Add Vice For a Friend",
+        "fullsong": "vice",
+    },
+    {
+        "song":"Cold Diamond",
+        "fullsong": "diamond",
+    },
+    {
+        "song":"Alone",
+        "fullsong": "alone",
+    },
+    
+    {
+        "song":"Alone v2",
+        "fullsong": "alonev2",
+    },
+    {
+        "song":"Only",
+        "fullsong": "only",
+    },
+    {
+        "song":"Here's to you",
+        "fullsong": "herestoyou",
+    },
+    {
+        "song":"Fakebook",
+        "fullsong": "fakebook",
+    },
+    {
+        "song":"Someone Else",
+        "fullsong": "someoneelse",
+    },
+    {
+        "song":"Beautiful Winter",
+        "fullsong": "winter",
+    },
+]
+
+
+
 const maxwell = ()=>{
     const burger = document.querySelector('.burger');
     const closer = document.querySelector('.perfect');
     const mega = document.querySelector('.megaphone');
-    const song = document.querySelector('.song');
+    // let song = document.querySelector('.song');
     const navs = document.querySelector('.nav-links');
     const vid = document.querySelector('.backyard');
+    let skip = document.querySelector('.skip');
+    let currentsong = 0;
+
+
 
     let isplaying = true;
 
@@ -28,6 +86,7 @@ const maxwell = ()=>{
     })
 
     mega.addEventListener('click', ()=>{
+        let song = document.querySelector('.song');
         if(isplaying==false){
             console.log("playing now")
             song.play();
@@ -37,6 +96,28 @@ const maxwell = ()=>{
             song.pause();
             isplaying = false;
         }
+    })
+    skip.addEventListener('click', ()=>{
+        let song = document.querySelector('.song');
+        console.log("skipping function triggered");
+        console.log(`current is ${album[currentsong].fullsong}`)
+        if(currentsong<album.length-1){
+            currentsong++;
+            console.log(`allenght is ${album.length} and current song is ${currentsong}`);
+        }else{
+            currentsong=0;
+        }
+        document.getElementById("song").innerHTML=``;
+        document.getElementById("song").innerHTML=`
+        <audio class="special song" src="static/audio/${album[currentsong].fullsong}.mp3" autoplay></audio>
+        `
+        console.log(album[currentsong].song);
+        document.getElementById("songname").innerHTML=`
+        ${album[currentsong].song}
+        `
+        song.play();
+        document.getElementById("tight").innerHTML=album[currentsong].song;
+
     })
 }
 

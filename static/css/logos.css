@@ -85,6 +85,16 @@ nav{
     background-color: rgba(0, 0, 0, 0.288);
     padding: 1vw;
 }
+.description{
+    color: whitesmoke;
+    opacity: .04;
+    animation: fadin 10s infinite;
+}
+.description:hover{
+    color: gold;
+    cursor: cell;
+    opacity: 1;
+}
 
 .super{
     display: none;
@@ -126,4 +136,5 @@ a:hover{
 }
 .megaphone:hover{
     cursor: cell;
+    opacity: 1;
 }
