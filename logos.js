@@ -56,6 +56,7 @@ let xyz = document.getElementById("background-video");
 xyz.classList.add('red');
 console.log("hey 1");
     setTimeout(() => {
+        console.log("cloudtime1");
         xyz.classList.remove('red');
         xyz.classList.add('blue');
     }, 45000);
@@ -64,9 +65,11 @@ console.log("hey 1");
 setInterval(() => {
     console.log("hi");
     setTimeout(() => {
+        console.log("cloudtime");
         xyz.classList.remove('red');
         xyz.classList.add('blue');
     }, 45000);
+    console.log("firetime");
     xyz.classList.remove('blue');
     xyz.classList.add('red');
 }, 85500);
@@ -105,14 +108,14 @@ const maxwell = ()=>{
     })
 
     mega.addEventListener('click', ()=>{
-        let song = document.querySelector('.song');
+        let song2 = document.querySelector('.song');
         if(isplaying==false){
             console.log("playing now")
-            song.play();
+            song2.play();
             isplaying = true;
         }else{
             console.log("volume toggle");
-            song.pause();
+            song2.pause();
             isplaying = false;
         }
     })
@@ -128,7 +131,7 @@ const maxwell = ()=>{
         }
         document.getElementById("song").innerHTML=``;
         document.getElementById("song").innerHTML=`
-        <audio class="special song" src="static/audio/${album[currentsong].fullsong}.mp3" autoplay></audio>
+        <audio class="special song" src="static/audio/${album[currentsong].fullsong}.mp3" autoplay onended="nextsong()"></audio>
         `
         console.log(album[currentsong].song);
         document.getElementById("songname").innerHTML=`
@@ -147,7 +150,7 @@ maxwell();
 const nextsong = ()=>{
     console.log("next ");
     let song = document.querySelector('.song');
-        console.log("skipping function triggered");
+        console.log("next function triggered");
         console.log(`current is ${album[currentsong].fullsong}`)
         if(currentsong<album.length-1){
             currentsong++;
@@ -157,12 +160,13 @@ const nextsong = ()=>{
         }
         document.getElementById("song").innerHTML=``;
         document.getElementById("song").innerHTML=`
-        <audio class="special song" src="static/audio/${album[currentsong].fullsong}.mp3" autoplay></audio>
+        <audio class="special song" src="static/audio/${album[currentsong].fullsong}.mp3" autoplay onended="nextsong()"></audio>
         `
         console.log(album[currentsong].song);
         document.getElementById("songname").innerHTML=`
         ${album[currentsong].song}
         `
+        song.load();
         song.play();
         document.getElementById("tight").innerHTML=album[currentsong].song;
 }
