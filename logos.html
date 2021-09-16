@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logos</title>
+    <title>Firecloud4</title>
     <link rel="stylesheet" href="static/css/logos.css">
     <link rel="shortcut icon" type="image/png" href="static/img/mj3.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
     <nav>
         <div class="logo">
-            <h1 class="elam">maxjann.com</h1>
+            <h1 class="ahpla">maxjann.com</h1>
+        </div>
+        <div class="megaphone">
+            <img class="tiny" src="static/img/VolumeY.png" alt="volume">
         </div>
         <div class="burger">
             <div class="line1"></div>
@@ -31,10 +36,12 @@
 
         </ul>
     </nav>
-    <video id="background-video" autoplay loop muted>
-        <source src="static/img/mjmovie.mp4" type="video/mp4">
+    <video class="backyard" id="background-video" autoplay loop muted poster="static/img/poster.png">
+        <source src="static/img/firecloud.mp4" type="video/mp4">
     </video>
-    <audio class="special" src="static/audio/Evil.mp3" autoplay controls></audio>
+    <div id="song">
+        <audio class="special song" src="static/audio/LikeThat.mp3" autoplay></audio>
+    </div>
     <script src="logos.js"></script>
 </body>
 </html>
