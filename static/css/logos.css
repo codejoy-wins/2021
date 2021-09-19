@@ -5,28 +5,41 @@
 }
 
 @keyframes fadin {
-    20%{
+    10%{
         opacity: 0;
     }
-    30%{
+    15%{
         opacity: .4;
     }
-    60%{
+    30%{
         opacity: .8;
     }
-    90%{
+    45%{
+        opacity: 1;
+    }
+    60%{
+        opacity: .4;
+    }
+    75%{
+        opacity: .6;
+    }
+    80%{
+        opacity: .8;
+    }
+    95%{
         opacity: 1;
     }
 }
 
 .burger{
     opacity: .04;
-    animation: fadin 10s infinite;
+    animation: fadin 45s infinite;
 }
-.megaphone{
-    opacity: .04;
-    animation: fadin 10s infinite;
+.burger:hover{
+    animation: none;
+    opacity: 1;
 }
+
 
 #background-video2{
     width: 100%;
@@ -44,14 +57,14 @@ h1{
         color: white;
     }
     40%{
-        color:gold;
+        color:palegoldenrod;
     }
     70%{
         color: paleturquoise;
 
     }
     90%{
-        color: rgb(0, 234, 255);
+        color: palegreen;
     }
 }
 
@@ -66,6 +79,9 @@ h1{
     animation: spark 85s infinite;
     opacity: .8;
 }
+.ahpla:hover{
+    cursor:none;
+}
 
 nav{
     display: flex;
@@ -76,11 +92,11 @@ nav{
 .description{
     color: whitesmoke;
     opacity: .04;
-    animation: fadin 10s infinite;
+    animation: fadin 20s infinite;
 }
 .description:hover{
-    color: gold;
-    cursor: cell;
+    animation: none;
+    cursor: none;
     opacity: 1;
 }
 
@@ -112,18 +128,24 @@ h2:hover{
 }
 a{
     text-decoration: none;
-    color: gold;
+    color: rgba(177, 196, 231, 0.959);
+    font-style: italic;
 }
 a:hover{
-    cursor: cell;
+    cursor: none;
     animation: spark 7s infinite;
 }
 .tiny{
     max-width: 40px;
     opacity: .5;
 }
+.megaphone{
+    opacity: .04;
+    animation: fadin 20s infinite;
+}
 .megaphone:hover{
-    cursor: cell;
+    animation: none;
+    cursor: pointer;
     opacity: 1;
 }
 
@@ -164,4 +186,8 @@ a:hover{
         object-fit: cover;
         object-position: 80% 0;
       }
+  }
+
+  .letter:hover{
+    color: white;
   }

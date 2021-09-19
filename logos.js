@@ -1,5 +1,10 @@
 const album = [
     {
+        "song":"Afterlife",
+        "fullsong": "Afterlife",
+        "artist": "Arcade Fire"
+    },
+    {
         "song":"This Town Hates Me",
         "fullsong": "caliv2",
     },
