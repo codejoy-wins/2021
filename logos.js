@@ -5,16 +5,16 @@ const album = [
         "artist": "Arcade Fire"
     },
     {
+        "song": "Lying",
+        "fullsong": "Lying",
+    },
+    {
         "song":"This Town Hates Me",
         "fullsong": "caliv2",
     },
     {
         "song":"California",
         "fullsong":"cali",
-    },
-    {
-        "song": "Lying",
-        "fullsong": "Lying",
     },
     {
         "song":"Add Vice For a Friend",
