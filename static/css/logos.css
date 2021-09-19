@@ -56,7 +56,7 @@
 
 .burger{
     opacity: .1;
-    animation: truth 13s;
+    animation: truth 7s;
 }
 .burger:hover{
     animation: none;

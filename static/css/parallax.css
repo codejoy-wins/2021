@@ -116,7 +116,7 @@ a:hover{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .parallax4{
     background-image: url("../img/babymetcalf.jpg");
