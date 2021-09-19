@@ -4,6 +4,8 @@
     font-family: 'Spectral', serif;
 }
 
+
+
 @keyframes fadin {
     10%{
         opacity: 0;
@@ -31,9 +33,30 @@
     }
 }
 
+@keyframes truth {
+    10%{
+        opacity: .03;
+    }
+    20%{
+        opacity: .2;
+    }
+    40%{
+        opacity: .4;
+    }
+    50%{
+        opacity: .5;
+    }
+    70%{
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .burger{
-    opacity: .04;
-    animation: fadin 45s infinite;
+    opacity: .1;
+    animation: truth 13s;
 }
 .burger:hover{
     animation: none;

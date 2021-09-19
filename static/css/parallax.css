@@ -43,14 +43,14 @@ html, body{
     max-height: 50px;
 }
 #foot{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 1vw;
 }
 .special{
     display: inline-block;
 }
 .texzt{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 1vw;
 }
 #left{
@@ -111,7 +111,7 @@ a:hover{
     background-size: cover;
 }
 .parallax3{
-    background-image: url("../img/AB81.jpg");
+    background-image: url("../img/murray.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -119,7 +119,7 @@ a:hover{
     background-size: cover;
 }
 .parallax4{
-    background-image: url("../img/dk.jpg");
+    background-image: url("../img/babymetcalf.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -191,7 +191,7 @@ a:hover{
     background-size: cover;
 }
 .ernie{
-    background-image: url("../img/chubb.jpeg");
+    background-image: url("../img/nickchubb2.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -238,11 +238,11 @@ p{
       }
       .parallax3 {
         background-attachment: scroll;
-        background-image: url(../img/AB81.jpg);
+        background-image: url(../img/murray.jpg);
       }
       .parallax4 {
         background-attachment: scroll;
-        background-image: url(../img/dk.jpg);
+        background-image: url(../img/babymetcalf.jpg);
       }
       .parallax5 {
         background-attachment: scroll;
@@ -283,7 +283,7 @@ p{
       }
       .ernie{
         background-attachment: scroll;
-        background-image: url(../img/chubb.jpeg);
+        background-image: url(../img/nickchubb2.jpg);
       }
       .charlie{
         background-attachment: scroll;
@@ -319,4 +319,27 @@ p{
     display: inline-block;
     border-radius: 1vw;
     padding: .5vw;
+}
+
+.rank{
+    margin: 0;
+    padding: none;
+    color: paleturquoise;
+    background-color: black;
+    padding: 1vw;
+    border-radius: 1vw;
+    opacity: .5;
+}
+.rank h1, h2, h3{
+    display: inline-block;
+    padding-right: 4vw;
+    padding-top: none;
+    padding-bottom: none;
+    margin: none;
+}
+.rank h1{
+    font-size: 10vw;
+}
+.record{
+    font-family: cursive;
 }
