@@ -83,6 +83,15 @@ html, body{
     margin-top: -50px;
     max-width: 100%;
 }
+.parallaxfeature{
+    background-image: url("../img/lj.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    max-width: 100%;
+}
 a{
     text-decoration: none;
     color: gold;
@@ -199,12 +208,12 @@ a:hover{
     background-size: cover;
 }
 .charlie{
-    background-image: url("../img/ridley.jpg");
+    background-image: url("../img/jt.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .michael{
     background-image: url("../img/antonio.jpeg");
@@ -231,6 +240,9 @@ p{
     .parallax {
       background-attachment: scroll;
       background-image: url(../img/landryhurdle.jpg);
+    }
+    .parallaxfeature{
+        background-attachment: scroll;
     }
     .parallax2 {
         background-attachment: scroll;
@@ -287,7 +299,7 @@ p{
       }
       .charlie{
         background-attachment: scroll;
-        background-image: url(../img/ridley.jpg);
+        background-image: url(../img/jt.jpg);
 
     }
     .michael{
