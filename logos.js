@@ -1,20 +1,11 @@
 const album = [
     {
-        "song":"Afterlife",
-        "fullsong": "Afterlife",
-        "artist": "Arcade Fire"
+        "song":"California",
+        "fullsong":"cali",
     },
     {
         "song": "Lying",
         "fullsong": "Lying",
-    },
-    {
-        "song":"This Town Hates Me",
-        "fullsong": "caliv2",
-    },
-    {
-        "song":"California",
-        "fullsong":"cali",
     },
     {
         "song":"Add Vice For a Friend",
@@ -28,7 +19,14 @@ const album = [
         "song":"Alone",
         "fullsong": "alone",
     },
-    
+    {
+        "song":"Someone Else",
+        "fullsong": "someoneelse",
+    },
+    {
+        "song":"This Town Hates Me",
+        "fullsong": "caliv2",
+    },
     {
         "song":"Alone v2",
         "fullsong": "alonev2",
@@ -44,10 +42,6 @@ const album = [
     {
         "song":"Fakebook",
         "fullsong": "fakebook",
-    },
-    {
-        "song":"Someone Else",
-        "fullsong": "someoneelse",
     },
     {
         "song":"Beautiful Winter",
