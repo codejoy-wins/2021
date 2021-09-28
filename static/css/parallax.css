@@ -13,6 +13,11 @@ html, body{
     font-family: 'Spectral', serif;
     font-size: large;
 }
+.gold{
+    color: gold;
+    background-color: black;
+    padding: 1vw;
+}
 .right{
    float: right;
    opacity: .7;
@@ -36,6 +41,10 @@ html, body{
 }
 #orangefirst{
     color: orange;
+    font-size: xx-large;
+}
+#greenfirst{
+    color: green;
     font-size: xx-large;
 }
 .tiny{
@@ -75,7 +84,7 @@ html, body{
     max-height: 50px;
 }
 .parallax{
-    background-image: url("../img/landryhurdle.jpg");
+    background-image: url("../img/arod37.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -84,7 +93,7 @@ html, body{
     max-width: 100%;
 }
 .parallaxfeature{
-    background-image: url("../img/lj.jpg");
+    background-image: url("../img/objnew.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -113,7 +122,7 @@ a:hover{
     background-color: white;
 }
 .parallax2{
-    background-image: url("../img/diggs.jpeg");
+    background-image: url("../img/waller.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -200,7 +209,7 @@ a:hover{
     background-size: cover;
 }
 .ernie{
-    background-image: url("../img/nickchubb2.jpg");
+    background-image: url("../img/chubbnew.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -239,14 +248,12 @@ p{
 @media only screen and (max-device-width: 1366px) {
     .parallax {
       background-attachment: scroll;
-      background-image: url(../img/landryhurdle.jpg);
     }
     .parallaxfeature{
         background-attachment: scroll;
     }
     .parallax2 {
         background-attachment: scroll;
-        background-image: url(../img/diggs.jpeg);
       }
       .parallax3 {
         background-attachment: scroll;
@@ -295,7 +302,7 @@ p{
       }
       .ernie{
         background-attachment: scroll;
-        background-image: url(../img/nickchubb2.jpg);
+        background-image: url(../img/chubbnew.jpg);
       }
       .charlie{
         background-attachment: scroll;
