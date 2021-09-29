@@ -55,6 +55,7 @@ html, body{
     background-color: rgb(255, 255, 255);
     padding: 1vw;
 }
+
 .special{
     display: inline-block;
 }
@@ -245,7 +246,35 @@ p{
     padding: 1vw;
     color: gold;
 }
+.secret2{
+    opacity: 0;
+}
 @media only screen and (max-device-width: 1366px) {
+    .secret2{
+        opacity: 1;
+    }
+    .burger{
+        display: flex;
+        float: none;
+    }
+    .tiny{
+        float: left;
+    }
+    .right{
+        float: left;
+    }
+    ul{
+        display: flex;
+        max-width: 50%;
+        background-color: gold;
+        float: left;
+        overflow: auto;
+    }
+    ul li{
+        background-color: green;
+        padding: .5vw;
+        display: inline-block;
+    }
     .parallax {
       background-attachment: scroll;
     }
@@ -361,4 +390,88 @@ p{
 }
 .record{
     font-family: cursive;
+}
+
+@keyframes truth {
+    10%{
+        opacity: .03;
+    }
+    25%{
+        opacity: .2;
+    }
+    40%{
+        opacity: .4;
+    }
+    50%{
+        opacity: .5;
+    }
+    70%{
+        opacity: .7;
+    }
+    100%{
+        opacity: .85;
+    }
+}
+
+.burger{
+    opacity: .1;
+    animation: truth 7s;
+    animation-fill-mode: forwards;
+}
+.burger:hover{
+    animation: none;
+    opacity: 1;
+}
+.burger div{
+    background-color: rgb(177, 165, 165);
+    width: 34px;
+    height: 6px;
+    margin: 5px;
+}
+.burger div:hover{
+    background-color: white;
+}
+.super{
+    display: none;
+}
+.perfect h2{
+    font-size: xx-large;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    cursor: none;
+    color: whitesmoke;
+}
+
+
+@keyframes bolt {
+    10%{
+        opacity: .5;
+        color: turquoise;
+    }
+    25%{
+        opacity: .5;
+        color: gold;
+    }
+    40%{
+        opacity: .4;
+        color: aqua;
+    }
+    50%{
+        opacity: .5;
+        color: silver;
+    }
+    70%{
+        opacity: .7;
+        color: forestgreen;
+    }
+    100%{
+        opacity: .85;
+    }
+}
+ul a:hover{
+    color: silver;
+    animation: bolt 7s infinite;
 }
