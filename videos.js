@@ -5,6 +5,12 @@ function alls(){
     `
     document.getElementById("article").innerHTML=`
     <div class="video">
+            <h1>Difference of Algorithms</h1>
+            <div class="vid2">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/oRG0B-bdz9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    <div class="video">
         <h1>Free Guy Breakdown</h1>
         <div class="vid2">
         <iframe width="640" height="360" scrolling="no" frameborder="0" style="border: none;" src="https://www.bitchute.com/embed/85THXVuTFyBm/"></iframe>
@@ -241,6 +247,12 @@ function coding(){
     <h1> Coding Tutorials </h1>
     `
     document.getElementById("article").innerHTML=`
+        <div class="video">
+            <h1>Difference of Algorithms</h1>
+            <div class="vid2">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/oRG0B-bdz9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
         <div class="video">
             <h1>Coding for Smarties</h1>
             <div class="vid2">

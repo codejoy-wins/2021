@@ -238,7 +238,7 @@ h1 a{
     padding: 3vw;
     background-color: rgba(211, 17, 17, 0.65);
     padding-bottom: 7vw;
-    color: black;
+    color: silver;
     font-size: larger;
 }
 .lucifer{
@@ -428,7 +428,7 @@ ol{
 /* background-color: rgba(51, 139, 255, 0.596); */
 
 .post2advanced p{
-    background-color: rgba(95, 164, 255, 0.596);
+    background-color: rgb(0, 0, 0);
     padding: 1vw;
     border-radius: 1vw;
 }
