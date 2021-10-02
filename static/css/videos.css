@@ -1,71 +1,13 @@
 *{
     font-family: 'Spectral', serif;
 }
-
-@keyframes elam{
-    20%{
-        color: wheat;
-    }
-    40%{
-        color: black;
-    }
-    60%{
-        color: wheat;
-    }
-    80%{
-        color: silver;
-    }
-
-}
-.month{
-    padding-left: 3vw;
-    padding-right: 3vw;
-    border-radius: 2vw;
-}
-.month:hover{
-    padding-left: 3vw;
-    padding-right: 3vw;
-    background-color: rgba(0, 0, 0, 0.192);
-    border-radius: 2vw;
-    animation: elam 3s infinite;
-}
-
-#heading a{
-    color: wheat;
-}
-#heading a:hover{
-    color: silver;
-}
-#heading .month{
-    color: black;
-    animation: elam 10s infinite;
-}
-
 html, body{
     margin: 0;
     padding: 0;
 }
-.vid4{
-    max-width: 100%;
-    width: 600px;
-}
-.vid2{
-    max-width: 100%;
-    max-height: 100%;
-    width: 600px;
-}
-.vid20{
-    max-width: 100%;
-    max-height: 100%;
-    width: 600px;
-}
 .vid{
     max-width: 100%;
-    max-height: 100%;
     width: 600px;
-    height: 315px;
-    float: left;
-    padding-right: 1vw;
 }
 #heading{
     text-align: center;
@@ -79,418 +21,129 @@ html, body{
 }
 #rapper{
     margin: 0 auto;
+    padding-top: 2px;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
-}
-#rapper p{
-    background-color: rgba(240, 248, 255, 0.692);
-    padding: 1vw;
+    background-image: url("../img/hawk23.jpg");
+    background-size: contain;
+    background-position: center;
+    height: 50vw;
+    background-repeat: no-repeat;
+    color: aqua;
+    text-align: center;
 }
 .option{
     display: inline-block;
     padding: 1vw;
 }
 #nav{
-    background-color: rgba(55, 83, 211, 0.680);
-    width: 100%;
-    text-align: center;
-}
-#nav:hover{
-    cursor: cell;
-}
-#nav2{
     background-color: rgb(43, 226, 156, 0.363);
     width: 100%;
-    text-align: center;
 }
 a{
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(57, 46, 207);
+    cursor: cell;
 }
 a:hover{
-    color: wheat;
+    color: gold
+}
+#nav a:hover{
+    color: black;
     font-weight: bold;
-    cursor: cell;
 }
 .current{
     font-weight: bold;
-    color: silver;
 }
 #poem{
     text-align: center;
-    font-size: larger;
 }
-.purple{
-    color: purple;
+#nav{
+    text-align: center;
 }
 .pic{
     max-width: 100%;
 }
-.picsmall{
-    max-width: 100%;
-    max-height: 35vw;
-    float: inline-end;
+.genre{
+    display: inline-block;
+    position: relative;
+    top: 13vw;
+    padding: 3ch;
 }
-.pic11{
-    max-width: 100%;
-    max-height: 400px;
+.genre a{
+    color: aqua;
 }
-.pic13{
+.genre a:hover{
+    color: forestgreen;
+    cursor: cell;
+}
+#dev a{
+    color: pink;
+}
+#dev a:hover{
+    color: rgb(238, 18, 238);
+}
+#dev{
+    height: 20vw;
+    overflow:auto;
+    margin: 90px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.i{
+    font-style: italic;
+}
+#rapper7{
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    background-color: black;
+}
+
+#options h3{
+    display: inline-block;
+    padding: 1vw;
+    color: violet;
+}
+#options h3:hover{
+    color: aqua;
+    cursor: cell;
+}
+#article{
+    color: rgba(0, 255, 255, 0.897);
+    padding: 1vw;
+    background-color:black;
+    text-align: center;
+}
+#picture{
     max-width: 100%;
-    max-height: 400px;
-    float: left;
-    padding-right: 1vw;
 }
 .pic2{
     max-width: 100%;
-    max-height: 600px;
+    height: 50vw;
+}
+.black{
+    color: aqua;
 }
 .pic3{
+    height: 20vw;
     max-width: 100%;
-    float: left;
-    padding-right: 1vw;
-}
-.wtf{
-    width:2000px;
-}
-h1 a{
-    color: purple;
-}
-#reviews a{
-    color: purple;
-}
-#reviews a:hover{
-    color: black;
-}
-
-.post{
-    border-radius: 1ch;
-    padding: 3vw;
-    background-color: rgba(55, 83, 211, 0.680);
-    color: black;
-    font-size: larger;
-}
-.post2{
-    border-radius: 1ch;
-    padding: 3vw;
-    /* background-color: rgba(221, 160, 221, 0.733); */
-    background-color: rgba(175, 6, 175, 0.87);
-
-
-    color: black;
-    font-size: larger;
-}
-.postnew{
-    border-radius: 1ch;
-    padding: 3vw;
-    /* background-color: rgba(221, 160, 221, 0.733); */
-    /* background-color: rgba(138, 91, 138, 0.582); */
-    background-color: rgba(246, 4, 4, 0.603);
-
-
-
-    color: black;
-    font-size: larger;
-}
-.postnew p{
-    /* background-color: rgba(246, 4, 4, 0.621); */
-    background-color: rgba(255, 255, 255, 0.795);
-
-    padding: 1vw;
-    border-radius: 1vw;
-
-}
-.post3{
-    color: wheat;
-    font-size: larger;
-}
-.profound{
-    color: wheat;
-    font-style: italic;
-    font-weight: bolder;
-}
-.post2 .profound{
-    color: navy;
-}
-
-.gold{
-    border-radius: 1ch;
-    padding: 3vw;
-    background-color: black;
-    color: black;
-    font-size: larger;
-}
-.gold p{
-    /* background-color: rgba(255, 192, 203, 0.521); */
-    background-color: gold;
-    padding: 1vw;
-    border-radius: 1vw;
-}
-.dark p{
-    color: whitesmoke;
-    background-color: rgba(29, 1, 29, 0.746);
-    padding: 1vw;
-    border-radius: 1vw;
-}
-.dark{
-    border-radius: 1ch;
-    padding: 3vw;
-    /* background-color: rgba(221, 160, 221, 0.733); */
-    background-color: rgba(36, 10, 36, 0.582);
-    color: black;
-    font-size: larger;
-    padding-bottom: 6vw;
-}
-.dark3 p{
-    color: black;
-    background-color: rgba(243, 234, 243, 0.746);
-    padding: 1vw;
-    border-radius: 1vw;
-}
-.dark3{
-    border-radius: 1ch;
-    padding: 3vw;
-    /* background-color: rgba(224, 8, 19, 0.582); */
-    background-color: rgba(2, 85, 85, 0.637);
-
-    color: black;
-    font-size: larger;
-    padding-bottom: 6vw;
-}
-
-
-.dark2 p{
-    color: black;
-    background-color: rgba(243, 234, 243, 0.746);
-    padding: 1vw;
-    border-radius: 1vw;
-}
-.dark2{
-    border-radius: 1ch;
-    padding: 3vw;
-    /* background-color: rgba(221, 160, 221, 0.733); */
-    background-color: rgba(36, 10, 36, 0.582);
-    color: black;
-    font-size: larger;
-    padding-bottom: 6vw;
-}
-.god{
-    max-width: 100%;
-
-}
-.dark a{
-    color: wheat;
-}
-.dark a:hover{
-    color: red;
-}
-.vidsuper{
-    max-width: 100%;
-}
-
-.post p{
-    /* background-color: rgba(255, 192, 203, 0.521); */
-    background-color: rgba(250, 189, 250, 0.621);
-    padding: 1vw;
-    border-radius: 1vw;
-}
-
-.post p{
-    /* background-color: rgba(255, 192, 203, 0.521); */
-    background-color: rgba(250, 189, 250, 0.621);
-    padding: 1vw;
-    border-radius: 1vw;
-}
-.post2 p{
-    background-color: rgba(250, 189, 250, 0.621);
-    padding: 1vw;
-    border-radius: 1vw;
-
-}
-
-h2, h3{
-    color: wheat;
-    text-align: right;
-}
-h4{
-    color: wheat;
-}
-.central{
-    float: left;
-    padding: 1vw;
-}
-.song{
-    max-width: 100%;
-    width: 40vw;
-}
-.special{
-    float: left;
-    color: purple;
-}
-.gamereview{
-    color: black;
-    max-width: 100%;
-}
-#reviews{
-    max-width: 100%;
-}
-#heading h1 a{
-    color: wheat;
-}
-#reviews h1 a{
-    color: wheat;
-}
-.noone{
-    color: wheat;
-    border-radius: 1vw;
-    padding: 1vw;
-}
-.noone:hover {
-    color: blue;
-    cursor: cell;
-}
-/* #blog{
-    border: 1ch solid rgba(139, 20, 20, 0.37);
-} */
-
-.pic6{
-    max-width: 100%;
-    float: left;
-    width: 400px;
-    padding: 1vw;
-}
-.wbc{
-    max-width: 100%;
-    width: 500px;
-    float: right;
-}
-.pic8{
-    float: left;
-    max-width: 100%;
-    padding: 1vw;
-}
-.logo{
-    float: left;
-    max-width: 100%;
-    padding: 1vw;
-    width: 500px;
-}
-.logo2{
-    float: left;
-    max-width: 100%;
-    padding-right: 2vw;
-    padding-top: 2vw;
-    width: 400px;
-}
-.left{
-    text-align: left;
-}
-.post2 .rebuttal{
-    color: red;
-    background-color: black;
-}
-.pic10{
-    max-width: 100%;
-}
-#spoiler{
-    color: blue;
-}
-.company2{
-    padding: 2vw;
-    padding-bottom: 8vw;
-    text-align: left;
-}
-.company{
-    padding: 2vw;
-    text-align: left;
-}
-.chess{
-    max-width: 100%;
-    max-height: 420px;
-}
-.hidden{
-    display: none;
-}
-body{
-    background-image: url(/static/img/ink.jpg);
-    background-size: contain;
-}
-.pic100{
-    max-width: 100%;
-    float: left;
-    padding-right: 1vw;
-}
-.verse{
-    border: solid gold;
-}
-.pic101{
-    max-width: 100%;
-    max-height: 600px;
-    float: left;
-    padding-right: 1vw;
-}
-.picfloat{
-    float: left;
-    max-width: 100%;
-    padding-right: 1vw;
-}
-.picfloatsmall{
-    float: left;
-    max-width: 100%;
-    padding-right: 1vw;
-    max-height: 600px;
-}
-.picfloatverysmall{
-    float: left;
-    max-width: 100%;
-    padding-right: 1vw;
-    max-height: 350px;
-}
-.picfloatright{
-    float: right;
-    max-width: 100%;
-    padding-left: 1vw;
-}
-.vidright{
-    max-width: 100%;
-    max-height: 100%;
-    width: 600px;
-    height: 315px;
-    float: right;
-    padding-left: 1vw;
-}
-
-#cold:hover{
-    color: whitesmoke;
-}
-#blog .post #shell p{
-    padding: .3vw;
-    color: pink;
-    background-color: rgba(55, 84, 211, 0);
-}
-#blog .post #shell p:hover{
-    padding: .3vw;
-    color: wheat;
-    background-color: rgba(55, 84, 211, 0);
-}
-h1{
-    color: wheat;
 }
 .video{
-    background-color: rgba(0, 0, 255, 0.425);
-    padding: 1vw;
-    border-radius: 1vw;
+    max-width: 100%;
+    width: 600px;
 }
 .video2{
-    background-color: rgba(255, 0, 0, 0.425);
-    padding: 1vw;
-    border-radius: 1vw;
-}
-.video3 h1{
-    color: whitesmoke;
+    max-width: 100%;
+    width: 600px;
 }
 .video3{
-    background-color: rgba(65, 62, 62, 0.425);
-    padding: 1vw;
-    border-radius: 1vw;
+    max-width: 100%;
+    width: 600px;
 }
