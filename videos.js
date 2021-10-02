@@ -13,7 +13,7 @@ function alls(){
     <div class="video">
         <h1>Free Guy Breakdown</h1>
         <div class="vid2">
-        <iframe width="640" height="360" scrolling="no" frameborder="0" style="border: none;" src="https://www.bitchute.com/embed/85THXVuTFyBm/"></iframe>
+        <iframe width="100%" height="360" scrolling="no" frameborder="0" style="border: none;" src="https://www.bitchute.com/embed/85THXVuTFyBm/"></iframe>
         </div>
     </div>
     <div class="video">
@@ -276,7 +276,6 @@ function coding(){
 function cod(){
     console.log("cod");
     document.getElementById("title").innerHTML=`
-    <h1> Call of Duty Clips </h1>
     `
     document.getElementById("article").innerHTML=`
     <div class="video">
@@ -344,7 +343,7 @@ function cod(){
         </div>
     `
     document.getElementById("picture").innerHTML=`
-    <img src="./static/img/matrix.jpg" alt="matrix" class="pic2">
+    <img src="./static/img/coldwar.jpg" alt="coldwar" class="pic2">
     `
 }
 
@@ -511,6 +510,39 @@ function chess(){
             </div>
         </div>
         <p>More Chess on <a href="chess.html">maxjann.com/chess</a></p>
+        <div class="vid">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/uyy5Ln6v1Co" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="vid">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/1SdyFFejT1c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="vid">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/2PqM1niO488" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="vid">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/gL7uUjr1I28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="vid">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/rBZYeXnCgPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="vid">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/dqd2LsjI3a0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="vid">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/nzCmQFW9PxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="vid">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/RA5kzejnads" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="vid">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/-EgcIITv-z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="vid">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/qAtzMLXskuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>ß
+        </div>
+        <div class="vid">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/xmpReGiESws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     `
     document.getElementById("picture").innerHTML=`
     <img src="./static/img/queencheck.png" alt="chess" class="pic2">
