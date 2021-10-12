@@ -81,7 +81,7 @@ html, body{
     max-height: 50px;
 }
 .parallax{
-    background-image: url("../img/tyreekkills.jpg");
+    background-image: url("../img/adamsjordan.png");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@ a:hover{
     background-color: white;
 }
 .parallax2{
-    background-image: url("../img/waller.jpg");
+    background-image: url("../img/zeke2.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -134,7 +134,7 @@ a:hover{
     background-size: contain;
 }
 .parallax4{
-    background-image: url("../img/babymetcalf.jpg");
+    background-image: url("../img/justinherbert.jpeg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -150,7 +150,7 @@ a:hover{
     background-size: cover;
 }
 .parallax6{
-    background-image: url("../img/aiyuk.jpg");
+    background-image: url("../img/pitts2.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -206,7 +206,7 @@ a:hover{
     background-size: cover;
 }
 .ernie{
-    background-image: url("../img/chubbnew.jpg");
+    background-image: url("../img/jmar.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -284,60 +284,45 @@ p{
       }
       .parallax3 {
         background-attachment: scroll;
-        background-image: url(../img/murray.jpg);
       }
       .parallax4 {
         background-attachment: scroll;
-        background-image: url(../img/babymetcalf.jpg);
       }
       .parallax5 {
         background-attachment: scroll;
-        background-image: url(../img/ak.jpg);
       }
       .parallax6 {
         background-attachment: scroll;
-        background-image: url(../img/aiyuk.jpg);
       }
       .parallax7 {
         background-attachment: scroll;
-        background-image: url(../img/lamar.jpg);
       }
       .parallax8 {
         background-attachment: scroll;
-        background-image: url(../img/joe.jpg);
       }
       .parallax9 {
         background-attachment: scroll;
-        background-image: url(../img/justin.jpeg);
       }
       .parallax10 {
         background-attachment: scroll;
-        background-image: url(../img/draft.jpg);
       }
       .parallax10 {
         background-attachment: scroll;
-        background-image: url(../img/draft.jpg);
         background-size: contain;
       }
       .parallax11 {
         background-attachment: scroll;
-        background-image: url(../img/dhop.jpg);
       }
       .devon {
         background-attachment: scroll;
-        background-image: url(../img/swift.jpeg);
       }
       .ernie{
         background-attachment: scroll;
-        background-image: url(../img/chubbnew.jpg);
       }
       .charlie{
         background-attachment: scroll;
-        background-image: url(../img/jt.jpg);
-
     }
     .michael{
-        background-image: url("../img/antonio.jpeg");
         background-attachment: scroll;
     }
       .secret{
