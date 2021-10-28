@@ -5,6 +5,12 @@ function alls(){
     `
     document.getElementById("article").innerHTML=`
     <div class="video">
+        <h1>Gladiator</h1>
+        <div class="vid2">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ojKv0uJKgDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="video">
             <h1>Difference of Algorithms</h1>
             <div class="vid2">
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/oRG0B-bdz9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -278,6 +284,12 @@ function cod(){
     document.getElementById("title").innerHTML=`
     `
     document.getElementById("article").innerHTML=`
+    <div class="video">
+        <h1>Gladiator</h1>
+        <div class="vid2">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ojKv0uJKgDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
     <div class="video">
         <h1>New Map New Guns New Mode Same Result</h1>
         <div class="vid2">
