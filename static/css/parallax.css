@@ -462,7 +462,10 @@ ul{
 }
 ul a{
     cursor: none;
-    color: whitesmoke;
+    color: white;
+}
+ul li:hover{
+    background-color: whitesmoke;
 }
 
 
@@ -485,7 +488,7 @@ ul a{
     }
     70%{
         opacity: .7;
-        color: forestgreen;
+        color: rgb(34, 130, 139);
     }
     100%{
         opacity: .85;
