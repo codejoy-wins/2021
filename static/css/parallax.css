@@ -108,7 +108,7 @@ html, body{
     max-width: 100%;
 }
 .parallaxfeature3{
-    background-image: url("../img/fieldsnew1\ copy.jpg");
+    background-image: url("../img/fieldday.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ html, body{
     max-width: 100%;
 }
 .parallaxfeature4{
-    background-image: url("../img/fieldsnew\ copy.jpg");
+    background-image: url("../img/fieldday2.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -147,7 +147,7 @@ a:hover{
     background-color: white;
 }
 .parallax2{
-    background-image: url("../img/zeke2.jpg");
+    background-image: url("../img/godwinnew.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ a:hover{
     background-size: contain;
 }
 .parallax4{
-    background-image: url("../img/justinherbert.jpeg");
+    background-image: url("../img/adamsrodgers.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
