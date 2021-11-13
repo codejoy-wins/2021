@@ -81,7 +81,7 @@ html, body{
     max-height: 50px;
 }
 .parallax{
-    background-image: url("../img/swiftramsey\ copy.jpg");
+    background-image: url("../img/jc.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -90,16 +90,16 @@ html, body{
     max-width: 100%;
 }
 .parallaxfeature{
-    background-image: url("../img/chasenew.jpg");
+    background-image: url("../img/h2.jpg");
     height: 90vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin-top: -50px;
     max-width: 100%;
 }
 .parallaxfeature2{
-    background-image: url("../img/rodgersslide\ copy.jpg");
+    background-image: url("../img/jt2.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ html, body{
     max-width: 100%;
 }
 .parallaxfeature4{
-    background-image: url("../img/fieldday2.jpg");
+    background-image: url("../img/p2.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
