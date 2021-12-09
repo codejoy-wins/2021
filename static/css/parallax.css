@@ -81,7 +81,7 @@ html, body{
     max-height: 50px;
 }
 .parallax{
-    background-image: url("../img/samuel.jpg");
+    background-image: url("../img/jtnew.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@ html, body{
     max-width: 100%;
 }
 .parallaxfeature2{
-    background-image: url("../img/jt2.jpg");
+    background-image: url("../img/samuel.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
