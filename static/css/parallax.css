@@ -81,7 +81,7 @@ html, body{
     max-height: 50px;
 }
 .parallax{
-    background-image: url("../img/jtnew.jpg");
+    background-image: url("../img/pat.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -144,7 +144,6 @@ a:hover{
 }
 .real a:hover{
     color: black;
-    background-color: white;
 }
 .parallax2{
     background-image: url("../img/godwinnew.jpg");
@@ -367,12 +366,10 @@ p{
       }
   }
   .real a:hover{
-    background-color: white;
     color: black;
 }
 .real a{
     background-color: black;
-    color: white;
 }
 .impact{
     background-color: black;
@@ -461,11 +458,8 @@ ul{
     list-style: none;
 }
 ul a{
-    cursor: none;
+    cursor: cell;
     color: white;
-}
-ul li:hover{
-    background-color: whitesmoke;
 }
 
 
