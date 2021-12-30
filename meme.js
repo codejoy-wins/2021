@@ -20,7 +20,8 @@ const preventing = (e)=>{
         "top": top,
         "bottom": bottom,
         "pic": pic,
-        "false": "https://i.pinimg.com/474x/5a/e1/5f/5ae15f2ef63ecded7dbe6cf55dc47ae8.jpg",
+        "false2": "https://i.pinimg.com/474x/5a/e1/5f/5ae15f2ef63ecded7dbe6cf55dc47ae8.jpg",
+        "false": "static/img/babe.jpeg",
         "color": color,
     }
     makememe(meme);
