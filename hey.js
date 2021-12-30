@@ -85,19 +85,34 @@ const nextTime = () =>{
     let mytiming = new Date();
     let correcttime = mytiming.getHours();
     let pikachu = mytiming.getMinutes();
-    let day = mytiming.getDay();
-
+    let correctday = mytiming.getDay();
+    let day = correctday;
+    let weekend = false;
+    if(day>=5){
+        weekend = true;
+    }
     if(correcttime>12){
         correcttime = correcttime -12;
     }
     console.log('time');
-    document.getElementById("next").innerHTML=`
-    <p>
-        Is it ${correcttime} o'clock already?
-    </p>
-    <p>
-        Only ${5-day} more days til the weekend
-    </p>
+    if(!weekend){
+        document.getElementById("next").innerHTML=`
+        <p>
+            Is it ${correcttime} o'clock already?
+        </p>
+        <p>
+            Only ${5-day} more days til the weekend
+        </p>
+        `
+    }
+    else{
+        document.getElementById("next").innerHTML=`
+        <p>
+            Is it ${correcttime} o'clock already?
+        </p>
+        <p>Enjoy your weekend</p>
     `
+    }
+    
 }
 nextTime();
