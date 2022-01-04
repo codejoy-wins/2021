@@ -4,6 +4,7 @@ html, body{
     width: 100%;
     padding: 0;
     margin: 0 auto;
+    /* background-color: rgba(245, 245, 245, 0.65); */
 }
 *{
     font-family: 'Spectral', serif;
@@ -145,7 +146,7 @@ a:hover{
     color: black;
 }
 .parallax2{
-    background-image: url("../img/abpunch.jpeg");
+    background-image: url("../img/m.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -232,7 +233,7 @@ a:hover{
     background-size: cover;
 }
 .ernie{
-    background-image: url("../img/panda.jpg");
+    background-image: url("../img/elliebest.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
