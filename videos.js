@@ -10,7 +10,12 @@ function alls(){
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/0KEbzVr_Tl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-
+    <div class="video">
+    <h1>Perfection</h1>
+    <div class="vid2">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/64CbxyOds6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
 
     <div class="video">
         <h1>Gladiator</h1>
@@ -54,12 +59,7 @@ function alls(){
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/FW40P9RYYu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-    <div class="video">
-        <h1>Perfection</h1>
-        <div class="vid2">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/64CbxyOds6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
+    
     <div class="video2">
         <h1>Vaccine Treason</h1>
             <div class="vid2">
@@ -293,6 +293,12 @@ function cod(){
     `
     document.getElementById("article").innerHTML=`
     <div class="video">
+    <h1>Perfection</h1>
+    <div class="vid2">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/64CbxyOds6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    <div class="video">
         <h1>Gladiator</h1>
         <div class="vid2">
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/ojKv0uJKgDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -302,12 +308,6 @@ function cod(){
         <h1>New Map New Guns New Mode Same Result</h1>
         <div class="vid2">
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/FW40P9RYYu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
-    <div class="video">
-        <h1>Perfection</h1>
-        <div class="vid2">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/64CbxyOds6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="video">
