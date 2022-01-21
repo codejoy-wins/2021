@@ -492,3 +492,13 @@ ul a:hover{
     color: silver;
     animation: bolt 7s infinite;
 }
+
+.specialty{
+    color: blueviolet;
+}
+.specialty a{
+    color: gold;
+}
+.specialty a:hover{
+    color: turquoise;
+}
