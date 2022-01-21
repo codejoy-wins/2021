@@ -1241,8 +1241,8 @@ console.log(`${womanobj.length} is woman length`);
 
 console.log(`${womanobj.length + manobj.length} is total length`);
 
-function newman(){
-    console.log("new man");
+const newman= ()=>{
+    console.log("new man constantine");
     let k = Math.floor(Math.random()*manobj.length);
 
     if(current !== manobj[k].song){
@@ -1290,12 +1290,12 @@ function newman(){
         }
         document.getElementById("tight").innerHTML=manobj[k].fullsong;
 }
-function clearpic(){
+const clearpic =()=>{
     document.getElementById("picture").innerHTML=``;
 }
 
-function newwoman(){
-    console.log("new woman");
+const newwoman = ()=>{
+    console.log("new woman constantine");
     let k = Math.floor(Math.random()*womanobj.length);
 
     if(current !== womanobj[k].song){
@@ -1340,13 +1340,13 @@ function newwoman(){
         document.getElementById("tight").innerHTML=womanobj[k].fullsong;
 
 }
-function picturing(i){
+const picturing =(i)=>{
     document.getElementById("picture").innerHTML=`
         <img src="static/img/${i}" alt="failed" class="pic">
         `;
 }
 
-function pauseplay(){
+const pauseplay =()=>{
     if(x == "steady"){
         console.log("x steady");
     }
@@ -1369,18 +1369,18 @@ function pauseplay(){
     }
 }
 
-function blog(){
+const blog =()=>{
     document.getElementById("switch").innerHTML=`
     Freedom
     `;
 }
-function alien(){
+const alien=()=>{
     document.getElementById("switch").innerHTML=`
     DJ Aliens
     `;
 }
 
-function playlist(){
+const playlist =()=>{
     if(dj == "woman"){
         newwoman();
     }
