@@ -378,6 +378,14 @@ p{
     border-radius: 1vw;
     padding: .5vw;
 }
+.impact:hover{
+    color: rgb(189, 142, 189);
+}
+.impact a:hover{
+    color: rgb(189, 142, 189);
+    cursor: cell;
+
+}
 .question{
     background-color: red;
     color: white;
@@ -494,11 +502,15 @@ ul a:hover{
 }
 
 .specialty{
-    color: blueviolet;
+    color: rgb(189, 142, 189);
+
 }
 .specialty a{
     color: gold;
 }
 .specialty a:hover{
     color: turquoise;
+}
+.sp:hover{
+    color: gold;
 }
