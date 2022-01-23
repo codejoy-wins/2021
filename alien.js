@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song": "NewWorldOrder",
+        "artist": "NF",
+        "fullsong": "New World Order featuring Adam Calhoun",
+        "picture": "nf.jpg",
+    },
+    {
         "song": "letYouDown",
         "artist": "NF",
         "fullsong": "Let You Down",
