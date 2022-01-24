@@ -137,6 +137,9 @@ a:hover{
 .purple{
     color: purple;
 }
+.purplespecial{
+    color: rgb(66, 7, 66);
+}
 .pic{
     max-width: 100%;
 }
@@ -237,6 +240,16 @@ h1 a{
     border-radius: 1ch;
     padding: 3vw;
     background-color: rgba(211, 17, 17, 0.65);
+    padding-bottom: 7vw;
+    color: silver;
+    font-size: larger;
+}
+.post4advanced{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(45, 43, 134, 0.65); */
+    background-color: rgba(46, 44, 172, 0.65);
+
     padding-bottom: 7vw;
     color: silver;
     font-size: larger;
@@ -428,7 +441,12 @@ ol{
 /* background-color: rgba(51, 139, 255, 0.596); */
 
 .post2advanced p{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.post4advanced p{
+    background-color: rgba(149, 97, 160, 0.938);
     padding: 1vw;
     border-radius: 1vw;
 }
