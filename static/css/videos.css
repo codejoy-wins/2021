@@ -4,6 +4,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 .vid{
     max-width: 100%;
@@ -37,12 +38,12 @@ html, body{
     padding: 1vw;
 }
 #nav{
-    background-color: rgb(43, 226, 156, 0.363);
+    background-color: rgba(235, 246, 246, 0.363);
     width: 100%;
 }
 a{
     text-decoration: none;
-    color: rgb(57, 46, 207);
+    color: rgb(48, 48, 51);
     cursor: cell;
 }
 a:hover{
@@ -81,7 +82,7 @@ a:hover{
     color: pink;
 }
 #dev a:hover{
-    color: rgb(238, 18, 238);
+    color: rgb(20, 11, 20);
 }
 #dev{
     height: 20vw;
@@ -109,14 +110,14 @@ a:hover{
 #options h3{
     display: inline-block;
     padding: 1vw;
-    color: violet;
+    color: rgb(99, 81, 99);
 }
 #options h3:hover{
-    color: aqua;
+    color: rgb(149, 161, 161);
     cursor: cell;
 }
 #article{
-    color: rgba(0, 255, 255, 0.897);
+    color: rgba(19, 24, 24, 0.897);
     padding: 1vw;
     background-color:black;
     text-align: center;
@@ -149,4 +150,7 @@ a:hover{
 }
 .feature{
     max-width: 100%;
+}
+#title{
+    color: rgba(194, 169, 152, 0.658);
 }
