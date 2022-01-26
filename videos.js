@@ -4,12 +4,23 @@ function alls(){
     <h1> All Videos </h1>
     `
     document.getElementById("article").innerHTML=`
+    
+
+
     <div class="video">
         <h1>Don't Look Up</h1>
         <div class="vid2">
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/0KEbzVr_Tl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
+    <div class="video2">
+    <h1>How to Survive Playing f6</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/_2-rflzE24c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+
+
     <div class="video">
     <h1>Perfection</h1>
     <div class="vid2">
@@ -517,6 +528,15 @@ function chess(){
     <h1> Chess Tutorials </h1>
     `
     document.getElementById("article").innerHTML=`
+
+    
+
+    <div class="video2">
+    <h1>How to survive playing f6</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/_2-rflzE24c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
     <div class="video">
         <h1>Bday Chess</h1>
         <div class="vid2">
