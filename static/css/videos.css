@@ -17,6 +17,7 @@ html, body{
     height: auto;
     width: 100%;
 }
+
 #reviews h2{
     text-align: center;
 }
@@ -36,14 +37,15 @@ html, body{
 .option{
     display: inline-block;
     padding: 1vw;
+    color: whitesmoke;
 }
 #nav{
-    background-color: rgba(235, 246, 246, 0.363);
+    background-color: rgba(34, 46, 46, 0.767);
     width: 100%;
 }
 a{
     text-decoration: none;
-    color: rgb(48, 48, 51);
+    color: rgb(183, 183, 196);
     cursor: cell;
 }
 a:hover{
@@ -110,7 +112,7 @@ a:hover{
 #options h3{
     display: inline-block;
     padding: 1vw;
-    color: rgb(99, 81, 99);
+    color: rgb(231, 215, 231);
 }
 #options h3:hover{
     color: rgb(149, 161, 161);
