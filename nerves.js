@@ -44,8 +44,36 @@ function noone2(){
     <p>I want this to <span class="noone" onclick="noone()">expand</span> even though it is not for me</p>
     `
 }
-
+function brandnew(){
+    `
+    <p><span class="noone" onclick="noone2()">Nevermind</span></p>
+    <div class="post">
+                <h2>I might be wrong</h2>
+                <p>
+                    For the record, I might be wrong about everything I say in this blog.  I'm just a guy trying to make sense of the world.
+                </p>
+                <p>
+                I've decided to temporarily suspend what I've had hidden here after a years thought.
+                </p>
+                <h3>1.3.22</h3>
+            </div>
+    `
+}
 function noone(){
+    document.getElementById("noone").innerHTML= `
+    <p><span class="noone" onclick="noone2()">Nevermind</span></p>
+    <div class="vid">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/q6EzSbI-zOk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                
+                <p>
+                    I've decided to remove this post after a year's thought.
+                </p>
+    `
+}
+
+function legacyfun(){
     document.getElementById("noone").innerHTML= `
     <p><span class="noone" onclick="noone2()">Nevermind</span></p>
     <div class="vid">
