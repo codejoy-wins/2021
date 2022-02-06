@@ -1,5 +1,11 @@
 let manobj = [
     {
+        "song": "slash",
+        "artist": "Say Anything",
+        "fullsong": "Yellow Cat (slash) Red Cat",
+        "picture": "cats.jpg",
+    },
+    {
         "song": "NewWorldOrder",
         "artist": "Tom MacDonald",
         "fullsong": "New World Order featuring Adam Calhoun",

@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song": "slash",
+        "artist": "Say Anything",
+        "fullsong": "Yellow Cat (slash) Red Cat",
+        "picture": "cats.jpg",
+    },
+    {
         "song": "NewWorldOrder",
         "artist": "NF",
         "fullsong": "New World Order featuring Adam Calhoun",
