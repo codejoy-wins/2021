@@ -1,5 +1,9 @@
 const album = [
     {
+        "song":"AdoreYou",
+        "fullsong":"Come In to Adore You"
+    },
+    {
         "song":"California",
         "fullsong":"cali",
     },
