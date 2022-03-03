@@ -75,6 +75,9 @@ const helloWorld = () => {
             <p>
             The nav bar for you is those three little lines at the top
             </p>
+            <p>
+            I would recommend starting <a target="_blank" href="welcome.html">here</a> instead
+            </p>
         `
     }
     

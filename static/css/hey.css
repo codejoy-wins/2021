@@ -289,12 +289,12 @@ p{
     ul{
         display: flex;
         max-width: 50%;
-        background-color: navy;
+        background-color: white;
         float: left;
         overflow: auto;
     }
     ul li{
-        background-color: red;
+        background-color: rgba(255, 0, 0, 0.651);
         padding: .5vw;
         display: inline-block;
     }
