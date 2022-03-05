@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song": "Westfall",
+        "artist": "Okkervil River",
+        "fullsong": "Westfall",
+        "picture": "",
+    },
+    {
         "song": "slash",
         "artist": "Say Anything",
         "fullsong": "Yellow Cat (slash) Red Cat",
