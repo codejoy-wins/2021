@@ -4,6 +4,10 @@ function alls(){
     <h1> All Videos </h1>
     `
     document.getElementById("article").innerHTML=`
+
+    <div class="video2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/UGJnPUkbW_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     
     <div class="video2">
     <h1>All time high Rating</h1>
@@ -534,6 +538,10 @@ function chess(){
     `
     document.getElementById("article").innerHTML=`
     
+    <div class="video2">
+    <h1>Morphy vs. Alpha Zero</h1>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/UGJnPUkbW_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     
     <div class="video2">
     <h1>How to survive playing f6</h1>
