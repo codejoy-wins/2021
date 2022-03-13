@@ -94,6 +94,9 @@ const nextTime = () =>{
     if(day>=5){
         weekend = true;
     }
+    if(day==0){
+        weekend = true;
+    }
     if(correcttime>12){
         correcttime = correcttime -12;
     }
