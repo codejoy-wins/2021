@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song": "sadButTrue",
+        "artist": "Transplants",
+        "fullsong": "Sad But True",
+        "picture": "transplants2.jpg",
+    },
+    {
         "song": "Westfall",
         "artist": "Okkervil River",
         "fullsong": "Westfall",
