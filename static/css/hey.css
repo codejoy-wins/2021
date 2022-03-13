@@ -48,6 +48,7 @@ html, body{
     max-width: 200px;
     max-height: 50px;
 }
+
 #foot{
     background-color: rgb(255, 255, 255);
     padding: 1vw;
@@ -78,6 +79,10 @@ html, body{
     max-width: 100%;
 }
 #banner{
+    background-color: rgba(255, 196, 0, 0.897);
+    max-height: 50px;
+}
+#bannery{
     background-color: rgba(146, 25, 25, 0.116);
     max-height: 50px;
 }
@@ -128,12 +133,28 @@ html, body{
 
 a{
     text-decoration: none;
-    color: gold;
+    color: black;
     padding: 1vw;
     border-radius: 1vw;
 }
+
 a:hover{
-    color: black;
+    color: gold;
+
+}
+p a{
+    text-decoration: none;
+    color: navy;
+    padding: 1.5vw;
+    border-radius: 1vw;
+    border: solid navajowhite .1vw;
+    background-color: rgba(255, 222, 173, 0.534);
+}
+
+p a:hover{
+    color: burlywood;
+    border: solid black .05vw;
+
 }
 .real a{
     text-decoration: none;
@@ -448,6 +469,12 @@ p{
     opacity: 1;
 }
 .burger div{
+    background-color: navajowhite;
+    width: 34px;
+    height: 6px;
+    margin: 5px;
+}
+.burger2 div{
     background-color: rgb(177, 165, 165);
     width: 34px;
     height: 6px;
