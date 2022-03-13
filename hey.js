@@ -62,7 +62,7 @@ const helloWorld = () => {
         console.log("I see you're on a tablet");
         document.getElementById("intro").innerHTML=`
             <p>
-            Welcome, I see you're on your tablet.
+            Welcome, I see you're on instagram.
             </p>
         `
     }
