@@ -20,7 +20,7 @@ html, body{
    opacity: .7;
 }
 #first{
-    color: red;
+    color: coral;
     font-size: xx-large;
 }
 #goldfirst{
@@ -79,7 +79,8 @@ html, body{
     max-width: 100%;
 }
 #banner{
-    background-color: rgba(255, 196, 0, 0.897);
+    background-color: rgba(16, 154, 218, 0.541);
+    /* background-color: rgba(60, 255, 0, 0.897); */
     max-height: 50px;
 }
 #bannery{
@@ -87,14 +88,28 @@ html, body{
     max-height: 50px;
 }
 .parallax{
-    background-image: url("../img/jag.jpg");
+    background-image: url("../img/worldball.jpg");
     height: 100vw;
     background-attachment: fixed;
+    background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -50px;
+    margin-top: 20px;
     max-width: 100%;
 }
+
+.parallaxxp{
+    background-image: url("../img/worldball.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: 3ch top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+
 .parallaxfeature{
     background-image: url("../img/endgame.jpeg");
     height: 90vw;
@@ -323,6 +338,10 @@ p{
       background-size: cover;
       background-position: -200px;
     }
+
+
+
+
     .parallaxfeature{
         background-attachment: scroll;
     }
