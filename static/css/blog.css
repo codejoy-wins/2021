@@ -1,5 +1,7 @@
 *{
-    font-family: 'Spectral', serif;
+    /* font-family: 'Spectral', serif; */
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
 }
 @keyframes elam{
     20%{
