@@ -141,10 +141,12 @@ a:hover{
 .video{
     max-width: 100%;
     width: 600px;
+    color: palegoldenrod;
 }
 .video2{
     max-width: 100%;
     width: 600px;
+    color: paleturquoise;
 }
 .video3{
     max-width: 100%;
