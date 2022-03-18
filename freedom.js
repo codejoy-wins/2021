@@ -6,6 +6,12 @@ let manobj = [
         "picture": "transplants2.jpg",
     },
     {
+        "song": "Nude",
+        "artist": "Radiohead",
+        "fullsong": "Nude",
+        "picture": "radiohead.jpg",
+    },
+    {
         "song": "Westfall",
         "artist": "Okkervil River",
         "fullsong": "Westfall",
