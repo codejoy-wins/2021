@@ -79,8 +79,7 @@ html, body{
     max-width: 100%;
 }
 #banner{
-    background-color: rgba(16, 154, 218, 0.541);
-    /* background-color: rgba(60, 255, 0, 0.897); */
+    background-color: black;
     max-height: 50px;
 }
 #bannery{
