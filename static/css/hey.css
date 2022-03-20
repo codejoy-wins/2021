@@ -329,7 +329,8 @@ p{
         overflow: auto;
     }
     ul li{
-        background-color: rgba(255, 0, 0, 0.651);
+        background-color: rgba(255, 238, 0, 0.651);
+        color: black;
         padding: .5vw;
         display: inline-block;
     }
