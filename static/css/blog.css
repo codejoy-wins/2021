@@ -4,7 +4,7 @@
     font-size: 22px;
 }
 #heading p{
-    color: black;
+    color: gold;
     display: inline-block;
 }
 @keyframes elam{
@@ -669,16 +669,16 @@ body{
     }
     #mobileheading{
         visibility: visible;
+        float: left;
     }
     #wonderful{
-        color: blue;
-        background-color: rgba(128, 128, 128, 0.274);
-        border-radius: 2vw;
-        padding: .2vw;
+        color: red;
+        /* background-color: rgba(128, 128, 128, 0.274); */
+        /* border-radius: 2vw; */
+        /* padding: .2vw; */
     }
     /* background-color: rgba(101, 255, 11, 0.5); lime green neon  */
     .post3{
-        background-color: rgba(255, 127, 80, 0.521);
-
+        background-color:rgba(8, 12, 80, 0.856);
     }
 }
