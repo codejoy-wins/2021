@@ -195,7 +195,7 @@ function blog(){
 
 function april(){
     document.getElementById("switch").innerHTML=`
-    June
+    Home
     `
 }
 

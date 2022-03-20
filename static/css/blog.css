@@ -291,6 +291,7 @@ h1 a{
 .post3{
     color: wheat;
     font-size: larger;
+    background-color: rgba(101, 255, 11, 0.5);
 }
 .profound{
     color: wheat;
@@ -641,4 +642,33 @@ body{
 
 .guest a{
     color: blue;
+}
+.what{
+    background-color: black;
+    max-width: 200px;
+    visibility: hidden;
+}
+#mobileheading{
+    visibility: hidden;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    #nav{
+        visibility: hidden;
+        display: none;
+    }
+    .what{
+        background-color: black;
+        max-width: 200px;
+        visibility: visible;
+    }
+    #mobileheading{
+        visibility: visible;
+    }
+    #wonderful{
+        color: blue;
+        background-color: rgba(128, 128, 128, 0.274);
+        border-radius: 2vw;
+        padding: .2vw;
+    }
 }
