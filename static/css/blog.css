@@ -3,6 +3,10 @@
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
 }
+#heading p{
+    color: black;
+    display: inline-block;
+}
 @keyframes elam{
     20%{
         color: wheat;
