@@ -7,6 +7,7 @@
     color: gold;
     display: inline-block;
 }
+
 @keyframes elam{
     20%{
         color: wheat;
@@ -445,7 +446,7 @@ ol{
     /* background-color: rgba(0, 0, 0, 0.621); */
     color: rgba(0, 0, 0, 0.621);
     /* color: whitesmoke; */
-    background-color: rgba(245, 245, 245, 0.63);
+    background-color: rgba(193, 137, 207, 0.904);
     padding: 1vw;
     border-radius: 1vw;
 }
@@ -684,4 +685,8 @@ body{
     .post3{
         background-color:rgba(8, 12, 80, 0.856);
     }
+}
+.reflect{
+    color: greenyellow;
+    background-color: green;
 }
