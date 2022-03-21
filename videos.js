@@ -5,6 +5,13 @@ function alls(){
     `
     document.getElementById("article").innerHTML=`
 
+    <div class="video">
+        <h1>Don't Look Up</h1>
+        <div class="vid2">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/0KEbzVr_Tl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
     <div class="video2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/UGJnPUkbW_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -15,13 +22,7 @@ function alls(){
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/dcHK0S2Is9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
-
-    <div class="video">
-        <h1>Don't Look Up</h1>
-        <div class="vid2">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/0KEbzVr_Tl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
+    
     <div class="video2">
     <h1>How to Survive Playing f6</h1>
     <div class="vid2">
@@ -49,6 +50,15 @@ function alls(){
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/oRG0B-bdz9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+        <div class="video">
+        <h1>John Wick (listen to the song at the same time)</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/J_kxAPWo6uQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/1CurN2Fg-2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
     <div class="video">
         <h1>Free Guy Breakdown</h1>
         <div class="vid2">
@@ -316,6 +326,15 @@ function cod(){
     <h1>Perfection</h1>
     <div class="vid2">
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/64CbxyOds6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    <div class="video">
+    <h1>John Wick (listen to the song at the same time)</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/J_kxAPWo6uQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/1CurN2Fg-2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
     <div class="video">
