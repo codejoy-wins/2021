@@ -442,7 +442,10 @@ ol{
     border-radius: 1vw;
 }
 .post2 p{
-    background-color: rgba(250, 189, 250, 0.621);
+    /* background-color: rgba(0, 0, 0, 0.621); */
+    color: rgba(0, 0, 0, 0.621);
+    /* color: whitesmoke; */
+    background-color: rgba(245, 245, 245, 0.63);
     padding: 1vw;
     border-radius: 1vw;
 }
