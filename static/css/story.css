@@ -76,6 +76,9 @@ a:hover{
     text-align: center;
     font-size: larger;
 }
+#yes{
+    text-align: center;
+}
 .purple{
     color: purple;
 }
