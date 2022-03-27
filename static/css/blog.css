@@ -457,6 +457,22 @@ ol{
     padding: 1vw;
     border-radius: 1vw;
 }
+.godlike{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(211, 192, 17, 0.65);
+    padding-bottom: 7vw;
+    color: silver;
+    font-size: larger;
+}
+.godlike p{
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.godlike h2, h3{
+    color: black;
+}
 .post4advanced p{
     background-color: rgba(149, 97, 160, 0.938);
     padding: 1vw;
