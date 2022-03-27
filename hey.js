@@ -73,10 +73,7 @@ const helloWorld = () => {
             Welcome, I see you're on your phone.
             </p>
             <p>
-            I advise you to periodically update your notification settinngs to make sure your phone is only bothering you when someone really needs you.
-            </p>
-            <p>
-            I would recommend starting <a target="_blank" href="welcome.html">here</a> instead
+            You can also try starting <a target="_blank" href="welcome.html">here</a> instead
             </p>
         `
     }
