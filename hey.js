@@ -73,17 +73,8 @@ const helloWorld = () => {
             Welcome, I see you're on your phone.
             </p>
             <p>
-            While you are using your cellphone and listening to me hear me speak:
+            I advise you to periodically update your notification settinngs to make sure your phone is only bothering you when someone really needs you.
             </p>
-            <p>
-            Turn all notifications off completely even to the last vibrate and ring.
-            </p>
-            <p>
-            You already look at your phone enough.  You don't need to look at your phone when you weren't planning on looking at your phone too because it vibrated.
-            </p>
-            <p>
-            This is craziness of couse, like Amish people.  But listen to the truth in what I'm saying and find within the range of you and me to adjust your smartphone to better suit the happiness of you and those around you.  I can teach you how to manage your notification setting and optimize your personal relationships.
-            </p
             <p>
             I would recommend starting <a target="_blank" href="welcome.html">here</a> instead
             </p>
