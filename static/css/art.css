@@ -4,6 +4,12 @@
 html, body{
     margin: 0;
     padding: 0;
+    /* background-color: rgba(128, 128, 128, 0.561); */
+    background-color: black;
+
+}
+p{
+    color: coral;
 }
 .vid{
     max-width: 100%;
@@ -36,19 +42,25 @@ html, body{
     padding: 1vw;
 }
 #nav{
-    background-color: rgb(43, 226, 156, 0.363);
+    /* background-color: rgba(226, 208, 43, 0.363); */
+    background-color: rgba(255, 127, 80, 0.719);
     width: 100%;
+}
+#nav a{
+    color: black;
+}
+#nav a:hover{
+    color: whitesmoke;
 }
 a{
     text-decoration: none;
-    color: rgb(57, 46, 207);
+    color: rgb(211, 91, 87);
     cursor: cell;
 }
 a:hover{
     color: gold
 }
 #nav a:hover{
-    color: black;
     font-weight: bold;
 }
 .current{
