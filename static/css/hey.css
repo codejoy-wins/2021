@@ -476,7 +476,9 @@ p{
         opacity: .85;
     }
 }
-
+#Lord{
+    background-color: rebeccapurple;
+}
 .burger{
     opacity: .1;
     animation: truth 7s;
