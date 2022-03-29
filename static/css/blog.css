@@ -451,7 +451,10 @@ ol{
     border-radius: 1vw;
 }
 /* background-color: rgba(51, 139, 255, 0.596); */
-
+.strux{
+    max-width: 100%;
+    padding: 1vw;
+}
 .post2advanced p{
     background-color: rgba(0, 0, 0, 0.938);
     padding: 1vw;
