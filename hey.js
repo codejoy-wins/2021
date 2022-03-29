@@ -70,7 +70,7 @@ const helloWorld = () => {
         console.log("I see you're on your phone");
         document.getElementById("intro").innerHTML=`
             <p>
-            Welcome, I see you're on your phone.
+            Welcome, I see you're on your "cell" phone.
             </p>
             <p>
             You can also try starting <a target="_blank" href="welcome.html">here</a> instead
