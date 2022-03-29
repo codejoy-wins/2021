@@ -549,6 +549,15 @@ ul a{
         opacity: .85;
     }
 }
+.spxi{
+    color: white;
+    background-color: rgba(245, 245, 245, 0.404);
+}
+.spxi:hover{
+    color: white;
+    outline: red .2vw solid;
+    background-color: black
+}
 ul a:hover{
     color: silver;
     animation: bolt 7s infinite;
