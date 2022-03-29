@@ -841,12 +841,6 @@ let womanobj = [
         "picture": "",
     },
     {
-        "song": "Drummer",
-        "artist": "Wilco",
-        "fullsong": "Heavy Metal Drummer",
-        "picture": "wilco.jpg",
-    },
-    {
         "song": "JesusEtc",
         "artist": "Wilco",
         "fullsong": "Jesus, Etc.",
