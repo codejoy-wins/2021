@@ -553,7 +553,15 @@ ul a:hover{
     color: silver;
     animation: bolt 7s infinite;
 }
-
+.gold a{
+    background-color: black;
+}
+.god{
+    max-width: 90px;
+}
+h3 a{
+    color: red;
+}
 .specialty{
     color: rgb(189, 142, 189);
 
