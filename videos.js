@@ -422,7 +422,7 @@ function conspiracies(){
     <div class="video">
             <h1>Free Guy Breakdown</h1>
             <div class="vid2">
-            <iframe width="640" height="360" scrolling="no" frameborder="0" style="border: none;" src="https://www.bitchute.com/embed/85THXVuTFyBm/"></iframe>
+            <iframe width="100%" height="360" scrolling="no" frameborder="0" style="border: none;" src="https://www.bitchute.com/embed/85THXVuTFyBm/"></iframe>
             </div>
         </div>
     <div class="video2">
