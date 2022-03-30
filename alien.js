@@ -693,6 +693,12 @@ let manobj = [
         "fullsong": "Everything in its Right Place",
         "picture": "radiohead.jpg"
     },
+    {
+        "song": "skateboard",
+        "artist": "Skegss",
+        "fullsong": "Got on my Skateboard",
+        "picture": ""
+    },
 ];
 
 let womanobj = [
