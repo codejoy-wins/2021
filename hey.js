@@ -87,6 +87,7 @@ const nextTime = () =>{
     let pikachu = mytiming.getMinutes();
     let correctday = mytiming.getDay();
     let day = correctday;
+    let mandela = false;
     let weekend = false;
     if(day>=5){
         weekend = true;
@@ -94,8 +95,12 @@ const nextTime = () =>{
     if(day==0){
         weekend = true;
     }
+
     if(correcttime>12){
         correcttime = correcttime -12;
+    }
+    if(correcttime == 0){
+        correcttime = 12;
     }
     console.log('time');
     if(!weekend){
