@@ -7,6 +7,12 @@
     margin: 3vw;
     border-radius: 1vw;
 }
+.song2{
+    background-color: rgba(212, 0, 255, 0.623);
+    padding: 1vw;
+    margin: 3vw;
+    border-radius: 1vw;
+}
 .pic{
     max-width: 100%;
     max-height: 600px;
@@ -18,9 +24,23 @@
     border-radius: 1vw;
     opacity: .4;
 }
+@keyframes elamef {
+    0%{
+        color: gold;
+    }
+    25%{
+        color: silver;
+    }
+    0%{
+        color: rgb(4, 0, 255);
+    }
+    25%{
+        color: rgb(188, 0, 245);
+    }
+}
 h1{
     text-align: center;
-    color: gold;
+    animation: elamef 7s infinite;
 }
 .song:hover{
     cursor: url(../img/note2.png), auto;

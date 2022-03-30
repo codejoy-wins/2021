@@ -3,7 +3,8 @@ let manobj = [
         "song": "skateboard",
         "artist": "Skegss",
         "fullsong": "Got on my Skateboard",
-        "picture": ""
+        "picture": "",
+        "color": "purple"
     },
     {
         "song": "sadButTrue",
@@ -1274,7 +1275,7 @@ function populate(){
             `
         }else{
             document.getElementById("songs").innerHTML+=`
-            <div class="song" onclick="hello(${i})">
+            <div class="song2" onclick="hello(${i})">
             <p>${manobj[i].fullsong}</p>
             <p>${manobj[i].artist}</p>
             <div class="songsub" id="${i}">
