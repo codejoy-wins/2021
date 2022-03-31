@@ -549,6 +549,12 @@ ul a{
         opacity: .85;
     }
 }
+#birds{
+    background-color: rebeccapurple;
+    padding: 1vw;
+    border-radius: 1vw;
+    color: whitesmoke;
+}
 .spxi{
     color: white;
     background-color: rgba(245, 245, 245, 0.666);
