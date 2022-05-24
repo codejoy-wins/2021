@@ -9,7 +9,7 @@ html, body{
 
 }
 p{
-    color: coral;
+    color: rgb(188, 154, 140);
 }
 .vid{
     max-width: 100%;
@@ -43,22 +43,22 @@ p{
 }
 #nav{
     /* background-color: rgba(226, 208, 43, 0.363); */
-    background-color: rgba(255, 127, 80, 0.719);
+    background-color: rgba(201, 184, 178, 0.41);
     width: 100%;
 }
 #nav a{
     color: black;
 }
 #nav a:hover{
-    color: whitesmoke;
+    color: rgb(89, 155, 67);
 }
 a{
     text-decoration: none;
-    color: rgb(211, 91, 87);
+    color: whitesmoke;
     cursor: cell;
 }
 a:hover{
-    color: gold
+    color: rgb(88, 133, 61)
 }
 #nav a:hover{
     font-weight: bold;
