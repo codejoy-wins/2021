@@ -13,6 +13,10 @@ function alls(){
     </div>
 
     <div class="video2">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sCO2HK9dOyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/UGJnPUkbW_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     
@@ -418,6 +422,16 @@ function conspiracies(){
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/0KEbzVr_Tl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
+
+    <div class="video">
+    <h1>DEATH and Parallel Universe Theory</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/sCO2HK9dOyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+
+
+
 
     <div class="video">
             <h1>Free Guy Breakdown</h1>
