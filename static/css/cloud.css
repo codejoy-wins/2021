@@ -50,7 +50,8 @@ html, body{
     padding: 1vw;
 }
 #nav{
-    background-color: rgba(30, 22, 104, 0.801);
+    /* background-color: rgba(30, 22, 104, 0.801); */
+    background: linear-gradient(blue,red);
     width: 100%;
     text-align: center;
 }

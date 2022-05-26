@@ -37,7 +37,9 @@ html, body{
     padding: 1vw;
 }
 #nav{
-    background-color: rgb(43, 226, 156, 0.363);
+    /* background-color: rgb(43, 226, 156, 0.363); */
+    background: linear-gradient(silver,gold);
+
     width: 100%;
 }
 a{
@@ -112,13 +114,14 @@ a:hover{
     color: violet;
 }
 #options h3:hover{
-    color: aqua;
+    color: gold;
     cursor: cell;
 }
 #article{
+    font-size: 22px;
     color: black;
     padding: 1vw;
-    background-color: rgba(0, 255, 255, 0.897);
+    background-color: rgba(96, 201, 201, 0.897);
 }
 #picture{
     max-width: 100%;
@@ -128,7 +131,7 @@ a:hover{
     height: 50vw;
 }
 .black{
-    color: aqua;
+    color: gold;
 }
 .pic3{
     height: 20vw;
