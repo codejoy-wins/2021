@@ -3,6 +3,11 @@
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
 }
+ul{
+    background-color: aqua;
+    border-radius: 1.3vw;
+    padding: .4vw;
+}
 #heading p{
     color: gold;
     display: inline-block;
