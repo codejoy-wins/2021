@@ -24,9 +24,9 @@ let manobj = [
     },
     {
         "song": "NewWorldOrder",
-        "artist": "NF",
+        "artist": "Tom Macdonald",
         "fullsong": "New World Order featuring Adam Calhoun",
-        "picture": "nf.jpg",
+        "picture": "",
     },
     {
         "song": "letYouDown",
@@ -702,6 +702,12 @@ let manobj = [
 ];
 
 let womanobj = [
+    {
+        "song": "bluebird",
+        "artist": "Miranda Lambert",
+        "fullsong": "Bluebird",
+        "picture": "",
+    },
     {
         "song": "Nude",
         "artist": "Radiohead",
