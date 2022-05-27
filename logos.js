@@ -4,10 +4,6 @@ const album = [
         "fullsong":"AdoreYou"
     },
     {
-        "song":"California",
-        "fullsong":"cali",
-    },
-    {
         "song": "Lying",
         "fullsong": "Lying",
     },
@@ -22,6 +18,10 @@ const album = [
     {
         "song":"Alone",
         "fullsong": "alone",
+    },
+    {
+        "song":"California",
+        "fullsong":"cali",
     },
     {
         "song":"Someone Else",
