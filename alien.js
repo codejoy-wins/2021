@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song": "deadyet",
+        "artist": "Gabriel Black & Phem",
+        "fullsong": "dead yet (with phem)",
+        "picture": "",
+    },
+    {
         "song": "Brainless",
         "artist": "Eminem",
         "fullsong": "Brainless",
