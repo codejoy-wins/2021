@@ -206,12 +206,12 @@ p a:hover{
     padding: 1vw;
 }
 .parallax5{
-    background-image: url("../img/shelovesme.jpg");
+    background-image: url("../img/whatTheHeaven.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .parallax6{
     background-image: url("../img/DJAliensJ.jpg");
@@ -369,6 +369,7 @@ p{
       }
       .parallax5 {
         background-attachment: scroll;
+        background-size: cover;
       }
       .parallax6 {
         background-attachment: scroll;
