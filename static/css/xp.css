@@ -55,6 +55,15 @@ html, body{
     border-top: 1ch solid black;
 
 }
+a h3{
+    text-decoration: none;
+}
+a h3:hover{
+    color: gold;
+}
+footer{
+    text-decoration: none;
+}
 .aqua{
     max-width: 100%;
     max-height: 400px;
