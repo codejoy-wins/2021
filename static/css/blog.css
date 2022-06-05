@@ -480,9 +480,24 @@ ol{
     color: black;
     border-radius: 2vw;
 }
+.post2advanced li{
+    /* background-color: white; */
+    padding: .9vw;
+    color: whitesmoke;
+    border-radius: 2vw;
+}
+.post2advanced ol{
+    background-color: rgb(173, 40, 0);
+    padding: 2vw;
+    color: black;
+    border-radius: 2vw;
+}
 .post2advanced a:hover{
     padding: 2vw;
-
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
 }
 .godlike{
     border-radius: 1ch;
