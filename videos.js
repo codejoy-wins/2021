@@ -82,7 +82,7 @@ function alls(){
     <div class="video2">
         <h1>Imaginary God</h1>
         <div class="vid2">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/3gz-nxAmgls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/2JqHH2SGv4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="video">
@@ -453,7 +453,7 @@ function conspiracies(){
     <div class="video2">
         <h1>Imaginary God</h1>
         <div class="vid2">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/3gz-nxAmgls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/2JqHH2SGv4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <div class="video">
