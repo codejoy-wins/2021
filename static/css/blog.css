@@ -480,6 +480,9 @@ ol{
     color: black;
     border-radius: 2vw;
 }
+#heaven{
+    color: gold;
+}
 .post2advanced li{
     /* background-color: white; */
     padding: .9vw;
