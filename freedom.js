@@ -24,11 +24,12 @@ let manobj = [
         "picture": "",
     },
     {
-        "song": "Brainless",
+        "song": "Zeus",
         "artist": "Eminem",
-        "fullsong": "Brainless",
+        "fullsong": "Zeus",
         "picture": "m.jpg",
     },
+    
     {
         "song": "bluebird",
         "artist": "Miranda Lambert",
@@ -107,6 +108,12 @@ let manobj = [
         "artist":"Olivia Rodrigo",
         "fullsong": "Hope ur ok",
         "picture": "oliviar.jpg"
+    },
+    {
+        "song": "Brainless",
+        "artist": "Eminem",
+        "fullsong": "Brainless",
+        "picture": "m.jpg",
     },
     {
         "song":"Queen",

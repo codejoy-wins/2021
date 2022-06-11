@@ -723,6 +723,12 @@ let manobj = [
         "fullsong": "Vampire",
         "picture": "",
     },
+    {
+        "song": "Zeus",
+        "artist": "Eminem",
+        "fullsong": "Zeus",
+        "picture": "m.jpg",
+    },
 ];
 
 let womanobj = [
