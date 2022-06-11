@@ -1300,6 +1300,12 @@ let manobj = [
         "fullsong": "Subterranean Homesick Alien",
         "picture": "radiohead.jpg",
     },
+    {
+        "song": "Why",
+        "artist": "Dominic Fike",
+        "fullsong": "Why",
+        "picture": "",
+    },
 ];
 console.log("freeeeedommm");
 function populate(){
