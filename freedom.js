@@ -1,5 +1,11 @@
 let manobj = [
     {
+        "song": "Vampire",
+        "artist": "Dominic Fike",
+        "fullsong": "Vampire",
+        "picture": "",
+    },
+    {
         "song": "Mercy",
         "artist": "Shawn Mendes",
         "fullsong": "Mercy",
@@ -30,7 +36,7 @@ let manobj = [
         "picture": "",
     },
     {
-        "song": "skateboard",
+        "song": "Skeggs",
         "artist": "Skegss",
         "fullsong": "Got on my Skateboard",
         "picture": "",

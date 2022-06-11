@@ -712,10 +712,16 @@ let manobj = [
         "picture": "radiohead.jpg"
     },
     {
-        "song": "skateboard",
+        "song": "Skeggs",
         "artist": "Skegss",
         "fullsong": "Got on my Skateboard",
         "picture": ""
+    },
+    {
+        "song": "Vampire",
+        "artist": "Dominic Fike",
+        "fullsong": "Vampire",
+        "picture": "",
     },
 ];
 
