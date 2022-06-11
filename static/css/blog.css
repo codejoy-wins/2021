@@ -437,6 +437,9 @@ ol{
 .god{
     max-width: 100%;
 }
+/* #girl:hover{
+    cursor: crosshair;
+} */
 .dark a{
     color: wheat;
 }
