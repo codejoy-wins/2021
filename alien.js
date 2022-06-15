@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song": "sowing",
+        "artist": "Brand New",
+        "fullsong": "Sowing Season",
+        "picture": "brandnew2.jpeg",
+    },
+    {
         "song": "Remember",
         "artist": "NF",
         "fullsong": "Remember This",
