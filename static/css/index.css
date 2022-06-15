@@ -15,6 +15,11 @@ html, body{
     background-color: black;
     padding: 1vw;
 }
+#dishonest{
+    color: red;
+    border-radius: 1vw;
+    padding: 1vw;
+}
 .right{
    float: right;
    opacity: .7;
