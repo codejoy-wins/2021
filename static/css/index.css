@@ -20,6 +20,9 @@ html, body{
     border-radius: 1vw;
     padding: 1vw;
 }
+#dishonest:hover{
+    color: gold;
+}
 .right{
    float: right;
    opacity: .7;
