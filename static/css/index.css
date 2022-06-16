@@ -21,7 +21,7 @@ html, body{
     padding: 1vw;
 }
 #dishonest:hover{
-    color: gold;
+    color: rgb(118, 3, 233);
 }
 .right{
    float: right;
