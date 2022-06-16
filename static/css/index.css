@@ -356,6 +356,7 @@ p{
 
     .parallaxfeature{
         background-attachment: scroll;
+        background-position: -100px;
     }
     .parallaxfeature2{
         background-attachment: scroll;
