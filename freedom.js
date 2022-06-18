@@ -1,10 +1,11 @@
 let manobj = [
     {
-        "song": "sowing",
+        "song": "Millstone",
         "artist": "Brand New",
-        "fullsong": "Sowing Season",
+        "fullsong": "MillStone",
         "picture": "brandnew2.jpeg",
     },
+    
     {
         "song": "Vampire",
         "artist": "Dominic Fike",
@@ -353,6 +354,12 @@ let manobj = [
         "artist": "The Strokes",
         "fullsong": "The End Has No End",
         "picture": "strokes.jpg"
+    },
+    {
+        "song": "sowing",
+        "artist": "Brand New",
+        "fullsong": "Sowing Season",
+        "picture": "brandnew2.jpeg",
     },
     {
         "song": "First",
