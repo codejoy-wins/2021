@@ -588,14 +588,12 @@ function chess(){
     </div>
     
     <div class="video2 black">
-    <h1>How to survive playing f6</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/dcHK0S2Is9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
 
     <div class="video2">
-    <h1>How to survive playing f6</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/_2-rflzE24c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
