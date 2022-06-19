@@ -51,6 +51,10 @@ const album = [
         "song":"Beautiful Winter",
         "fullsong": "winter",
     },
+    {
+        "song":"Afterlie",
+        "fullsong": "Afterlie",
+    },
 ]
 let currentsong = 0;
 
