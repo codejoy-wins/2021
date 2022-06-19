@@ -246,7 +246,7 @@ p a:hover{
     background-size: cover;
 }
 .parallax9{
-    background-image: url("../img/Heath-Ledger-Joker-117.jpg");
+    background-image: url("../img/joker117.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -350,10 +350,6 @@ p{
       background-position: -200px;
         background-image: url("../img/worldball.jpg");
     }
-
-
-
-
     .parallaxfeature{
         background-attachment: scroll;
         background-position: -100px;
