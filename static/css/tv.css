@@ -276,3 +276,6 @@ body{
 .tv2{
     padding: 1vw;
 }
+a:hover{
+    cursor: cell;
+}
