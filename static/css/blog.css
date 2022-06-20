@@ -246,6 +246,13 @@ h1 a{
     color: black;
     font-size: larger;
 }
+.postpurple{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(143, 17, 211, 0.56);
+    color: black;
+    font-size: larger;
+}
 .post2advanced{
     border-radius: 1ch;
     padding: 3vw;
@@ -461,6 +468,12 @@ ol{
     /* background-color: rgba(0, 0, 0, 0.621); */
     color: rgba(0, 0, 0, 0.621);
     /* color: whitesmoke; */
+    background-color: rgba(226, 183, 236, 0.904);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.postpurple p{
+    color: rgba(0, 0, 0, 0.621);
     background-color: rgba(226, 183, 236, 0.904);
     padding: 1vw;
     border-radius: 1vw;
