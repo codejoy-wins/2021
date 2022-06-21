@@ -317,7 +317,8 @@ p{
 .secret2{
     opacity: 0;
 }
-@media only screen and (max-device-width: 1366px) {
+/* 1366px */
+@media only screen and (max-device-width: 1117px) {
     .secret2{
         opacity: 1;
     }
