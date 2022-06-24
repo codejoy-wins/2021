@@ -348,8 +348,9 @@ p{
     .parallax {
       background-attachment: scroll;
       background-size: cover;
-      background-position: -200px;
-        background-image: url("../img/worldball.jpg");
+      /* background-position: -200px; */
+      background-position: -117px;
+      background-image: url("../img/jag.jpg");
     }
     .parallaxfeature{
         background-attachment: scroll;
@@ -607,4 +608,7 @@ h4{
 }
 .sp:hover{
     color: gold;
+}
+.song{
+    max-width: 100%;
 }
