@@ -51,7 +51,7 @@ let manobj = [
         "picture": "",
     },
     {
-        "song": "Skeggs",
+        "song": "Skate",
         "artist": "Skegss",
         "fullsong": "Got on my Skateboard",
         "picture": "",
