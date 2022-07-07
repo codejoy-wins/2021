@@ -53,9 +53,6 @@ const helloWorld = () => {
             <p>
             Welcome, I see you're on your desktop.
             </p>
-            <p>
-            That provides the best user experience
-            </p>
         `
     }
     if(deviceType()=="tablet"){
