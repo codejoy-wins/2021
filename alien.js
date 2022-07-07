@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song": "ThornSharp",
+        "artist": "Criteria",
+        "fullsong": "Thorn Sharp",
+        "picture": "thorn.jpg",
+    },
+    {
         "song": "FeelsLikeSummer",
         "artist": "Weezer",
         "fullsong": "Feels Like Summer",

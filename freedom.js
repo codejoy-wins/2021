@@ -1,5 +1,24 @@
 let manobj = [
     {
+        "song": "ThornSharp",
+        "artist": "Criteria",
+        "fullsong": "Thorn Sharp",
+        "picture": "thorn.jpg",
+    },
+    
+    {
+        "song": "Mercy",
+        "artist": "Shawn Mendes",
+        "fullsong": "Mercy",
+        "picture": "illuminate.jpg",
+    },
+    {
+        "song": "deadyet",
+        "artist": "Gabriel Black & Phem",
+        "fullsong": "dead yet (with phem)",
+        "picture": "",
+    },
+    {
         "song": "FeelsLikeSummer",
         "artist": "Weezer",
         "fullsong": "Feels Like Summer",
@@ -19,24 +38,9 @@ let manobj = [
         "fullsong": "Vampire",
         "picture": "",
     },
-    {
-        "song": "Mercy",
-        "artist": "Shawn Mendes",
-        "fullsong": "Mercy",
-        "picture": "illuminate.jpg",
-    },
-    {
-        "song": "Remember",
-        "artist": "NF",
-        "fullsong": "Remember This",
-        "picture": "nf.jpg",
-    },
-    {
-        "song": "deadyet",
-        "artist": "Gabriel Black & Phem",
-        "fullsong": "dead yet (with phem)",
-        "picture": "",
-    },
+    
+    
+    
     {
         "song": "Zeus",
         "artist": "Eminem",
@@ -361,6 +365,12 @@ let manobj = [
         "artist": "The Strokes",
         "fullsong": "The End Has No End",
         "picture": "strokes.jpg"
+    },
+    {
+        "song": "Remember",
+        "artist": "NF",
+        "fullsong": "Remember This",
+        "picture": "nf.jpg",
     },
     {
         "song": "sowing",
