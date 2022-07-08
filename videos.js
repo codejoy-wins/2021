@@ -13,6 +13,10 @@ function alls(){
     </div>
 
     <div class="video2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Hml9t1qRsoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/XTL8JAdVNhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
@@ -322,6 +326,24 @@ function coding(){
     `
     document.getElementById("picture").innerHTML=`
     <img src="./static/img/code.jpg" alt="code" class="pic2">
+    `
+}
+
+function music(){
+    console.log("music");
+    document.getElementById("title").innerHTML=`
+    <h1> Music Videos </h1>
+    `
+    document.getElementById("article").innerHTML=`
+        <div class="video">
+            <h1>Lost Coastlines Cover</h1>
+            <div class="vid2">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Hml9t1qRsoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    `
+    document.getElementById("picture").innerHTML=`
+    <img src="./static/img/gorillaz.jpg" alt="code" class="pic2">
     `
 }
 
