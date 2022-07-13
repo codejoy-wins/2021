@@ -482,9 +482,9 @@ ol{
 }
 .forest p{
     /* background-color: rgba(0, 0, 0, 0.621); */
-    color: rgba(0, 0, 0, 0.621);
+    color: white;
     /* color: whitesmoke; */
-    background-color: rgba(226, 183, 236, 0.904);
+    background-color: rgba(0, 0, 128, 0.798);
     padding: 1vw;
     border-radius: 1vw;
 }
@@ -689,6 +689,10 @@ body{
     float: left;
     max-width: 100%;
     padding-right: 1vw;
+}
+.picfloat2{
+    float: left;
+    max-width: 100%;
 }
 .picfloatnew{
     float: left;
