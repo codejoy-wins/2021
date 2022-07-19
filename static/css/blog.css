@@ -254,6 +254,9 @@ h1 a{
     color: black;
     font-size: larger;
 }
+.forest a{
+    color: aquamarine;
+}
 .postpurple{
     border-radius: 1ch;
     padding: 3vw;
