@@ -72,10 +72,10 @@ a:hover{
     padding: 3ch;
 }
 .genre a{
-    color: aqua;
+    color: white;
 }
 .genre a:hover{
-    color: forestgreen;
+    color: aquamarine;
     cursor: cell;
 }
 .pikachu{
