@@ -293,6 +293,12 @@ function alls(){
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/yNC_tBaP1Ic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+        <div class="video2">
+            <h1>Valid Parentheses</h1>
+            <div class ="vid2">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/WxT84mPO8Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     `
     document.getElementById("picture").innerHTML=`
     `
@@ -321,6 +327,14 @@ function coding(){
             </h1>
             <div class="vid2">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/bCcFHQ6ANLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="video2">
+            <h1>
+                Valid Parentheses
+            </h1>
+            <div class="vid2">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/WxT84mPO8Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     `
