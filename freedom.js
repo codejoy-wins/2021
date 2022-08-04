@@ -1,5 +1,18 @@
 let manobj = [
     {
+        "song": "Chlorine",
+        "artist": "21 Pilots",
+        "fullsong": "Chlorine",
+        "picture": "21.png",
+    },
+    {
+        "song": "Skate",
+        "artist": "Skegss",
+        "fullsong": "Got on my Skateboard",
+        "picture": "",
+        "color": "purple"
+    },
+    {
         "song": "ThornSharp",
         "artist": "Criteria",
         "fullsong": "Thorn Sharp",
@@ -54,13 +67,7 @@ let manobj = [
         "fullsong": "Bluebird",
         "picture": "",
     },
-    {
-        "song": "Skate",
-        "artist": "Skegss",
-        "fullsong": "Got on my Skateboard",
-        "picture": "",
-        "color": "purple"
-    },
+    
     {
         "song": "sadButTrue",
         "artist": "Transplants",
