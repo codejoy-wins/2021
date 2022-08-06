@@ -299,6 +299,13 @@ function alls(){
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/WxT84mPO8Y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+        
+        <div class="video">
+            <h1>Dangerland</h1>
+            <div class ="vid2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NXW_mP6ub-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     `
     document.getElementById("picture").innerHTML=`
     `
@@ -622,6 +629,13 @@ function chess(){
     <h1>Morphy vs. Alpha Zero</h1>
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/UGJnPUkbW_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+    <div class="video">
+            <h1>Dangerland</h1>
+            <div class ="vid2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NXW_mP6ub-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     
     <div class="video2 black">
     <div class="vid2">
