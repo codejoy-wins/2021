@@ -17,11 +17,15 @@ function alls(){
     </div>
 
     <div class="video2">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/XTL8JAdVNhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/pJ-CvVZ6r5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="video2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/sCO2HK9dOyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/7sUQ1jxdWys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="video2">
@@ -316,6 +320,12 @@ function coding(){
     <h1> Coding Tutorials </h1>
     `
     document.getElementById("article").innerHTML=`
+
+        <div class="video">
+        <h1>Dall.E</h1>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/pJ-CvVZ6r5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
         <div class="video">
             <h1>Difference of Algorithms</h1>
             <div class="vid2">
@@ -471,9 +481,9 @@ function conspiracies(){
     </div>
 
     <div class="video">
-    <h1>Asha</h1>
+    <h1>Mandela Effect</h1>
     <div class="vid2">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/XTL8JAdVNhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/7sUQ1jxdWys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
 
