@@ -6,7 +6,6 @@ html, body{
     padding: 0;
     /* background-color: rgba(128, 128, 128, 0.561); */
     background-color: black;
-
 }
 p{
     color: rgb(188, 154, 140);
@@ -43,14 +42,14 @@ p{
 }
 #nav{
     /* background-color: rgba(226, 208, 43, 0.363); */
-    background-color: rgba(201, 184, 178, 0.41);
+    background-color: rgba(30, 215, 247, 0.759);
     width: 100%;
 }
 #nav a{
     color: black;
 }
 #nav a:hover{
-    color: rgb(89, 155, 67);
+    color: rgb(56, 225, 18);
 }
 a{
     text-decoration: none;
