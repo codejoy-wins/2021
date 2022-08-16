@@ -321,7 +321,7 @@ p a:hover{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: stretch;
 }
 .charlie{
     background-image: url("../img/magnuswon.jpg");
@@ -457,6 +457,8 @@ p{
       }
       .ernie{
         background-attachment: scroll;
+        background-size: cover;
+
       }
       .charlie{
         background-attachment: scroll;
