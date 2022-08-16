@@ -104,6 +104,16 @@ html, body{
     margin-top: 20px;
     max-width: 100%;
 }
+.parallaxnew{
+    background-image: url("../img/Elam117.png");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -200px;
+    max-width: 100%;
+}
 
 .parallaxxp{
     background-image: url("../img/worldball.jpg");
@@ -380,6 +390,15 @@ p{
       background-position: -117px;
       background-image: url("../img/jag.jpg");
     }
+    .parallaxnew {
+        background-attachment: scroll;
+        background-size: cover;
+        /* background-position: -200px; */
+        background-position: 0px;
+        background-image: url("../img/Elam117.png");
+        margin-top: 20px;
+
+      }
     .parallaxfeature{
         background-attachment: scroll;
         background-position: -100px;
