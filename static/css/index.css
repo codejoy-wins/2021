@@ -258,7 +258,7 @@ p a:hover{
     background-size: contain;
 }
 .parallax7{
-    background-image: url("../img/worldball.jpg");
+    background-image: url("../img/raichu.png");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -322,7 +322,7 @@ p a:hover{
     background-size: contain;
 }
 .michael{
-    background-image: url("../img/goldfender.jpg");
+    background-image: url("../img/worldball.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -414,7 +414,7 @@ p{
       }
       .parallax7 {
         background-attachment: scroll;
-        background-image: url("../img/worldball.jpg");
+        background-image: url("../img/raichu.png");
 
       }
       .parallax8 {
