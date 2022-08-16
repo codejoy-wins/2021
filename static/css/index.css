@@ -126,6 +126,18 @@ html, body{
     margin-top: -50px;
     max-width: 100%;
 }
+.parallaxfeaturenew{
+    background-image: url("../img/midj1.png");
+    height: 90vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    max-width: 100%;
+}
+
+
+
 .parallaxfeature2{
     background-image: url("../img/Meme.jpg");
     height: 100vw;
@@ -137,6 +149,14 @@ html, body{
 }
 .parallaxfeature3{
     background-image: url("../img/keira.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.parallaxfeature3new{
+    background-image: url("../img/midj4.png");
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -196,6 +216,14 @@ p a:hover{
 }
 .parallax3{
     background-image: url("../img/leojack.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.parallax3new{
+    background-image: url("../img/mandalorian-tragedy.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -278,7 +306,7 @@ p a:hover{
     background-size: cover;
 }
 .ernie{
-    background-image: url("../img/elliebest.jpg");
+    background-image: url("../img/midj2.png");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -369,6 +397,9 @@ p{
         background-attachment: scroll;
       }
       .parallax3 {
+        background-attachment: scroll;
+      }
+      .parallax3new {
         background-attachment: scroll;
       }
       .parallax4 {
