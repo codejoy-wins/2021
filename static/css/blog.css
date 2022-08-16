@@ -77,6 +77,13 @@ html, body{
     float: left;
     padding-right: 1vw;
 }
+.vidnormal{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 315px;
+    padding-right: 1vw;
+}
 .vidbit{
     max-width: 100%;
     max-height: 100%;
@@ -702,6 +709,11 @@ body{
     max-width: 100%;
     padding-right: 1vw;
     max-height: 900px;
+}
+.picsmall{
+    max-width: 100%;
+    padding-right: 1vw;
+    max-height: 600px;
 }
 .picfloatsmall{
     float: left;
