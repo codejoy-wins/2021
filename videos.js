@@ -13,6 +13,14 @@ function alls(){
     </div>
 
     <div class="video">
+    <h1>Meta Mr Beast</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/YHPE0pegTWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+
+    <div class="video">
     <h1>I beat 2140 with black</h1>
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/uD7EJ2s0TWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -466,6 +474,11 @@ function cod(){
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/yNC_tBaP1Ic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+        <div class="video">
+    <h1>Meta Mr Beast</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/YHPE0pegTWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     `
     document.getElementById("picture").innerHTML=`
     <img src="./static/img/coldwar.jpg" alt="coldwar" class="pic2">
@@ -490,6 +503,12 @@ function conspiracies(){
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/7sUQ1jxdWys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    </div>
+
+    <div class="video">
+    <h1>Meta Mr Beast</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/YHPE0pegTWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="video">
