@@ -323,6 +323,10 @@ function alls(){
             <iframe width="560" height="315" src="https://www.youtube.com/embed/NXW_mP6ub-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+        <div class="video2">
+        <h1>Alone</h1>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/XTqgdDl2eMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     `
     document.getElementById("picture").innerHTML=`
     `
@@ -384,6 +388,12 @@ function music(){
             <div class="vid2">
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/Hml9t1qRsoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+        </div>
+        <div class="video2">
+        <h1>Alone</h1>
+        <div class="vid2">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/XTqgdDl2eMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         </div>
     `
     document.getElementById("picture").innerHTML=`
