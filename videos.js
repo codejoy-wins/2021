@@ -327,6 +327,10 @@ function alls(){
         <h1>Alone</h1>
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/XTqgdDl2eMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <div class="video">
+        <h1>Add Vice with a Friend</h1>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/h5lUxgrVRrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     `
     document.getElementById("picture").innerHTML=`
     `
@@ -395,6 +399,14 @@ function music(){
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/XTqgdDl2eMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         </div>
+        
+        <div class="video">
+        <div class="vid2">
+        <h1>Add Vice with a Friend</h1>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/h5lUxgrVRrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+
     `
     document.getElementById("picture").innerHTML=`
     <img src="./static/img/gorillaz.jpg" alt="code" class="pic2">
