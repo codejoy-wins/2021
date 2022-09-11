@@ -399,7 +399,6 @@ function music(){
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/XTqgdDl2eMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         </div>
-        
         <div class="video">
         <div class="vid2">
         <h1>Add Vice with a Friend</h1>
