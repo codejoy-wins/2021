@@ -15,6 +15,9 @@ html, body{
     background-color: black;
     padding: 1vw;
 }
+#birds a{
+    color: gold;
+}
 .vid{
     max-width: 100%;
 }
