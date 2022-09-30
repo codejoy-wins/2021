@@ -20,6 +20,15 @@ function alls(){
 </div>
 
 
+
+<div class="video">
+    <h1>Chess Scandal</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/IUQG9tJDruA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+
     <div class="video">
     <h1>I beat 2140 with black</h1>
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/uD7EJ2s0TWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -683,6 +692,11 @@ function chess(){
     <div class="video">
     <h1>I beat 2140 with black</h1>
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/uD7EJ2s0TWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video">
+    <h1>Hans Cheating</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IUQG9tJDruA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div class="video2 black">
