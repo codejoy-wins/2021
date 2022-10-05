@@ -34,6 +34,13 @@ function alls(){
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/uD7EJ2s0TWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+    
+
+    <div class="video">
+    <h1>Wrong side of the sea</h1>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2JPFtOLKuSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     <div class="video2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/Hml9t1qRsoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -402,6 +409,16 @@ function music(){
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/Hml9t1qRsoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+
+        
+
+        <div class="video">
+            <h1>Wrong Side of the Sea</h1>
+            <div class="vid2">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/2JPFtOLKuSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
         <div class="video2">
         <h1>Alone</h1>
         <div class="vid2">
