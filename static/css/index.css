@@ -322,12 +322,12 @@ p a:hover{
     background-size: cover;
 }
 .ernie{
-    background-image: url("../img/midj2.png");
+    background-image: url("../img/vengeance.png");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: stretch;
+    background-size: contain;
 }
 .charlie{
     background-image: url("../img/queencheck.png");
