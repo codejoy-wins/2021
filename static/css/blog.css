@@ -12,7 +12,9 @@ ul{
     color: gold;
     display: inline-block;
 }
-
+.chess{
+    max-width: 100%;
+}
 @keyframes elam{
     20%{
         color: wheat;
