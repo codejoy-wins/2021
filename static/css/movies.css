@@ -176,7 +176,9 @@ h2, h3{
     max-width: 100%;
 }
 #heading h1 a{
-    color: red;
+    color: gold;
+    background-color: black;
+    padding: 1vw;
 }
 #heading h1 a:hover{
     color: blue;
