@@ -9,6 +9,9 @@ html, body{
     max-width: 100%;
     width: 600px;
 }
+.idk a{
+    color: blue;
+}
 .vid2{
     max-width: 100%;
     max-height: 100%;
