@@ -5,6 +5,13 @@ function alls(){
     `
     document.getElementById("article").innerHTML=`
 
+    <div class="video">
+        <h1>Gothic Chess</h1>
+        <div class="vid2">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/C_ynTig1PFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
     <div class="video2">
     <h1>$100 Million Dollar Lawsuit</h1>
     <div class="vid2">
@@ -720,6 +727,11 @@ function chess(){
     `
     document.getElementById("article").innerHTML=`
     
+    <div class="video2">
+    <h1>Gothic Chess</h1>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/C_ynTig1PFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     <div class="video">
     <h1>$100 Million Dollar Lawsuit</h1>
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/QYmFQY90ipc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
