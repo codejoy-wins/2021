@@ -8,6 +8,13 @@ ul{
     border-radius: 1.3vw;
     padding: .4vw;
 }
+.kanye{
+    color: gold;
+    font-weight: bold;
+}
+.kanye:hover{
+    color: crimson;
+}
 #heading p{
     color: gold;
     display: inline-block;
