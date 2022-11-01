@@ -5,6 +5,14 @@ function alls(){
     `
     document.getElementById("article").innerHTML=`
 
+
+    <div class="video2">
+    <h1>How to be a Conspiracy Theorist</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/-sYl-uZ79p8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    </div>
     <div class="video">
         <h1>Gothic Chess</h1>
         <div class="vid2">
@@ -559,6 +567,13 @@ function conspiracies(){
     <h1> Philosophy </h1>
     `
     document.getElementById("article").innerHTML=`
+
+    <div class="video2">
+    <h1>How to be a Conspiracy Theorist</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/-sYl-uZ79p8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     <div class="video">
     <h1>Don't Look Up</h1>
     <div class="vid2">
