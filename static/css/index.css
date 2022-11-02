@@ -259,7 +259,7 @@ p a:hover{
     padding: 1vw;
 }
 .parallax5{
-    background-image: url("../img/happymax.jpg");
+    background-image: url("../img/Elam.png");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -655,7 +655,7 @@ h3 a{
 }
 .specialty{
     color: rgb(189, 142, 189);
-
+    display: inline-block;
 }
 h4{
     padding:0;
@@ -676,4 +676,8 @@ h4{
 }
 .song{
     max-width: 100%;
+}
+.song2{
+    max-width: 100%;
+    display: inline-block;
 }
