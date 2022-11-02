@@ -259,7 +259,7 @@ p a:hover{
     padding: 1vw;
 }
 .parallax5{
-    background-image: url("../img/Elam.png");
+    background-image: url("../img/vengeance.png");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -323,7 +323,7 @@ p a:hover{
     background-size: cover;
 }
 .ernie{
-    background-image: url("../img/vengeance.png");
+    background-image: url("../img/Elam.png");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
