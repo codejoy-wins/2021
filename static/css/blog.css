@@ -262,6 +262,14 @@ h1 a{
     color: black;
     font-size: larger;
 }
+.post4{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(204, 199, 199, 0.56); */
+    background-color: rgba(92, 92, 92, 0.507);
+    color: black;
+    font-size: larger;
+}
 .forest{
     border-radius: 1ch;
     padding: 3vw;
@@ -496,6 +504,17 @@ ol{
     color: rgba(0, 0, 0, 0.621);
     /* color: whitesmoke; */
     background-color: rgba(226, 183, 236, 0.904);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.post4 h2,h3{
+    color: black;
+}
+.post4 p{
+    /* background-color: rgba(0, 0, 0, 0.621); */
+    color: rgba(0, 0, 0, 0.621);
+    /* color: whitesmoke; */
+    background-color: rgba(251, 233, 255, 0.904);
     padding: 1vw;
     border-radius: 1vw;
 }
