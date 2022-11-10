@@ -5,6 +5,11 @@ function alls(){
     `
     document.getElementById("article").innerHTML=`
 
+    <div class="video2">
+    <h1>Church of Elam</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/88nfdY4HujY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <div class="video2">
     <h1>How to be a Conspiracy Theorist</h1>
@@ -567,6 +572,12 @@ function conspiracies(){
     <h1> Philosophy </h1>
     `
     document.getElementById("article").innerHTML=`
+
+    <div class="video">
+    <h1>Church of Elam</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/88nfdY4HujY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <div class="video2">
     <h1>How to be a Conspiracy Theorist</h1>
