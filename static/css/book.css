@@ -8,6 +8,9 @@ ul{
     border-radius: 1.3vw;
     padding: .4vw;
 }
+.ital{
+    font-style: italic;
+}
 .kanye{
     color: gold;
     font-weight: bold;

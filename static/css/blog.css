@@ -234,6 +234,9 @@ h1 a{
     color: black;
     font-size: larger;
 }
+.ital{
+    font-style: italic;
+}
 .post33 h2{
     color: black;
 }
