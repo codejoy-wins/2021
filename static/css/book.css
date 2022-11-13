@@ -513,6 +513,12 @@ ol{
     padding: 1vw;
     border-radius: 1vw;
 }
+#birds{
+    background-color: rebeccapurple;
+    padding: 1vw;
+    border-radius: 1vw;
+    color: whitesmoke;
+}
 .post4 h2,h3{
     color: black;
     text-align: center;
