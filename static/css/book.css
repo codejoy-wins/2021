@@ -768,6 +768,12 @@ body{
     padding-right: 1vw;
     max-height: 600px;
 }
+.picfloatelam{
+    float: left;
+    max-width: 100%;
+    padding-right: 1vw;
+    max-height:711px;
+}
 .picfloatmedium{
     float: left;
     max-width: 100%;
