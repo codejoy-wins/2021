@@ -85,8 +85,15 @@ a:hover{
     color: black;
     padding: 1vw;
 }
+.story a{
+    background-color: black;
+    padding: .7vw;
+}
 .headline{
     font-weight: bold;
     font-size: large;
     color: royalblue;
+}
+a{
+    color: gold;
 }
