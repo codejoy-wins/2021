@@ -625,6 +625,14 @@ ul a{
         opacity: .85;
     }
 }
+.phil a{
+    background-color: white;
+    padding: 0;
+    border-radius: 0;
+    /* color: plum; */
+    color: rgb(189, 142, 189);
+
+}
 #birds{
     background-color: rebeccapurple;
     padding: 1vw;
