@@ -101,6 +101,14 @@ html, body{
     float: left;
     padding-right: 4vw;
 }
+.vidbitchute{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 315px;
+    display: inline-block;
+    padding-right: 4vw;
+}
 .vidright{
     max-width: 100%;
     max-height: 100%;
