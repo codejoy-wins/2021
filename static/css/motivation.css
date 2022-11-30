@@ -3,6 +3,12 @@
     margin: 0 auto;
     display: block;
 }
+.pix2{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    opacity: .01;
+}
 html,body{
     margin: 0 auto;
     padding: 0;
