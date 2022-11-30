@@ -1,0 +1,37 @@
+.pix{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+html,body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+html{
+    text-align: center;
+    background-image: url("../img/eli10.jpg");
+    background-size: contain;
+}
+.tiny{
+    max-width: 200px;
+    max-height: 50px;
+    float: left;
+}
+#banner{
+    background-color: black;
+    max-height: 50px;
+}
+@media only screen and (max-device-width: 1117px) {
+    .secret2{
+        opacity: 1;
+    }
+    .burger{
+        display: flex;
+        float: none;
+    }
+    .tiny{
+        float: left;
+    }
+}
