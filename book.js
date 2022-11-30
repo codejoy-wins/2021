@@ -5,7 +5,7 @@ function timingiseverything(){
     let year = numeroly.getFullYear();
     document.getElementById("neo").innerHTML=`${month}/${day}/${year}`;
 }
-timingiseverything();
+// timingiseverything();
 
 
 function play(){
