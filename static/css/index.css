@@ -323,7 +323,7 @@ p a:hover{
     background-size: cover;
 }
 .ernie{
-    background-image: url("../img/Elam.png");
+    background-image: url("../img/Elam11.29\ copy\ 2.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -471,7 +471,7 @@ p{
       .ernie{
         background-attachment: scroll;
         background-size: cover;
-
+        /* background-image: url("../img/Elam11.29.jpg"); */
       }
       .charlie{
         background-attachment: scroll;
