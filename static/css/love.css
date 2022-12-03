@@ -45,3 +45,6 @@ html{
 p{
     color: gold;
 }
+.song{
+    max-width: 50%;
+}
