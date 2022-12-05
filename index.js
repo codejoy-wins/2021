@@ -51,7 +51,7 @@ const helloWorld = () => {
         console.log("I see you're on a desktop");
         document.getElementById("intro").innerHTML=`
             <p>
-            Welcome, I see you're on your desktop.
+            <span id="goldfirst">W</span>elcome, I see you're on your desktop.
             </p>
         `
     }
