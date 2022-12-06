@@ -111,7 +111,7 @@ html, body{
     max-width: 100%;
 }
 .parallaxnew{
-    background-image: url("../img/Elam117.png");
+    background-image: url("../img/The_One_TradingCard\ copy\ 3.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position:  center;
@@ -259,7 +259,7 @@ p a:hover{
     padding: 1vw;
 }
 .parallax5{
-    background-image: url("../img/vengeance.png");
+    background-image: url("../img/The_One_TradingCard\ copy\ 3.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -323,7 +323,10 @@ p a:hover{
     background-size: cover;
 }
 .ernie{
-    background-image: url("../img/Elam11.29\ copy\ 2.jpg");
+    /* background-image: url("../img/Elam11.29\ copy\ 2.jpg"); */
+    background-image: url("../img/Elam117.png");
+
+
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -402,7 +405,7 @@ p{
         background-size: cover;
         /* background-position: -200px; */
         background-position: 0px;
-        background-image: url("../img/Elam117.png");
+
         margin-top: 20px;
 
       }
