@@ -3,6 +3,12 @@
     margin: 0 auto;
     display: block;
 }
+.pixsmall{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    max-height: 600px;
+}
 .pix2{
     max-width: 100%;
     margin: 0 auto;
