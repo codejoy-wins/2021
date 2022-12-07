@@ -119,6 +119,7 @@ html, body{
     background-size: contain;
     margin-top: -200px;
     max-width: 100%;
+    padding-top: 200px;
 }
 
 .parallaxxp{
