@@ -38,8 +38,13 @@ html, body{
     font-size: xx-large;
 }
 #goldfirst{
-    color: rgb(86, 174, 252);
-    font-size: xx-large;
+    /* color: rgb(86, 174, 252); */
+    color: rgb(255, 230, 0);
+    background-color: rgba(86, 174, 252, 0.5117);
+    font-size: xx-large;    
+    border-radius: 1vw;
+    padding: .3vw;
+    padding-right: .2vw;
 }
 #bluefirst{
     color: royalblue;
