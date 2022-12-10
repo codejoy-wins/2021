@@ -810,6 +810,12 @@ body{
     padding-right: 1vw;
     max-height: 720px;
 }
+.picfloatlarge{
+    float: left;
+    max-width: 100%;
+    padding-right: 1vw;
+    max-height: 800px;
+}
 .picfloatverysmall{
     float: left;
     max-width: 100%;
