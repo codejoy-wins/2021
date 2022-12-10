@@ -9,7 +9,27 @@ html, body{
 *{
     font-family: 'Nunito', sans-serif;
     font-size: large;
+    font-size: 18.117px;
     /* font-weight: bold; */
+}
+.pic{
+    max-width: 100%;
+}
+.elam{
+    background-color: forestgreen;
+    color: white;
+}
+.elam:hover{
+    color: gold;
+}
+.wbc{
+    background-color: white;
+    color: red;
+}
+.wbc:hover{
+    color: white;
+    background-color: red;
+    border-radius: 100vw;
 }
 .bulba{
     /* background-color: forestgreen; */
