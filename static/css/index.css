@@ -89,8 +89,10 @@ color: black;
     margin: 0 auto;
 }
 .songx{
-    background-color: rgba(0, 0, 0, 0.701);
-    color: gold;
+    /* background-color: rgba(0, 0, 0, 0.701); */
+    background-color: skyblue;
+    color: black;
+    /* color: gold; */
     border-radius: 1vw;
     padding: 1vw;
 }
@@ -449,11 +451,13 @@ p{
         /* background-color: cyan; */
         padding: .7vw;
         margin: 1vw;
-        background-color: rgba(0, 0, 0, 0.681);
+        background-color: skyblue;
+        /* background-color: rgba(0, 0, 0, 0.886); */
     }
     .bulba{
         padding: .7vw;
         margin: 1vw;
+        background-color: blanchedalmond;
     }
     p a{
         text-decoration: none;
