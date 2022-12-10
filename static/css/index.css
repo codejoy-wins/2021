@@ -37,6 +37,29 @@ html, body{
     color: coral;
     font-size: xx-large;
 }
+.customsong{
+    /* background-color: gainsboro; */
+    color: black;
+    display: inline-block;
+    border-radius: 2vw;
+    text-align: center;
+}
+.customsong h5 {
+    padding: 0;
+    margin: 0 auto;
+}
+.songx{
+    background-color: silver;
+    color: gold;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.songy{
+    background-color: black;
+    color: gold;
+    border-radius: 1vw;
+    padding: 1vw;
+}
 #goldfirst{
     /* color: rgb(86, 174, 252); */
     color: rgb(255, 230, 0);
