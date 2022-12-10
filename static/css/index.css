@@ -441,6 +441,11 @@ p{
 }
 /* 1366px */
 @media only screen and (max-device-width: 1117px) {
+    ul.nav-links.right{
+        padding: 0;
+        /* background-color: rgba(202, 232, 245, 0.316); */
+        background-color: rgba(240, 248, 255, 0.8);
+    }
     #specialx{
         /* background-color: rgba(255, 217, 0, 0.654); */
         background-color: rgba(255, 217, 0, 0.514);
@@ -481,7 +486,7 @@ p{
     }
     ul{
         display: flex;
-        max-width: 50%;
+        max-width: 70%;
         background-color: white;
         float: left;
         overflow: auto;
@@ -491,6 +496,7 @@ p{
         color: black;
         padding: .5vw;
         display: inline-block;
+        padding-left: 0;
     }
     .parallax {
       background-attachment: scroll;
