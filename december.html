@@ -50,7 +50,16 @@
             <div class="post4">
                 <h2>New AI Art (Post of the Month)</h2>
                 <img class="picfloatsmall" src="static/img/The_One_TradingCard copy 3.jpg" alt="tree">
-                <audio controls src="static/audio/Zeus.mp3"></audio>
+                <!-- <audio controls src="static/audio/Zeus.mp3"></audio> -->
+                <audio id="player" src="static/audio/Zeus.mp3"></audio>
+                <div class="customsong"> 
+                    <h5>Eminem - Zeus</h5>
+                    <button class="songy" onclick="document.getElementById('player').play()">Play</button> 
+                    <button class="songx" onclick="document.getElementById('player').pause()">Pause</button> 
+                    <button class="songx" onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+                    <button class="songx" onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
+                  </div>
+
                 
                 <p>
                     I have a lot of fun with AI text to image generators because I have lots of different prompts and pictures I can use to further evolve my <a target="_blank" href="shop.html">brand</a> of Elam, whiteBloodCell, and Cloudland.

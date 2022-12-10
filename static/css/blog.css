@@ -514,6 +514,29 @@ ol{
     padding: 1vw;
     border-radius: 1vw;
 }
+.customsong{
+    background-color: gainsboro;
+    color: black;
+    display: inline-block;
+    border-radius: 2vw;
+    text-align: center;
+}
+.customsong h5 {
+    padding: 0;
+    margin: 0 auto;
+}
+.songx{
+    background-color: silver;
+    color: gold;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.songy{
+    background-color: black;
+    color: gold;
+    border-radius: 1vw;
+    padding: 1vw;
+}
 .post2 p{
     /* background-color: rgba(0, 0, 0, 0.621); */
     color: rgba(0, 0, 0, 0.621);
