@@ -9,6 +9,26 @@ html, body{
 *{
     font-family: 'Nunito', sans-serif;
     font-size: large;
+    /* font-weight: bold; */
+}
+.bulba{
+    /* background-color: forestgreen; */
+    /* background-color:rgb(192, 165, 95); */
+    background-color:rgb(221, 193, 122);
+
+
+color: black;
+    /* color: gold; */
+}
+.bulba:hover{
+    color: beige;
+}
+.pika{
+    background-color: rgba(0, 0, 0, 0.675);
+    color: white;
+}
+.pika:hover{
+    color: gold;
 }
 .gold{
     color: gold;
@@ -49,7 +69,7 @@ html, body{
     margin: 0 auto;
 }
 .songx{
-    background-color: silver;
+    background-color: rgba(0, 0, 0, 0.701);
     color: gold;
     border-radius: 1vw;
     padding: 1vw;
@@ -63,10 +83,12 @@ html, body{
 #goldfirst{
     /* color: rgb(86, 174, 252); */
     color: rgb(255, 230, 0);
-    background-color: rgba(86, 174, 252, 0.5117);
+    /* background-color: rgba(86, 174, 252, 0.5117); */
+    background-color: rgba(0, 0, 0, 0.87);
+
     font-size: xx-large;    
     border-radius: 1vw;
-    padding: .3vw;
+    padding: .35vw;
     padding-right: .2vw;
 }
 #bluefirst{
@@ -102,6 +124,7 @@ html, body{
 .texzt{
     background-color: rgb(255, 255, 255);
     padding: 1vw;
+    padding-bottom: 0;
 }
 #left{
     /* background-color: purple; */
@@ -396,6 +419,29 @@ p{
 }
 /* 1366px */
 @media only screen and (max-device-width: 1117px) {
+    #specialx{
+        /* background-color: rgba(255, 217, 0, 0.654); */
+        background-color: rgba(255, 217, 0, 0.514);
+
+        line-height: 8vw;
+    }
+    .pika{
+        /* background-color: cyan; */
+        padding: .7vw;
+        margin: 1vw;
+        background-color: rgba(0, 0, 0, 0.681);
+    }
+    .bulba{
+        padding: .7vw;
+        margin: 1vw;
+    }
+    p a{
+        text-decoration: none;
+        color: rgb(103, 122, 129);
+        padding: .9vw;
+        border-radius: 2vw;
+        background-color: aliceblue;
+    }
     .secret2{
         opacity: 1;
     }

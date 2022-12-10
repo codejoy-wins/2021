@@ -59,7 +59,7 @@ const helloWorld = () => {
         console.log("I see you're on a tablet");
         document.getElementById("intro").innerHTML=`
             <p>
-            Welcome to Cloudland, I see you're on instagram.
+            <span id="goldfirst">W</span>elcome to Cloudland, I see you're on instagram.
             </p>
         `
     }
@@ -67,7 +67,7 @@ const helloWorld = () => {
         console.log("I see you're on your phone");
         document.getElementById("intro").innerHTML=`
             <p>
-            Welcome to Cloudland, I see you're on your "cell" phone.
+            <span id="goldfirst">W</span>elcome to Cloudland, I see you're on your "cell" phone.
             </p>
         `
     }
