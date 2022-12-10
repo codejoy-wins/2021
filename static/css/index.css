@@ -96,6 +96,15 @@ color: black;
     border-radius: 1vw;
     padding: 1vw;
 }
+.songxx{
+    /* background-color: rgba(0, 0, 0, 0.701); */
+    background-color: rgba(225, 135, 235, 0.692);
+
+    color: black;
+    /* color: gold; */
+    border-radius: 1vw;
+    padding: 1vw;
+}
 .songy{
     background-color: black;
     color: gold;
