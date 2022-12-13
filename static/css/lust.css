@@ -23,9 +23,7 @@ html,body{
 }
 html{
     text-align: center;
-    background-image: url("../img/cloud.jpg");
-    /* background-image: url("../img/Cloudland_TradingCard\ copy\ 6.jpg"); */
-
+    background-image: url("../img/eli10.jpg");
     background-size: contain;
 }
 .tiny{
@@ -49,13 +47,9 @@ html{
         float: left;
     }
 }
-.perfect{
-    color: orchid;
-    font-size: 32;
-}
+
 p{
-    color: white;
-    font-size: 32px;
+    color: gold;
 }
 .song{
     max-width: 50%;
