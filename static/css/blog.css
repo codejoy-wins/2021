@@ -928,3 +928,6 @@ body{
 .godlike li{
     color: black;
 }
+img{
+    max-width: 100%;
+}
