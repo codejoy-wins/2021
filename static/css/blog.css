@@ -377,7 +377,19 @@ h1 a{
     padding: .5vw;
     border-radius: .5vw;
 }
+.blackgold a{
+    background-color: black;
+    padding: .5vw;
+    border-radius: .5vw;
+}
 .gold{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: black;
+    color: black;
+    font-size: larger;
+}
+.blackgold{
     border-radius: 1ch;
     padding: 3vw;
     background-color: black;
@@ -387,6 +399,12 @@ h1 a{
 .gold p{
     /* background-color: rgba(255, 192, 203, 0.521); */
     background-color: gold;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.blackgold p{
+    color: gold;
+    background-color: black;
     padding: 1vw;
     border-radius: 1vw;
 }
@@ -770,6 +788,12 @@ body{
 .gold .verse{
     border:solid gold;
     background-color: crimson;
+    font-weight: bold;
+}
+.blackgold .verse{
+    color: crimson;
+    border:solid gold;
+    /* background-color: crimson; */
     font-weight: bold;
 }
 .pic101{
