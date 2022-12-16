@@ -193,7 +193,22 @@ color: black;
     max-width: 100%;
 }
 .parallaxnew{
+    /* background-image: url("../img/zeus\ copy.jpg"); */
+    background-image: url("../img/GoldElam.jpg");
+
+    height: 100vw;
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -200px;
+    max-width: 100%;
+    padding-top: 200px;
+}
+.parallaxnewx{
     background-image: url("../img/zeus\ copy.jpg");
+    /* background-image: url("../img/chosen.png"); */
+
     height: 100vw;
     background-attachment: fixed;
     background-position:  center;
@@ -515,6 +530,15 @@ p{
       background-image: url("../img/jag.jpg");
     }
     .parallaxnew {
+        background-attachment: scroll;
+        background-size: cover;
+        /* background-position: -200px; */
+        background-position: 0px;
+
+        margin-top: 20px;
+
+      }
+      .parallaxnewx {
         background-attachment: scroll;
         background-size: cover;
         /* background-position: -200px; */
