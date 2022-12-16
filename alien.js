@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song": "MindOverMatter",
+        "artist": "Young the Giant",
+        "fullsong": "Mind Over Matter (In the Open)",
+        "picture": "youngiant.jpg",
+    },
+    {
         "song": "Chlorine",
         "artist": "21 Pilots",
         "fullsong": "Chlorine",
