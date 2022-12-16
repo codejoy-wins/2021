@@ -1,9 +1,26 @@
+html,body .ernie{
+    background-color: white;
+}
+html,body .parallax5{
+    background-color: black;
+}
+html,body .parallax6{
+    background-color: black;
+}
+html,body .parallax3new{
+    background-color: black;
+}
+html,body .texztblack{
+    background-color: black;
+}
+html,body .texztwhite{
+    background-color: white;
+}
 html, body{
     height: 100%;
     /* background-color: black; */
     background-image: url("../img/cloud.jpg");
     background-size: cover;
-
     width: 100%;
     padding: 0;
     margin: 0 auto;
