@@ -472,6 +472,12 @@ p{
 .secret2{
     opacity: 0;
 }
+ul.nav-links.right{
+    padding: 0;
+    /* background-color: rgba(202, 232, 245, 0.316); */
+    background-color: black;
+    padding: 2vw;
+}
 /* 1366px */
 @media only screen and (max-device-width: 1117px) {
     ul.nav-links.right{
@@ -520,7 +526,9 @@ p{
     ul{
         display: flex;
         max-width: 70%;
-        background-color: white;
+        background-color: black;
+        /* background-color: white; */
+
         float: left;
         overflow: auto;
     }
@@ -749,7 +757,6 @@ ul a{
     color: white;
 }
 
-
 @keyframes bolt {
     10%{
         opacity: .5;
@@ -799,7 +806,7 @@ ul a{
     background-color: black
 }
 ul a:hover{
-    color: silver;
+    color: purple;
     animation: bolt 7s infinite;
 }
 .gold a{
