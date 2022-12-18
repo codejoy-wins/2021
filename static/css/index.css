@@ -16,6 +16,9 @@ html,body .texztblack{
 html,body .texztwhite{
     background-color: white;
 }
+html,body .parallaxnew{
+    background-color: black;
+}
 html, body{
     height: 100%;
     /* background-color: black; */
