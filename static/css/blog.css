@@ -281,6 +281,14 @@ h1 a{
     color: black;
     font-size: larger;
 }
+.whitepost{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(204, 199, 199, 0.56); */
+    background-color: whitesmoke;
+    color: black;
+    font-size: larger;
+}
 .forest{
     border-radius: 1ch;
     padding: 3vw;
@@ -585,6 +593,20 @@ ol{
     background-color: rgba(251, 233, 255, 0.904);
     padding: 1vw;
     border-radius: 1vw;
+}
+.whitepost p{
+    /* background-color: rgba(0, 0, 0, 0.621); */
+    color: white;
+    /* color: whitesmoke; */
+    background-color: rgba(82, 4, 100, 0.904);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.whitepost h2{
+    color: black;
+}
+.whitepost .verse{
+    background-color: crimson;
 }
 .forest p{
     /* background-color: rgba(0, 0, 0, 0.621); */
