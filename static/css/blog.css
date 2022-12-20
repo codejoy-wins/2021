@@ -602,7 +602,7 @@ ol{
     padding: 1vw;
     border-radius: 1vw;
 }
-.whitepost h2{
+.whitepost h2, h3{
     color: black;
 }
 .whitepost .verse{
