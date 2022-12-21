@@ -3,6 +3,11 @@ html,body .ernie{
 }
 html,body .parallax5{
     background-color: black;
+}    .verse{
+    border: solid gold .2vw;
+    padding: 1vw;
+    margin: 1vw;
+    /* color: pink; */
 }
 html,body .parallax6{
     background-color: black;
@@ -566,6 +571,7 @@ ul.nav-links.right{
       background-position: -117px;
       background-image: url("../img/jag.jpg");
     }
+
     .parallaxnew {
         background-attachment: scroll;
         background-size: cover;
