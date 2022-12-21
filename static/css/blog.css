@@ -390,6 +390,12 @@ h1 a{
     padding: .5vw;
     border-radius: .5vw;
 }
+.whitegold a{
+    background-color: gold;
+    color: black;
+    padding: .5vw;
+    border-radius: .5vw;
+}
 .gold{
     border-radius: 1ch;
     padding: 3vw;
@@ -404,6 +410,19 @@ h1 a{
     color: black;
     font-size: larger;
 }
+.whitegold h2{
+    color: goldenrod;
+}
+.whitegold{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(245, 245, 245, 0.611);
+    color: black;
+    font-size: larger;
+}
+.whitegold ul{
+background-color:goldenrod;
+}
 .gold p{
     /* background-color: rgba(255, 192, 203, 0.521); */
     background-color: gold;
@@ -413,6 +432,12 @@ h1 a{
 .blackgold p{
     color: gold;
     background-color: black;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.whitegold p{
+    color:black;
+    background-color: white;
     padding: 1vw;
     border-radius: 1vw;
 }
@@ -813,6 +838,12 @@ body{
     font-weight: bold;
 }
 .blackgold .verse{
+    color: crimson;
+    border:solid gold;
+    /* background-color: crimson; */
+    font-weight: bold;
+}
+.whitegold .verse{
     color: crimson;
     border:solid gold;
     /* background-color: crimson; */
