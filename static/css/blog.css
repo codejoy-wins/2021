@@ -380,10 +380,20 @@ h1 a{
 .post2 .profound{
     color: navy;
 }
+.reveal{
+    background-color: gold;
+}
+.protect{
+    border: solid 1vw gold;
+}
 .gold a{
     background-color: black;
     padding: .5vw;
     border-radius: .5vw;
+}
+.close{
+    background-color: black;
+    color: white;
 }
 .blackgold a{
     background-color: black;
