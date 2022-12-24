@@ -959,9 +959,9 @@ let manobj = [
     },
     {
         "song": "breakYourHeart",
-        "artist": "Weakerthans",
+        "artist": "Wilco",
         "fullsong": "I am Trying to Break Your Heart",
-        "picture": "weakerthans.jpeg",
+        "picture": "wilco.jpg",
     },
     {
         "song": "couldYouBeLoved",
