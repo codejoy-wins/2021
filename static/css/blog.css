@@ -961,6 +961,9 @@ body{
         visibility: hidden;
         display: none;
     }
+    .whitegold h2{
+        color: black;
+    }
     .what{
         background-color: black;
         max-width: 200px;
