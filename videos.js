@@ -5,6 +5,13 @@ function alls(){
     `
     document.getElementById("article").innerHTML=`
 
+<div class="video2">
+    <h1>Take a Byte out of your Apple</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/wHJFdvBrZCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
     <div class="video">
         <h1>Elam's Light Shines on Freemasonry</h1>
         <div class="vid2">
@@ -585,6 +592,13 @@ function conspiracies(){
     <h1> Philosophy </h1>
     `
     document.getElementById("article").innerHTML=`
+
+    <div class="video2">
+    <h1>Take a Byte out your Apple</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/wHJFdvBrZCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
 
     <div class="video">
         <h1>Elam's Light Shines on Freemasonry</h1>
