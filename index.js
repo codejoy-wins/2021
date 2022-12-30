@@ -51,7 +51,7 @@ const helloWorld = () => {
         console.log("I see you're on a desktop");
         document.getElementById("intro").innerHTML=`
             <p>
-            <span id="goldfirst">W</span>elcome to Cloudland, I see you're on your laptop.
+            <span id="goldfirst">W</span>elcome to Cloudland, I see you're on your computer.
             </p>
         `
     }
