@@ -8,6 +8,7 @@ ul{
     border-radius: 1.3vw;
     padding: .4vw;
 }
+
 .kanye{
     color: gold;
     font-weight: bold;
@@ -652,6 +653,10 @@ ol{
     padding: 1vw;
     border-radius: 1vw;
 }
+.sky{
+    color: rgba(29, 162, 229, 0.904);
+}
+
 .whitepost p{
     /* background-color: rgba(0, 0, 0, 0.621); */
     color: white;
@@ -1021,4 +1026,14 @@ body{
 }
 img{
     max-width: 100%;
+}
+.purple{
+    color: plum;
+    background-color: black;
+    font-size: xx-large;
+}
+#purple{
+    background-color: black;
+    padding: 1vw;
+    border-radius: 1vw;
 }
