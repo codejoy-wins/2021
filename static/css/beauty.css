@@ -25,7 +25,6 @@ html{
     text-align: center;
     background-image: url("../img/cloud.jpg");
     /* background-image: url("../img/Cloudland_TradingCard\ copy\ 6.jpg"); */
-
     background-size: contain;
 }
 .tiny{
@@ -59,8 +58,4 @@ p{
 }
 .song{
     max-width: 50%;
-}
-.truth{
-    background-color: black;
-    color: plum;
 }
