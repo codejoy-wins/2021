@@ -1,0 +1,16 @@
+.pic{
+    max-width: 100%;
+}
+.tiny{
+    max-width: 200px;
+    max-height: 50px;
+    float: left;
+}
+#banner{
+    background-color: black;
+    max-height: 50px;
+}
+body{
+    background-color: black;
+    color: gold;
+}
