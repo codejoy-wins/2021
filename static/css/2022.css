@@ -40,26 +40,6 @@ html, body{
     font-size: 18.117px;
     /* font-weight: bold; */
 }
-.hey{
-    text-align: center;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgba(0, 0, 255, 0.4);
-}
-.hey h2{
-    font-size: 5ch;
-
-}
-/* #new{
-    margin: 0;
-    padding: 0;
-} */
-canvas {
-    display:block;
-    position: absolute;
-    opacity: .3117;
-}
-
 .pic{
     max-width: 100%;
 }

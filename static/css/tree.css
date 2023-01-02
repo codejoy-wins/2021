@@ -10,3 +10,32 @@ p{
     background-color: black;
     max-height: 50px;
 }
+.pic{
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.customsong2{
+    background-color: skyblue;
+    color: whitesmoke;
+    display: inline-block;
+    border-radius: 2vw;
+    text-align: center;
+}
+.customsong2 h5{
+    padding: 0;
+    margin: 0 auto;
+}
+.songxy{
+    background-color: purple;
+    color: plum;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.songyy{
+    background-color: rgba(76, 7, 95, 0.566);
+    color: plum;
+    border-radius: 1vw;
+    padding: 1vw;
+}

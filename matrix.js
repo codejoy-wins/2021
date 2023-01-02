@@ -1,23 +1,17 @@
 // geting canvas by Boujjou Achraf
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
-// xp
-//toDataURL() canvas function almost works to make canvas a background
-// document.getElementById("new3").style.background = "url(" + canvas.toDataURL() + ")";
 
 //making the canvas full screen
-// c.height = window.innerHeight;
-// c.width = window.innerWidth;
-// new height try
 c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 //chinese characters - taken from the unicode charset
 var matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
-var matrix2 = "elamahplacloudlandwhitebloodcellELAMAHPLACLOUDLANDWHITEBLOODCELL117$$$117}";
+var matrix2 = "elamahplacloudlandwhitebloodcellELAMAHPLACLOUDLANDWHITEBLOODCELL117@#$%^&*()*&^%+-/~{[|`]}";
 
 //converting the string into an array of single characters
-matrix2 = matrix2.split("");
+matrix = matrix.split("");
 
 var font_size = 10;
 var columns = c.width/font_size; //number of columns for the rain
@@ -36,15 +30,13 @@ function draw()
     ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
     ctx.fillRect(0, 0, c.width, c.height);
 
-    // ctx.fillStyle = "#f4427d";//green text
-    ctx.fillStyle = "gold";//green text
-
+    ctx.fillStyle = "#f4427d";//green text
     ctx.font = font_size + "px arial";
     //looping over drops
     for(var i = 0; i < drops.length; i++)
     {
         //a random chinese character to print
-        var text = matrix2[Math.floor(Math.random()*matrix2.length)];
+        var text = matrix[Math.floor(Math.random()*matrix.length)];
         //x = i*font_size, y = value of drops[i]*font_size
         ctx.fillText(text, i*font_size, drops[i]*font_size);
 
@@ -59,85 +51,6 @@ function draw()
 }
 
 setInterval(draw, 35);
-
-
-
-
-// end of stolen but edited canvas js
-
-
-// //DTX version
-// // geting canvas by Boujjou Achraf
-// var d = document.getElementById("d");
-// var dtx = d.getContext("2d");
-// // xp
-// //toDataURL() canvas function almost works to make canvas a background
-// // document.getElementById("new3").style.background = "url(" + canvas.toDataURL() + ")";
-
-// //making the canvas full screen
-// d.height = window.innerHeight;
-// d.width = window.innerWidth;
-
-// //chinese characters - taken from the unicode charset
-// var matrix3 = "elamahplacloudlandwhitebloodcellELAMAHPLACLOUDLANDWHITEBLOODCELL117$$$117}";
-
-// //converting the string into an array of single characters
-// matrix3 = matrix3.split("");
-
-// var font_size2 = 10;
-// var columns2 = d.width/font_size2; //number of columns for the rain
-// //an array of drops - one per column
-// var drops2 = [];
-// //x below is the x coordinate
-// //1 = y co-ordinate of the drop(same for every drop initially)
-// for(var xx = 0; xx < columns; xx++)
-//     drops2[xx] = 1; 
-
-// //drawing the characters
-// function draw()
-// {
-//     //Black BG for the canvas
-//     //translucent BG to show trail
-//     dtx.fillStyle = "rgba(0, 0, 0, 0.04)";
-//     dtx.fillRect(0, 0, d.width, d.height);
-
-//     dtx.fillStyle = "#f4427d";//green text
-//     dtx.font = font_size2 + "px arial";
-//     //looping over drops
-//     for(var ii = 0; ii < drops2.length; ii++)
-//     {
-//         //a random chinese character to print
-//         var text2 = matrix2[Math.floor(Math.random()*matrix3.length)];
-//         //x = i*font_size, y = value of drops[i]*font_size
-//         dtx.fillText(text2, ii*font_size2, drops2[ii]*font_size2);
-
-//         //sending the drop back to the top randomly after it has crossed the screen
-//         //adding a randomness to the reset to make the drops scattered on the Y axis
-//         if(drops2[ii]*font_size2 > d.height && Math.random() > 0.975)
-//             drops2[ii] = 0;
-
-//         //incrementing Y coordinate
-//         drops2[ii]++;
-//     }
-// }
-
-// setInterval(draw, 35);
-
-
-
-// // dtx end of stolen but edited canvas js dtx
-
-
-
-
-
-
-var xpcanva = document.getElementById("xpcanvas");
-const dataURL = xpcanva.toDataURL();
-console.log(dataURL);
-//
-
-
 
 
 
