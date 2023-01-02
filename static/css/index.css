@@ -69,6 +69,8 @@ canvas {
 .picxy{
     max-width: 100%;
     text-align: center;
+    background-color: pink;
+    margin: 0;
 }
 .elam{
     background-color: forestgreen;
@@ -206,6 +208,9 @@ color: black;
 
 .special{
     display: inline-block;
+}
+.white{
+    background-color: white;
 }
 .texzt{
     /* background-color: rgb(255, 255, 255); */
