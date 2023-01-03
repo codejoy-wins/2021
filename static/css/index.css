@@ -215,9 +215,23 @@ color: black;
 .texzt{
     /* background-color: rgb(255, 255, 255); */
     background-color: rgba(255, 255, 255, 0.7117);
-
     padding: 1vw;
     padding-bottom: 0;
+}
+.texzt2{
+    background-color: rgba(251, 197, 2, 0);
+    /* background-color: rgba(255, 204, 0, 0.38); */
+    padding: 1vw;
+    padding-bottom: 0;
+}
+.texzt2 p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: wheat;
+    text-shadow: rgb(1, 1, 7) 1px 1px 7px;
+}
+.text2 p a{
+    text-shadow: 0;
 }
 #left{
     /* background-color: purple; */
