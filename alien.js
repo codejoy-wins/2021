@@ -775,6 +775,12 @@ let manobj = [
 
 let womanobj = [
     {
+        "song": "Flagpole",
+        "artist": "Awol Nation feat. Elohim",
+        "fullsong": "Flagpole Sitta",
+        "picture": "",
+    },
+    {
         "song": "Why",
         "artist": "Dominic Fike",
         "fullsong": "Why",

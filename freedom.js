@@ -1,5 +1,11 @@
 let manobj = [
     {
+        "song": "Flagpole",
+        "artist": "Awol Nation feat. Elohim",
+        "fullsong": "Flagpole Sitta",
+        "picture": "",
+    },
+    {
         "song": "MindOverMatter",
         "artist": "Young the Giant",
         "fullsong": "Mind Over Matter (In the Open)",
