@@ -1,14 +1,45 @@
 *{
     font-family: 'Spectral', serif;
+    text-align: center;
 }
 html, body{
     margin: 0;
     padding: 0;
+    /* background-color: black; */
+    text-align: center;
+    /* background-image: url("../img/haloinfinite.jpg"); */
+    background-image: url("../img/RainbowAngel.png");
+    background-size: contain;
+    background-position: absolute;
+    background-position-y:117px
+}
+#article{
+    color: rgba(19, 24, 24, 0.897);
+    padding: 1vw;
+    background-image: url("../img/RainbowAngel.png");
+    background-size: contain;
+    text-align: center;
+}
+
+
+
+#rapper7{
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
     background-color: black;
+
 }
 .vid{
     max-width: 100%;
     width: 600px;
+    text-align: center;
 }
 #heading{
     text-align: center;
@@ -40,7 +71,7 @@ html, body{
     color: whitesmoke;
 }
 #nav{
-    background-color: rgba(34, 46, 46, 0.767);
+    /* background-color: rgba(34, 46, 46, 0.767); */
     width: 100%;
 }
 a{
@@ -52,7 +83,7 @@ a:hover{
     color: gold
 }
 #nav a:hover{
-    color: gold;
+    color: rgb(0, 204, 255);
     font-weight: bold;
 }
 .current{
@@ -96,18 +127,7 @@ a:hover{
 .i{
     font-style: italic;
 }
-#rapper7{
-    margin: 0 auto;
-    padding-top: 2px;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: black;
-    text-align: center;
-    background-color: black;
-}
+
 
 #options h3{
     display: inline-block;
@@ -118,12 +138,7 @@ a:hover{
     color: rgb(149, 161, 161);
     cursor: cell;
 }
-#article{
-    color: rgba(19, 24, 24, 0.897);
-    padding: 1vw;
-    background-color:black;
-    text-align: center;
-}
+
 #picture{
     max-width: 100%;
 }
@@ -133,6 +148,7 @@ a:hover{
 }
 .black{
     color: aqua;
+    text-align: center;
 }
 .pic3{
     height: 20vw;
@@ -142,11 +158,13 @@ a:hover{
     max-width: 100%;
     width: 600px;
     color: palegoldenrod;
+    text-align: center;
 }
 .video2{
     max-width: 100%;
     width: 600px;
     color: paleturquoise;
+    text-align: center;
 }
 .video3{
     max-width: 100%;
