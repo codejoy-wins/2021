@@ -44,7 +44,6 @@ html, body{
 #plum a{
     /* color: rgb(247, 165, 247); */
     color:wheat;
-
 }
 #plum a:hover{
     color: plum;
@@ -122,6 +121,7 @@ color: black;
     color: gold;
     background-color: black;
     padding: 1vw;
+    margin-bottom: -.117vw;
 }
 #birds a{
     color: gold;
@@ -213,7 +213,7 @@ color: black;
 }
 
 #foot{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.117);
     padding: 0vw;
 }
 
@@ -908,7 +908,7 @@ h3 a{
     color: red;
 }
 .specialty{
-    color: rgb(189, 142, 189);
+    color: rgb(54, 3, 54);
     display: inline-block;
 }
 h4{
