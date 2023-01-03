@@ -41,6 +41,9 @@ html, body{
     font-size: 18.117px;
     /* font-weight: bold; */
 }
+.gold a{
+    padding: 0;
+}
 .hey{
     text-align: center;
     color: white;
