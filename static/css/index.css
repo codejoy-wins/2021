@@ -224,15 +224,16 @@ color: black;
     padding: 1vw;
     padding-bottom: 0;
 }
+p a{
+    text-shadow: none;
+}
 .texzt2 p{
     font-size: 20px;
     font-weight: bolder;
     color: wheat;
     text-shadow: black 1px 1px 7px;
 }
-.text2 p a{
-    text-shadow: 0;
-}
+
 #left{
     /* background-color: purple; */
     padding: 0;
@@ -724,6 +725,13 @@ ul.nav-links.right{
     border-radius: 1vw;
     padding: .5vw;
 }
+.impact2{
+    /* background-color: rgba(0, 0, 0, 0.637); */
+    color: gold;
+    display: inline-block;
+    border-radius: 1vw;
+    padding: .5vw;
+}
 .impact:hover{
     color: rgb(189, 142, 189);
 }
@@ -867,8 +875,8 @@ ul a{
     color: whitesmoke;
 }
 .spxi{
-    color: white;
-    background-color: rgba(245, 245, 245, 0.666);
+    color: red;
+    background-color: rgba(245, 245, 245, 0.777);
 }
 .spxi:hover{
     color: white;
