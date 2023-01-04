@@ -154,9 +154,12 @@ html, body{
     width: 100%;
     text-align: center;
 }
+.option a{
+    color: azure;
+}
 a{
     text-decoration: none;
-    color: whitesmoke;
+    color: cyan;
 }
 a:hover{
     color: wheat;
@@ -596,7 +599,6 @@ ol{
     background-color: skyblue;
     color: whitesmoke;
     display: inline-block;
-    border-radius: 2vw;
     text-align: center;
 }
 .customsong2 h5{
@@ -610,16 +612,12 @@ ol{
     padding: 1vw;
 }
 .songxy{
-    background-color: purple;
-    color: plum;
-    border-radius: 1vw;
-    padding: 1vw;
+    background-color: navy;
+    color: wheat;
 }
 .songyy{
     background-color: rgba(76, 7, 95, 0.566);
     color: plum;
-    border-radius: 1vw;
-    padding: 1vw;
 }
 .songy{
     background-color: black;
