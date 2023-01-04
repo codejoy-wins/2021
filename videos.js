@@ -914,4 +914,4 @@ function chess(){
     <img src="./static/img/queencheck.png" alt="chess" class="pic2">
     `
 }
-alls();
+conspiracies();
