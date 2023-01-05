@@ -136,3 +136,6 @@ a:hover{
 .strategy #normal a{
     color: whitesmoke;
 }
+img{
+    max-width: 100%;
+}
