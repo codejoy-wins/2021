@@ -1,0 +1,945 @@
+html,body .ernie{
+    background-color: white;
+}
+html,body .parallax5{
+    background-color: black;
+}    .verse{
+    border: solid gold .2vw;
+    padding: 1vw;
+    margin: 1vw;
+    /* color: pink; */
+}
+html,body .parallax6{
+    background-color: black;
+}
+html,body .parallax3new{
+    background-color: black;
+}
+html,body .texztblack{
+    background-color: black;
+}
+html,body .texztwhite{
+    background-color: white;
+}
+html,body .parallaxnew{
+    background-color: black;
+}
+html, body{
+    height: 100%;
+    /* background-color: black; */
+    background-image: url("../img/drElam.jpg");
+    background-size: cover;
+    background-position: 11.7px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    color: azure;
+    /* background-color: rgba(245, 245, 245, 0.65); */
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    font-size: 18.117px;
+    /* font-weight: bold; */
+}
+p{
+    color: azure;
+}
+#plum a{
+    /* color: rgb(247, 165, 247); */
+    color:wheat;
+}
+#plum a:hover{
+    color: plum;
+}
+.gold a{
+    padding: 0;
+}
+.hey{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 0, 255, 0.4);
+}
+.hey h2{
+    font-size: 5ch;
+
+}
+/* #new{
+    margin: 0;
+    padding: 0;
+} */
+canvas {
+    display:block;
+    position: absolute;
+    opacity: .3117;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.pic{
+    max-width: 100%;
+}
+.picxy{
+    max-width: 100%;
+    text-align: center;
+    background-color: pink;
+    margin: 0;
+}
+.elam{
+    background-color: forestgreen;
+    color: white;
+}
+.elam:hover{
+    color: gold;
+}
+.wbc{
+    background-color: white;
+    color: red;
+}
+.wbc:hover{
+    color: white;
+    background-color: crimson;
+    border-radius: 100vw;
+}
+.bulba{
+    /* background-color: forestgreen; */
+    /* background-color:rgb(192, 165, 95); */
+    background-color:rgb(221, 193, 122);
+
+
+color: black;
+    /* color: gold; */
+}
+.bulba:hover{
+    color: beige;
+}
+.pika{
+    background-color: rgba(0, 0, 0, 0.675);
+    color: white;
+}
+.pika:hover{
+    color: gold;
+}
+.gold{
+    color: gold;
+    background-color: black;
+    padding: 1vw;
+    margin-bottom: -.117vw;
+}
+#birds a{
+    color: gold;
+}
+.vid{
+    max-width: 100%;
+}
+#dishonest{
+    color: red;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+#dishonest:hover{
+    color: rgb(118, 3, 233);
+}
+.right{
+   float: right;
+   opacity: .7;
+}
+#first{
+    color: coral;
+    font-size: xx-large;
+}
+.customsong{
+    /* background-color: gainsboro; */
+    color: black;
+    display: inline-block;
+    border-radius: 2vw;
+    text-align: center;
+}
+.customsong h5 {
+    padding: 0;
+    margin: 0 auto;
+}
+.songx{
+    /* background-color: rgba(0, 0, 0, 0.701); */
+    background-color: skyblue;
+    color: black;
+    /* color: gold; */
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.songxx{
+    /* background-color: rgba(0, 0, 0, 0.701); */
+    background-color: rgba(225, 135, 235, 0.692);
+
+    color: black;
+    /* color: gold; */
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.songy{
+    background-color: black;
+    color: gold;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+#goldfirst{
+    /* color: rgb(86, 174, 252); */
+    color: rgb(255, 230, 0);
+    /* background-color: rgba(86, 174, 252, 0.5117); */
+    background-color: rgba(0, 0, 0, 0.87);
+
+    font-size: xx-large;    
+    border-radius: 1vw;
+    padding: .35vw;
+    padding-right: .2vw;
+}
+#bluefirst{
+    color: royalblue;
+    font-size: xx-large;
+}
+
+#purplefirst{
+    color: purple;
+    font-size: xx-large;
+}
+#violetfirst{
+    color: violet;
+    font-size: xx-large;
+}
+#orangefirst{
+    color: orange;
+    font-size: xx-large;
+}
+#greenfirst{
+    color: green;
+    font-size: xx-large;
+}
+.tiny{
+    max-width: 200px;
+    max-height: 50px;
+}
+
+#foot{
+    background-color: rgba(255, 255, 255, 0.117);
+    padding: 0vw;
+}
+
+.special{
+    display: inline-block;
+}
+.white{
+    background-color: white;
+}
+.texzt{
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgba(255, 255, 255, 0.7117);
+    padding: 1vw;
+    padding-bottom: 0;
+}
+.texzt2{
+    background-color: rgba(251, 197, 2, 0);
+    /* background-color: rgba(255, 204, 0, 0.38); */
+    padding: 1vw;
+    padding-bottom: 0;
+}
+p a{
+    text-shadow: none;
+}
+.texzt2 p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: wheat;
+    text-shadow: black 1px 1px 7px;
+}
+
+#left{
+    /* background-color: purple; */
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+#right{
+    color: orange;
+    max-width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.feature{
+    max-width: 100%;
+}
+#banner{
+    background-color: black;
+    /* background-color: rgba(0, 0, 0, 0); */
+
+    max-height: 50px;
+}
+#bannery{
+    background-color: rgba(146, 25, 25, 0.116);
+    max-height: 50px;
+}
+.parallax{
+    background-image: url("../img/jag.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    max-width: 100%;
+}
+.parallaxnew{
+    /* background-image: url("../img/zeus\ copy.jpg"); */
+    background-image: url("../img/GoldElam.jpg");
+
+    height: 100vw;
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -200px;
+    max-width: 100%;
+    padding-top: 200px;
+}
+.parallaxnewx{
+    background-image: url("../img/zeus\ copy.jpg");
+    /* background-image: url("../img/chosen.png"); */
+
+    height: 100vw;
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -200px;
+    max-width: 100%;
+    padding-top: 200px;
+}
+
+.parallaxxp{
+    background-image: url("../img/worldball.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: 3ch top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+
+.parallaxfeature{
+    background-image: url("../img/mandalorian-tragedy.jpg");
+    height: 90vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    max-width: 100%;
+}
+.parallaxfeaturenew{
+    background-image: url("../img/midj1.png");
+    height: 90vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    max-width: 100%;
+}
+
+
+
+.parallaxfeature2{
+    background-image: url("../img/Meme.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    max-width: 100%;
+}
+.parallaxfeature3{
+    background-image: url("../img/keira.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.parallaxfeature3new{
+    background-image: url("../img/RainbowAngel.png");
+    height: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    max-width: 100%;
+}
+.parallaxfeature4{
+    background-image: url("../img/spidermaniron.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+
+a:hover{
+    color: gold;
+
+}
+p a{
+    text-decoration: none;
+    color: rgb(103, 122, 129);
+    padding: 1.5vw;
+    border-radius: 1vw;
+    background-color: aliceblue;
+}
+
+p a:hover{
+    color: rgb(172, 141, 100);
+    border: solid black .05vw;
+
+}
+.real a{
+    text-decoration: none;
+    color: gold;
+    background-color: black;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.real a:hover{
+    color: black;
+}
+.parallax2{
+    background-image: url("../img/m.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3{
+    background-image: url("../img/leojack.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.parallax3new{
+    background-image: url("../img/jag.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.parallax4{
+    background-image: url("../img/kong.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pad{
+    padding: 1vw;
+}
+.parallax5{
+    background-image: url("../img/The_One_TradingCard\ copy\ 3.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.parallax6{
+    background-image: url("../img/DJAliensJ.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.parallax7{
+    background-image: url("../img/raichu.png");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax8{
+    background-image: url("../img/pokemon.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax9{
+    background-image: url("../img/goodjoker.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax10{
+    background-image: url("../img/radiohead.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax11{
+    background-image: url("../img/videos.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.devon{
+    background-image: url("../img/schoolofrock.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ernie{
+    /* background-image: url("../img/Elam11.29\ copy\ 2.jpg"); */
+    background-image: url("../img/Elam117.png");
+
+
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.charlie{
+    background-image: url("../img/queencheck.png");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.michael{
+    background-image: url("../img/worldball.jpg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.pikachu{
+    color: orange;
+}
+p{
+    color: rgba(24, 23, 23, 0.918);
+}
+.team{
+    padding: 1vw;
+    color: gold;
+}
+.secret2{
+    opacity: 0;
+}
+ul.nav-links.right{
+    padding: 0;
+    /* background-color: rgba(202, 232, 245, 0.316); */
+    background-color: black;
+    padding: 2vw;
+}
+/* 1366px */
+@media only screen and (max-device-width: 1117px) {
+    ul.nav-links.right{
+        padding: 0;
+        /* background-color: rgba(202, 232, 245, 0.316); */
+        background-color: rgba(240, 248, 255, 0.8);
+    }
+    #specialx{
+        /* background-color: rgba(255, 217, 0, 0.654); */
+        background-color: rgba(255, 217, 0, 0.514);
+
+        line-height: 8vw;
+    }
+    .pika{
+        /* background-color: cyan; */
+        padding: .7vw;
+        margin: 1vw;
+        background-color: skyblue;
+        /* background-color: rgba(0, 0, 0, 0.886); */
+    }
+    .bulba{
+        padding: .7vw;
+        margin: 1vw;
+        background-color: blanchedalmond;
+    }
+    p a{
+        text-decoration: none;
+        color: rgb(103, 122, 129);
+        padding: .9vw;
+        border-radius: 2vw;
+        background-color: aliceblue;
+    }
+    .secret2{
+        opacity: 1;
+    }
+    .burger{
+        display: flex;
+        float: none;
+    }
+    .tiny{
+        float: left;
+    }
+    .right{
+        float: left;
+    }
+    ul{
+        display: flex;
+        max-width: 70%;
+        background-color: black;
+        /* background-color: white; */
+
+        float: left;
+        overflow: auto;
+    }
+    ul li{
+        background-color: rgba(255, 238, 0, 0.651);
+        color: black;
+        padding: .5vw;
+        display: inline-block;
+        padding-left: 0;
+    }
+    .parallax {
+      background-attachment: scroll;
+      background-size: cover;
+      /* background-position: -200px; */
+      background-position: -117px;
+      background-image: url("../img/jag.jpg");
+    }
+
+    .parallaxnew {
+        background-attachment: scroll;
+        background-size: cover;
+        /* background-position: -200px; */
+        background-position: 0px;
+
+        margin-top: 20px;
+
+      }
+      .parallaxnewx {
+        background-attachment: scroll;
+        background-size: cover;
+        /* background-position: -200px; */
+        background-position: 0px;
+
+        margin-top: 20px;
+
+      }
+    .parallaxfeature{
+        background-attachment: scroll;
+        background-position: -100px;
+    }
+    .parallaxfeaturenew{
+        background-attachment: scroll;
+    }
+    .parallaxfeature3new{
+        background-attachment: scroll;
+    }
+    .parallaxfeature2{
+        background-attachment: scroll;
+    }
+    .parallaxfeature3{
+        background-attachment: scroll;
+    }
+    .parallaxfeature4{
+        background-attachment: scroll;
+    }
+    .parallax2 {
+        background-attachment: scroll;
+      }
+      .parallax3 {
+        background-attachment: scroll;
+      }
+      .parallax3new {
+        background-attachment: scroll;
+      }
+      .parallax4 {
+        background-attachment: scroll;
+      }
+      .parallax5 {
+        background-attachment: scroll;
+        background-size: cover;
+      }
+      .parallax6 {
+        background-attachment: scroll;
+      }
+      .parallax7 {
+        background-attachment: scroll;
+        background-image: url("../img/raichu.png");
+
+      }
+      .parallax8 {
+        background-attachment: scroll;
+      }
+      .parallax9 {
+        background-attachment: scroll;
+      }
+      .parallax10 {
+        background-attachment: scroll;
+      }
+      .parallax10 {
+        background-attachment: scroll;
+        background-size: contain;
+      }
+      .parallax11 {
+        background-attachment: scroll;
+      }
+      .devon {
+        background-attachment: scroll;
+      }
+      .ernie{
+        background-attachment: scroll;
+        background-size: cover;
+        /* background-image: url("../img/Elam11.29.jpg"); */
+      }
+      .charlie{
+        background-attachment: scroll;
+    }
+    .michael{
+        background-attachment: scroll;
+    }
+      .secret{
+          display: none;
+      }
+  }
+  .real a:hover{
+    color: black;
+}
+.real a{
+    background-color: black;
+}
+.impact{
+    background-color: rgba(0, 0, 0, 0.637);
+    color: gold;
+    display: inline-block;
+    border-radius: 1vw;
+    padding: .5vw;
+}
+.impact2{
+    /* background-color: rgba(0, 0, 0, 0.637); */
+    color: gold;
+    display: inline-block;
+    border-radius: 1vw;
+    padding: .5vw;
+}
+.impact:hover{
+    color: rgb(189, 142, 189);
+}
+.impact a:hover{
+    color: rgb(189, 142, 189);
+    cursor: cell;
+
+}
+.question{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border-radius: 1vw;
+    padding: .5vw;
+}
+
+.rank{
+    margin: 0;
+    padding: none;
+    color: paleturquoise;
+    background-color: black;
+    padding: 1vw;
+    border-radius: 1vw;
+    opacity: .5;
+}
+.rank h1, h2, h3{
+    display: inline-block;
+    padding-right: 4vw;
+    padding-top: none;
+    padding-bottom: none;
+    margin: none;
+}
+.rank h1{
+    font-size: 10vw;
+}
+.record{
+    font-family: cursive;
+}
+
+@keyframes truth {
+    10%{
+        opacity: .03;
+    }
+    25%{
+        opacity: .2;
+    }
+    40%{
+        opacity: .4;
+    }
+    50%{
+        opacity: .5;
+    }
+    70%{
+        opacity: .7;
+    }
+    100%{
+        opacity: .85;
+    }
+}
+.spx{
+    display: inline-block;
+}
+#Lord{
+    background-color: rebeccapurple;
+}
+.burger{
+    opacity: .1;
+    animation: truth 7s;
+    animation-fill-mode: forwards;
+}
+.burger:hover{
+    animation: none;
+    opacity: 1;
+}
+.burger div{
+    background-color: navajowhite;
+    width: 34px;
+    height: 6px;
+    margin: 5px;
+}
+.burger2 div{
+    background-color: rgb(177, 165, 165);
+    width: 34px;
+    height: 6px;
+    margin: 5px;
+}
+.burger div:hover{
+    background-color: white;
+}
+.super{
+    display: none;
+}
+.perfect h2{
+    font-size: xx-large;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    cursor: cell;
+    color: white;
+}
+
+@keyframes bolt {
+    10%{
+        opacity: .5;
+        color: turquoise;
+    }
+    25%{
+        opacity: .5;
+        color: gold;
+    }
+    40%{
+        opacity: .4;
+        color: aqua;
+    }
+    50%{
+        opacity: .5;
+        color: silver;
+    }
+    70%{
+        opacity: .7;
+        color: rgb(34, 130, 139);
+    }
+    100%{
+        opacity: .85;
+    }
+}
+.phil a{
+    background-color: white;
+    padding: 0;
+    border-radius: 0;
+    /* color: plum; */
+    color: rgb(189, 142, 189);
+
+}
+#birds{
+    background-color: rebeccapurple;
+    padding: 1vw;
+    border-radius: 1vw;
+    color: whitesmoke;
+}
+.spxi{
+    color: red;
+    background-color: rgba(245, 245, 245, 0.777);
+}
+.spxi:hover{
+    color: white;
+    outline: red .2vw solid;
+    background-color: black
+}
+ul a:hover{
+    color: purple;
+    animation: bolt 7s infinite;
+}
+.gold a{
+    background-color: black;
+}
+.god{
+    max-width: 90px;
+}
+h3 a{
+    color: red;
+}
+.specialty{
+    color: rgb(54, 3, 54);
+    display: inline-block;
+}
+h4{
+    padding:0;
+}
+.royalty{
+    color: rgb(189, 142, 189);
+    display: inline-block;
+    padding-left: 1.17vw;
+}
+.specialty a{
+    color: gold;
+}
+.specialty a:hover{
+    color: turquoise;
+}
+.sp:hover{
+    color: gold;
+}
+.song{
+    max-width: 100%;
+}
+.song2{
+    max-width: 100%;
+    display: inline-block;
+}
