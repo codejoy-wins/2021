@@ -161,8 +161,8 @@ color: black;
     background-color: skyblue;
     color: black;
     /* color: gold; */
-    border-radius: 1vw;
-    padding: 1vw;
+    /* border-radius: 1vw; */
+    /* padding: 1vw; */
 }
 .songxx{
     /* background-color: rgba(0, 0, 0, 0.701); */
@@ -176,8 +176,8 @@ color: black;
 .songy{
     background-color: black;
     color: gold;
-    border-radius: 1vw;
-    padding: 1vw;
+    /* border-radius: 1vw; */
+    /* padding: 1vw; */
 }
 #goldfirst{
     /* color: rgb(86, 174, 252); */
@@ -572,7 +572,7 @@ ul.nav-links.right{
     }
     #specialx{
         /* background-color: rgba(255, 217, 0, 0.654); */
-        background-color: rgba(255, 217, 0, 0.514);
+        /* background-color: rgba(255, 217, 0, 0.514); */
 
         line-height: 8vw;
     }
