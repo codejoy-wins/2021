@@ -1,0 +1,16 @@
+.rapper h1{
+    text-align: center;
+}
+.rapper{
+    color: black;
+    font-family: 'Nunito', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+.tiny{
+    max-width: 200px;
+    max-height: 50px;
+    float: left;
+}
