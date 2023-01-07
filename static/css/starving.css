@@ -17,3 +17,7 @@ img{
 #true{
     color: red;
 }
+.vid{
+    max-width: 100%;
+    width: 640px;
+}
