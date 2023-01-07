@@ -233,6 +233,12 @@ color: black;
     padding: 1vw;
     padding-bottom: 0;
 }
+.texzt2 p{
+    animation: morpheus 8s infinite;
+}
+.texzt2 h3{
+    color: wheat;
+}
 .texzt2{
     background-color: rgba(251, 197, 2, 0);
     /* background-color: rgba(255, 204, 0, 0.38); */
@@ -849,7 +855,26 @@ ul a{
     cursor: cell;
     color: white;
 }
-
+@keyframes morpheus {
+    10%{
+        color: white;
+    }
+    25%{
+        color: wheat;
+    }
+    40%{
+        color: white;
+    }
+    50%{
+        color: wheat;
+    }
+    70%{
+        color: white;
+    }
+    100%{
+        color: wheat;
+    }
+}
 @keyframes bolt {
     10%{
         opacity: .5;
