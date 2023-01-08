@@ -1,0 +1,24 @@
+h1{
+    color: forestgreen;
+}
+.desc{
+    display: inline-block;
+}
+.left{
+    color: white;
+    background-color: blueviolet;
+    max-width: 40%;
+    display: inline-block;
+    width: 40%;
+}
+.right{
+    color: white;
+    max-width: 40%;
+    display: inline-block;
+    background-color: coral;
+    width: 40%;
+
+}
+ul li{
+    list-style: none;
+}
