@@ -9,6 +9,13 @@ html, body{
     max-width: 100%;
     width: 600px;
 }
+.song{
+    max-width: 100%;
+    width: 70ch;
+    text-align: center;
+    opacity: .8;
+    
+}
 .vid2{
     max-width: 100%;
     max-height: 100%;
