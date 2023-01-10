@@ -13,7 +13,7 @@ let maxheight;
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     // true for mobile device
     console.log("mobile device");
-    maxheight=window.innerHeight*2.117;
+    maxheight=window.innerHeight*1.711;
   }else{
     // false for not mobile device
     console.log("not mobile device");
