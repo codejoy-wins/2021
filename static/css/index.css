@@ -656,11 +656,10 @@ ul.nav-links.right{
     }
 
     .parallaxnew {
+        background-image: url(../img/elama2.png);
         background-attachment: scroll;
         background-size: cover;
-        /* background-position: -200px; */
         background-position: 0px;
-
         margin-top: 20px;
 
       }
