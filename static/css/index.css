@@ -601,9 +601,9 @@ ul.nav-links.right{
     }
     .pika{
         /* background-color: cyan; */
-        padding: .7vw;
+        padding: .3vw;
         margin: 1vw;
-        background-color: skyblue;
+        background-color: rgb(203, 135, 235);
         /* background-color: rgba(0, 0, 0, 0.886); */
     }
     .bulba{
