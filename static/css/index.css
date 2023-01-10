@@ -184,9 +184,8 @@ color: black;
     /* padding: 1vw; */
 }
 #goldfirst{
-    /* color: rgb(86, 174, 252); */
     color: rgb(255, 230, 0);
-    /* background-color: rgba(86, 174, 252, 0.5117); */
+    animation: rainbow 7s infinite;
     background-color: rgba(0, 0, 0, 0.87);
 
     font-size: xx-large;    
@@ -200,7 +199,7 @@ color: black;
 }
 
 #purplefirst{
-    color: purple;
+    color: skyblue;
     font-size: xx-large;
 }
 #violetfirst{
@@ -236,6 +235,30 @@ color: black;
     background-color: rgba(255, 255, 255, 0.7117);
     padding: 1vw;
     padding-bottom: 0;
+}
+.texzt3{
+    background-image: url(../img/eli9.jpg);
+    padding: 1vw;
+    padding-bottom: 0;
+    color: azure;
+}
+.texzt3 p{
+    /* background-image: url(../img/eli2.jpg); */
+    padding: 1vw;
+    padding-bottom: 0;
+    color: azure;
+}
+.texzt4{
+    background-color: rgb(0, 0, 0);
+    padding: 1vw;
+    padding-bottom: 0;
+    color: wheat;
+}
+.texzt4 p{
+    /* background-image: url(../img/eli2.jpg); */
+    padding: 1vw;
+    padding-bottom: 0;
+    color: wheat;
 }
 .texzt2 p{
     animation: morpheus 8s infinite;
@@ -925,6 +948,35 @@ ul a{
     }
     100%{
         opacity: .85;
+    }
+}
+@keyframes rainbow {
+    10%{
+        color: red;
+    }
+    20%{
+        color: orange;
+    }
+    30%{
+        color: gold;
+    }
+    40%{
+        color: green;
+    }
+    50%{
+        color:lightgreen;
+    }
+    60%{
+        color: lightblue;
+    }
+    70%{
+        color: blue;
+    }
+    80%{
+        color: navy;
+    }
+    90%{
+        color: wheat;
     }
 }
 .phil a{
