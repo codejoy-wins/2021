@@ -129,6 +129,10 @@ color: black;
 .vid{
     max-width: 100%;
 }
+.vidx{
+    max-width: 100%;
+    opacity: .7;
+}
 #dishonest{
     color: red;
     border-radius: 1vw;
@@ -293,9 +297,22 @@ p a{
     max-width: 100%;
 }
 .parallaxnew{
-    /* background-image: url("../img/zeus\ copy.jpg"); */
-    background-image: url("../img/GoldElam.jpg");
+    /* background-image: url("../img/GoldElam.jpg"); */
+    background-image: url("../img/elama.png");
 
+
+    height: 100vw;
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -200px;
+    max-width: 100%;
+    padding-top: 200px;
+}
+.parallaxmew{
+    /* background-image: url("../img/GoldElam.jpg"); */
+    background-image: url("../img/GoldElam.jpg");
     height: 100vw;
     background-attachment: fixed;
     background-position:  center;
