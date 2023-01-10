@@ -603,7 +603,7 @@ ul.nav-links.right{
         /* background-color: cyan; */
         padding: .3vw;
         margin: 1vw;
-        background-color: rgb(203, 135, 235);
+        background-color: rgba(203, 135, 235, 0.711);
         /* background-color: rgba(0, 0, 0, 0.886); */
     }
     .bulba{
