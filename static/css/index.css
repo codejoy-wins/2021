@@ -664,6 +664,17 @@ ul.nav-links.right{
         margin-top: 20px;
 
       }
+
+      .parallaxmew {
+        background-attachment: scroll;
+        background-size: cover;
+        /* background-position: -200px; */
+        background-position: 0px;
+
+        margin-top: 20px;
+
+      }
+
       .parallaxnewx {
         background-attachment: scroll;
         background-size: cover;
