@@ -183,6 +183,12 @@ color: black;
     /* border-radius: 1vw; */
     /* padding: 1vw; */
 }
+.songyyy{
+    background-color: black;
+    color: gold;
+    border-radius: 1vw;
+    padding: 1vw;
+}
 #goldfirst{
     color: rgb(255, 230, 0);
     animation: rainbow 7s infinite;
@@ -1035,6 +1041,9 @@ h4{
 }
 .sp:hover{
     color: gold;
+}
+.sp{
+    color: aliceblue;
 }
 .song{
     max-width: 100%;
