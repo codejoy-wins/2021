@@ -10,3 +10,11 @@ img{
 .nude:hover{
     opacity: 1;
 }
+.vid{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 315px;
+    float: left;
+    padding-right: 1vw;
+}
