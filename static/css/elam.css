@@ -10,6 +10,9 @@ html, body{
     margin: 0;
     padding: 0;
 }
+img{
+    max-width: 100%;
+}
 .vid{
     max-width: 100%;
 }
@@ -36,7 +39,7 @@ html, body{
     padding: 1vw;
 }
 #nav{
-    background-color: rgb(43, 226, 156, 0.363);
+    background-color: rgba(0, 0, 0, 0.363);
     width: 100%;
 }
 a{

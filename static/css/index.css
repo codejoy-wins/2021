@@ -326,8 +326,9 @@ p a{
     max-width: 100%;
 }
 .parallaxnew{
-    /* background-image: url("../img/GoldElam.jpg"); */
     background-image: url("../img/elama.png");
+    /* background-image: url("../img/forevs\ copy.png"); */
+
 
 
     height: 100vw;
@@ -504,6 +505,8 @@ p a:hover{
 }
 .parallax5{
     background-image: url("../img/The_One_TradingCard\ copy\ 3.jpg");
+    /* background-image: url("../img/forevs\ copy.png"); */
+
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
