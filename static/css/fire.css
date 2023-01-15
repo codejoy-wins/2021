@@ -220,7 +220,7 @@ h1 a{
 .post{
     border-radius: 1ch;
     padding: 3vw;
-    background-color: rgba(55, 83, 211, 0.680);
+    background-color: rgba(55, 84, 211, 0.562);
     color: black;
     font-size: larger;
 }
@@ -261,7 +261,7 @@ h1 a{
 .post1advanced{
     border-radius: 1ch;
     padding: 3vw;
-    background-color: rgba(55, 83, 211, 0.680);
+    background-color: rgba(55, 84, 211, 0.335);
     color: black;
     font-size: larger;
     padding-bottom: 7vw;
@@ -270,7 +270,7 @@ h1 a{
     border-radius: 1ch;
     padding: 3vw;
     /* background-color: rgba(211, 17, 17, 0.507); */
-    background-color: rgba(211, 17, 17, 0.56);
+    background-color: rgba(211, 17, 17, 0);
     color: black;
     font-size: larger;
 }
@@ -314,7 +314,7 @@ h1 a{
 .post2advanced{
     border-radius: 1ch;
     padding: 3vw;
-    background-color: rgba(211, 17, 17, 0.65);
+    background-color: rgba(255, 0, 0, 0);
     padding-bottom: 7vw;
     /* color: silver; */
     color: whitesmoke;
@@ -324,10 +324,10 @@ h1 a{
     border-radius: 1ch;
     padding: 3vw;
     /* background-color: rgba(45, 43, 134, 0.65); */
-    background-color: rgba(46, 44, 172, 0.65);
+    background-color: rgba(46, 44, 172, 0);
 
     padding-bottom: 7vw;
-    color: silver;
+    color: black;
     font-size: larger;
 }
 .lucifer{
@@ -745,7 +745,7 @@ ul{
     color: black;
 }
 .post4advanced p{
-    background-color: rgba(149, 97, 160, 0.938);
+    background-color: rgba(245, 222, 179, 0.89);
     padding: 1vw;
     border-radius: 1vw;
 }
@@ -864,7 +864,7 @@ h4{
     display: none;
 }
 body{
-    background-image: url(/static/img/fire2.jpg);
+    background-image: url(/static/img/lakerstar.png);
     background-size: contain;
 }
 .pic100{
