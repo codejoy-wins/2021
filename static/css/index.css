@@ -26,8 +26,8 @@ html,body .parallaxnew{
 }
 html, body{
     height: 100%;
-    /* background-color: black; */
-    background-image: url("../img/elama.png");
+    background-color: black;
+    /* background-image: url("../img/test.png"); */
     background-size: cover;
     background-position: 11.7px;
     width: 100%;
@@ -282,6 +282,64 @@ p a{
     text-shadow: none;
 }
 .texzt2 p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: wheat;
+    text-shadow: black 1px 1px 7px;
+}
+
+.texzt117 p{
+    animation: morpheus 8s infinite;
+}
+.texzt117 h3{
+    color: wheat;
+}
+.texzt117{
+    background-color: rgba(251, 197, 2, 0);
+    background-image: url(../img/cloudland.jpg);
+    padding: 1vw;
+    padding-bottom: 0;
+}
+.texzt117 p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: wheat;
+    text-shadow: black 1px 1px 7px;
+}
+
+.texzt118 p{
+    animation: morpheus 8s infinite;
+}
+.texzt118 h3{
+    color: wheat;
+}
+.texzt118{
+    background-color: rgba(251, 197, 2, 0);
+    background-image: url(../img/spectrum\ copy.png);
+    padding: 1vw;
+    padding-bottom: 0;
+}
+.texzt118 p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: wheat;
+    text-shadow: black 1px 1px 7px;
+}
+
+.texzt119 p{
+    animation: morpheus 8s infinite;
+}
+.texzt119 h3{
+    color: wheat;
+}
+.texzt119{
+    background-color: rgba(251, 197, 2, 0);
+    background-image: url(../img/chessnow.jpg);
+    /* background-size: cover; */
+    padding: 1vw;
+    padding-bottom: 0;
+}
+.texzt119 p{
     font-size: 20px;
     font-weight: bolder;
     color: wheat;
