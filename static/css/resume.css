@@ -77,6 +77,9 @@ a:hover{
     text-align: center;
     font-size: larger;
 }
+embed{
+    max-width: 100%;
+}
 .purple{
     color: purple;
 }
