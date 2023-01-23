@@ -15,6 +15,9 @@ html,body{
     height: 100%;
     width: 100%;
 }
+p{
+    color: gold;
+}
 html{
     text-align: center;
     background-image: url("../img/eli10.jpg");
