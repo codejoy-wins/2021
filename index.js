@@ -204,4 +204,48 @@ const nextTime = () =>{
     }
     
 }
+
+let songz = [
+    `hates`,
+    `Lying`,
+    `cali`,
+    `Afterlie`,
+    `diamond`,
+    `vice`,
+    `AdoreYou`,
+    `only`,
+    `winter`,
+    `herestoyou`,
+    `fakebook`,
+]
+
+let songs = [
+       `This Town Hates Me`,
+       `Lying`,
+       `California`,
+       `Afterli(f)e`,
+       `Cold Diamond`,
+       `Add Vice for a Friend`,
+       `Adore You`,
+       `If Only`,
+       `Beautiful Winter`,
+       `Here's to You`,
+       `Fakebook`,
+]
+
+function randosong(){
+    let x = Math.random(0,songz.length);
+    x=x*10;
+    x = Math.floor(x);
+    
+    console.log(`x is ${x}`);
+    document.getElementById("introsong").innerHTML=`
+    <audio id="player" onended="randosong()" src="static/audio/${songz[x]}.mp3"></audio>
+    `
+    document.getElementById("descsong").innerHTML=`
+    <p>${songs[x]}</p>
+    `
+}
+
 nextTime();
+randosong();
