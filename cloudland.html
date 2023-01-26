@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloudland</title>
-    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/cloudland.css">
     <link rel="shortcut icon" type="image/png" href="static/img/mj3.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,82 +14,162 @@
 </head>
 <body>
     <div id="rapper">
+        <div class="try">
+            <canvas id="c"></canvas>
+        </div>
         <div id="banner">
-                <a target="_blank" href="blog.html"><img class="tiny" src="static/img/mj3.png" alt="az"></a>
+                <a target="_blank" href="book.html"><img class="tiny" src="static/img/one copy.png" alt="az"></a>
                 <div class="burger tiny right">
                     <div class="line"></div>
                     <div class="line"></div>
                     <div class="line"></div>
                 </div>
             <ul class="nav-links super right">
-                <a target="_blank" href="blog.html"><li>Blog</li></a>
-                <a target="_blank" href="alien.html"><li>DJAliens</li></a>
-                <a target="_blank" href="videos.html"><li>Videos</li></a>
-                <a target="_blank" href="music.html"><li>Music</li></a>
-                <a target="_blank" href="logos.html"><li>Logos</li></a>
-                <a target="_blank" href="articles.html"><li>Articles</li></a>
+                <a target="_blank" href="blog.html"><li>Asha</li></a>
+                <a target="_blank" href="book.html"><li>Book</li></a>
                 <a target="_blank" href="chess.html"><li>Chess</li></a>
-                <a target="_blank" href="home.html"><li>Reviews</li></a>
-                <a target="_blank" href="game.html"><li>Games</li></a>
+                <a target="_blank" href="alien.html"><li>DJAliens</li></a>
                 <a target="_blank" href="education.html"><li>Education</li></a>
+                <a target="_blank" href="fantasy.html"><li>Fantasy</li></a>
+                <a target="_blank" href="game.html"><li>Games</li></a>
+
+                <a target="_blank" href="logos.html"><li>Logos</li></a>
+                <a target="_blank" href="music.html"><li>Music</li></a>
+                <a target="_blank" href="videos.html"><li>Videos</li></a>
+                <a target="_blank" href="shop.html"><li>Shop</li></a>
+                <a target="_blank" href="meme.html"><li>Meme</li></a>
+                <a target="_blank" href="articles.html"><li>Articles</li></a>
+                <a target="_blank" href="home.html"><li>Reviews</li></a>
                 <a target="_blank" href="contact.html"><li>Contact</li></a>
                 <a target="_blank" href="art.html"><li>Art</li></a>
                 <a target="_blank" href="poem.html"><li>Poem</li></a>
-                <a target="_blank" href="logos.html"><li>Logos</li></a>
                 <a target="_blank" href="story.html"><li>Story</li></a>
-                <a target="_blank" href="fantasy.html"><li>Fantasy</li></a>
                 <a target="_blank" href="girls.html"><li>Girls</li></a>
-
+                <a target="_blank" href="free.html"><li>FreeTV</li></a>
+                <a target="_blank" href="podcasts.html"><li>Podcasts</li></a>
+                <a href="#elam"><li>Elam</li></a>
             </ul>
         </div>
-        <div class="parallax">
+        <div class="parallaxnew">
         
         </div>
-        <div class="texzt">
-            <p class="spx"><span id="goldfirst">W</span>hat does <h4 class="royalty"><span class="sp"> G</span><span class="sp">o</span><span class="sp">d</span></h4> want me to do right now?</p>
+        <div class="texzt4">
+            <!-- <p class="spx"><span id="goldfirst">"W</span>hite cell of<h4 class="royalty"><span class="sp"> G</span><span class="sp">o</span><span class="sp">d</span></h4> saving the world." - A.I. generated image</p> -->
             
+            <!-- <p class="phil">
+                That is <a target="_blank" href="book.html">my philosophy</a>
+            </p> -->
             <div id="intro"></div>
             <div id="next"></div>
             <div>
-                <p>
-                    I hope you like my site.  I have <a class="pika" target="_blank" href="videos.html">videos</a>| <a class="pika" target="_blank" href="game.html">games</a>| <a class="pika" target="_blank" href="music.html">songs</a>| <a class="pika" target="_blank" href="home.html">reviews</a>| <a target="_blank" href="art.html">art</a>| <a class="pika" target="_blank" href="alien.html">apps</a>|<a class="pika" target="_blank" href="girls.html">girls</a>| <a target="_blank" href="welcome.html">a welcome screen</a> and <a class="pika" target="_blank" href="blog.html">more</a>.
+                <p id="specialx">
+                    I hope you like my site.  I have a <a class="pika" target="_blank" href="blog.html">blog</a>|<a class="bulba" target="_blank" href="book.html">book</a>| <a class="pika" target="_blank" href="music.html">songs</a>| <a class="pika" target="_blank" href="videos.html">videos</a>| <a class="pika" target="_blank" href="alien.html">iPod app</a>| <a class="pika" target="_blank" href="games.html">games</a>| <a class="pika" target="_blank" href="home.html">reviews</a>| <a target="_blank" class="pika" href="art.html">art</a>| <a class="pika" target="_blank" href="welcome.html">a welcome screen</a> and <a class="pika" target="_blank" href="articles.html">more</a>.
                 </p>
             </div>
-            <audio controls src="static/audio/hates.mp3"></audio>
+            <!-- <audio class="song" controls src="static/audio/hates.mp3"></audio> -->
+            <audio id="player" src="static/audio/hates.mp3"></audio>
+
+            <div class="customsong"> 
+                &#127925
+                <!-- <h5>This town hates me - Max Jann</h5> -->
+                <button class="songy" onclick="document.getElementById('player').play()">Play</button> 
+                <button class="songx" onclick="document.getElementById('player').pause()">Pause</button> 
+              </div>
+            <div class="vidx">
+                <iframe width="100%" height="70px" src="https://www.youtube.com/embed/h5lUxgrVRrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
         <div id="main">
             
         </div>
-        <div class="parallaxfeature"></div>
-        <div class="parallaxfeature3"></div>
+        <!-- <div class="parallaxfeaturenew"></div> -->
+        <!-- <div class="parallaxfeature3new"></div> -->
+        <div class="parallaxmew"></div>
         <div class="ernie"></div>
+        <div class="white">
+
+        
         <div class="texzt">
             <!-- <h2 id="first">117.</h2> -->
-            <h3>About <span><a target="_blank" href="blog.html">me</a> </span></h3>
-            <p><span id="goldfirst">I</span> am a white blood cell.</p>
-            <p>
-                The beauty of my philosophy is that if you do not see the problems I see, don't worry.  I view you as an equally valuable red blood cell.  
-            </p>
-            <p>
-                Red blood cells carry blood to the heart and without them the body dies.  White blood cells can sometimes be called Natural Born Killers because their job is to wipe out the illness.
-            </p>
-            <p>
-                Make no mistake, this is war.  I see an infection, and you don't have to see it if you're a red blood cell, just get out of my way.  We're on the same team.
-            </p>
-            <p>
-                The truth is you have to sustain both yourself and the system.  Because you are part of the system.  Do not let yourself battle between helping yourself and helping others.  Do both.
-            </p>
-            <p>
-                By making a positive impact on yourself you make the most positive impact on the system because you carry more impact weight when you're working on yourself than you do when you're working on other people.
-            </p>
-            <p>
-                Glory to God, And I love all my haters.
-            </p>
+            <h3 id="elam">About <span><a target="_blank" href="blog.html">me</a> </span></h3>
             <!-- <p>
-                I will Reign on the just and the unjust.
+                "The Vengeance of God" is the prompt for this image.
             </p> -->
-            <h3>Try the mobile version <a target="_blank" href="welcome.html">here</a></h3>
+            <!-- <p>
+                I used to think I had something to share with the world that they needed to know but now I realize I'm just a person having my own experience and expressing myself.
+            </p> -->
+            <p><span id="goldfirst">M</span>y name is <a class="elam" target="_blank" href="book.html">Elam</a>.</p>
+            <img class="pic" src="static/img/treeelam.jpg" alt="treelam">
             
+            <p>I am a <a class="wbc" target="_blank" href="https://youtu.be/d2A09iidkTs">white blood cell</a></p>
+            <p>
+                The beauty of my philosophy is that if you do not see the problems I see, don't worry.  I view you as an equally valuable part of the body.  
+            </p>
+            <p>
+                If you can see that the body of government and the body of Earth or whatever body we're a part of is sick, and the people around you can't seem to see it no matter what evidence you show them, you might be a white blood cell too, even if they call you a conspiracy theorist.
+            </p>
+            <p>
+                I'm bipolar, and wrote a lot of my blog posts while in a manic or depressive state.  While manic, I think I'm the alpha male or a prophet.  While depressive, I think I'm a total failure who will never succeed in a rigged system.  That being said, I hope I provide you with entertainment, honesty, and unique philosophy.
+            </p>
+            <p>
+                Everything you know is brown.
+            </p>
+            <p>
+                I believe God has shown me a rainbow of existences, and that this realm is just the brown beginning, like soil for our eternal spirits to grow in.
+            </p>
+            
+            <p>
+                Don't throw Baby Jesus out with the bathwater of organized religion.
+            </p>
+            <p>
+                I think satanic forces within secret societies are manipulating the masses with various forms of mind control.
+            </p>
+            <p>
+                I do as much as heavenly possible to cure the infection by creatively spreading love and truth, with force if necessary.
+            </p>
+            <p>
+                 Using magic, I have given myself the name Elam, or male spelled backwards, to become the epitome of the masculine power they obviously seek to eradicate.  Elam means "Eternal; Forever; Tree" and I am growing infinitely and peacefully.
+            </p>
+            <p>
+                I think the truth is you have to sustain both yourself and the system, because you are part of the system.  Do not let yourself battle between helping yourself and helping others...
+            </p>
+            <p>
+                Do both.
+            </p>
+            <div class="picxy">
+                <img class="pic" src="static/img/Cloudland_TradingCard copy 6.jpg" alt="cloudland">
+            </div>
+            <p>
+                Cloudland is the name of the story I wrote and for the Heaven on Earth I am intent on creating.
+            </p>
+            <p>
+                By making a positive impact on <a target="_blank" href="story.html">Cloudland</a> I make the most positive impact on the system because I carry more impact weight when I'm working on Cloudland than I do when I'm working on the system at large.
+            </p>
+            <p>
+                My number is 117, because of my locker number in high school, Halo the game, and the halo in my symbol.
+            </p>
+            <p>
+                I have a personal relationship with Jesus, but also with Lucifer.
+            </p>
+            <p>
+                My symbol means change for the good.
+            </p>
+            <p>
+                I have a long-term plan to be paid $117,000 a year as a computer programmer.  I believe that managing this website for 2 years was valuable experience and now it's time for me to expand my skillset by getting comfortable with the backend.
+            </p>
+            <p>
+                My blog updates itself to the current month, and lets you see what I was thinking about this time last year, and the year before.
+            </p>
+            <p>
+                I programmed this site to seem artificially intelligent, but one day it will be actually artifically intelligent.
+            </p>
+            <p>
+                "Start, then Learn" -- Andrew Kirby
+            </p>
+            <h3>Read my blog <a target="_blank" href="asha.html">here</a> and my book <a target="_blank" href="book.html">here</a>.</h3>
+            
+        </div>
+
         </div>
         <!-- <div class="parallax4"></div>
         <div class="texzt">
@@ -102,24 +182,19 @@
             
         </div> -->
         <div class="michael"></div>
-        <h2 id="goldfirst">5.</h2>
-            <h3></h3>
-        <div class="texzt">
-            <p><span id="goldfirst">M</span>y music is original and I taught myself how to play the guitar.</p>
+        <div class="texzt117">
+            <p><span id="goldfirst">I</span> used photoshop to create that world ball.</p>
+            <p>
+                I've also written and recorded some original music I hope you enjoy.
+            </p>
             <p>
                 I sing because I think it helps the guitar
             </p>
             <p>
-                I am still learning music theory, but I have a knack for making catchy parts of songs.
+                I have a knack for making catchy parts of songs.
             </p>
-            <p>
-                One day I'd like to release an album, but I basically have it all available with various webpages I've made.
-            </p>
-            
             <div id="birds">
-                
-                    Women are not possessions.  They are birds.  They should be allowed to fly wherever they want and we should be ashamed as men for ever hurting them or failing to protect them.
-                
+                Women are not possessions.  They are birds.  They should be allowed to fly wherever they want and we should be ashamed as men for ever hurting them or failing to protect them.
             </div>
             <p class="impact">
                 <a target="_blank" href="music.html">/music</a> is soundcloud embed songs.
@@ -129,23 +204,22 @@
                 <a target="_blank" href="logos.html">/logos</a> automatically cycles through my music.
             </p>
             <br>
-            <p>Maybe I'll get an electric to shake things up</p>
         </div>
-        <div class="parallax3">
+        <div class="parallax3new">
         </div>
-        <div class="texzt">
-            <h2 id="first">6.</h2>
-            <h3><a target="_blank" class="impact" href="home.html">/Reviews</a></h3>
-            <p>The <span id="first">D</span>eparted is one of my favorite movies.</p>
+        <div class="texzt2">
+            <!-- <h2 id="purplefirst">C</h2> -->
+            <h3><span id="purplefirst">V</span>iew more of my artwork here <a target="_blank" class="impact" href="art.html">/Art</a></h3>
+            <p>The <span id="purplefirst">A</span>rt you see is either generated by me using A.I. or Photoshop</p>
             <p>
-                I like gathering <a target="_blank" href="dreams.html">all of my favorite things</a> onto my website.  It's more fun than managing a facebook page.
+                I like gathering <a target="_blank" href="dreams.html">all of my favorite things</a> onto my website.  It's more fun than managing a facebook page. I've also written several <a target="_blank" class="impact" href="home.html">/Reviews</a>
         </div>
         <div class="parallax7"></div>
-        <div class="texzt">
-            <h2 id="orangefirst">3.</h2>
-            <h3>Meme Creator (nsfw)</h3>
+        <div class="texzt4">
+            <!-- <h2 id="orangefirst">7.</h2> -->
+            <h3><span id="orangefirst">A</span>pps, games, and stories </h3>
             
-            <p><span id="orangefirst">T</span>his app I made let's you pair images to text to create a meme.  All you have to do is copy and paste the url that ends in .jpg and it will work when you click "obey"</p>
+            <p><span id="orangefirst">T</span>his one app I made let's you pair images to text to create a meme.  All you have to do is copy and paste the url that ends in .jpg and it will work when you click "obey"</p>
             <p>
                 You can click obey right away and play around with the pikachu example.
             </p>
@@ -153,48 +227,51 @@
                 It's honestly pretty fun with nsfw images
             </p>
             <p>
-                Try my <a target="_blank" href="meme.html">Meme Creator App</a> or try my <a target="_blank" href="cards.html">Pokemon Game</a> or the <a target="_blank" href="new.html">God Game</a>
+                Try my <a target="_blank" href="meme.html">Meme Creator App</a> or try my <a target="_blank" href="cards.html">Pokemon Game</a> or the <a target="_blank" href="new.html">God Game</a> or read one of my <a target="_blank" href="story.html">Stories</a> about Elam the Dragonslayer            </p>
+            <p>
+                Play my game Starbros or other games I've designed on <a target="_blank" href="game.html">/game</a>
             </p>
         </div>
         <div class="charlie"></div>
-        <div class="texzt">
-            <h2 id="goldfirst">4.</h2>
-            <h3>Chess</h3>
+        <div class="texzt119">
+            <!-- <h2 id="goldfirst">8.</h2> -->
+            <!-- <h3><span id="purplefirst">C</span>hess</h3> -->
             <p><span id="goldfirst">C</span>hess is awesome, and the better I get at it the more awesome it becomes</p>
             <p>
                 I have an ELO Rating of over 2000 in both classical and rapid chess on lichess.org
             </p>
             <p>
-                Check out <a target="_blank" class="impact" href="chess.html">/chess</a>
+                Check out <a target="_blank" class="impact" href="chess.html">/chess</a> and please let me know if you want a chess lesson, or you can watch one of my tutorials on <a target="_blank" href="videos.html">/videos</a>
             </p>
             <br>
             
             <p>I challenge you to a game.</p>
         </div>
-        <div class="parallax9"></div>
+        <!-- <div class="parallax9"></div> -->
+        <div class="parallaxfeature3new"></div>
 
-        <div class="texzt">
-            <p><span id="purplefirst">C</span>onspriacy theorists get a bad rap.</p>
+        <div class="texzt118">
+            <p><span id="violetfirst">R</span>ainbow angel</p>
             <p>
-                I would like to play devil's advocate for them with this website because too often these theories end up proven correct.  
-            </p>
-            <p>
-                If that rubs you the wrong way then please do not read my arrogant blog
+                I believe in faith and the power of belief and imagination so I imagine an army of rainbow angels at my disposal and they lift my spirits.
             </p>
             <p>
                 I write my blog in the name of freedom and liberty and I repect your individual liberty to do what you want and think how you want.
             </p>
-            <div class="impact">
+            <div class="impact2">
                 <a class="spxi" target="_blank" href="blog.html">WELCOME TO YOUR DOOM</a>
             </div>
         </div>
         <div class="parallax6"></div>
-        <div class="texzt">
-            <h2 id="first">7.</h2>
-            <h3>iPod style <span><a target="_blank" href="alien.html">web application</a> </span></h3>
-            <p><span id="first">W</span>ho am I to teach you anything?</p>
+        <div class="texzt4">
+            <a target="_blank" href="alien.html"><h2 id="first">iPod</h2></a>
+            <h3>style <span id="plum"><a target="_blank" href="alien.html">web application</a> </span></h3>
+            <p><span id="first">C</span>ovid 1984</p>
             <p>
-                I'm 007 flirting with Vesper
+                I'm Winston Smith commiting thoughtcrime.
+            </p>
+            <p>
+                I'm 117 flirting with Vesper
             </p>
             <p>
                 Got my armour from God; you know it's Beskar.
@@ -202,22 +279,34 @@
             <p>
                 Albert Einstein said, "Strive not to become a man of success, but rather a man of value."
             </p>
-            <h3>Try my music app with only my original music<a target="_blank" href="logos.html">here</a></h3>
+            <!-- <h3>Read my Westlake Fantasy Football power rankings<a target="_blank" href="fantasy.html">here</a></h3> -->
             <p class="secret">Thank you for using your laptop</p>
             <p class="secret2">Try using your laptop next time</p>
+            <p>
+                If you like my site, please let me know on <a target="_blank" href="contact.html">/contact</a> or on <a target="_blank" href="support.html">/support</a>
+            </p>
+            <p class="verse">
+                Luke 8:17 For there is nothing hidden that will not be disclosed, and nothing concealed that will not be known or brought out into the open.
+            </p>
         </div>
         <p class="gold">
-            God Bless <a href="https://www.khanacademy.org/profile/maxjann" target="_blank">
+            God Bless <a href="education.html" target="_blank">
                 <img class="god" src="static/img/god.png" alt="god">
             </a> 
         </p>
         <div class="parallax5"></div>
         <div id="foot" class="real">
-            <h4 class="specialty"><a target="_blank" href="welcome.html"><span class="pad">Jann Software</span></a>
-                 - <span class="sp">S</span><span class="sp">t</span><span class="sp">a</span><span class="sp">y</span><span class="sp"> T</span><span class="sp">u</span><span class="sp">n</span><span class="sp">e</span><span class="sp">d</span></h4>
-            <audio controls src="static/audio/cali.m4a"></audio>
+            <h4 class="specialty"><a target="_blank" href="story.html"><span class="pad">Elam Ahpla</span></a>
+                 - <span class="sp">A</span><span class="sp">l</span><span class="sp">o</span><span class="sp">n</span><span class="sp">e</span> &#127925</h4>
+            <!-- <audio class="song2" controls src="static/audio/notalone.mp3"></audio> -->
+            <audio id="player2" src="static/audio/notalone.mp3"></audio>
+            <div class="customsong"> 
+                <!-- <h5>This town hates me - Max Jann</h5> -->
+                <button class="songyyy" onclick="document.getElementById('player2').play()">Play</button> 
+                <button class="songxx" onclick="document.getElementById('player2').pause()">Pause</button> 
+              </div>
         </div>
     </div>
-    <script src="hey.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
