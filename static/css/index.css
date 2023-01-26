@@ -673,7 +673,21 @@ p{
 ul.nav-links.right{
     padding: 0;
     /* background-color: rgba(202, 232, 245, 0.316); */
-    background-color: black;
+    /* background: linear-gradient(#e66465, #9198e5); */
+    background: linear-gradient(
+        180deg,
+        rgba(255, 0, 0, .6) 0%,
+        rgba(255, 154, 0, .6) 10%,
+        rgba(208, 222, 33, .6) 20%,
+        rgba(79, 220, 74, .6) 30%,
+        rgba(63, 218, 216, .6) 40%,
+        rgba(47, 201, 226, .6) 50%,
+        rgba(28, 127, 238, .6) 60%,
+        rgba(95, 21, 242, .6) 70%,
+        rgba(186, 12, 248, .6) 80%,
+        rgba(251, 7, 217, .6) 90%,
+        rgba(255, 0, 0, .6) 100%
+    );
     padding: 2vw;
 }
 /* 1366px */
@@ -969,7 +983,9 @@ ul{
     list-style: none;
 }
 ul a{
-    cursor: cell;
+    /* cursor: cell; */
+    cursor:crosshair;
+    /* cursor:url('../img/mj3.png'), auto; */
     color: white;
 }
 @keyframes morpheus {
