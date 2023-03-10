@@ -388,7 +388,9 @@ p a{
     font-style: italic;
 }
 .parallaxnew{
+    /* background-image: url("../img/38e.png"); */
     background-image: url("../img/38e.png");
+
     /* background-image: url("../img/forevs\ copy.png"); */
 
 
@@ -764,7 +766,7 @@ ul.nav-links.right{
     }
 
     .parallaxnew {
-        background-image: url(../img/worship.png);
+        background-image: url(../img/elama2.png);
         background-attachment: scroll;
         background-size: cover;
         background-position: -117px;
