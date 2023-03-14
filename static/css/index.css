@@ -389,7 +389,7 @@ p a{
 }
 .parallaxnew{
     /* background-image: url("../img/38e.png"); */
-    background-image: url("../img/2.png");
+    background-image: url("../img/76.png");
 
     /* background-image: url("../img/forevs\ copy.png"); */
 
@@ -766,10 +766,10 @@ ul.nav-links.right{
     }
 
     .parallaxnew {
-        background-image: url(../img/22.png);
+        background-image: url(../img/cloudland5.png);
         background-attachment: scroll;
         background-size: cover;
-        background-position: -50px;
+        background-position: -17px;
         margin-top: 20px;
 
       }
