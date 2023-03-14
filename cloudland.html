@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juxtasuperposition</title>
-    <link rel="stylesheet" href="static/css/cloudland.css">
+    <title>Cloudland</title>
+    <link rel="stylesheet" href="static/css/index.css">
     <link rel="shortcut icon" type="image/png" href="static/img/mj3.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,13 +67,20 @@
                 </p>
             </div>
             <!-- <audio class="song" controls src="static/audio/hates.mp3"></audio> -->
-            <audio id="player" src="static/audio/cali.mp3"></audio>
+            <div id="introsong">
+                <audio id="player" src="static/audio/hates.mp3"></audio>
+            </div>
 
             <div class="customsong"> 
                 &#127925
                 <!-- <h5>This town hates me - Max Jann</h5> -->
                 <button class="songy" onclick="document.getElementById('player').play()">Play</button> 
-                <button class="songx" onclick="document.getElementById('player').pause()">Pause</button> 
+                <button class="songx" onclick="document.getElementById('player').pause()">Pause</button>
+                <button class="songyy" onclick="randosong()">Shuffle</button> 
+                <p id="descsong">
+                    Hi
+                </p>
+
               </div>
             <div class="vidx">
                 <iframe width="100%" height="70px" src="https://www.youtube.com/embed/h5lUxgrVRrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -89,80 +96,88 @@
         <div class="white">
 
         
-            <div class="texzt">
-                <!-- <h2 id="first">117.</h2> -->
-                <h3 id="elam">About <span><a target="_blank" href="blog.html">me</a> </span></h3>
-                <!-- <p>
-                    "The Vengeance of God" is the prompt for this image.
-                </p> -->
-                <!-- <p>
-                    I used to think I had something to share with the world that they needed to know but now I realize I'm just a person having my own experience and expressing myself.
-                </p> -->
-                <p><span id="goldfirst">M</span>y name is <a class="elam" target="_blank" href="book.html">Elam</a>.</p>
-                <img class="pic" src="static/img/treeelam.jpg" alt="treelam">
-                
-                <p>I am a <a class="wbc" target="_blank" href="https://youtu.be/d2A09iidkTs">white blood cell</a></p>
-                <p>
-                    The beauty of my philosophy is that if you do not see the problems I see, don't worry.  I view you as an equally valuable part of the body.  
-                </p>
-                <p>
-                    If you can see that the body of government and the body of Earth or whatever body we're a part of is sick, and the people around you can't seem to see it no matter what evidence you show them, you might be a white blood cell too, even if they call you a conspiracy theorist.
-                </p>
-                <p>
-                    I'm passionate about the Orwellian causes and effects of both 9/11 and the Covid lockdowns and mandates.  I believe individuals should have the liberty to choose whether or not to wear a facemask or to take a vaccine.  I also believe in freedom of speech, and am against censorship of alleged misinformation.  We should be allowed to decide for ourselves what is true.  We don't need the thought police.  I certainly don't trust the news, and the only thing I believe about the mainstream media is that they are deliberately misleading.  I also believe the Illuminati runs the world and I'd sooner revolt than vote.
-                <p>
-                    Everything you know is brown.
-                </p>
-                <p>
-                    What I mean by that is I once had a psychedelic experience where I was shown a rainbow of existences, and was taught that this realm is just the brown beginning, like soil for our eternal spirits to grow in.
-                </p>
-                
-                <p>
-                    I try not to throw Baby Jesus out with the bathwater of organized religion.
-                </p>
-                <p>
-                    Satanic forces within secret societies are manipulating the masses with various forms of mind control.
-                </p>
-                <p>
-                    I do as much as heavenly possible to cure the infection by creatively spreading love and truth.
-                </p>
-                <p>
-                     Using magic, I have given myself the name Elam, or male spelled backwards, to become the epitome of the masculine power they obviously seek to eradicate.  Elam means "Eternal; Forever; Tree" and I am growing infinitely and peacefully.
-                </p>
-                <p>
-                    I think the truth is you have to sustain both yourself and the system, because you are part of the system.  Do not let yourself battle between helping yourself and helping others...
-                </p>
-                <p>
-                    Do both.
-                </p>
-                <div class="picxy">
-                    <img class="pic" src="static/img/Cloudland_TradingCard copy 6.jpg" alt="cloudland">
-                </div>
-                <p>
-                    Cloudland is the name of the city in the story I wrote about a dragonslayer.
-                </p>
-                <p>
-                    I have a personal relationship with Jesus, but also with Lucifer.
-                </p>
-                <p>
-                    I'd rather hang out with Jesus.
-                </p>
-                <p>
-                    My symbol means change for the good.
-                </p>
-                <p>
-                    My blog updates itself to the current month, and lets you see what I was thinking about this time last year, and the year before.
-                </p>
-                <p>
-                    "Start, then Learn" -- Andrew Kirby
-                </p>
-                <p>
-                    Death is a gift.  Suicide is stealing it.
-                </p>
-                <h3>Read my blog <a target="_blank" href="asha.html">here</a> and my book <a target="_blank" href="book.html">here</a>.</h3>
-                
+        <div class="texzt">
+            <!-- <h2 id="first">117.</h2> -->
+            <h3 id="elam">About <span><a target="_blank" href="blog.html">me</a> </span></h3>
+            <!-- <p>
+                "The Vengeance of God" is the prompt for this image.
+            </p> -->
+            <!-- <p>
+                I used to think I had something to share with the world that they needed to know but now I realize I'm just a person having my own experience and expressing myself.
+            </p> -->
+            <p><span id="goldfirst">M</span>y name is <a class="elam" target="_blank" href="book.html">Elam</a>.</p>
+            <img class="pic" src="static/img/treeelam.jpg" alt="treelam">
+            
+            <p>I am a <a class="wbc" target="_blank" href="https://youtu.be/d2A09iidkTs">white blood cell</a></p>
+            <p>
+                The beauty of my philosophy is that if you do not see the problems I see, don't worry.  I view you as an equally valuable part of the body.
+            </p>
+            <p>
+                Truth is no longer discovered by the individual, but is rather declared by the authority of the State, and implied by the Media.  Search engines are more like self-driving cars than engines at this point and people are losing the ability to form their own conclusions.
+            </p>
+            <p>
+                If you can see that the body of government and the body of Earth or whatever body we're a part of is sick, and the people around you can't seem to see it no matter what evidence you provide, you might be a white blood cell too, even if the red blood cells call you a conspiracy theorist.
+            </p>
+            <p>
+                If you can't see, but want to, I can try to shine some light on the world.
+            </p>
+            <p class="verse">
+                Jesus said unto them, If ye were blind, ye should have no sin: but now ye say, We see; therefore your sin remaineth.
+            </p>
+            <p>
+                I try not throw Baby Jesus out with the bathwater of organized religion.
+            </p>
+            <p>
+                I am not afraid of looking foolish to you in the same way a Grandmaster of chess is not afraid of looking foolish to his opponent while he is sacrificing material for an eventual checkmate.
+            </p>
+            <p>
+                With our current government, I'd sooner revolt than vote.  I'm passionate about the Orwellian <span id="cause">causes</span> and effects of both 9/11 and the Covid lockdowns and mandates.  I believe individuals should have the liberty to choose whether or not to wear a facemask, to be locked down, or to take a vaccine.
+            </p>
+            <!-- <p>
+                I personally believe in the no-plane theory -- that no planes hit the towers on 9/11 and that the footage was faked as part of a multipronged illuminati agenda for practical and symbolic purposes.  I also think the Covid-19 virus was most likely created in a lab using gain of function research and then deliberately released on the public as part of another multipurpose agenda for the shadow world government.  The pandemic was exaggerated to the public by false PCR testing (too many cycles) and false death certificates (classifying deaths not caused by Covid as covid deaths), and exacerbated by putting people on ventilators and Remdesivir and censoring good doctors like Dr Simone Gold and Peter McCullough and suppressing medicines like Hydroxychloroquine or Ivermectin.  Then, I think the adverse reactions from the experimental mRNA vaccines are blamed on the virus they themselves created.  It should be noted that a congruent theory to the no-planes theory would be the no-virus theory, which states that there is no Covid, but rather a 5G rollout with adverse affects explained as Covid, and that viruses themselves are nanotechnology, and not naturally occuring.  
+            </p>
+            <p>
+                There was a very clear agenda to get everyone vaccinated and you have to ask yourself if the World Health Organization was doing that out of the goodness of their hearts or if it was part of their plan the whole time.  The Illuminati's M.O. is to create a problem, blame it on anything but them, cause fear and panic, and then provide their intended solution as the only option, inching them closer and closer to a Dystopia we may never recover from.  This is a piviotal time in history and I take it seriously, but not too seriously.  I like to have fun with this website and occasionally just talk about the things I love, like chess.
+            </p>
+            <p>
+                I obviously believe in freedom of speech, and am against censorship of alleged misinformation.  We should be allowed to decide for ourselves what is true.  We don't need the thought police. They've recently gone as far as saying that objective facts can be censored as misinformation if the facts go against the "public interest".  If you get your information from social media or mainstream news, just remember that you won't hear anyone talking like me because they would be forcibly removed from the platform, whereas I created this platform and no one can censor me here.
+            </p> -->
+            <p>
+                As a self-proclaimed white blood cell, I do as much as heavenly possible to cure the infection by creatively spreading love and truth.
+            </p>
+            <p>
+                 I think words are magical.  That's why you have "curse" words and can write in "cursive" and have good "spelling".  I have given myself the name Elam, or male spelled backwards, to become the epitome of the masculine power they obviously seek to destroy.  Elam means "Eternal; Forever; Tree" and I am growing infinitely and peacefully.
+            </p>
+            <p>
+                I think the truth is you have to sustain both yourself and the system, because you are part of the system.  Do not let yourself battle between helping yourself and helping others...
+            </p>
+            <p>
+                Do both.
+            </p>
+            <div class="picxy">
+                <img class="pic" src="static/img/Cloudland_TradingCard copy 6.jpg" alt="cloudland">
             </div>
-    
+            <p>
+                Cloudland is the name of the city in the story I wrote about a dragonslayer, but it also represents Heaven on Earth for me, and the Utopia I would like to create.
+            </p>
+            <p>
+                I have a personal relationship with Jesus, but also with Lucifer.</p>
+            <p>
+                My symbol means change for the good, because I want to be a better person.
+            </p>
+            “There is a false saying, ‘Whoever cannot save himself - how can he save others?’ But if I have the key to your chains, why should your and my lock be the same?” ― Friedrich Nietzsche
+            <p>
+                My blog updates itself to the current month, and lets you see what I was thinking about this time last year, and the year before.
+            </p>
+            <p>
+                "Start, then Learn" -- Andrew Kirby
+            </p>
+            <p>
+                Even a genius falls for his own lies.
+            </p>
+            <h3>Read my blog <a target="_blank" href="asha.html">here</a> and my book <a target="_blank" href="book.html">here</a>.</h3>
+            
+        </div>
 
         </div>
         <!-- <div class="parallax4"></div>
