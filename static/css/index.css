@@ -61,6 +61,10 @@ html, body{
     font-size: 5ch;
 
 }
+.code a{
+    background-color: black;
+    color: rgb(130, 236, 236);
+}
 /* #new{
     margin: 0;
     padding: 0;
