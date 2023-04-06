@@ -39,7 +39,7 @@ function getMaxAdditionalDinersCount(N, K, M, S) {
       newstatus = false;
       for(let y = 0; y <= K; y++){
         // something wrong here
-        if(r[(z+y)] == 0 && r[(z-y)]==0){
+        if(r[(z+y)] != 1 && r[(z-y)]!=1){
           newstatus = true;
         }else{
           newstatus = false;
@@ -58,3 +58,4 @@ function getMaxAdditionalDinersCount(N, K, M, S) {
     // Count how often you change the array
     // return count
   }
+  
