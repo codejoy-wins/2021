@@ -7,9 +7,8 @@
  * @return {number}
  */
 function getMaxAdditionalDinersCount(N, K, M, S) {
-    // Write your code here
+  // Write your code here
     let count = 0;
-    
     let r = [];
     let status = false;
     for(let i =0; i < N; i++){
@@ -25,37 +24,34 @@ function getMaxAdditionalDinersCount(N, K, M, S) {
         r.push(1);
       }
     }
-    
-    
-    console.log(r);
-    // Create an array with 0s and 1s, 1s representing people already there
-    
-    // [0,1,0,0,0,1,0,0,0,0]
-    
-    // This is that hard part
-    let newstatus = false;
-    
-    for(let z = 0; z < r.length; z++){
-      newstatus = false;
-      for(let y = 0; y <= K; y++){
-        // something wrong here
-        if(r[(z+y)] != 1 && r[(z-y)]!=1){
-          newstatus = true;
-        }else{
-          newstatus = false;
+    for(let x= 0; x < r.length; x++){
+      if(r[x]==1){
+        for(let t = 1; t <= K; t++){
+          if(r[x-t]!= undefined){
+          r[x-t] = 7;
+          }
+          if(r[x+t]!= undefined){
+            r[x+t] = 2;
+          }
         }
       }
-      
-      if(newstatus == true && r[z] == 0){
-        r[z] =1;
+    }  
+  // now we have the taken seats and the unavailable seats like the brackets
+  // now we just iterate through and for each 0 we add 1 to count, and create more brackets around it.
+    for( let y =0; y < r.length; y++){
+      if(r[y]==0){
         count++;
+        r[y] =1;
+
+        for( let g = 1; g <= K; g++){
+          if(r[y+g]!=undefined){
+          r[y+g] = 2;
+          }
+          if(r[y-g]!= undefined){
+            r[y-g] = 7;
+          }
+        }
       }
     }
-    console.log(r);
-    return count;
-    // Go through that array and change 0 to 1 if it's > K from a 1
-                        
-    // Count how often you change the array
-    // return count
-  }
-  
+  return count;
+}
