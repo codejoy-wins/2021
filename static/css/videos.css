@@ -166,6 +166,20 @@ a:hover{
     color: paleturquoise;
     text-align: center;
 }
+.video h1{
+    background-color: rgba(227, 142, 210, 0.822);
+    padding-right: 2vw;
+    padding-left: 2vw;
+
+    display: inline;
+}
+.video2 h1{
+    background-color: rgba(228, 157, 214, 0.634);
+    display: inline;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    border-radius: 1vw;
+}
 .video3{
     max-width: 100%;
     width: 600px;
