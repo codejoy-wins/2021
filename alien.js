@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song": "prevent",
+        "artist": "Criteria",
+        "fullsong": "Preventing the World",
+        "picture": "thorn.jpg",
+    },
+    {
         "song": "MindOverMatter",
         "artist": "Young the Giant",
         "fullsong": "Mind Over Matter (In the Open)",
