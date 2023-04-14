@@ -86,6 +86,12 @@ canvas {
     background-color: pink;
     margin: 0;
 }
+.picxyx{
+    max-width: 100%;
+    text-align: center;
+    background-color: white;
+    margin: 0;
+}
 .elam{
     background-color: forestgreen;
     color: white;
@@ -582,7 +588,7 @@ p a:hover{
     background-size: contain;
 }
 .parallax6{
-    background-image: url("../img/DJAliensJ.jpg");
+    background-image: url("../img/dja.png");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -1276,6 +1282,18 @@ footer{
     min-height: 210px;
     max-height: 400px;
 }
+.spotsubmainn{
+    display:inline-block;
+    /* border: .3vw solid gold; */
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+    background-image: url(../img/wowhi.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .spotsubmain4{
     /* background-color: blue; */
     background-image: url(../img/coldwar.jpg);
@@ -1453,3 +1471,301 @@ footer{
 /* h3{
     color: aquamarine;
 } */
+
+
+
+
+#rapper3{
+    margin: 0 auto;
+    /* background-image: url("/static/img/love.jpg"); */
+    background-color: black;
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    padding-bottom: 1vw;
+}
+
+.red{
+    /* border: 1vw solid red; */
+    max-width: 100%;
+    max-height: 400px;
+}
+.blue{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 10s infinite;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
+
+}
+.aqua{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 10s infinite;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
+
+}
+.orange{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 11s infinite 1s;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
+}
+.green{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 10s infinite 3s;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
+}
+.purple{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 15s infinite 5s;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
+}
+.pink{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 12s infinite 2s;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
+}
+.yellow{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 8.5s infinite 2.5s;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
+}
+.silver{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 11.5s infinite 12.5s;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
+}
+.poke{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 21s infinite;
+    border-bottom: 1ch solid black;
+    border-top: 1ch solid black;
+}
+.spotsubmain888{
+    display:inline-block;
+    /* border: .3vw solid gold; */
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain4888{
+    /* background-color: blue; */
+    background-image: url(../img/dj2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+/* background of blue animation is awesome */
+.spotsubmain3888{
+    /* background-color: blue; */
+    background-image: url(../img/penthousebeach.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain117888{
+    /* background-color: blue; */
+    background-image: url(../img/BUSINESSblog.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain118888{
+    background-image: url(../img/alvin.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain5888{
+    /* background-color: blue; */
+    background-image: url(../img/robinhood.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:inline-block;
+    background-position: center;
+
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain6888{
+    /* background-color: blue; */
+    background-image: url(../img/worldball.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain667888{
+    /* background-color: blue; */
+    background-image: url(../img/worldball.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain7888{
+    /* background-color: blue; */
+    background-image: url(../img/mad.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain8888{
+    /* background-color: blue; */
+    background-image: url(../img/guitarback.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain9888{
+    /* background-color: blue; */
+    background-image: url(../img/musical.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+@keyframes elam {
+    25%{
+        border-color: aliceblue;
+    }
+    50%{
+        border-color: navy;
+    }
+    75%{
+        border-color: chartreuse;
+    }
+}
+.spotsubmainvid{
+    display:inline-block;
+    border: .3vw solid gold;
+    animation: elam 7s infinite;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 600px;
+    max-width: 600px;
+}
+/* .pic{
+    max-width: 100%;
+    max-height: 100%;
+}
+.picmain{
+    max-width: 100%;
+    max-height: 590px;
+} */
+.spotsubmain2888{
+    display:block;
+    /* border: .3vw solid blue; */
+    min-width: 290px;
+    min-height: 210px;
+    /* min-width: 20vw; */
+    /* height: 11vw; */
+    max-height: 590px;
+}
+.bigguy{
+    display:block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 590px;
+}
+.xpp{
+    /* background-color: blue; */
+    background-image: url(../img/coldwar.jpg);
+    background-size: contain;
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+#main{
+    /* border: 1vw dotted pink; */
+    max-width: 100%;
+    text-align: center;
+}
+#main2{
+    /* border: 1vw dotted pink; */
+    max-width: 100%;
+    text-align: center;
+}
+#main3{
+    /* border: 1vw dotted pink; */
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.vid{
+    max-width: 100%;
+}
+#footer{
+    text-align: center;
+}
+#footer h3{
+    color: aquamarine;
+}
+#footer h3 #crazy{
+    color: black;
+}
+#crazy{
+    color: black;
+}
