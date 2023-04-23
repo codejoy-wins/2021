@@ -5,6 +5,15 @@ function alls(){
     `
     document.getElementById("article").innerHTML=`
 
+    
+
+    <div class="video">
+    <h1>Elam Forever</h1>
+    <div class="vid2">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/46mAAAHus5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+
     <div class="video2">
     <h1>Supermeta - We Need to Save, not Pause AI Development</h1>
     <div class="vid2">
@@ -620,6 +629,13 @@ function conspiracies(){
     <h1> Philosophy </h1>
     `
     document.getElementById("article").innerHTML=`
+
+    <div class="video">
+    <h1>Elam Forever</h1>
+    <div class="vid2">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/46mAAAHus5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
 
     <div class="video2">
     <h1>Supermeta - We Need to Save, not Pause AI Development</h1>
