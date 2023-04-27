@@ -77,6 +77,9 @@ a:hover{
     font-weight: bold;
     color: silver;
 }
+.picfloat{
+    max-width: 100%;
+}
 #poem{
     text-align: center;
     font-size: larger;
