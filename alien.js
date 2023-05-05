@@ -5,6 +5,12 @@ let dj = "";
 
 let manobj = [
     {
+        "song": "90",
+        "artist": "Jean Dawson",
+        "fullsong": "90's Green Screen",
+        "picture": "jean.jpg",
+    },
+    {
         "song": "prevent",
         "artist": "Criteria",
         "fullsong": "Preventing the World",
