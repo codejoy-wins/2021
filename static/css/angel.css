@@ -1,0 +1,41 @@
+.a{
+    color: rgb(11, 62, 11);
+}
+html, body{
+    padding: 0;
+}
+body{
+    background-image: url("../img/117x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(2, 26, 2, 0.479);
+}
+.angel{
+    margin: 0 auto;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+}
+.xp{
+    max-width: 20%;
+    display: inline-block;
+    float: right;
+
+}
+h1{
+    display: inline-block;
+}
+h2{
+    display: inline-block;
+
+}
+p{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(33, 79, 79);
+}
+a:hover{
+    color: azure;
+}
