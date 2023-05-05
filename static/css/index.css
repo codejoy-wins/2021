@@ -415,7 +415,6 @@ p a{
     padding-top: 200px;
 }
 .parallaxmew{
-    /* background-image: url("../img/GoldElam.jpg"); */
     background-image: url("../img/GoldElam.jpg");
     height: 100vw;
     background-attachment: fixed;
