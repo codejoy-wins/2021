@@ -32,10 +32,58 @@ h2{
 p{
     display: inline-block;
 }
-a{
+p a{
     text-decoration: none;
     color: rgb(33, 79, 79);
 }
-a:hover{
+p a:hover{
     color: azure;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.fire a{
+    color: rgb(40, 152, 250);
+}
+.forest a{
+    color: rgb(21, 46, 46);
+
+}
+.ice a{
+    color: beige;
+}
+.fire{
+    padding: 3vw;
+}
+@media only screen and (max-device-width: 1117px) {
+    .angel{
+color: aliceblue;     
+margin-top: 200px;
+/* top: 117px; */
+    }
+    h1{
+        color: aliceblue;
+    }
+    body{
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 0px; */
+    background-position: -117px;
+    }
+    .ice a{
+        color: pink;
+    }
+    .forest a{
+        color: coral;
+    }
+    .a{
+        color: rgb(172, 235, 162);
+    }
+    p a{
+        color: crimson;
+    }
+    .fire a{
+        color: rgb(0, 195, 255);
+    }
 }
