@@ -7,6 +7,13 @@ img{
 .nude{
     opacity: 0.10;
 }
+.y{
+    display:inline-block;
+    text-align: top;
+    /* border: .17vw solid blue; */
+    padding: 1vw;
+    vertical-align: top;
+}
 .nude:hover{
     opacity: 1;
 }
@@ -17,4 +24,26 @@ img{
     height: 315px;
     float: left;
     padding-right: 1vw;
+}
+.king{
+    max-width: 100%;
+    display: inline-block;
+    /* border: 1vw solid coral; */
+    width: 50%;
+}
+.px p{
+    text-align: right;
+    display: inline-block;
+}
+#pw{
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
+
+@media only screen and (max-device-width: 1117px) {
+    .king{
+        width: auto;
+    }
 }
