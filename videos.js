@@ -82,6 +82,13 @@ function alls(){
         </div>
     </div>
 
+    <div class="video">
+    <h1>Because I felt like IT</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/fk9Z8YUlo_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+
     <div class="video2">
     <h1>$100 Million Dollar Lawsuit</h1>
     <div class="vid2">
@@ -540,6 +547,15 @@ function cod(){
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/64CbxyOds6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
+
+    <div class="video">
+    <h1>Because I felt like IT</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/fk9Z8YUlo_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+
+
     <div class="video">
     <h1>John Wick (listen to the song at the same time)</h1>
     <div class="vid2">
