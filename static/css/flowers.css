@@ -9,10 +9,7 @@ ul{
     padding: .4vw;
 }
 
-.annotation{
-    color: gold;
-    font-style: italic;
-}
+
 .kanye{
     color: gold;
     font-weight: bold;
@@ -1050,4 +1047,8 @@ img{
     background-color: black;
     padding: 1vw;
     /* color: black; */
+}
+.annotation{
+    color: gold;
+    font-style: italic;
 }
