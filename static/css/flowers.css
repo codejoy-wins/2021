@@ -8,6 +8,7 @@ ul{
     border-radius: 1.3vw;
     padding: .4vw;
 }
+
 .annotation{
     color: gold;
     font-style: italic;
@@ -1042,4 +1043,9 @@ img{
     background-color: black;
     padding: 1vw;
     border-radius: 1vw;
+}
+.now{
+    background-color: black;
+    padding: 1vw;
+    /* color: black; */
 }
