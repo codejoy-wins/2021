@@ -4,9 +4,14 @@
     font-size: 22px;
 }
 ul{
-    background-color: rgba(0, 255, 255, 0.608);
+    /* background-color: rgba(0, 255, 255, 0.608); */
+    background-color: rgba(141, 58, 200, 0.608);
+
     border-radius: 1.3vw;
     padding: .4vw;
+}
+.lucifer li{
+    text-align: right;
 }
 
 .kanye{
@@ -334,7 +339,7 @@ h1 a{
     border-radius: 1ch;
     padding: 3vw;
     /* background-color: rgba(221, 160, 221, 0.733); */
-    background-color: rgba(211, 17, 17, 0.65);
+    background-color: rgba(53, 241, 228, 0.169);
     color: black;
     font-size: larger;
 }
