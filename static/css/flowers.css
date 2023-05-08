@@ -8,7 +8,10 @@ ul{
     border-radius: 1.3vw;
     padding: .4vw;
 }
-
+.annotation{
+    color: gold;
+    font-style: italic;
+}
 .kanye{
     color: gold;
     font-weight: bold;
