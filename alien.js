@@ -3,7 +3,15 @@ let y = "Reckoner";
 let current = "";
 let dj = "";
 
+let played = [];
+
 let manobj = [
+    {
+        "song": "MoneyGame",
+        "artist": "Ren",
+        "fullsong": "Money Game",
+        "picture": "ren.jpg",
+    },
     {
         "song": "90",
         "artist": "Jean Dawson",
@@ -286,18 +294,18 @@ let manobj = [
         "fullsong": "Go With the Flow",
         "picture": "qotsa.jpg",
     },
-    {
-        "song":"Little",
-        "artist": "Queens of the Stone Age",
-        "fullsong": "Little Sister",
-        "picture": "qotsa.jpg",
-    },
-    {
-        "song":"Noone",
-        "artist": "Queens of the Stone Age",
-        "fullsong": "No One Knows",
-        "picture": "qotsa.jpg",
-    },
+    // {
+    //     "song":"Little",
+    //     "artist": "Queens of the Stone Age",
+    //     "fullsong": "Little Sister",
+    //     "picture": "qotsa.jpg",
+    // },
+    // {
+    //     "song":"Noone",
+    //     "artist": "Queens of the Stone Age",
+    //     "fullsong": "No One Knows",
+    //     "picture": "qotsa.jpg",
+    // },
     {
         "song":"1251",
         "artist": "The Strokes",
@@ -1390,6 +1398,14 @@ const newman= ()=>{
         console.log(`trying to play ${manobj[k].song}`);
         k = Math.floor(Math.random()*manobj.length);
     }
+
+    if(played.includes(manobj[k].song)){
+        console.log("trying to play a song that already played!");
+        console.log(`trying to play ${manobj[k].song} but it's in ${played}`);
+        k = Math.floor(Math.random()*manobj.length);
+    }
+
+
     // info
     document.getElementById("info").innerHTML=`
     <p>${manobj[k].fullsong}</p>
@@ -1414,7 +1430,9 @@ const newman= ()=>{
         <img src="static/img/pause.png" alt="pause" class="btn" onclick="pauseplay()">
         `;
         current = manobj[k].song;
+        played.push(manobj[k].song);
         console.log(`current is ${current}`);
+
         console.log(`Playing ${manobj[k].fullsong} by ${manobj[k].artist}`);
 
         dj = "man"
@@ -1443,6 +1461,13 @@ const newwoman = ()=>{
         console.log(`trying to play ${womanobj[k].song}`);
         k = Math.floor(Math.random()*womanobj.length);
     }
+
+    if(played.includes(womanobj[k].song)){
+        console.log("trying to play a song that already played!");
+        console.log(`trying to play ${womanobj[k].song} but it's in ${played}`);
+        k = Math.floor(Math.random()*womanobj.length);
+    }
+
     document.getElementById("info").innerHTML=`
     <p>${womanobj[k].fullsong}</p>
     <p>${womanobj[k].artist}</p>
@@ -1464,6 +1489,7 @@ const newwoman = ()=>{
         <img src="static/img/pause.png" alt="pause" class="btn" onclick="pauseplay()">
         `;
         current = womanobj[k].song;
+        played.push(womanobj[k].song);
         console.log(`current is ${current}`);
         console.log(`Playing ${womanobj[k].fullsong} by ${womanobj[k].artist}`);
 
