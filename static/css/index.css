@@ -1289,6 +1289,17 @@ footer{
     min-width: 290px;
     min-height: 210px;
     max-height: 400px;
+    background-image: url(../img/christ.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.spotsubmainn2{
+    display:inline-block;
+    /* border: .3vw solid gold; */
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
     background-image: url(../img/wowhi.jpg);
     background-size: contain;
     background-repeat: no-repeat;
