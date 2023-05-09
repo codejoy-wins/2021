@@ -1300,7 +1300,7 @@ footer{
     min-width: 290px;
     min-height: 210px;
     max-height: 400px;
-    background-image: url(../img/wowhi.jpg);
+    background-image: url(../img/girlcar.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1309,6 +1309,18 @@ footer{
 .spotsubmain4{
     /* background-color: blue; */
     background-image: url(../img/coldwar.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display:inline-block;
+    min-width: 290px;
+    min-height: 210px;
+    max-height: 400px;
+}
+.spotsubmain1300{
+    /* background-color: blue; */
+    background-image: url(../img/matrix.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
