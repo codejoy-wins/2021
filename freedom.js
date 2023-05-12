@@ -114,7 +114,7 @@ let manobj = [
         "song": "Westfall",
         "artist": "Okkervil River",
         "fullsong": "Westfall",
-        "picture": "",
+        "picture": "okk.jpg",
     },
     {
         "song": "slash",
