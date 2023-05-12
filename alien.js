@@ -7,6 +7,12 @@ let played = [];
 
 let manobj = [
     {
+        "song": "LifeMovie",
+        "artist": "Okkervil River",
+        "fullsong": "Our Life is Not a Movie or Maybe",
+        "picture": "okk.jpg",
+    },
+    {
         "song": "MoneyGame",
         "artist": "Ren",
         "fullsong": "Money Game",
