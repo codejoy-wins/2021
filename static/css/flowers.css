@@ -263,6 +263,17 @@ h1 a{
     border-radius: 1ch;
     padding: 3vw;
     background-color: rgba(55, 83, 211, 0.680);
+    
+    color: black;
+    font-size: larger;
+    padding-bottom: 7vw;
+}
+.lapis{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(244, 232, 4, 0.68); */
+    background-color: rgba(19, 25, 224, 0.751);
+
     color: black;
     font-size: larger;
     padding-bottom: 7vw;
@@ -579,6 +590,13 @@ ol{
 }
 .post1advanced p{
     background-color: rgba(250, 189, 250, 0.751);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.lapis p{
+    /* background-color: rgba(19, 25, 224, 0.751); */
+    background-color: rgba(244, 232, 4, 0.68);
+
     padding: 1vw;
     border-radius: 1vw;
 }
