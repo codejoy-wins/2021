@@ -374,7 +374,7 @@ p a{
     max-width: 100%;
 }
 #banner{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.077);
     /* background-color: rgba(0, 0, 0, 0); */
 
     max-height: 50px;
@@ -756,6 +756,7 @@ ul.nav-links.right{
         display: flex;
         max-width: 70%;
         background-color: black;
+
         /* background-color: white; */
 
         float: left;
@@ -1233,6 +1234,22 @@ footer{
     max-height: 400px;
     opacity: 1;
     animation: wbc 10s infinite 3s;
+    /* border-bottom: 1ch solid black; */
+    /* border-top: 1ch solid black; */
+}
+.gxp{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 10s infinite 3s;
+    border-bottom: 1ch solid blue;
+    border-top: 1ch solid blue;
+}
+.gentleman{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 10s infinite 3s;
     border-bottom: 1ch solid black;
     border-top: 1ch solid black;
 }
@@ -1540,14 +1557,14 @@ footer{
     border-bottom: 1ch solid black;
     border-top: 1ch solid black;
 }
-.green{
+/* .green{
     max-width: 100%;
     max-height: 400px;
     opacity: 1;
     animation: wbc 10s infinite 3s;
     border-bottom: 1ch solid black;
     border-top: 1ch solid black;
-}
+} */
 .purple{
     max-width: 100%;
     max-height: 400px;
