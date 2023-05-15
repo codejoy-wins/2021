@@ -801,6 +801,18 @@ let manobj = [
 
 let womanobj = [
     {
+        "song": "Gasoline",
+        "artist": "Halsey",
+        "fullsong": "Gasoline",
+        "picture": "halsey.jpg",
+    },
+    {
+        "song": "talkingBody",
+        "artist": "Tove Lo",
+        "fullsong": "Talking Body",
+        "picture": "tovelo.jpg",
+    },
+    {
         "song": "Flagpole",
         "artist": "Awol Nation feat. Elohim",
         "fullsong": "Flagpole Sitta",
