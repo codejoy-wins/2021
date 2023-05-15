@@ -30,12 +30,7 @@ let manobj = [
         "fullsong": "Preventing the World",
         "picture": "thorn.jpg",
     },
-    {
-        "song": "MindOverMatter",
-        "artist": "Young the Giant",
-        "fullsong": "Mind Over Matter (In the Open)",
-        "picture": "youngiant.jpg",
-    },
+    
     {
         "song": "Chlorine",
         "artist": "21 Pilots",
@@ -132,12 +127,7 @@ let manobj = [
         "fullsong": "All My Favorite Songs",
         "picture": "weezer2.jpg",
     },
-    {
-        "song":"TeenSpirit",
-        "artist": "Malia J",
-        "fullsong": "Smells Like Teen Spirit Cover",
-        "picture": "",
-    },
+    
     {
         "song":"Queen",
         "artist": "Perfume Genius",
@@ -348,11 +338,7 @@ let manobj = [
         "fullsong": "Agenda Suicide",
         "picture": ""
     },
-    {
-        "song": "Don't",
-        "artist": "The Beach Boys",
-        "fullsong": "Don't Worry Baby"
-    },
+    
     {
         "song": "Closer",
         "artist": "Kings of Leon",
@@ -635,42 +621,22 @@ let manobj = [
         "fullsong": "Feeling This",
         "picture": "blink.jpg",
     },
-    {
-        "song": "Holding",
-        "artist": "Broken Bells",
-        "fullsong": "Holding On for Dear Life",
-        "picture": "brokenbells.jpg"
-    },
+    
     {
         "song": "Molly",
         "artist": "Say Anything",
         "fullsong": "Every Man Has a Molly",
         "picture": "sayanything.jpeg",
     },
-    {
-        "song": "Money",
-        "artist": "Cardi B",
-        "fullsong": "Money",
-        "picture": "moneyperfect.jpg",
-    },
+    
     {
         "song": "Revolution",
         "artist": "The Beatles",
         "fullsong": "Revolution",
         "picture": "abbey.jpg",
     },
-    {
-        "song": "Sleeping",
-        "artist": "The Shins",
-        "fullsong": "Sleeping Lessons",
-        "picture": "shins.jpg",
-    },
-    {
-        "song": "Paradise",
-        "artist": "Coldplay",
-        "fullsong": "Paradise",
-        "picture": "coldplay2.jpg"
-    },
+    
+    
     {
         "song": "Ticktock",
         "artist": "Joji",
@@ -773,6 +739,70 @@ let manobj = [
         "fullsong": "The Kids Aren't Alright",
         "picture": "theoffspring.jpg"
     },
+    
+    {
+        "song": "Skate",
+        "artist": "Skegss",
+        "fullsong": "Got on my Skateboard",
+        "picture": ""
+    },
+    
+    {
+        "song": "Zeus",
+        "artist": "Eminem",
+        "fullsong": "Zeus",
+        "picture": "m.jpg",
+    },
+    {
+        "song": "Better",
+        "artist": "Say Anything",
+        "fullsong": "Do Better",
+        "picture": "sayanything.jpeg",
+    }
+];
+
+let womanobj = [
+    {
+        "song": "Money",
+        "artist": "Cardi B",
+        "fullsong": "Money",
+        "picture": "moneyperfect.jpg",
+    },
+    {
+        "song": "Holding",
+        "artist": "Broken Bells",
+        "fullsong": "Holding On for Dear Life",
+        "picture": "brokenbells.jpg"
+    },
+    {
+        "song": "Paradise",
+        "artist": "Coldplay",
+        "fullsong": "Paradise",
+        "picture": "coldplay2.jpg"
+    },
+    {
+        "song": "MindOverMatter",
+        "artist": "Young the Giant",
+        "fullsong": "Mind Over Matter (In the Open)",
+        "picture": "youngiant.jpg",
+    },
+    {
+        "song":"TeenSpirit",
+        "artist": "Malia J",
+        "fullsong": "Smells Like Teen Spirit Cover",
+        "picture": "",
+    },
+    {
+        "song": "Don't",
+        "artist": "The Beach Boys",
+        "fullsong": "Don't Worry Baby"
+    },
+    {
+        "song": "Sleeping",
+        "artist": "The Shins",
+        "fullsong": "Sleeping Lessons",
+        "picture": "shins.jpg",
+    },
     {
         "song": "Everything",
         "artist": "Radiohead",
@@ -780,26 +810,11 @@ let manobj = [
         "picture": "radiohead.jpg"
     },
     {
-        "song": "Skate",
-        "artist": "Skegss",
-        "fullsong": "Got on my Skateboard",
-        "picture": ""
-    },
-    {
         "song": "Vampire",
         "artist": "Dominic Fike",
         "fullsong": "Vampire",
         "picture": "",
     },
-    {
-        "song": "Zeus",
-        "artist": "Eminem",
-        "fullsong": "Zeus",
-        "picture": "m.jpg",
-    },
-];
-
-let womanobj = [
     {
         "song": "Gasoline",
         "artist": "Halsey",
@@ -1187,12 +1202,7 @@ let womanobj = [
         "fullsong": "Caring is Creepy",
         "picture": "shins.jpg",
     },
-    {
-        "song": "Better",
-        "artist": "Say Anything",
-        "fullsong": "Do Better",
-        "picture": "sayanything.jpeg",
-    },
+    
     {
         "song": "Madness",
         "artist": "Muse",
