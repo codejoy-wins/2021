@@ -12,10 +12,11 @@ div#tetrahedron {
         scale3d(1, 1, 1);
     width: 100px;
     height: 87px;
-    background-color: rgba(255, 192, 203, 0.527);
+    /* background-color: rgba(255, 192, 203, 0.527); */
 
     animation: rotateanimation 5s infinite linear;
 }
+
 
 div#tetrahedron > div > svg > polygon{
     fill: #fff;
@@ -49,6 +50,27 @@ div#tetrahedron > div.back {
 }
 
 @keyframes rotateanimation{
+    0%{
+        transform: rotateY(0deg) rotateY(0deg);
+    }
+    50%{
+        transform: rotateX(0deg) rotateY(-180deg);
+    }
+    100%{
+        transform: rotateX(0deg) rotateY(-360deg);
+    }
+}
+div#halo {
+    position: absolute;
+    top: 117px;
+    left: 50%;
+    transform-style: preserve-3d;
+    width: 100px;
+    height: 87px;
+    /* transform: rotateX(90deg); */
+    animation: rotateanimation2 5s infinite linear;
+}
+@keyframes rotateanimation2{
     0%{
         transform: rotateY(0deg) rotateY(0deg);
     }
