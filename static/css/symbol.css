@@ -4,17 +4,19 @@
 }
 div#tetrahedron {
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 117px;
+    left: 50%;
     transform-style: preserve-3d;
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)
         translateX(0px) translateY(0px) translateZ(0px)
         scale3d(1, 1, 1);
     width: 100px;
     height: 87px;
+    background-color: rgba(255, 192, 203, 0.527);
 
     animation: rotateanimation 5s infinite linear;
 }
+
 div#tetrahedron > div > svg > polygon{
     fill: #fff;
     stroke: #000;
@@ -51,33 +53,22 @@ div#tetrahedron > div.back {
         transform: rotateY(0deg) rotateY(0deg);
     }
     50%{
-        transform: rotateX(360deg) rotateY(0deg);
+        transform: rotateX(0deg) rotateY(-180deg);
     }
     100%{
-        transform: rotateX(360deg) rotateY(360deg);
+        transform: rotateX(0deg) rotateY(-360deg);
     }
 }
 .xp{
     text-align: center;
 }
-
+#rapper{
+    background-color: pink;
+}
 div#tetrahedron2 {
     position: absolute;
-    top: 300px;
-    left: 300px;
-    transform-style: preserve-3d;
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)
-        translateX(0px) translateY(0px) translateZ(0px)
-        scale3d(1, 1, 1);
-    width: 100px;
-    height: 87px;
-
-    animation: rotateanimation2 5s infinite linear;
-}
-div#tetrahedron2.xy {
-    position: absolute;
-    top: 300px;
-    left: 300px;
+    top: 100px;
+    left: 200px;
     transform-style: preserve-3d;
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)
         translateX(0px) translateY(0px) translateZ(0px)
@@ -87,50 +78,16 @@ div#tetrahedron2.xy {
 
     animation: rotateanimation 5s infinite linear;
 }
-div#tetrahedron2 > div > svg > polygon{
-    fill: #fff;
-    stroke: #000;
-    stroke-width: 3px;
-    opacity: 0.9;
-}
-div#tetrahedron2 > div{
-    transform-origin: center;
+div#tetrahedron2.xy {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 100px;
+    left: 200px;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+        translateX(0px) translateY(0px) translateZ(0px)
+        scale3d(1, 1, 1);
     width: 100px;
     height: 87px;
-    backface-visibility: visible;
-}
-div#tetrahedron2 > div.bottom {
-    transform: rotateX(-90deg) translateZ(43.5px);
-}
-div#tetrahedron2 > div.left {
-    transform-origin: 50% 100% 0;
-    transform: translateX(-25px) rotateY(-60deg) rotateX(19.49deg);
-}
-div#tetrahedron2 > div.right {
-    transform-origin: 50% 100% 0;
-    transform: translateX(25px) rotateY(60deg) rotateX(19.49deg);
-}
-div#tetrahedron2 > div.back {
-    transform-origin: 50% 100% 0;
-    transform: translateZ(-43.5px) rotateX(-19.49deg);
-}
-@keyframes rotateanimation2{
-    0%{
-        /* transform: rotateY(0deg) rotateY(0deg); */
-        opacity: .5;
-    }
-    50%{
-        /* transform: rotateX(360deg) rotateY(0deg); */
-    }
-    100%{
-        /* transform: rotateX(360deg) rotateY(360deg); */
-    }
-}
-.xy{
-    background-color: green;
-    padding: 5vw;
+
     animation: rotateanimation 5s infinite linear;
 }
