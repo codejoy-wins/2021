@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: rgba(5, 115, 115, 0.817);
+}
+
 div#tetrahedron {
     position: absolute;
     top: 117px;
@@ -60,27 +64,14 @@ div#tetrahedron > div.back {
         transform: rotateX(0deg) rotateY(-360deg);
     }
 }
-div#halo {
-    position: absolute;
-    top: 117px;
-    left: 50%;
-    transform-style: preserve-3d;
-    width: 100px;
-    height: 87px;
-    animation: rotateanimation2 5s infinite linear;
-    /* background-color: rgba(0, 128, 0, 0.433); */
+.chief2{
+    border-radius: 200%;
+    border: solid rgba(254, 254, 24, 0.827) 8px;
+    transform: rotateX(88deg) scale(.67);
+    
 }
-@keyframes rotateanimation2{
-    0%{
-        transform: rotateY(0deg) rotateY(0deg);
-    }
-    50%{
-        transform: rotateX(-20deg) rotateX(-80deg);
-    }
-    100%{
-        transform: rotateX(54deg) rotateY(-360deg);
-    }
-}
+
+
 .xp{
     text-align: center;
 }
