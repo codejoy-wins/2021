@@ -6,7 +6,9 @@ body{
     /* background-color: rgba(5, 115, 115, 0.817); */
     background-color: rgba(0, 0, 0);
 }
-
+.vid{
+    max-width: 100%;
+}
 div#tetrahedron {
     position: absolute;
     top: 117px;
