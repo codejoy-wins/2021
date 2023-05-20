@@ -3,7 +3,8 @@
     padding: 0px;
 }
 body{
-    background-color: rgba(5, 115, 115, 0.817);
+    /* background-color: rgba(5, 115, 115, 0.817); */
+    background-color: rgba(0, 0, 0);
 }
 
 div#tetrahedron {
