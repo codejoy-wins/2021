@@ -1203,6 +1203,15 @@ h4{
     border-top: 1ch solid black;
 
 }
+.bluer{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 10s infinite;
+    /* border-bottom: 1ch solid black;
+    border-top: 1ch solid black; */
+
+}
 /* a h3{
     text-decoration: none;
 }
