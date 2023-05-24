@@ -35,6 +35,7 @@ html, body{
     margin: 0 auto;
     /* background-color: rgba(245, 245, 245, 0.65); */
 }
+
 *{
     font-family: 'Nunito', sans-serif;
     font-size: large;
@@ -1901,4 +1902,9 @@ div#tetrahedron > div.back {
     border: solid rgba(254, 254, 24, 0.827) 8px;
     transform: rotateX(88deg) scale(.67);
     
+}
+#descsong p{
+    color: pink;
+    font-style: italic;
+    display: inline-block;
 }
