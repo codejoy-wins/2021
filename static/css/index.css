@@ -84,7 +84,7 @@ canvas {
     max-width: 100%;
     text-align: center;
     /* background-color: pink; */
-    background: linear-gradient(pink,blue,orange);
+    background: linear-gradient(rgba(255, 192, 203, 0.761),rgba(0, 0, 255, 0.738),rgba(255, 166, 0, 0.819));
     margin: 0;
 }
 .picxyx{
@@ -406,10 +406,9 @@ p a{
     font-style: italic;
 }
 .parallaxnew{
-    /* background-image: url("../img/38e.png"); */
-    background-image: url("../img/Emerald.png");
-
-    /* background-image: url("../img/forevs\ copy.png"); */
+    /* background-image: url("../img/Emerald.png"); */
+    background-image: url("../img/sensa.jpeg");
+    /* background-image: url("../img/Avriel.jpeg"); */
 
 
 
@@ -423,7 +422,9 @@ p a{
     padding-top: 200px;
 }
 .parallaxmew{
-    background-image: url("../img/GoldElam.jpg");
+    /* background-image: url("../img/GoldElam.jpg"); */
+    background-image: url("../img/Emerald.png");
+
     height: 100vw;
     background-attachment: fixed;
     background-position:  center;
@@ -788,7 +789,9 @@ ul.nav-links.right{
     }
 
     .parallaxnew {
-        background-image: url(../img/cloudland5.png);
+        /* background-image: url(../img/cloudland5.png); */
+        background-image: url(../img/sensa.jpeg);
+
         background-attachment: scroll;
         background-size: cover;
         background-position: -17px;
@@ -801,7 +804,7 @@ ul.nav-links.right{
         background-size: cover;
         /* background-position: -200px; */
         background-position: 0px;
-
+        background-image: url("../img/cloudland5.png");
         margin-top: 20px;
 
       }
@@ -1627,6 +1630,9 @@ footer{
 .spotsubmain888{
     display:inline-block;
     /* border: .3vw solid gold; */
+    background-image: url(../img/GoldElam.jpg);
+    background-position: center;
+    background-size: cover;
     min-width: 290px;
     min-height: 210px;
     max-height: 400px;
