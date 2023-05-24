@@ -83,24 +83,27 @@ canvas {
 .picxy{
     max-width: 100%;
     text-align: center;
-    background-color: pink;
+    /* background-color: pink; */
+    background: linear-gradient(pink,blue,orange);
     margin: 0;
 }
 .picxyx{
     max-width: 100%;
     text-align: center;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     margin: 0;
 }
 .elam{
-    background-color: forestgreen;
+    /* background-color: forestgreen; */
+    /* background: linear-gradient(green,violet,red); */
+    background: linear-gradient(45deg, red, blue);
     color: white;
 }
 .elam:hover{
     color: gold;
 }
 .wbc{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: red;
 }
 .wbc:hover{
@@ -246,9 +249,14 @@ color: black;
 .white{
     background-color: white;
 }
-.texzt{
-    /* background-color: rgb(255, 255, 255); */
+/* .texzt{
     background-color: rgba(255, 255, 255, 0.7117);
+    padding: 1vw;
+    padding-bottom: 0;
+} */
+.texzt{
+    /* background-color: rgba(42, 161, 212, 0.712); */
+    background: radial-gradient(azure,rgba(65, 105, 225, 0.395));
     padding: 1vw;
     padding-bottom: 0;
 }
