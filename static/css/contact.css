@@ -1,118 +1,44 @@
 *{
-    font-family: 'Spectral', serif;
-}
-html, body{
-    margin: 0;
+    font-family: 'Nunito', sans-serif;
     padding: 0;
-}
-.vid{
-    max-width: 100%;
-    width: 600px;
-}
-.vid2{
-    max-width: 100%;
-    max-height: 100%;
-}
-#heading{
-    text-align: center;
-}
-#collage{
-    height: auto;
-    width: 100%;
-}
-#reviews h2{
-    text-align: center;
-}
-#rapper{
     margin: 0 auto;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-    background-color: gold;
 }
 body{
-    background-color: aquamarine;
+    /* background-image: url(../img/Avriel.jpeg); */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-.option{
+
+#intro{
+    min-height: 5vw;
+    background-color: gold;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+#main{
+    min-height: 3vw;
+    background-color: violet;
+}
+#outro{
+    min-height: 5vw;
+    background-color: blue;
+}
+
+.tite{
     display: inline-block;
-    padding: 1vw;
-}
-#nav{
-    background-color: rgba(30, 22, 104, 0.801);
-    width: 100%;
-    text-align: center;
-}
-#nav:hover{
-    cursor: cell;
-}
-#nav2{
-    background-color: rgb(43, 226, 156, 0.363);
-    width: 100%;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: whitesmoke;
-}
-a:hover{
-    color: rgb(255, 0, 0);
-    font-weight: bold;
-    cursor: cell;
-}
-.current{
-    font-weight: bold;
-    color: silver;
-}
-#poem{
-    text-align: center;
+    background-color: rgb(22, 112, 177);
+    border-radius: 1vw;
+    padding: .5vw;
 }
 .pic{
     max-width: 100%;
 }
-.pic2{
-    max-width: 100%;
-    max-height: 600px;
+#intro a{
+    background-color: red;
+    color: blanchedalmond;
 }
-h1 a{
-    color: purple;
-}
-#reviews a{
-    color: purple;
-}
-#reviews a:hover{
-    color: black;
-}
-
-
-#codejoy{
-    font-size: 60px;
-    animation: rainbow 4s 100;
-    text-align: center;
-    padding-top: 20vw;
-}
-
-@keyframes rainbow{
-    0%{
-        color: beige;
-    }
-    20%{
-        color: burlywood;
-        font-size: 3ch;
-    }
-    40%{
-        color: skyblue;
-    }
-    60%{
-        color: aqua;
-        font-size: 6ch;
-    }
-    80%{
-        color: blueviolet;
-    }
-    100%{
-        color: green;
-    }
-
-}
-#killjoy{
-    text-align: center;
+#intro a:hover{
+    background-color: black;
+    color: silver;
 }
