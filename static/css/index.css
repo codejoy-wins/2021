@@ -9,6 +9,15 @@ html,body .parallax5{
     margin: 1vw;
     /* color: pink; */
 }
+html,body .parallaxteroh{
+    background-color: black;
+}    .verse{
+    border: solid gold .2vw;
+    padding: 1vw;
+    margin: 1vw;
+    /* color: pink; */
+}
+
 html,body .parallax6{
     background-color: black;
 }
@@ -2028,6 +2037,10 @@ div#tetrahedron > div.back {
         background-attachment: scroll;
       }
       .parallax5 {
+        background-attachment: scroll;
+        background-size: cover;
+      }
+      .parallaxteroh{
         background-attachment: scroll;
         background-size: cover;
       }
