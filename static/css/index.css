@@ -621,6 +621,14 @@ p a:hover{
     background-repeat: no-repeat;
     background-size: contain;
 }
+.parallaxteroh{
+    background-image: url("../img/wa.jpeg");
+    height: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .parallax6{
     background-image: url("../img/dja.png");
     height: 100vw;

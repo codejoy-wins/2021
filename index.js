@@ -295,5 +295,17 @@ function craig(){
         <img class="pic" src="static/img/HaloBeautiful\ copy.png" alt="treelam">
         `
     }
+    if(currentri == "teroh2"){
+        document.getElementById("picdisplay").innerHTML=`
+        <img class="pic" src="static/img/wa.jpeg" alt="treelam">
+        `
+    }
+    if(currentri == "teroh4"){
+        document.getElementById("outr").innerHTML=`
+        <div class="parallaxteroh"></div>
+        `
+    }
 }
 craig();
+
+// run craig again every 5 minutes?
