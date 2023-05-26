@@ -251,3 +251,49 @@ function randosong(){
 
 nextTime();
 randosong();
+
+// background-image: url("../img/sensa.jpeg");
+    /* background-image: url("../img/wa.jpeg"); */
+    /* background-image: url("../img/HaloBeautiful\ copy.png"); */
+    /* background-image: url("../img/wartri.jpeg"); */
+    /* background-image: url("../img/Avriel.jpeg"); */
+
+
+
+const tris=[
+    {
+        imgx:"teroh0"
+    },
+    {
+        imgx:"teroh1"
+    },
+    {
+        imgx:"teroh2"
+    },
+    {
+        imgx:"teroh3"
+    },
+    {
+        imgx:"teroh4"
+    },
+]
+// choose random image triangle and make that the main image
+
+let currentri = "parallaxnew";
+
+function craig(){
+    console.log("Mr. Teroh");
+    let zzz = Math.floor(Math.random()*5);
+    console.log(zzz);
+    let trii = tris[zzz].imgx;
+    console.log(`trii is ${trii}`);
+    document.getElementById("teroh").classList.remove(currentri);
+    document.getElementById("teroh").classList.add(trii);
+    currentri = trii;
+    if(currentri == "teroh3"){
+        document.getElementById("picdisplay").innerHTML=`
+        <img class="pic" src="static/img/HaloBeautiful\ copy.png" alt="treelam">
+        `
+    }
+}
+craig();
