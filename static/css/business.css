@@ -1925,3 +1925,9 @@ div#tetrahedron > div.back {
     padding: 1vw;
     padding-bottom: 0;
 }
+.paramax p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.323);
+    border-radius: 2vw;
+    padding: 1vw;
+}
