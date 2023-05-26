@@ -1920,3 +1920,8 @@ div#tetrahedron > div.back {
 .perplex a{
     padding: .4vw;
 }
+.paramax{
+    background: radial-gradient(azure,rgba(65, 105, 225, 0.395));
+    padding: 1vw;
+    padding-bottom: 0;
+}
