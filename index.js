@@ -292,12 +292,12 @@ function craig(){
     currentri = trii;
     if(currentri == "teroh3"){
         document.getElementById("picdisplay").innerHTML=`
-        <img class="pic" src="static/img/HaloBeautiful\ copy.png" alt="treelam">
+        <img class="piccy" src="static/img/HaloBeautiful\ copy.png" alt="treelam">
         `
     }
     if(currentri == "teroh2"){
         document.getElementById("picdisplay").innerHTML=`
-        <img class="pic" src="static/img/wa.jpeg" alt="treelam">
+        <img class="piccy" src="static/img/wa.jpeg" alt="treelam">
         `
     }
     if(currentri == "teroh4"){
