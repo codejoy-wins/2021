@@ -241,6 +241,7 @@ color: black;
 .tiny{
     max-width: 200px;
     max-height: 50px;
+    opacity: .3;
 }
 
 #foot{
@@ -388,6 +389,8 @@ p a{
 }
 #banner{
     background-color: rgba(0, 0, 0, 0.077);
+    /* background-color: rgba(19, 12, 100, 0.777); */
+
     /* background-color: rgba(0, 0, 0, 0); */
 
     max-height: 50px;
@@ -592,7 +595,7 @@ p a:hover{
 }
 .parallax5{
     /* background-image: url("../img/The_One_TradingCard\ copy\ 3.jpg"); */
-    background-image: url("../img/Avriel.jpeg");
+    background-image: url("../img/wartri.jpeg");
 
     /* background-image: url("../img/forevs\ copy.png"); */
 
