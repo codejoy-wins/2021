@@ -769,6 +769,12 @@ let manobj = [
 
 let womanobj = [
     {
+        "song": "MySweetLord",
+        "artist": "George Harrison",
+        "fullsong": "My Sweet Lord",
+        "picture": "",
+    },
+    {
         "song": "Money",
         "artist": "Cardi B",
         "fullsong": "Money",
