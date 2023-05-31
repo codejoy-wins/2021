@@ -377,9 +377,7 @@ p a{
     text-shadow: black 1px 1px 7px;
 }
 
-.texzt119 p{
-    animation: morpheus 8s infinite;
-}
+
 .texzt119 h3{
     color: wheat;
 }
@@ -396,7 +394,10 @@ p a{
     color: wheat;
     text-shadow: black 1px 1px 7px;
 }
-
+.texzt119 p{
+    /* animation: morpheus 8s infinite; */
+    color: white;
+}
 #left{
     /* background-color: purple; */
     padding: 0;

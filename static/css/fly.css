@@ -1,0 +1,146 @@
+*{
+    font-family: 'Spectral', serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#instructions{
+    text-align: center;
+}
+html{
+    background-image: url("../img/ellie.jpg");
+    background-size: contain;
+}
+.vid{
+    max-width: 50%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+#heading{
+    text-align: center;
+}
+#collage{
+    height: auto;
+    width: 100%;
+}
+#reviews h2{
+    text-align: center;
+}
+#rapper{
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-image: url("../img/god.jpeg");
+    background-size: contain;
+    color: white;
+    text-align: center;
+}
+#rapper10{
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    color: aqua;
+    text-align: center;
+}
+.option{
+    display: inline-block;
+    padding: 1vw;
+}
+#nav{
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 100%;
+    text-align: center;
+}
+#nav:hover{
+    cursor: cell;
+}
+p a{
+    color: forestgreen;
+    background-color: rgba(0, 0, 0, 0.178);
+    border-radius: 1vw;
+    padding: 1vw;
+}
+a{
+    text-decoration: none;
+    color: forestgreen;
+    font-style: italic;
+}
+a:hover{
+    color: wheat;
+    font-weight: bold;
+    cursor: cell;
+}
+#nav a:hover{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.current{
+    font-weight: bold;
+    color: whitesmoke;
+}
+#poem{
+    text-align: center;
+}
+#nav{
+    text-align: center;
+}
+.pic{
+    max-width: 100%;
+}
+.genre{
+    display: inline-block;
+    position: relative;
+    top: 13vw;
+    padding: 3ch;
+}
+.genre a{
+    color: aqua;
+}
+.genre a:hover{
+    color: forestgreen;
+    cursor: cell;
+}
+#dev a{
+    color: aqua;
+}
+#dev a:hover{
+    color: rgb(83, 190, 21);
+}
+#dev{
+    height: 1300px;
+    overflow:auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.185);
+    margin: 2vw;
+    max-width: 100%;
+}
+#dev2{
+    height: 800px;
+    overflow: auto;
+}
+#dev2 p{
+    padding-top: 20vw;
+}
+.i{
+    font-style: italic;
+}
+#game{
+    max-width: 100%;
+    max-height: 100%;
+}
+.game h5{
+    display: inline-block;
+    padding: 1vw;
+}
+.game h5:hover{
+    color: forestgreen;
+    cursor: cell;
+}
+.center{
+    text-align: center;
+}
