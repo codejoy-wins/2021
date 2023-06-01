@@ -281,6 +281,9 @@ const tris=[
     {
         imgx:"teroh4"
     },
+    {
+        imgx:"teroh3"
+    },
 ]
 // choose random image triangle and make that the main image
 
@@ -288,7 +291,7 @@ let currentri = "parallaxnew";
 
 function craig(){
     console.log("Mr. Teroh");
-    let zzz = Math.floor(Math.random()*5);
+    let zzz = Math.floor(Math.random()*6);
     console.log(zzz);
     let trii = tris[zzz].imgx;
     console.log(`trii is ${trii}`);
