@@ -143,6 +143,10 @@ const helloWorld = () => {
             <span id="goldfirst">W</span>elcome to Cloudland, I see you're on your computer.
             </p>
         `
+        document.getElementById("flying").innerHTML=`
+        <h3>Fly through my<a href="fly.html">interactive resume</a> </h3>
+        
+        `
     }
     if(deviceType()=="tablet"){
         console.log("I see you're on a tablet");
@@ -164,7 +168,6 @@ const helloWorld = () => {
 }
 helloWorld();
 
-// create fly function later to only "fly through resume" on desktop
 
 const nextTime = () =>{
     let mytiming = new Date();
