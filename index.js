@@ -164,6 +164,8 @@ const helloWorld = () => {
 }
 helloWorld();
 
+// create fly function later to only "fly through resume" on desktop
+
 const nextTime = () =>{
     let mytiming = new Date();
     let correcttime = mytiming.getHours();
