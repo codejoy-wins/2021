@@ -764,7 +764,13 @@ let manobj = [
         "artist": "Say Anything",
         "fullsong": "Do Better",
         "picture": "sayanything.jpeg",
-    }
+    },
+    {
+        "song": "yourgod",
+        "artist": "Vertical Horizon",
+        "fullsong": "You're a God",
+        "picture": "vh.jpg",
+    },
 ];
 
 let womanobj = [
