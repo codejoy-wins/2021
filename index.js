@@ -218,7 +218,7 @@ let songz = [
     `cali`,
     `Afterlie`,
     `diamond`,
-    `vice`,
+    `addvicewithafriend`,
     `AdoreYou`,
     `only`,
     `winter`,
