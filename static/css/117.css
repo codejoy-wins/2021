@@ -1,0 +1,1045 @@
+*{
+    /* font-family: 'Spectral', serif; */
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+}
+ul{
+    background-color: rgba(0, 255, 255, 0.608);
+    border-radius: 1.3vw;
+    padding: .4vw;
+}
+p{
+    color: white;
+}
+
+.kanye{
+    color: gold;
+    font-weight: bold;
+}
+.kanye:hover{
+    color: crimson;
+}
+#heading p{
+    color: gold;
+    display: inline-block;
+}
+.chess{
+    max-width: 100%;
+}
+@keyframes elam{
+    20%{
+        color: wheat;
+    }
+    40%{
+        color: black;
+    }
+    60%{
+        color: wheat;
+    }
+    80%{
+        color: silver;
+    }
+}
+.month{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border-radius: 2vw;
+}
+.month:hover{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 2vw;
+    animation: elam 3s infinite;
+}
+
+#heading a{
+    color: wheat;
+}
+#heading a:hover{
+    color: silver;
+}
+#heading .month{
+    color: black;
+    animation: elam 10s infinite;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.vid4{
+    max-width: 100%;
+    width: 600px;
+}
+.vid2{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+}
+.vid20{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+}
+.vid{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 315px;
+    float: left;
+    padding-right: 1vw;
+}
+.vidnormal{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 315px;
+    padding-right: 1vw;
+}
+.vidbit{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 315px;
+    float: left;
+    padding-right: 4vw;
+}
+.vidbitchute{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 315px;
+    display: inline-block;
+    padding-right: 4vw;
+}
+.vidright{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 315px;
+    float: right;
+    padding-left: 1vw;
+}
+#heading{
+    text-align: center;
+}
+#collage{
+    height: auto;
+    width: 100%;
+}
+#reviews h2{
+    text-align: center;
+}
+#rapper{
+    margin: 0 auto;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+#rapper p{
+    background-color: rgba(240, 248, 255, 0.692);
+    padding: 1vw;
+}
+.option{
+    display: inline-block;
+    padding: 1vw;
+}
+#nav{
+    background-color: rgba(55, 83, 211, 0.680);
+    width: 100%;
+    text-align: center;
+}
+#nav:hover{
+    cursor: cell;
+}
+#nav2{
+    background-color: rgb(43, 226, 156, 0.363);
+    width: 100%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: wheat;
+    font-weight: bold;
+    cursor: cell;
+}
+.current{
+    font-weight: bold;
+    color: silver;
+}
+#poem{
+    text-align: center;
+    font-size: larger;
+}
+.purple{
+    color: purple;
+}
+.purplespecial{
+    color: rgb(66, 7, 66);
+}
+.pic{
+    max-width: 100%;
+}
+.picsmall{
+    max-width: 100%;
+    max-height: 35vw;
+    float: inline-end;
+}
+.pic11{
+    max-width: 100%;
+    max-height: 400px;
+}
+.pic13{
+    max-width: 100%;
+    max-height: 400px;
+    float: left;
+    padding-right: 1vw;
+}
+.pic2{
+    max-width: 100%;
+    max-height: 600px;
+}
+.pic3{
+    max-width: 100%;
+    float: left;
+    padding-right: 1vw;
+}
+.wtf{
+    width:2000px;
+}
+h1 a{
+    color: purple;
+}
+#reviews a{
+    color: purple;
+}
+#reviews a:hover{
+    color: black;
+}
+
+.post{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(55, 83, 211, 0.680);
+    color: black;
+    font-size: larger;
+}
+.royal{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(104, 18, 82, 0.68);
+    color: black;
+    font-size: larger;
+}
+.royal p{
+    background-color: rgba(250, 189, 250, 0.621);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.post33{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(8, 250, 0, 0.68);
+    color: black;
+    font-size: larger;
+}
+.ital{
+    font-style: italic;
+}
+.post33 h2{
+    color: black;
+}
+.post33 h3{
+    color: black;
+}
+.post33 p{
+    color: black;
+    background-color: rgba(243, 234, 243, 0.746);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.post1advanced{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(55, 83, 211, 0.680);
+    color: black;
+    font-size: larger;
+    padding-bottom: 7vw;
+}
+.post2{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(211, 17, 17, 0.507); */
+    background-color: rgba(211, 17, 17, 0.56);
+    color: black;
+    font-size: larger;
+}
+.post4{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(204, 199, 199, 0.56); */
+    background-color: rgba(92, 92, 92, 0.507);
+    color: black;
+    font-size: larger;
+}
+.whitepost h3{
+    color: rgb(29, 78, 120);
+}
+.whitepost{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(204, 199, 199, 0.56); */
+    background-color: whitesmoke;
+    color: black;
+    font-size: larger;
+}
+.forest{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(211, 17, 17, 0.507); */
+    background-color: rgba(23, 98, 23, 0.56);
+    color: black;
+    font-size: larger;
+}
+.forest a{
+    color: aquamarine;
+}
+.postpurple{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(143, 17, 211, 0.56);
+    color: black;
+    font-size: larger;
+}
+.post2advanced{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(211, 17, 17, 0.65);
+    padding-bottom: 7vw;
+    /* color: silver; */
+    color: whitesmoke;
+    font-size: larger;
+}
+.post4advanced{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(45, 43, 134, 0.65); */
+    background-color: rgba(46, 44, 172, 0.65);
+
+    padding-bottom: 7vw;
+    color: silver;
+    font-size: larger;
+}
+.lucifer{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(221, 160, 221, 0.733); */
+    background-color: rgba(211, 17, 17, 0.65);
+    color: black;
+    font-size: larger;
+}
+.lucifer2{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(221, 160, 221, 0.733); */
+    background-color: rgba(54, 89, 204, 0.65);
+    color: black;
+    font-size: larger;
+}
+.postpink{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(221, 160, 221, 0.733); */
+    background-color: rgba(175, 6, 175, 0.87);
+
+
+    color: black;
+    font-size: larger;
+}
+.postnew{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(221, 160, 221, 0.733); */
+    /* background-color: rgba(138, 91, 138, 0.582); */
+    background-color: rgba(246, 4, 4, 0.603);
+    color: black;
+    font-size: larger;
+}
+.postnew p{
+    background-color: rgba(255, 255, 255, 0.795);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.post3{
+    color: wheat;
+    font-size: larger;
+    /* background-color: rgba(101, 255, 11, 0.5); */
+
+}
+.profound{
+    color: wheat;
+    font-style: italic;
+    font-weight: bolder;
+}
+.post2 .profound{
+    color: navy;
+}
+.reveal{
+    background-color: gold;
+}
+.protect{
+    border: solid 1vw gold;
+}
+.gold a{
+    background-color: black;
+    padding: .5vw;
+    border-radius: .5vw;
+}
+.close{
+    background-color: black;
+    color: white;
+}
+.blackgold a{
+    background-color: black;
+    padding: .5vw;
+    border-radius: .5vw;
+}
+.whitegold a{
+    background-color: gold;
+    color: black;
+    padding: .5vw;
+    border-radius: .5vw;
+}
+.gold{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: black;
+    color: black;
+    font-size: larger;
+}
+.blackgold{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: black;
+    color: black;
+    font-size: larger;
+}
+.whitegold h2{
+    color: goldenrod;
+}
+.whitegold{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(245, 245, 245, 0.611);
+    color: black;
+    font-size: larger;
+}
+.whitegold ul{
+background-color:goldenrod;
+}
+.gold p{
+    /* background-color: rgba(255, 192, 203, 0.521); */
+    background-color: gold;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.blackgold p{
+    color: gold;
+    background-color: black;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.whitegold p{
+    color:black;
+    background-color: white;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.dark p{
+    color: whitesmoke;
+    background-color: rgba(29, 1, 29, 0.746);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+/* background-color: rgba(78, 166, 218, 0.746); */
+
+.purplenew p{
+    color: rgb(0, 0, 0);
+    background-color: rgba(235, 223, 223, 0.746);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.purplenew a{
+    color: rgb(0, 162, 255);
+}
+.purplenew a:hover{
+    color: rgba(238, 130, 238, 0.829);
+}
+.dark{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(36, 10, 36, 0.582);
+    color: black;
+    font-size: larger;
+    padding-bottom: 6vw;
+}
+.purplenew{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(146, 22, 146, 0.582);
+    color: black;
+    font-size: larger;
+    padding-bottom: 6vw;
+}
+.dark3 p{
+    color: black;
+    background-color: rgba(243, 234, 243, 0.746);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.dark3{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(2, 85, 85, 0.637);
+    color: black;
+    font-size: larger;
+    padding-bottom: 6vw;
+}
+ol{
+    background-color: rgba(245, 245, 245, 0.644);
+    padding: 2vw;
+}
+
+.postpurp p{
+    color: black;
+    background-color: rgba(243, 234, 243, 0.746);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.postpurp{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(128, 0, 128, 0.651);
+    color: black;
+    font-size: larger;
+    padding-bottom: 6vw;
+}
+
+
+.dark2 p{
+    color: black;
+    background-color: rgba(243, 234, 243, 0.746);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.dark2{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(36, 10, 36, 0.582);
+    color: black;
+    font-size: larger;
+    padding-bottom: 6vw;
+}
+.dark2advanced p{
+    color: black;
+    background-color: rgba(243, 234, 243, 0.746);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.dark2advanced{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(36, 10, 36, 0.582);
+    color: black;
+    font-size: larger;
+    padding-bottom: 16vw;
+}
+.god{
+    max-width: 100%;
+}
+/* #girl:hover{
+    cursor: crosshair;
+} */
+.dark a{
+    color: wheat;
+}
+.dark a:hover{
+    color: red;
+}
+.vidsuper{
+    max-width: 100%;
+}
+.post p{
+    background-color: rgba(250, 189, 250, 0.621);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.post1advanced p{
+    background-color: rgba(250, 189, 250, 0.751);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.customsong{
+    background-color: gainsboro;
+    color: black;
+    display: inline-block;
+    border-radius: 2vw;
+    text-align: center;
+}
+.customsong h5 {
+    padding: 0;
+    margin: 0 auto;
+}
+.customsong2{
+    background-color: skyblue;
+    color: whitesmoke;
+    display: inline-block;
+    border-radius: 2vw;
+    text-align: center;
+}
+.customsong2 h5{
+    padding: 0;
+    margin: 0 auto;
+}
+.songx{
+    background-color: silver;
+    color: gold;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.songxy{
+    background-color: purple;
+    color: plum;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.songyy{
+    background-color: rgba(76, 7, 95, 0.566);
+    color: plum;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.songy{
+    background-color: black;
+    color: gold;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.post2 p{
+    /* background-color: rgba(0, 0, 0, 0.621); */
+    color: rgba(0, 0, 0, 0.621);
+    /* color: whitesmoke; */
+    background-color: rgba(226, 183, 236, 0.904);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.post4 h2,h3{
+    color: black;
+}
+.post4 a{
+    color: gold;
+    background-color: black;
+    padding: .2vw;
+    border-radius: .4vw;
+}
+.post4 a:hover{
+    color: black;
+    background-color: gold;
+    padding: .2vw;
+    border-radius: .4vw;
+}
+.post4 p{
+    /* background-color: rgba(0, 0, 0, 0.621); */
+    color: rgba(0, 0, 0, 0.621);
+    /* color: whitesmoke; */
+    background-color: rgba(251, 233, 255, 0.904);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.sky{
+    color: rgba(29, 162, 229, 0.904);
+}
+
+.whitepost p{
+    /* background-color: rgba(0, 0, 0, 0.621); */
+    color: white;
+    /* color: whitesmoke; */
+    /* background-color: rgba(82, 4, 100, 0.904); */
+    background-color: rgba(29, 162, 229, 0.904);
+
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.whitepost h2, h3{
+    color: black;
+}
+.whitepost .verse{
+    background-color: crimson;
+}
+.forest p{
+    /* background-color: rgba(0, 0, 0, 0.621); */
+    color: white;
+    /* color: whitesmoke; */
+    background-color: rgba(0, 0, 128, 0.798);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.postpurple p{
+    color: rgba(0, 0, 0, 0.621);
+    background-color: rgba(226, 183, 236, 0.904);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+/* background-color: rgba(51, 139, 255, 0.596); */
+.strux{
+    max-width: 100%;
+    padding: 1vw;
+}
+.post2advanced p{
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.post2advanced a{
+    background-color: white;
+    padding: .4vw;
+    color: black;
+    border-radius: 2vw;
+}
+#heaven{
+    color: gold;
+}
+.post2advanced li{
+    /* background-color: white; */
+    padding: .9vw;
+    color: whitesmoke;
+    border-radius: 2vw;
+}
+.post2advanced ol{
+    background-color: rgb(173, 40, 0);
+    padding: 2vw;
+    color: black;
+    border-radius: 2vw;
+}
+.post2advanced a:hover{
+    padding: 1vw;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.godlike{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(211, 192, 17, 0.65);
+    padding-bottom: 7vw;
+    color: silver;
+    font-size: larger;
+}
+.godlike p{
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.godlike h2, h3{
+    color: black;
+}
+.post4advanced p{
+    background-color: rgba(149, 97, 160, 0.938);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.lucifer p{
+    background-color: rgba(245, 245, 245, 0.781);
+    padding: 1vw;
+    border-radius: 1vw;
+    color: black;
+}
+.lucifer ol{
+    background-color: blue;
+}
+.postpink p{
+    background-color: rgba(250, 189, 250, 0.621);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+h2, h3{
+    color: wheat;
+    text-align: right;
+}
+h4{
+    color: wheat;
+}
+.central{
+    float: left;
+    padding: 1vw;
+}
+.song{
+    max-width: 100%;
+    width: 40vw;
+}
+.special{
+    float: left;
+    color: purple;
+}
+.gamereview{
+    color: black;
+    max-width: 100%;
+}
+#reviews{
+    max-width: 100%;
+}
+#heading h1 a{
+    color: wheat;
+}
+#reviews h1 a{
+    color: wheat;
+}
+.noone{
+    color: wheat;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.noone:hover {
+    color: blue;
+    cursor: cell;
+}
+
+.pic6{
+    max-width: 100%;
+    float: left;
+    width: 400px;
+    padding: 1vw;
+}
+.wbc{
+    max-width: 100%;
+    width: 500px;
+    float: right;
+}
+.pic8{
+    float: left;
+    max-width: 100%;
+    padding: 1vw;
+}
+.logo{
+    float: left;
+    max-width: 100%;
+    padding: 1vw;
+    width: 500px;
+}
+.logo2{
+    float: left;
+    max-width: 100%;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    width: 400px;
+}
+.left{
+    text-align: left;
+}
+.post2 .rebuttal{
+    color: red;
+    background-color: black;
+}
+.pic10{
+    max-width: 100%;
+}
+#spoiler{
+    color: blue;
+}
+.company2{
+    padding: 2vw;
+    padding-bottom: 8vw;
+    text-align: left;
+}
+.company{
+    padding: 2vw;
+    text-align: left;
+}
+.chess{
+    max-width: 100%;
+    max-height: 420px;
+}
+.hidden{
+    display: none;
+}
+body{
+    background-image: url(/static/img/wave.jpeg);
+    background-size: cover;
+}
+.pic100{
+    max-width: 100%;
+    float: left;
+    padding-right: 1vw;
+}
+.verse{
+    border: solid gold;
+}
+.gold .verse{
+    border:solid gold;
+    background-color: crimson;
+    font-weight: bold;
+}
+.blackgold .verse{
+    color: crimson;
+    border:solid gold;
+    /* background-color: crimson; */
+    font-weight: bold;
+}
+.whitegold .verse{
+    color: crimson;
+    border:solid gold;
+    /* background-color: crimson; */
+    font-weight: bold;
+}
+.pic101{
+    max-width: 100%;
+    max-height: 600px;
+    float: left;
+    padding-right: 1vw;
+}
+.picfloat{
+    float: left;
+    max-width: 100%;
+    padding-right: 1vw;
+}
+.picfloat2{
+    float: left;
+    max-width: 100%;
+}
+.picfloatnew{
+    float: left;
+    max-width: 100%;
+    padding-right: 1vw;
+    max-height: 900px;
+}
+.picsmall{
+    max-width: 100%;
+    padding-right: 1vw;
+    max-height: 600px;
+}
+.picfloatsmall{
+    float: left;
+    max-width: 100%;
+    padding-right: 1vw;
+    max-height: 600px;
+}
+.picfloatmedium{
+    float: left;
+    max-width: 100%;
+    padding-right: 1vw;
+    max-height: 720px;
+}
+.picfloatlarge{
+    float: left;
+    max-width: 100%;
+    padding-right: 1vw;
+    max-height: 800px;
+}
+.picfloatverysmall{
+    float: left;
+    max-width: 100%;
+    padding-right: 1vw;
+    max-height: 350px;
+}
+.picfloatright{
+    float: right;
+    max-width: 100%;
+    padding-left: 1vw;
+}
+
+
+#cold:hover{
+    color: whitesmoke;
+}
+#blog .post #shell p{
+    padding: .3vw;
+    color: pink;
+    background-color: rgba(55, 84, 211, 0);
+}
+#blog .post #shell p:hover{
+    padding: .3vw;
+    color: wheat;
+    background-color: rgba(55, 84, 211, 0);
+}
+.pdf{
+    max-width: 100%;
+}
+.verse h4{
+    padding: 1vw;
+}
+.guest{
+    /* background-color: rgba(255, 255, 255, 0.678); */
+    background-color: whitesmoke;
+    max-width: 100%;
+}
+.guest p{
+    background-color: whitesmoke;
+}
+
+.guest a{
+    color: blue;
+}
+.what{
+    background-color: black;
+    max-width: 200px;
+    visibility: hidden;
+}
+#mobileheading{
+    visibility: hidden;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    #nav{
+        visibility: hidden;
+        display: none;
+    }
+    .whitegold h2{
+        color: black;
+    }
+    .what{
+        background-color: black;
+        max-width: 200px;
+        visibility: visible;
+    }
+    #mobileheading{
+        visibility: visible;
+        float: left;
+    }
+    #wonderful{
+        color: red;
+        /* background-color: rgba(128, 128, 128, 0.274); */
+        /* border-radius: 2vw; */
+        /* padding: .2vw; */
+    }
+    /* background-color: rgba(101, 255, 11, 0.5); lime green neon  */
+    .post3{
+        background-color:rgba(8, 12, 80, 0.856);
+    }
+}
+.reflect{
+    color: greenyellow;
+    background-color: green;
+}
+.godlike h3{
+    color: rebeccapurple;
+}
+.godlike li{
+    color: black;
+}
+img{
+    max-width: 100%;
+}
+.purple{
+    color: plum;
+    background-color: black;
+    font-size: xx-large;
+}
+#purple{
+    background-color: black;
+    padding: 1vw;
+    border-radius: 1vw;
+}
