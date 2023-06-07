@@ -118,7 +118,7 @@ canvas {
     display: inline-block;
 }
 .king{
-    color: gold;
+    color: wheat;
     text-align: center;
     font-size: larger;
 }
@@ -2126,4 +2126,7 @@ div#tetrahedron > div.back {
     /* color: pink; */
     /* background-color: black; */
     padding: none;
+}
+.king .cloudy{
+    color: azure;
 }
