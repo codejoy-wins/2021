@@ -62,9 +62,8 @@
                 <audio id="player" src="static/audio/hates.mp3"></audio>
             </div>
 
-            <div class="customsong"> 
+            <!-- <div class="customsong"> 
                 &#127925
-                <!-- <h5>This town hates me - Max Jann</h5> -->
                 <button class="songy" onclick="document.getElementById('player').play()">Play</button> 
                 <button class="songx" onclick="document.getElementById('player').pause()">Pause</button>
                 <button class="songyy" onclick="randosong()">Shuffle</button> 
@@ -72,7 +71,36 @@
                     Hi
                 </p>
 
+              </div> -->
+
+              <div class="customsong"> 
+                <!-- Water = start over / rewind 
+                Fire = Play / Pause (turn to ice)
+                Air = Next Song
+                -->
+                <div class="songimg">
+                    
+                    <div onclick="water()" class="life">
+                        <img class="picalu" src="static/img/warewind.png" alt="warewind">
+                    </div>
+                    <div id="treeternal" onclick="freezefire()" class="life">
+                        <img class="picalu" src="static/img/sensaplay.jpeg" alt="sensawar">
+                    </div>
+                    <div  onclick="air()" class="life">
+                        <img class="picalu" src="static/img/fastforward.png" alt="ff">
+                    </div>
+                </div>
+                <p id="descsong2">
+                    I love you so much
+                </p>
+
               </div>
+
+
+
+
+
+
               <div style="perspective: 1000px;">
                 <div id="tetrahedron">
                     <div class="bottom">

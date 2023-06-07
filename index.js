@@ -212,51 +212,6 @@ const nextTime = () =>{
     
 }
 
-let songz = [
-    `hates`,
-    `Lying`,
-    `cali`,
-    `Afterlie`,
-    `diamond`,
-    `addvicewithafriend`,
-    `AdoreYou`,
-    `only`,
-    `winter`,
-    `herestoyou`,
-    `fakebook`,
-]
-
-let songs = [
-       `This Town Hates Me`,
-       `Lying`,
-       `California`,
-       `Afterli(f)e`,
-       `Cold Diamond`,
-       `Add Vice for a Friend`,
-       `Adore You`,
-       `If Only`,
-       `Beautiful Winter`,
-       `Here's to You`,
-       `Fakebook`,
-]
-
-function randosong(){
-    let x = Math.random(0,songz.length);
-    x=x*10;
-    x = Math.floor(x);
-    
-    console.log(`x is ${x}`);
-    document.getElementById("introsong").innerHTML=`
-    <audio id="player" onended="randosong()" src="static/audio/${songz[x]}.mp3"></audio>
-    `
-    document.getElementById("descsong").innerHTML=`
-    <p>${songs[x]}</p>
-    `
-}
-
-nextTime();
-randosong();
-
 // background-image: url("../img/sensa.jpeg");
     /* background-image: url("../img/wa.jpeg"); */
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
@@ -317,3 +272,88 @@ function craig(){
 craig();
 
 // run craig again every 5 minutes?
+
+let songz = [
+    `hates`,
+    `Lying`,
+    `cali`,
+    `Afterlie`,
+    `diamond`,
+    `addvicewithafriend`,
+    `AdoreYou`,
+    `only`,
+    `winter`,
+    `herestoyou`,
+    `fakebook`,
+    `RidingTooHigh`,
+]
+
+let songs = [
+       `This Town Hates Me`,
+       `Lying`,
+       `California`,
+       `Afterli(f)e`,
+       `Cold Diamond`,
+       `Add Vice for a Friend`,
+       `Adore You`,
+       `If Only`,
+       `Beautiful Winter`,
+       `Here's to You`,
+       `Fakebook`,
+       `Riding Too High`,
+]
+
+function randosong(){
+    // let x = Math.random(0,songz.length);
+    let ra = Math.floor(Math.random()*songz.length);
+    let x = songz[ra];
+    let y = songs[ra];
+    console.log(`xxx is ${x}`);
+    
+    document.getElementById("introsong").innerHTML=`
+    <audio id="player" onended="randosong()" src="static/audio/${x}.mp3"></audio>
+    `
+    document.getElementById("descsong2").innerHTML=`
+    <p>${y}</p>
+    `
+}
+
+nextTime();
+
+
+
+randosong();
+
+function freezefire(){
+    let targ = document.getElementById("player");
+    console.log("She can freeze fire from the Son");
+    console.log(`targ.paused is ${targ.paused}`);
+    if(targ.paused == true){
+        console.log("trying to play");
+        targ.play();
+        document.getElementById("treeternal").innerHTML=`
+        <img class="picalu" src="static/img/warright.jpeg" alt="warright">
+        `
+    }
+    else if(targ.paused == false){
+        console.log("trying to pause");
+        targ.pause();
+        document.getElementById("treeternal").innerHTML=`
+        <img class="picalu" src="static/img/sensaplay.jpeg" alt="treeternal">
+        `
+    }
+    console.log(`targ.paused is now ${targ.paused}`);
+
+}
+function water(){
+    let targy = document.getElementById("player");
+    console.log("water rewind");
+    // document.getElementById("player").rewind();
+    console.log(`targy time is ${targy.currentTime}`);
+    targy.currentTime = 0;
+}
+function air(){
+    console.log("air fast forward");
+    randosong();
+    freezefire();
+}
