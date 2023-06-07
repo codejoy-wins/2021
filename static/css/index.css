@@ -971,10 +971,10 @@ ul a{
         color: lightblue;
     }
     70%{
-        color: blue;
+        color: rgb(116, 116, 254);
     }
     80%{
-        color: navy;
+        color: rgb(54, 54, 198);
     }
     90%{
         color: wheat;
