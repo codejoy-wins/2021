@@ -111,6 +111,11 @@ canvas {
 .life{
     display: inline-block;
 }
+.king{
+    color: gold;
+    text-align: center;
+    font-size: larger;
+}
 .pic{
     max-width: 100%;
 }
