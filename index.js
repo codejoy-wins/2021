@@ -316,6 +316,9 @@ function randosong(){
     document.getElementById("descsong2").innerHTML=`
     <p>${y}</p>
     `
+    document.getElementById("treeternal").innerHTML=`
+        <img class="picalu" src="static/img/sensaplay.jpeg" alt="treeternal">
+    `
 }
 
 nextTime();
