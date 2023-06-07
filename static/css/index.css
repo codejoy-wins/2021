@@ -93,7 +93,7 @@ html, body{
     color: rgb(130, 236, 236);
 }
 .code2 a{
-    /* background-color: black; */
+    background-color: black;
     color: rgb(130, 236, 236);
 }
 /* #new{
@@ -158,6 +158,14 @@ canvas {
 .wbc:hover{
     color: white;
     background-color: crimson;
+    border-radius: 100vw;
+}
+.wbc2{
+    background-color: none;
+}
+.wbc2:hover{
+    color: purple;
+    background-color: gold;
     border-radius: 100vw;
 }
 .bulba{
@@ -1803,6 +1811,9 @@ div#tetrahedron > div.back {
     margin: 1.7vw;
 }
 .perplex a{
+    padding: .4vw;
+}
+.perplex2 a{
     padding: .4vw;
 }
 
