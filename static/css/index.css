@@ -66,6 +66,8 @@ html, body{
     font-size: 18.117px;
     /* font-weight: bold; */
 }
+
+
 #plum a{
     /* color: rgb(247, 165, 247); */
     color:wheat;
@@ -88,6 +90,10 @@ html, body{
 }
 .code a{
     background-color: black;
+    color: rgb(130, 236, 236);
+}
+.code2 a{
+    /* background-color: black; */
     color: rgb(130, 236, 236);
 }
 /* #new{
@@ -2105,3 +2111,8 @@ div#tetrahedron > div.back {
           display: none;
       }
   }
+  .kirby a{
+    /* color: pink; */
+    /* background-color: black; */
+    padding: none;
+}
