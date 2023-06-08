@@ -771,6 +771,12 @@ let manobj = [
         "fullsong": "You're a God",
         "picture": "vh.jpg",
     },
+    {
+        "song": "This Is How It Goes",
+        "artist": "Billy Talent",
+        "fullsong": "This is How it Goes",
+        "picture": "",
+    },
 ];
 
 let womanobj = [
