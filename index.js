@@ -287,6 +287,10 @@ let songz = [
     `fakebook`,
     `RidingTooHigh`,
     `KingOfParadise`,
+    `Fly2`,
+    `AmorFati`,
+    `WrongSideOfTheSea`,
+
 ]
 
 let songs = [
@@ -303,6 +307,10 @@ let songs = [
        `Fakebook`,
        `Riding Too High`,
        `King of Paradise`,
+       `Fly`,
+       `Amor Fati`,
+       `Wrong Side of the Sea`,
+
 ]
 
 function randosong(){
