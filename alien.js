@@ -777,6 +777,12 @@ let manobj = [
         "fullsong": "This is How it Goes",
         "picture": "",
     },
+    {
+        "song": "Dunno",
+        "artist": "Mac Miller",
+        "fullsong": "Dunno",
+        "picture": "mac11.png",
+    },
 ];
 
 let womanobj = [
