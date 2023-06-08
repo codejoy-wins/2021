@@ -1,0 +1,273 @@
+*{
+    font-family: 'Spectral', serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.vid4{
+    max-width: 100%;
+    width: 600px;
+}
+.vid2{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+}
+.vid20{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+}
+.vid{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 315px;
+    float: left;
+    padding-right: 1vw;
+}
+#heading{
+    text-align: center;
+}
+#collage{
+    height: auto;
+    width: 100%;
+}
+#reviews h2{
+    text-align: center;
+}
+#rapper{
+    margin: 0 auto;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+.option{
+    display: inline-block;
+    padding: 1vw;
+}
+#nav{
+    background-color: rgba(55, 83, 211, 0.680);
+    width: 100%;
+    text-align: center;
+}
+#nav:hover{
+    cursor: cell;
+}
+#nav2{
+    background-color: rgb(43, 226, 156, 0.363);
+    width: 100%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: wheat;
+    font-weight: bold;
+    cursor: cell;
+}
+.current{
+    font-weight: bold;
+    color: silver;
+}
+#poem{
+    text-align: center;
+    font-size: larger;
+}
+.poem{
+    text-align: center;
+    font-size: larger;
+}
+#yes{
+    text-align: center;
+}
+.purple{
+    color: purple;
+}
+.pic{
+    max-width: 100%;
+}
+.pic11{
+    max-width: 100%;
+    max-height: 400px;
+}
+.pic2{
+    max-width: 100%;
+    max-height: 600px;
+}
+.pic3{
+    max-width: 100%;
+    float: left;
+    padding-right: 1vw;
+}
+.wtf{
+    width:2000px;
+}
+h1 a{
+    color: purple;
+}
+#reviews a{
+    color: purple;
+}
+#reviews a:hover{
+    color: black;
+}
+
+.post{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(55, 83, 211, 0.680);
+    color: black;
+    font-size: larger;
+}
+.post2{
+    border-radius: 1ch;
+    padding: 3vw;
+    background-color: rgba(211, 5, 5, 0.535);
+    color: black;
+    font-size: larger;
+}
+.post3{
+    color: wheat;
+    font-size: larger;
+}
+.profound{
+    color: wheat;
+    font-style: italic;
+    font-weight: bolder;
+}
+.post2 .profound{
+    color: navy;
+}
+
+
+.post p{
+    /* background-color: rgba(255, 192, 203, 0.521); */
+    background-color: rgba(250, 189, 250, 0.621);
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.post2 p{
+    background-color: rgba(250, 189, 250, 0.621);
+    padding: 1vw;
+    border-radius: 1vw;
+
+}
+h2, h3{
+    color: wheat;
+    text-align: right;
+}
+h4{
+    color: wheat;
+}
+.central{
+    float: left;
+    padding: 1vw;
+}
+.song{
+    max-width: 100%;
+    width: 40vw;
+}
+.special{
+    float: left;
+    color: purple;
+}
+.gamereview{
+    color: black;
+    max-width: 100%;
+}
+#reviews{
+    max-width: 100%;
+}
+#heading h1 a{
+    color: wheat;
+}
+#reviews h1 a{
+    color: wheat;
+}
+.noone{
+    color: wheat;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.noone:hover {
+    color: blue;
+    cursor: cell;
+}
+/* #blog{
+    border: 1ch solid rgba(139, 20, 20, 0.37);
+} */
+
+.pic6{
+    max-width: 100%;
+    float: left;
+    width: 400px;
+    padding: 1vw;
+}
+.wbc{
+    max-width: 100%;
+    width: 500px;
+    float: right;
+}
+.pic8{
+    float: left;
+    max-width: 100%;
+    padding: 1vw;
+}
+.logo{
+    float: left;
+    max-width: 100%;
+    padding: 1vw;
+    width: 500px;
+}
+.logo2{
+    float: left;
+    max-width: 100%;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    width: 400px;
+}
+.left{
+    text-align: left;
+}
+.post2 .rebuttal{
+    color: red;
+    background-color: black;
+}
+.pic10{
+    max-width: 100%;
+}
+#spoiler{
+    color: blue;
+}
+.company2{
+    padding: 2vw;
+    padding-bottom: 8vw;
+    text-align: left;
+}
+.company{
+    padding: 2vw;
+    text-align: left;
+}
+.chess{
+    max-width: 100%;
+    max-height: 420px;
+}
+.hidden{
+    display: none;
+}
+body{
+    background-size: contain;
+}
+
+#chess{
+    background-color: peachpuff;
+    float: right;
+}
+.elam{
+    background-color: coral;
+    text-align: center;
+    font-size: 33px;
+}
