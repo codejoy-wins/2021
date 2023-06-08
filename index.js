@@ -289,7 +289,13 @@ let songz = [
     `KingOfParadise`,
     `Fly2`,
     `AmorFati`,
+    `Alika`,
     `WrongSideOfTheSea`,
+    `Jfc`,
+    `iDecay`,
+    `Lullaby`,
+    `notalone`,
+
 
 ]
 
@@ -309,7 +315,14 @@ let songs = [
        `King of Paradise`,
        `Fly`,
        `Amor Fati`,
+       `Alika and the Art of Zen Maintanence`,
        `Wrong Side of the Sea`,
+       `Jesus F***ing Christ`,
+       `I Decay`,
+       `Lullaby`,
+       `Alone`,
+
+
 
 ]
 
