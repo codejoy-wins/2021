@@ -296,8 +296,6 @@ let songz = [
     `Lullaby`,
     `notalone`,
     `Alone2`,
-    `sinNoMo`,
-    `cellPhone2`,
     `Alonev2`,
     `Rapaholic`,
 
@@ -326,8 +324,6 @@ let songs = [
        `Lullaby`,
        `Not Alone`,
        `Alone`,
-       `Sin No Mo (King of Paradise pt 2)`,
-       `Cell Phone Song`,
        `All Alone`,
        `Rapaholic`,
 
