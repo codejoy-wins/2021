@@ -253,21 +253,21 @@ function craig(){
     document.getElementById("teroh").classList.remove(currentri);
     document.getElementById("teroh").classList.add(trii);
     currentri = trii;
-    if(currentri == "teroh3"){
-        document.getElementById("picdisplay").innerHTML=`
-        <img class="piccy" src="static/img/HaloBeautiful\ copy.png" alt="treelam">
-        `
-    }
-    if(currentri == "teroh2"){
-        document.getElementById("picdisplay").innerHTML=`
-        <img class="piccy" src="static/img/wa.jpeg" alt="treelam">
-        `
-    }
-    if(currentri == "teroh4"){
-        document.getElementById("outr").innerHTML=`
-        <div class="parallaxteroh"></div>
-        `
-    }
+    // if(currentri == "teroh3"){
+    //     document.getElementById("picdisplay").innerHTML=`
+    //     <img class="piccy" src="static/img/HaloBeautiful\ copy.png" alt="treelam">
+    //     `
+    // }
+    // if(currentri == "teroh2"){
+    //     document.getElementById("picdisplay").innerHTML=`
+    //     <img class="piccy" src="static/img/wa.jpeg" alt="treelam">
+    //     `
+    // }
+    // if(currentri == "teroh4"){
+    //     document.getElementById("outr").innerHTML=`
+    //     <div class="parallaxteroh"></div>
+    //     `
+    // }
 }
 craig();
 
