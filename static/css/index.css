@@ -504,8 +504,11 @@ p a{
     margin-top: 20px;
     max-width: 100%;
 }
+/* make shiny */
 #cause{
-    color: blue;
+    /* color: azure; */
+    color: rgb(235, 172, 235);
+
     font-style: italic;
 }
 .parallaxnew{
