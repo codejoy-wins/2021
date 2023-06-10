@@ -114,6 +114,10 @@ canvas {
     max-width: 100%;
     height: 200px;
 }
+.picalu2{
+    max-width: 100%;
+    height: 200px;
+}
 .life{
     display: inline-block;
 }
@@ -2019,7 +2023,9 @@ div#tetrahedron > div.back {
         /* background-color: rgba(255, 217, 0, 0.487); */
 
         /* color: black; */
+        /* color: azure; */
         color: azure;
+
 
         padding: .5vw;
         display: inline-block;
@@ -2179,7 +2185,15 @@ div#tetrahedron > div.back {
       .secret{
           display: none;
       }
-  }
+        .picalu{
+            max-width: 100%;
+            height: 87px;
+        }
+        .picalu2{
+            max-width: 100%;
+            height: 87px;
+        }
+    }
   .kirby a{
     /* color: pink; */
     /* background-color: black; */
