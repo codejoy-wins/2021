@@ -144,7 +144,7 @@ const helloWorld = () => {
             </p>
         `
         document.getElementById("flying").innerHTML=`
-        <h3>Fly through my<a href="fly.html">interactive resume</a> </h3>
+        <h3 class="emergency">Fly through my<a href="fly.html">interactive resume</a> </h3>
         
         `
     }

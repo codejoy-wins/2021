@@ -166,13 +166,17 @@ canvas {
     color: gold;
 }
 .wbc{
-    background-color: rgb(255, 255, 255);
-    color: red;
+    /* background-color: rgb(255, 255, 255);
+    color: red; */
+    color: white;
+    background-color: rgba(220, 20, 60, 0.924);
 }
 .wbc:hover{
-    color: white;
-    background-color: crimson;
+    /* color: white;
+    background-color: crimson; */
     border-radius: 100vw;
+    background-color: wheat;
+    color: red;
 }
 .wbc2{
     background-color: none;
@@ -322,7 +326,21 @@ color: black;
     display: inline-block;
 }
 .white{
-    background-color: white;
+    /* background-color: rgba(108, 214, 15, 0.916);
+     */
+    /* background-color: black; */
+    background-image: url(../img/knight.jpg);
+    background-size: contain;
+    /* color: white; */
+    /* background-image: url(../img/waterfire.jpg); */
+
+    /* background-color: rgb(214, 15, 15); */
+
+
+
+}
+.outerali{
+    background-image: url(../img/waterfire.jpg);
 }
 /* .texzt{
     background-color: rgba(255, 255, 255, 0.7117);
@@ -331,7 +349,10 @@ color: black;
 } */
 .texzt{
     /* background-color: rgba(42, 161, 212, 0.712); */
-    background: radial-gradient(azure,rgba(65, 105, 225, 0.395));
+    /* background: radial-gradient(azure,rgba(65, 105, 225, 0.395)); */
+    /* background: radial-gradient(azure,rgba(162, 185, 255, 0.969)); */
+    /* color: peachpuff; */
+    background-color: rgba(0, 0, 0, 0.8117);
     padding: 1vw;
     padding-bottom: 0;
 }
@@ -408,24 +429,30 @@ p a{
 }
 .texzt118{
     background-color: rgba(251, 197, 2, 0);
+    /* background-image: url(../img/spectrum\ copy.png); */
     background-image: url(../img/spectrum\ copy.png);
     padding: 1vw;
     padding-bottom: 0;
 }
+
 .texzt118 p{
     font-size: 20px;
     font-weight: bolder;
     color: wheat;
     text-shadow: black 1px 1px 7px;
 }
-
+.unifying{
+    background-color: rgba(8, 3, 4, 0.568);
+}
 
 .texzt119 h3{
     color: wheat;
 }
 .texzt119{
     background-color: rgba(251, 197, 2, 0);
-    background-image: url(../img/chessnow.jpg);
+    /* background-image: url(../img/chessnow.jpg); */
+    background-image: url(../img/wowtri.jpg);
+
     /* background-size: cover; */
     padding: 1vw;
     padding-bottom: 0;
@@ -772,7 +799,14 @@ h1{
     color: orange;
 }
 p{
-    color: rgba(24, 23, 23, 0.918);
+    /* color: rgba(24, 23, 23, 0.918); */
+    color: wheat;
+}
+#elam{
+    color: wheat;
+}
+#elam .cloudy{
+    color: whitesmoke;
 }
 .team{
     padding: 1vw;
@@ -2144,4 +2178,7 @@ div#tetrahedron > div.back {
 }
 .king .cloudy{
     color: azure;
+}
+.emergency{
+    color: wheat;
 }
