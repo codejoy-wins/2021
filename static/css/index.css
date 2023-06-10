@@ -692,6 +692,8 @@ p a:hover{
     /* background-image: url("../img/The_One_TradingCard\ copy\ 3.jpg"); */
     /* background-image: url("../img/Avriel.jpeg"); */
     background-image: url("../img/wizardlyritchie.jpg");
+    /* background-image: url("../img/elamef.png"); */
+
 
 
 
@@ -1077,7 +1079,9 @@ ul a:hover{
     max-width: 90px;
 }
 h3 a{
-    color: red;
+    /* color: rgba(255, 0, 0, 0.837); */
+    color: lightblue;
+
 }
 .specialty{
     color: rgb(54, 3, 54);
@@ -1602,7 +1606,9 @@ footer{
 /* background of blue animation is awesome */
 .spotsubmain3888{
     /* background-color: blue; */
-    background-image: url(../img/penthousebeach.jpg);
+    /* background-image: url(../img/penthousebeach.jpg); */
+    background-image: url(../img/believenow.jpg);
+
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
