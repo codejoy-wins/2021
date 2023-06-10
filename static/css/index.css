@@ -2185,14 +2185,14 @@ div#tetrahedron > div.back {
       .secret{
           display: none;
       }
-        .picalu{
+        /* .picalu{
             max-width: 100%;
             height: 87px;
         }
         .picalu2{
             max-width: 100%;
             height: 87px;
-        }
+        } */
     }
   .kirby a{
     /* color: pink; */
