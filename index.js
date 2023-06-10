@@ -74,27 +74,8 @@ function draw()
 
 setInterval(draw, 35);
 
-
-
-
-
-
-
-
 // if user is on phone inject text " i see you're on your phone"
 // if user is not on phone inject text "thank you for using your computer"
-
-
-function crazy(x){
-    console.log(`crazy of ${x}`);
-    if(x<3){
-        console.log("x is less than 3");
-    }else{
-        console.log("x isn't less than 3");
-    }
-}
-crazy(32);
-crazy(1);
 
 let xyz = document.getElementById("background-video");
 
@@ -115,7 +96,6 @@ const maxwell = ()=>{
     //     burger.classList.toggle('green');
     // })
 
-    
 }
 
 maxwell();
@@ -329,7 +309,6 @@ let songs = [
 ]
 
 function randosong(){
-    // let x = Math.random(0,songz.length);
     let ra = Math.floor(Math.random()*songz.length);
     let x = songz[ra];
     let y = songs[ra];
@@ -347,8 +326,6 @@ function randosong(){
 }
 
 nextTime();
-
-
 
 randosong();
 
