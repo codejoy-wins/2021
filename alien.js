@@ -787,6 +787,12 @@ let manobj = [
 
 let womanobj = [
     {
+        "song": "SummerAcoustic",
+        "artist": "Weezer",
+        "fullsong": "Feels Like Summer (Acoustic)",
+        "picture": "weezer3.jpg",
+    },
+    {
         "song": "MySweetLord",
         "artist": "George Harrison",
         "fullsong": "My Sweet Lord",

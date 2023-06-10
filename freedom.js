@@ -5,11 +5,18 @@ let manobj = [
         "fullsong": "Dunno",
         "picture": "mac11.png",
     },
+    
     {
         "song": "This Is How It Goes",
         "artist": "Billy Talent",
         "fullsong": "This is How it Goes",
         "picture": "",
+    },
+    {
+        "song": "SummerAcoustic",
+        "artist": "Weezer",
+        "fullsong": "Feels Like Summer (Acoustic)",
+        "picture": "weezer3.jpg",
     },
     {
         "song": "yourgod",
