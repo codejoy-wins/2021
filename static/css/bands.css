@@ -1,9 +1,11 @@
 *{
     font-family: 'Spectral', serif;
+    color: wheat;
 }
 html, body{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 .vid4{
     max-width: 100%;
@@ -31,6 +33,10 @@ html, body{
     height: 315px;
     float: left;
     padding-right: 1vw;
+}
+.vidmain{
+    max-width: 100%;
+    max-height: 100%;
 }
 #heading{
     text-align: center;
@@ -266,4 +272,12 @@ body{
 #chess{
     background-color: peachpuff;
     float: right;
+}
+.mainattraction{
+    background-color: black;
+    height: 500px;
+    text-align: center;
+}
+.mainattraction p{
+    color: wheat;
 }
