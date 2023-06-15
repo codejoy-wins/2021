@@ -5,7 +5,12 @@ function alls(){
     `
     document.getElementById("article").innerHTML=`
 
-    
+    <div class="video">
+    <h1>Everything You Know is Brown</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Fzqplr2nZfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
 
     <div class="video2">
     <h1>I am the F****** King</h1>
@@ -677,6 +682,13 @@ function conspiracies(){
     document.getElementById("article").innerHTML=`
 
     <div class="video">
+    <h1>Everything You Know is Brown</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Fzqplr2nZfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
     <h1>D.O.G.</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/mVfZTr34RNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -719,12 +731,7 @@ function conspiracies(){
     </div>
     </div>
 
-    <div class="video">
-    <h1>Everything You Know is Brown</h1>
-    <div class="vid2">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Fzqplr2nZfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-    </div>
+    
 
     <div class="video2">
     <h1>Take a Byte out your Apple</h1>
