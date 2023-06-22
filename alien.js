@@ -783,6 +783,12 @@ let manobj = [
         "fullsong": "Dunno",
         "picture": "mac11.png",
     },
+    {
+        "song": "walkIn",
+        "artist": "Pouya & Lu",
+        "fullsong": "Walk In",
+        "picture": "",
+    },
 ];
 
 let womanobj = [
