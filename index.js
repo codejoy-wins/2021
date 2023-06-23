@@ -252,7 +252,7 @@ function craig(){
 craig();
 
 // run craig again every 5 minutes?
-// iDecay, cellPHone2, sinNoMo have been removed due to not being good enough for a first impression
+// AmorFati , iDecay, cellPHone2, sinNoMo have been removed due to not being good enough for a first impression
 
 let songz = [
     `hates`,
@@ -269,7 +269,6 @@ let songz = [
     `RidingTooHigh`,
     `KingOfParadise`,
     `Fly2`,
-    `AmorFati`,
     `Alika`,
     `WrongSideOfTheSea`,
     `Jfc`,
@@ -296,7 +295,6 @@ let songs = [
        `Riding Too High`,
        `King of Paradise`,
        `Fly`,
-       `Amor Fati`,
        `Alika and the Art of Zen Maintanence`,
        `Wrong Side of the Sea`,
        `Jesus F***ing Christ`,
