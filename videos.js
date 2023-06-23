@@ -12,6 +12,13 @@ function alls(){
     </div>
     </div>
 
+    <div class="video">
+    <h1>White Rock</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/jG6kG1AByaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+
     <div class="video2">
     <h1>I am the F****** King</h1>
     <div class="vid2">
@@ -685,6 +692,13 @@ function conspiracies(){
     <h1>Everything You Know is Brown</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/Fzqplr2nZfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video">
+    <h1>White Rock</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/jG6kG1AByaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     </div>
 
