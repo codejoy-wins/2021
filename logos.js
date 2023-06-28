@@ -1,3 +1,5 @@
+// firecloud.mp4 is missing / platonic 3d solids with my halo on the triangle
+
 const album = [
     {
         "song":"Come In to Adore You",
