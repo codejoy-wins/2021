@@ -1204,14 +1204,7 @@ footer{
     border-top: 1ch solid black;
 
 }
-.orange{
-    max-width: 100%;
-    max-height: 400px;
-    opacity: 1;
-    animation: wbc 11s infinite 1s;
-    border-bottom: 1ch solid black;
-    border-top: 1ch solid black;
-}
+
 .green{
     max-width: 100%;
     max-height: 400px;
@@ -1300,11 +1293,33 @@ footer{
     min-width: 290px;
     min-height: 210px;
     max-height: 400px;
-    background-image: url(../img/girlcar.jpg);
+    background-image: url(../img/lightcom.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+
+.spotsubmainn223{
+    display:inline-block;
+    min-width: 220px;
+    min-height: 210px;
+    max-height: 400px;
+    background-image: url(../img/lightcom.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.orange2{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 11s infinite 1s;
+}
+
+
+
 
 .spotsubmain4{
     /* background-color: blue; */
@@ -1540,6 +1555,7 @@ footer{
     border-bottom: 1ch solid black;
     border-top: 1ch solid black;
 }
+
 /* .green{
     max-width: 100%;
     max-height: 400px;
