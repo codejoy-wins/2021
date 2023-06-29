@@ -2155,6 +2155,7 @@ div#tetrahedron > div.back {
       .parallax5 {
         background-attachment: scroll;
         background-size: cover;
+        zoom:117%;
       }
       .parallaxteroh{
         background-attachment: scroll;
