@@ -486,9 +486,78 @@ function alls(){
 function coding(){
     console.log("coding");
     document.getElementById("title").innerHTML=`
-    <h1> Coding Tutorials </h1>
+    <h1> Coding Tutorials / App Demos </h1>
     `
     document.getElementById("article").innerHTML=`
+
+    <div class="video2">
+    <h1>
+        $25,000 of Knowledge in 1 Hour
+    </h1>
+    <div class="vid2">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/bCcFHQ6ANLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+<div class="video2">
+            <h1>
+                LuckyBid Demo
+            </h1>
+            <div class="vid2">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/qEnke76S4pw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <p>Fullstack Web App with a Lottery system</p>
+        </div>
+
+
+
+
+
+    <div class="video2">
+    <h1>
+        Fantasy Football Demo
+    </h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/E4eafeGKRVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</div>
+
+<div class="video2">
+            <h1>
+                BB-8 Game Demo
+            </h1>
+            <div class="vid2">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/-k9tnFUvF3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    <div class="video2">
+            <h1>
+                Red Grass Island Demo
+            </h1>
+            <div class="vid2">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/7V38emTgPU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    <div class="video">
+    <h1>Fantasy Football Website</h1>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/0Lo2n8dznWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="video2">
+    <h1>Fakebook</h1>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/cGj6XZNMmQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p>Facebook Clone with Database</p>
+
+    </div>
 
         <div class="video">
         <h1>Dall.E</h1>
@@ -507,14 +576,7 @@ function coding(){
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/rwTo5UwQtRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="video2">
-            <h1>
-                $25,000 of Knowledge in 1 Hour
-            </h1>
-            <div class="vid2">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/bCcFHQ6ANLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
+        
         <div class="video2">
             <h1>
                 Valid Parentheses
@@ -951,7 +1013,7 @@ function conspiracies(){
 function chess(){
     console.log("chess");
     document.getElementById("title").innerHTML=`
-    <h1> Chess Tutorials </h1>
+    <h1> Chess Tutorials / App Demos </h1>
     `
     document.getElementById("article").innerHTML=`
     

@@ -190,3 +190,7 @@ a:hover{
 #title{
     color: rgba(194, 169, 152, 0.658);
 }
+p{
+    background-color: black;
+    color: wheat;
+}
