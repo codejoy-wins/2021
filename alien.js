@@ -789,6 +789,12 @@ let manobj = [
         "fullsong": "Walk In",
         "picture": "",
     },
+    {
+        "song": "Doomsday",
+        "artist": "Juice Wrld + Cordae",
+        "fullsong": "Doomsday",
+        "picture": "juicenew.png",
+    },
 ];
 
 let womanobj = [
