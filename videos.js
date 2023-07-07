@@ -751,7 +751,7 @@ function conspiracies(){
     document.getElementById("article").innerHTML=`
 
     <div class="video2">
-    <h1>Everything You Know is Brown</h1>
+    <h1>BelieveInYou</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/nncLReRR9Qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
