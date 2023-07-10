@@ -1,5 +1,13 @@
 *{
     font-family: 'Spectral', serif;
+    
+}
+.songer{
+    text-align: center;
+}
+h1{
+    padding: 0;
+    margin: 0;
 }
 html, body{
     margin: 0;
@@ -48,13 +56,16 @@ html, body{
     margin: 0 auto;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
+    background-color: rgb(14, 86, 14);
+    color: wheat;
 }
 .option{
     display: inline-block;
     padding: 1vw;
 }
 #nav{
-    background-color: rgba(55, 83, 211, 0.680);
+    /* background-color: rgba(55, 83, 211, 0.680); */
+    background-color: rgba(135, 207, 235, 0.709);
     width: 100%;
     text-align: center;
 }
@@ -71,7 +82,7 @@ a{
     color: whitesmoke;
 }
 a:hover{
-    color: wheat;
+    color: rgb(37, 79, 232);
     font-weight: bold;
     cursor: cell;
 }
@@ -113,7 +124,7 @@ a:hover{
     width:2000px;
 }
 h1 a{
-    color: purple;
+    color: rgb(206, 87, 206);
 }
 #reviews a{
     color: purple;
@@ -271,6 +282,11 @@ h4{
 .hidden{
     display: none;
 }
+.x{
+    color: black;
+    background-color: skyblue;
+    padding: 2vw;
+}
 body{
     background-size: contain;
 }
@@ -283,5 +299,5 @@ h3{
     color: navy;
 }
 a{
-    color: blueviolet;
+    color: rgb(24, 6, 41);
 }
