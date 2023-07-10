@@ -246,6 +246,9 @@ h4{
 .pic10{
     max-width: 100%;
 }
+.big{
+    font-size: 34px;
+}
 #spoiler{
     color: blue;
 }
