@@ -20,6 +20,12 @@ html, body{
     max-height: 100%;
     width: 600px;
 }
+.life a{
+    color: black;
+}
+.life a:hover{
+    color: skyblue;
+}
 .vid20{
     max-width: 100%;
     max-height: 100%;
