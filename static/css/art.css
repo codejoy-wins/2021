@@ -42,8 +42,13 @@ p{
 }
 #nav{
     /* background-color: rgba(226, 208, 43, 0.363); */
-    background-color: rgba(30, 215, 247, 0.759);
+    /* background-color: rgba(30, 215, 247, 0.759); */
+    background-color: rgba(30, 215, 247, 0.117);
+
     width: 100%;
+}
+#nav:hover{
+    background-color: rgba(30, 215, 247, 0.759);
 }
 #nav a{
     color: black;
@@ -102,4 +107,9 @@ a:hover{
 }
 .art{
     max-width: 100%;
+}
+@media only screen and (max-device-width: 1117px) {
+    #nav{
+        background-color: rgba(135, 207, 235, 0.9);
+    }
 }
