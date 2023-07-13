@@ -6,6 +6,12 @@ let manobj = [
         "picture": "mac11.png",
     },
     {
+        "song": "deadyet",
+        "artist": "Gabriel Black & Phem",
+        "fullsong": "dead yet (with phem)",
+        "picture": "",
+    },
+    {
         "song": "mall",
         "artist": "Broken Bells",
         "fullsong": "Mall & Misery",
@@ -134,12 +140,7 @@ let manobj = [
         "fullsong": "Mercy",
         "picture": "illuminate.jpg",
     },
-    {
-        "song": "deadyet",
-        "artist": "Gabriel Black & Phem",
-        "fullsong": "dead yet (with phem)",
-        "picture": "",
-    },
+    
     {
         "song": "FeelsLikeSummer",
         "artist": "Weezer",
