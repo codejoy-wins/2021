@@ -801,6 +801,12 @@ let manobj = [
         "fullsong": "Let Me Know",
         "picture": "juicenew.png",
     },
+    {
+        "song": "2009",
+        "artist": "Mac Miller",
+        "fullsong": "2009",
+        "picture": "mac11.png",
+    },
 ];
 
 let womanobj = [
