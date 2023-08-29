@@ -1,8 +1,8 @@
 let manobj = [
     {
-        "song": "2009",
+        "song": "Dunno",
         "artist": "Mac Miller",
-        "fullsong": "2009",
+        "fullsong": "Dunno",
         "picture": "mac11.png",
     },
     {
@@ -30,9 +30,9 @@ let manobj = [
         "picture": "",
     },
     {
-        "song": "Dunno",
+        "song": "2009",
         "artist": "Mac Miller",
-        "fullsong": "Dunno",
+        "fullsong": "2009",
         "picture": "mac11.png",
     },
     
