@@ -2216,9 +2216,7 @@ div#tetrahedron > div.back {
     /* background-color: black; */
     padding: none;
 }
-.king .cloudy{
-    color: azure;
-}
+
 .emergency{
     color: wheat;
 }
@@ -2226,8 +2224,15 @@ div#tetrahedron > div.back {
 .king a{
     text-decoration: none;
     background-color: none;
+    padding: none;
+    color: wheat;
 }
 .king a:hover{
     text-decoration: none;
     background-color: none;
+    padding: none;
+    color:wheat;
+}
+.king .cloudy{
+    color: azure;
 }
