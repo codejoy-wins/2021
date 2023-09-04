@@ -2226,12 +2226,14 @@ div#tetrahedron > div.back {
     background-color: none;
     padding: none;
     color: wheat;
+    margin: 0;
 }
 .king a:hover{
     text-decoration: none;
     background-color: none;
     padding: none;
     color:wheat;
+    margin: 0;
 }
 .king .cloudy{
     color: azure;
