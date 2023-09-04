@@ -2222,3 +2222,12 @@ div#tetrahedron > div.back {
 .emergency{
     color: wheat;
 }
+
+.king a{
+    text-decoration: none;
+    
+}
+.king a:hover{
+    text-decoration: none;
+    
+}
