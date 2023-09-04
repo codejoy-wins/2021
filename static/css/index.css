@@ -2223,14 +2223,14 @@ div#tetrahedron > div.back {
 
 .king a{
     text-decoration: none;
-    background-color: none;
+    background-color: unset;
     padding: none;
     color: wheat;
     margin: 0;
 }
 .king a:hover{
     text-decoration: none;
-    background-color: none;
+    background-color: pink;
     padding: none;
     color:wheat;
     margin: 0;
