@@ -2225,9 +2225,9 @@ div#tetrahedron > div.back {
 
 .king a{
     text-decoration: none;
-    
+    background-color: none;
 }
 .king a:hover{
     text-decoration: none;
-    
+    background-color: none;
 }
