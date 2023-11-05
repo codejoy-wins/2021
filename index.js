@@ -276,6 +276,8 @@ let songz = [
     `notalone`,
     `Alone2`,
     `Alonev2`,
+    `Sudoku`,
+    `Fireg`,
     // `Rapaholic`,
 
 ]
@@ -302,6 +304,8 @@ let songs = [
        `Not Alone`,
        `Alone`,
        `All Alone`,
+       `Sudoku`,
+       `Fire Girl`,
     //    `Rapaholic`,
 
 ]
