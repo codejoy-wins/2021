@@ -4,7 +4,9 @@
     font-size: 22px;
 }
 ul{
-    background-color: rgba(0, 255, 255, 0.608);
+    /* background-color: rgba(0, 255, 255, 0.608); */
+    background-color: rgba(255, 102, 0, 0.608);
+
     border-radius: 1.3vw;
     padding: .4vw;
 }
@@ -142,7 +144,9 @@ html, body{
     padding: 1vw;
 }
 #nav{
-    background-color: rgba(55, 83, 211, 0.680);
+    /* background-color: rgba(55, 83, 211, 0.680); */
+    background-color: none;
+
     width: 100%;
     text-align: center;
 }
@@ -876,7 +880,9 @@ h4{
     display: none;
 }
 body{
-    background-image: url(/static/img/infinal.jpg);
+    /* background-image: url(/static/img/infinal.jpg); */
+    background-image: url(/static/img/lava.jpg);
+
     background-size: contain;
 }
 .pic100{
