@@ -673,9 +673,10 @@ ol{
 
 .whitepost p{
     /* background-color: rgba(0, 0, 0, 0.621); */
-    color: white;
+    color: black;
     /* color: whitesmoke; */
     /* background-color: rgba(82, 4, 100, 0.904); */
+    /* background-color: rgba(251, 200, 89, 0.904); */
     background-color: rgba(29, 162, 229, 0.904);
 
     padding: 1vw;
