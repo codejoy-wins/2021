@@ -299,6 +299,9 @@ h1 a{
 .whitepost h3{
     color: rgb(29, 78, 120);
 }
+.white{
+    color: white;
+}
 .whitepost{
     border-radius: 1ch;
     padding: 3vw;
