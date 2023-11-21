@@ -1640,6 +1640,12 @@ footer{
     min-height: 210px;
     max-height: 400px;
 }
+.sss a{
+    padding: 0;
+    background-color: none;
+    color: purple;
+    border-radius: 0;
+}
 .spotsubmain4888{
     /* background-color: blue; */
     background-image: url(../img/dj2.jpg);
