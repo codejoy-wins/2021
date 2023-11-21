@@ -7,6 +7,12 @@ let played = [];
 
 let manobj = [
     {
+        "song": "TTB",
+        "artist": "Telepathic Teddy Bear",
+        "fullsong": "Where is My Mind",
+        "picture": "ttb.jpg",
+    },
+    {
         "song": "HellSong",
         "artist": "Sum 41",
         "fullsong": "Hell Song",
