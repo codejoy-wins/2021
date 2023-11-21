@@ -188,6 +188,10 @@ a:hover{
 .pic{
     max-width: 100%;
 }
+.picc{
+    max-width: 100%;
+    opacity: .5;
+}
 .picsmall{
     max-width: 100%;
     max-height: 35vw;
@@ -309,8 +313,8 @@ h1 a{
 .whitepost{
     border-radius: 1ch;
     padding: 3vw;
-    /* background-color: rgba(204, 199, 199, 0.56); */
-    background-color: whitesmoke;
+    background-color: rgba(204, 199, 199, 0.56);
+    /* background-color: whitesmoke; */
     color: black;
     font-size: larger;
 }
@@ -688,7 +692,11 @@ ol{
     /* color: whitesmoke; */
     /* background-color: rgba(82, 4, 100, 0.904); */
     /* background-color: rgba(251, 200, 89, 0.904); */
-    background-color: rgba(29, 162, 229, 0.904);
+    /* background-color: rgba(29, 162, 229, 0.904); */
+
+    background-color: rgba(211, 188, 55, 0.68);
+
+
 
     padding: 1vw;
     border-radius: 1vw;
@@ -889,7 +897,9 @@ h4{
 body{
     /* background-image: url(/static/img/infinal.jpg); */
     /* background-image: url(/static/img/lava.jpg); */
-    background-image: url(/static/img/frac.jpg);
+    /* background-image: url(/static/img/frac.jpg); */
+    background-image: url(/static/img/beay.jpg);
+
 
 
     background-size: contain;
