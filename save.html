@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloudland Saved</title>
-    <link rel="stylesheet" href="static/css/save.css">
-    <link rel="shortcut icon" type="image/png" href="static/img/tinyblue.png"/>
-
+    <title>Cloudlandria</title>
+    <link rel="stylesheet" href="static/css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="static/img/mj3.png"/>
+
 </head>
 <body>
+    <!-- /cloud for secret sermon on a cloud-->
     <div id="rapper">
         <div class="try">
             <canvas id="c"></canvas>
@@ -62,9 +63,8 @@
                 <audio id="player" src="static/audio/hates.mp3"></audio>
             </div>
 
-            <div class="customsong"> 
+            <!-- <div class="customsong"> 
                 &#127925
-                <!-- <h5>This town hates me - Max Jann</h5> -->
                 <button class="songy" onclick="document.getElementById('player').play()">Play</button> 
                 <button class="songx" onclick="document.getElementById('player').pause()">Pause</button>
                 <button class="songyy" onclick="randosong()">Shuffle</button> 
@@ -72,7 +72,36 @@
                     Hi
                 </p>
 
+              </div> -->
+
+              <div class="customsong"> 
+                <!-- Water = start over / rewind 
+                Fire = Play / Pause (turn to ice)
+                Air = Next Song
+                -->
+                <div class="songimg">
+                    
+                    <div onclick="water()" class="life">
+                        <img class="picalu2" src="static/img/warewind.png" alt="warewind">
+                    </div>
+                    <div id="treeternal" onclick="freezefire()" class="life">
+                        <img class="picalu" src="static/img/sensaplay.jpeg" alt="sensawar">
+                    </div>
+                    <div  onclick="air()" class="life">
+                        <img class="picalu2" src="static/img/fastforward.png" alt="ff">
+                    </div>
+                </div>
+                <p id="descsong2">
+                    I love you so much
+                </p>
+
               </div>
+
+
+
+
+
+
               <div style="perspective: 1000px;">
                 <div id="tetrahedron">
                     <div class="bottom">
@@ -108,9 +137,14 @@
         </div>
         <div id="rapper2">
             <div id="main">
-                <a target="_blank" href="blog.html">
+                <!-- <a target="_blank" href="blog.html">
                     <div class="spotsubmain117">
                         <img src="static/img/BUSINESS.jpg" alt="blog"  class="orange">
+                    </div>
+                </a> -->
+                <a target="_blank" href="blog.html">
+                    <div class="spotsubmainn223">
+                        <img src="static/img/darkcom.png" alt="darkcom" class="orange2">
                     </div>
                 </a>
                 <a target="_blank" href="alien.html">
@@ -123,7 +157,7 @@
                         <img src="static/img/jag.jpg" alt="jag" class="pink">
                     </div>
                 </a>
-                <a target="_blank" href="cards.html">
+                <!-- <a target="_blank" href="cards.html">
                     <div class="spotsubmain8">
                         <img src="static/img/9.jpg" alt="legendary" class="poke">
                     </div>
@@ -132,12 +166,12 @@
                     <div class="spotsubmain4">
                         <img src="static/img/Reviews2.jpg" alt="ellie" class="gentleman">
                     </div>
-                </a>
-                <a target="_blank" href="meme.html">
+                </a> -->
+                <!-- <a target="_blank" href="meme.html">
                     <div class="spotsubmain5">
                         <img src="static/img/Meme.jpg" alt="black spidey" class="purple">
                     </div>
-                </a>
+                </a> -->
                 
                 <a target="_blank" href="book.html">
                     <div class="spotsubmain1300">
@@ -188,26 +222,31 @@
         <!-- <div class="parallaxfeature3new"></div> -->
         <div class="parallaxmew"></div>
         <div class="white">
-
         
         <div class="texzt">
             <!-- <h2 id="first">117.</h2> -->
-            <h3 id="elam">About <span><a target="_blank" href="blog.html">me</a> </span></h3>
-            <!-- <p>
-                "The Vengeance of God" is the prompt for this image.
-            </p> -->
-            <!-- <p>
-                I used to think I had something to share with the world that they needed to know but now I realize I'm just a person having my own experience and expressing myself.
-            </p> -->
+            <h3 id="elam">
+                <span> &nbsp;</span>
+            <span>A</span>
+            <span class="cloudy">b</span>
+            <span>o</span>
+            <span class="cloudy">u</span>
+            <span>t</span>
+                <span><a target="_blank" href="blog.html">me</a> </span>
+            
+            </h3>
+            
             <p><span id="goldfirst">M</span>y name is <a class="elam" target="_blank" href="book.html">Elam</a>.</p>
             <!-- <img class="pic" src="static/img/treeelam.jpg" alt="treelam"> -->
             <div id="picdisplay">
-                <img class="piccy" src="static/img/wartri.jpeg" alt="treelam">
+                <!-- <img class="piccy" src="static/img/wartri.jpeg" alt="treelam"> -->
+                <img class="piclam" src="static/img/elamef.png" alt="conflagrated">
             </div>
             <p>
                 My Delta-Halo symbol means change for the good.
             </p>
-            <p class="perplex">I am like a <a class="wbc" target="_blank" href="https://youtu.be/d2A09iidkTs">white blood cell</a></p>
+            
+            <p class="perplex">I like to think of myself as a <a class="wbc" target="_blank" href="https://youtu.be/d2A09iidkTs">white blood cell</a></p>
             <p>
                 The beauty of my philosophy is that if you do not see the problems I see, don't worry.  I view you as an equally valuable part of the body.
             </p>
@@ -226,7 +265,10 @@
                 Jesus said unto them, If ye were blind, ye should have no sin: but now ye say, We see; therefore your sin remaineth.
             </p>
             <p>
-                I try not throw Baby Jesus out with the bathwater of organized religion.
+                Have you ever heard the expression, "Don't throw the baby out with the bathwater"?
+            </p>
+            <p>
+                I try not throw Baby Jesus out with the bathwater of religion.
             </p>
             <p>
                 I am not afraid of looking foolish to you in the same way a Grandmaster of chess is not afraid of looking foolish to his opponent while he is sacrificing material for an eventual checkmate.
@@ -234,15 +276,7 @@
             <p>
                 With our current government, I'd sooner revolt than vote.  I'm passionate about the Orwellian <span id="cause">causes</span> and effects of both 9/11 and the Covid lockdowns and mandates.  I believe individuals should have the liberty to choose whether or not to wear a facemask, to be locked down, or to take a vaccine.
             </p>
-            <!-- <p>
-                I personally believe in the no-plane theory -- that no planes hit the towers on 9/11 and that the footage was faked as part of a multipronged illuminati agenda for practical and symbolic purposes.  I also think the Covid-19 virus was most likely created in a lab using gain of function research and then deliberately released on the public as part of another multipurpose agenda for the shadow world government.  The pandemic was exaggerated to the public by false PCR testing (too many cycles) and false death certificates (classifying deaths not caused by Covid as covid deaths), and exacerbated by putting people on ventilators and Remdesivir and censoring good doctors like Dr Simone Gold and Peter McCullough and suppressing medicines like Hydroxychloroquine or Ivermectin.  Then, I think the adverse reactions from the experimental mRNA vaccines are blamed on the virus they themselves created.  It should be noted that a congruent theory to the no-planes theory would be the no-virus theory, which states that there is no Covid, but rather a 5G rollout with adverse affects explained as Covid, and that viruses themselves are nanotechnology, and not naturally occuring.  
-            </p>
-            <p>
-                There was a very clear agenda to get everyone vaccinated and you have to ask yourself if the World Health Organization was doing that out of the goodness of their hearts or if it was part of their plan the whole time.  The Illuminati's M.O. is to create a problem, blame it on anything but them, cause fear and panic, and then provide their intended solution as the only option, inching them closer and closer to a Dystopia we may never recover from.  This is a piviotal time in history and I take it seriously, but not too seriously.  I like to have fun with this website and occasionally just talk about the things I love, like chess.
-            </p>
-            <p>
-                I obviously believe in freedom of speech, and am against censorship of alleged misinformation.  We should be allowed to decide for ourselves what is true.  We don't need the thought police. They've recently gone as far as saying that objective facts can be censored as misinformation if the facts go against the "public interest".  If you get your information from social media or mainstream news, just remember that you won't hear anyone talking like me because they would be forcibly removed from the platform, whereas I created this platform and no one can censor me here.
-            </p> -->
+            
             <p>
                 As a self-proclaimed white blood cell, I do as much as heavenly possible to cure the infection by creatively spreading love and truth.
             </p>
@@ -255,30 +289,53 @@
             <p>
                 Do both.
             </p>
-            <div class="picxy">
-                <!-- <img class="pic" src="static/img/Cloudland_TradingCard copy 6.jpg" alt="cloudland"> -->
-                <!-- <img class="pic" src="static/img/rb.jpeg" alt="cloudland"> -->
-                <img class="pic" src="static/img/mfall copy.png" alt="cloudland">
-
-
+            <div class="outerali">
+                <div class="picxxyy">
+                    <!-- <img class="pic" src="static/img/Cloudland_TradingCard copy 6.jpg" alt="cloudland"> -->
+                    <!-- <img class="pic" src="static/img/rb.jpeg" alt="cloudland"> -->
+                    <!-- <img class="piclam" src="static/img/elamef.png" alt="conflagrated"> -->
+                    <img class="piclam" src="static/img/beay.jpg" alt="conflagrated">
+                    <!-- <img class="piclam" src="static/img/wizardlyritchie.jpg" alt="conflagrated"> -->
+    
+    
+    
+    
+                </div>
             </div>
             <p>
-                Cloudland is the name of the city in the story I wrote about a dragonslayer, but it also represents Heaven on Earth for me, and the Utopia I would like to create.
+                Just as it was God's duty to become Man, it is Man's duty to become God.
             </p>
             <p>
                 I have a personal relationship with Jesus, but also with Lucifer.</p>
             <p>
-            “There is a false saying, ‘Whoever cannot save himself - how can he save others?’ But if I have the key to your chains, why should your and my lock be the same?” ― Friedrich Nietzsche
-            </p>
-            <p>
-                My blog updates itself to the current month, and lets you see what I was thinking about this time last year, and the year before.
-            </p>
-            <p>
-                "Start, then Learn" -- Andrew Kirby
+                Cloudland is the name of the city in the story I wrote about Elam the dragonslayer rescuing his princess, but it also represents Heaven on Earth for me, and the Independent Civilization I would like to create.
             </p>
             
+                <p class="sss">
+                    My /blog updates itself to the current month, and lets you see what I was thinking about this time last year, and the year before.  It gives it a sort of astrological vibe.
+                </p>
+                <p class="sane">
+                I coded this website myself.  It started out as an online portfolio to get a coding job after coding bootcamp, but I've kept it going as a harbor for my life's work, and a personal challenge to build the best website I can, and to put my philosophy degree to good use.
+            </p>
+                <p>
+                    Sometimes I feel like I have to be perfect for people to listen to my philosophy, but I think Nietzsche said it best:
+                </p>
+            <p>
+            “There is a false saying, ‘Whoever cannot save himself - how can he save others?’ But if I have the key to your chains, why should your and my lock be the same?” ― Friedrich Nietzsche
+            </p>
+            
+            
+            <p>
+                I've learned so much making this matrix notebook, and coding can be difficult so I try to have fun with it.
+            </p>
+            
+            <p class="perplex2">"Start, then Learn" -- <a class="wbc2" target="_blank" href="https://youtu.be/X8YVLMuasGQ">Andrew Kirby</a></p>
+            
+            
             <!-- <h3>Read my blog <a target="_blank" href="asha.html">here</a> and my book <a target="_blank" href="book.html">here</a>.</h3> -->
-            <h3>Fly through my<a href="fly.html">interactive resume</a> </h3>
+            <div id="flying">
+
+            </div>
         </div>
 
         </div>
@@ -331,22 +388,25 @@
             </div>
         </a>
         <!-- gold elam here -->
-        <a target="_blank" href="girls.html">
-            <div class="spotsubmainn2">
-                <img src="static/img/christ.jpg" alt="girls" class="orange">
+        <a target="_blank" href="videos.html">
+            <div class="spotsubmainn8889">
+                <img src="static/img/oig3.jpeg" alt="darkcom" class="pink">
             </div>
         </a>
-        <a target="_blank" href="girls.html">
+        <a target="_blank" href="meme.html">
             <div class="spotsubmainn">
                 <img src="static/img/sohot.jpg" alt="girls" class="red">
             </div>
         </a>
-
+        <a target="_blank" href="videos.html">
+            <div class="spotsubmainn8899">
+                <img src="static/img/oig1.jpeg" alt="darkcom" class="orange2">
+            </div>
+        </a>
         
 
-        <div class="parallax7"></div>
+        <!-- <div class="parallax7"></div>
         <div class="texzt4">
-            <!-- <h2 id="orangefirst">7.</h2> -->
             <h3><span id="orangefirst">A</span>pps, games, and stories </h3>
             
             <p><span id="orangefirst">T</span>his one app I made let's you pair images to text to create a meme.  All you have to do is copy and paste the url that ends in .jpg and it will work when you click "obey"</p>
@@ -361,7 +421,8 @@
             <p>
                 Play my game Starbros or other games I've designed on <a target="_blank" href="game.html">/game</a>
             </p>
-        </div>
+        </div> -->
+
         <div class="charlie"></div>
         <div class="texzt119">
             <!-- <h2 id="goldfirst">8.</h2> -->
@@ -377,59 +438,110 @@
             
             <p>I challenge you to a game.</p>
         </div>
+        
+        <a target="_blank" href="recruitment.html">
+            <div class="spotsubmain5">
+                <img src="static/img/recruitment117.png" alt="black spidey" class="purple">
+            </div>
+        </a>
+        <a target="_blank" href="music.html">
+            <div class="spotsubmain8888">
+                <img src="static/img/guitarfront.jpg" alt="guitar" class="poke">
+            </div>
+        </a>
+        <a target="_blank" href="home.html">
+            <div class="spotsubmain4">
+                <img src="static/img/Reviews2.jpg" alt="ellie" class="gentleman">
+            </div>
+        </a>
+        
+        <a target="_blank" href="cards.html">
+            <div class="spotsubmain8">
+                <img src="static/img/9.jpg" alt="legendary" class="poke">
+            </div>
+        </a>
+
         <!-- <div class="parallax9"></div> -->
         <div class="parallaxfeature3new"></div>
-
-        <div class="texzt118">
-            <p><span id="violetfirst">R</span>ainbow angel</p>
-            <p>
-                I believe in faith and the power of belief and imagination so I imagine an army of rainbow angels at my disposal and they lift my spirits.
-            </p>
-            <p>
-                I write my blog in the name of freedom and liberty and I respect your individual liberty to do what you want and think how you want.
-            </p>
-            <div class="impact2">
-                <a class="spxi" target="_blank" href="blog.html">WELCOME TO YOUR DOOM</a>
+            <div class="texzt118">
+                <p><span id="violetfirst">R</span>ainbow angel</p>
+                <p>
+                    I believe in faith and the power of belief and imagination so I imagine an army of rainbow angels at my disposal and they lift my spirits.
+                </p>
+                <p>
+                    I write my blog in the name of freedom and liberty and I respect your individual liberty to do what you want and think how you want.
+                </p>
+                <div class="impact2">
+                    <a class="spxi" target="_blank" href="blog.html">WELCOME TO YOUR DOOM</a>
+                </div>
             </div>
         </div>
+        
         <div class="parallax6"></div>
         <div class="texzt4">
             <a target="_blank" href="alien.html"><h2 id="first">iPod</h2></a>
-            <h3>style <span id="plum"><a target="_blank" href="alien.html">web application</a> </span></h3>
+            <h3><span id="plum"><a target="_blank" href="alien.html">web application</a> that sorts music by masculine or feminine</span></h3>
             <p><span id="first">C</span>ovid 1984</p>
             <p>
                 I'm Winston Smith commiting thoughtcrime.
             </p>
-            <p>
-                I'm 117 flirting with Vesper
+            <p class="code">
+                I'm <a target="_blank" href="117.html">117</a> flirting with Vesper
             </p>
             <p>
                 Got my armour from God; you know it's Beskar.
             </p>
+            <br>
             <p>
-                Albert Einstein said, "Strive not to become a man of success, but rather a man of value."
+                I'm a deprogrammed human robot
             </p>
+            <!-- <p class="code">
+                I think the world might be stationary
+            </p> -->
             <p class="code">
-                I'm working on some <a target="_blank" href="code.html">code</a> to bring about superintelligent AI using a <a target="_blank" href="runaway.html">metalearning algorithm</a> and I have some ideas on A.I. Safety.
+                I've written some <a target="_blank" href="code.html">code</a> to bring about superintelligent AI using a <a target="_blank" href="runaway.html">metalearning algorithm</a>
             </p>
             <p>
-                I'm studying for my Google and Meta technical interviews that I've failed so far but I want to be able to pass my next one.
+                I dabble in studying for my Google and Meta technical interviews so I may pass my next one.
             </p>
-            <p class="code">
+<!--             <p class="code">
                 I'm taking a break from blogging in 2023 but I still post videos on my youtube channel <a target="blank" href="https://www.youtube.com/channel/UCJ6RKgKMRwcW4JzBCdjwY1A">codejoy</a> and I post some videos on <a target="_blank" href="bit.html">/bit</a>
             </p>
+            <p>Frozen Sunfire 1.17.24 - My First and Final Album</p> -->
+<!--             <p class="code">
+                I also have a <a target="_blank" href="business.html">business</a> idea helping small businesses capitalize on A.I. tools during the A.I. Revolution
+            </p> -->
             <p>
-                I'm also working on a <a target="_blank" href="business.html">business</a> idea helping small businesses capitalize on A.I. tools during the A.I. Revolution
+                I made the girl with rainbow hair with A.I.
             </p>
+            <p>
+                the World needs a hero and I'm gonna give em one.
+            </p>
+            <!-- <p>
+                I experienced so much love so early on in my life that I have a theory that I asked my highschool sweetheart to break up with me, in the future, in a way that I would fall for because I thought I would move Heaven and Earth to get her back.
+            </p> -->
             <p>
                 Even a genius falls for his own lies.
             </p>
-            <!-- <h3>Read my Westlake Fantasy Football power rankings<a target="_blank" href="fantasy.html">here</a></h3> -->
+            <!-- <p>
+                I believe I saw an Angel of the Lord appear to me at 7/11 and he was wearing a pink tie dye shirt and it said "Fear God" on it.
+            </p>
+            <p>
+                After that, I was standing on the roof of my car at 7/11 from dusk until dawn someone asked me,  "Why are you doing this!?"  "Raising conscious awareness of God!"  I said.
+            </p> -->
+            <p>
+                All is Weakness, whether it's the people at the top of the pyramid ruling by deception and economic exploitation, or the men at the bottom letting them get away with it.
+            </p>
+            <!-- <p>We need a Transparent King who can be held accountable.</p> -->
+<!--             <p>If you want to meet me, try Coffee Bean at 7pm Monday Nights in Tarzana. Eye to eye communication is the only thing you can fully trust.</p>
+            <h3>Read my Westlake Fantasy Football power rankings<a target="_blank" href="fantasy.html">here</a></h3> -->
+            <!-- <p class="code">Give me my <a target="_blank" href="music.html">fire girl</a></p> -->
             <p class="secret">Thank you for using your laptop</p>
             <p class="secret2">Try using your laptop next time</p>
             <!-- <p class="code">
                 If you like my site, please let me know on <a target="_blank" href="contact.html">/contact</a> or on <a target="_blank" href="support.html">/support</a>
             </p> -->
+
             <p class="verse">
                 Luke 8:17 For there is nothing hidden that will not be disclosed, and nothing concealed that will not be known or brought out into the open.
             </p>
@@ -459,23 +571,23 @@
                 </div>
             </a>
                 <div class="spotsubmain3888">
-                    <img src="static/img/goldlambo.jpg" alt="gold"  class="blue">
+                    <img src="static/img/badboy.jpeg" alt="gold"  class="blue">
                 </div>
             <a target="_blank" href="alien.html">
                 <div class="spotsubmain4888">
                     <img src="static/img/cute.jpg" alt="sexy" class="gentleman">
                 </div>
             </a>
-            <a target="_blank" href="web.html">
+            <!-- <a target="_blank" href="web.html">
                 <div class="spotsubmain5888">
                     <img src="static/img/code.jpg" alt="codejoy" class="purple">
                 </div>
-            </a>
-            <a target="_blank" href="music.html">
+            </a> -->
+            <!-- <a target="_blank" href="music.html">
                 <div class="spotsubmain8888">
                     <img src="static/img/guitarfront.jpg" alt="guitar" class="poke">
                 </div>
-            </a>
+            </a> -->
             <a target="_blank" href="chess.html">
                 <div class="spotsubmain888">
                     <img src="static/img/goldenchess.jpg" alt="chess" class="red">
@@ -483,10 +595,12 @@
             </a>
             <a target="_blank" href="freedom.html">
                 <div class="spotsubmain888">
-                    <img src="static/img/mjnew.jpg" alt="reviews" class="blue">
+                    <!-- <img src="static/img/mj31.jpg" alt="reviews" class="blue"> -->
+                    <img src="static/img/me23.jpg" alt="reviews" class="blue">
+
                 </div>
             </a>
-            <a target="_blank" href="art.html">
+            <a onclick="craig()" href="#teroh">
                 <div class="spotsubmain6888">
                     <img src="static/img/change2.png" alt="reviews" class="pink">
                 </div>
@@ -497,8 +611,40 @@
             <div class="parallax5"></div>
         </div>
 
+        <p class="king">
+            <span>I</span>
+            <span> &nbsp;</span>
+            <span class="cloudy">a</span>
+            <span>m</span>
+            <span> &nbsp;</span>
 
-        <!-- <a href="welcome.html">
+            <span class="cloudy">t</span>
+            <span>h</span>
+            <span class="cloudy">e</span>
+            <span> &nbsp;</span>
+
+            <span>K</span>
+            <span class="cloudy">i</span>
+            <span>n</span>
+            <span class="cloudy">g</span>
+
+            <span> &nbsp;</span>
+            <span>o</span>
+            <span class="cloudy">f</span>
+            
+            <a href="https://youtu.be/2vSqYtBBLkI" target="_blank">
+            <span>C</span>
+            <span class="cloudy">l</span>
+            <span>o</span>
+            <span class="cloudy">u</span>
+            <span>d</span>
+            <span class="cloudy">l</span>
+            <span>a</span>
+            <span class="cloudy">n</span>
+            <span>d</span>
+            </a>
+        </p>
+        <!-- <a href="web.html">
             <div id="footer">
                 <h3>&copy; Jann Software 2023</h3>
             </div>

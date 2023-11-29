@@ -74,27 +74,8 @@ function draw()
 
 setInterval(draw, 35);
 
-
-
-
-
-
-
-
 // if user is on phone inject text " i see you're on your phone"
 // if user is not on phone inject text "thank you for using your computer"
-
-
-function crazy(x){
-    console.log(`crazy of ${x}`);
-    if(x<3){
-        console.log("x is less than 3");
-    }else{
-        console.log("x isn't less than 3");
-    }
-}
-crazy(32);
-crazy(1);
 
 let xyz = document.getElementById("background-video");
 
@@ -115,7 +96,6 @@ const maxwell = ()=>{
     //     burger.classList.toggle('green');
     // })
 
-    
 }
 
 maxwell();
@@ -143,6 +123,10 @@ const helloWorld = () => {
             <span id="goldfirst">W</span>elcome to Cloudland, I see you're on your computer.
             </p>
         `
+        document.getElementById("flying").innerHTML=`
+        <h3 class="emergency">Fly through my<a href="fly.html">interactive resume</a> </h3>
+        
+        `
     }
     if(deviceType()=="tablet"){
         console.log("I see you're on a tablet");
@@ -163,6 +147,7 @@ const helloWorld = () => {
     
 }
 helloWorld();
+
 
 const nextTime = () =>{
     let mytiming = new Date();
@@ -207,51 +192,6 @@ const nextTime = () =>{
     
 }
 
-let songz = [
-    `hates`,
-    `Lying`,
-    `cali`,
-    `Afterlie`,
-    `diamond`,
-    `vice`,
-    `AdoreYou`,
-    `only`,
-    `winter`,
-    `herestoyou`,
-    `fakebook`,
-]
-
-let songs = [
-       `This Town Hates Me`,
-       `Lying`,
-       `California`,
-       `Afterli(f)e`,
-       `Cold Diamond`,
-       `Add Vice for a Friend`,
-       `Adore You`,
-       `If Only`,
-       `Beautiful Winter`,
-       `Here's to You`,
-       `Fakebook`,
-]
-
-function randosong(){
-    let x = Math.random(0,songz.length);
-    x=x*10;
-    x = Math.floor(x);
-    
-    console.log(`x is ${x}`);
-    document.getElementById("introsong").innerHTML=`
-    <audio id="player" onended="randosong()" src="static/audio/${songz[x]}.mp3"></audio>
-    `
-    document.getElementById("descsong").innerHTML=`
-    <p>${songs[x]}</p>
-    `
-}
-
-nextTime();
-randosong();
-
 // background-image: url("../img/sensa.jpeg");
     /* background-image: url("../img/wa.jpeg"); */
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
@@ -276,6 +216,9 @@ const tris=[
     {
         imgx:"teroh4"
     },
+    {
+        imgx:"teroh3"
+    },
 ]
 // choose random image triangle and make that the main image
 
@@ -283,29 +226,141 @@ let currentri = "parallaxnew";
 
 function craig(){
     console.log("Mr. Teroh");
-    let zzz = Math.floor(Math.random()*5);
+    let zzz = Math.floor(Math.random()*6);
     console.log(zzz);
     let trii = tris[zzz].imgx;
     console.log(`trii is ${trii}`);
     document.getElementById("teroh").classList.remove(currentri);
     document.getElementById("teroh").classList.add(trii);
     currentri = trii;
-    if(currentri == "teroh3"){
-        document.getElementById("picdisplay").innerHTML=`
-        <img class="piccy" src="static/img/HaloBeautiful\ copy.png" alt="treelam">
-        `
-    }
-    if(currentri == "teroh2"){
-        document.getElementById("picdisplay").innerHTML=`
-        <img class="piccy" src="static/img/wa.jpeg" alt="treelam">
-        `
-    }
-    if(currentri == "teroh4"){
-        document.getElementById("outr").innerHTML=`
-        <div class="parallaxteroh"></div>
-        `
-    }
+    // if(currentri == "teroh3"){
+    //     document.getElementById("picdisplay").innerHTML=`
+    //     <img class="piccy" src="static/img/HaloBeautiful\ copy.png" alt="treelam">
+    //     `
+    // }
+    // if(currentri == "teroh2"){
+    //     document.getElementById("picdisplay").innerHTML=`
+    //     <img class="piccy" src="static/img/wa.jpeg" alt="treelam">
+    //     `
+    // }
+    // if(currentri == "teroh4"){
+    //     document.getElementById("outr").innerHTML=`
+    //     <div class="parallaxteroh"></div>
+    //     `
+    // }
 }
 craig();
 
 // run craig again every 5 minutes?
+// AmorFati , iDecay, cellPHone2, sinNoMo have been removed due to not being good enough for a first impression
+
+let songz = [
+    `hates`,
+    `Lying`,
+    `cali`,
+    `Afterlie`,
+    `diamond`,
+    `addvicewithafriend`,
+    `AdoreYou`,
+    `only`,
+    `winter`,
+    `herestoyou`,
+    `fakebook`,
+    `RidingTooHigh`,
+    `KingOfParadise`,
+    `Fly2`,
+    `Alika`,
+    `WrongSideOfTheSea`,
+    `Jfc`,
+    `Lullaby`,
+    `notalone`,
+    `Alone2`,
+    `Alonev2`,
+    `Sudoku`,
+    `Fireg`,
+    // `Rapaholic`,
+
+]
+
+let songs = [
+       `This Town Hates Me`,
+       `Lying`,
+       `California`,
+       `Afterli(f)e`,
+       `Cold Diamond`,
+       `Add Vice for a Friend`,
+       `Adore You`,
+       `If Only`,
+       `Beautiful Winter`,
+       `Here's to You`,
+       `Fakebook`,
+       `Riding Too High`,
+       `King of Paradise`,
+       `Fly`,
+       `Alika and the Art of Zen Maintanence`,
+       `Wrong Side of the Sea`,
+       `Jesus F***ing Christ`,
+       `Lullaby`,
+       `Not Alone`,
+       `Alone`,
+       `All Alone`,
+       `Sudoku`,
+       `Fire Girl`,
+    //    `Rapaholic`,
+
+]
+
+function randosong(){
+    let ra = Math.floor(Math.random()*songz.length);
+    let x = songz[ra];
+    let y = songs[ra];
+    console.log(`xxx is ${x}`);
+    
+    document.getElementById("introsong").innerHTML=`
+    <audio id="player" onended="randosong()" src="static/audio/${x}.mp3"></audio>
+    `
+    document.getElementById("descsong2").innerHTML=`
+    <p>${y}</p>
+    `
+    document.getElementById("treeternal").innerHTML=`
+        <img class="picalu" src="static/img/sensaplay.jpeg" alt="treeternal">
+    `
+}
+
+nextTime();
+
+randosong();
+
+function freezefire(){
+    let targ = document.getElementById("player");
+    console.log("She can freeze fire from the Son");
+    console.log(`targ.paused is ${targ.paused}`);
+    if(targ.paused == true){
+        console.log("trying to play");
+        targ.play();
+        document.getElementById("treeternal").innerHTML=`
+        <img class="picalu" src="static/img/warright.jpeg" alt="warright">
+        `
+    }
+    else if(targ.paused == false){
+        console.log("trying to pause");
+        targ.pause();
+        document.getElementById("treeternal").innerHTML=`
+        <img class="picalu" src="static/img/sensaplay.jpeg" alt="treeternal">
+        `
+    }
+    console.log(`targ.paused is now ${targ.paused}`);
+
+}
+function water(){
+    let targy = document.getElementById("player");
+    console.log("water rewind");
+    // document.getElementById("player").rewind();
+    console.log(`targy time is ${targy.currentTime}`);
+    targy.currentTime = 0;
+}
+function air(){
+    console.log("air fast forward");
+    randosong();
+    freezefire();
+}

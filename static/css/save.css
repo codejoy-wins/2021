@@ -66,6 +66,8 @@ html, body{
     font-size: 18.117px;
     /* font-weight: bold; */
 }
+
+
 #plum a{
     /* color: rgb(247, 165, 247); */
     color:wheat;
@@ -90,6 +92,10 @@ html, body{
     background-color: black;
     color: rgb(130, 236, 236);
 }
+.code2 a{
+    background-color: black;
+    color: rgb(130, 236, 236);
+}
 /* #new{
     margin: 0;
     padding: 0;
@@ -101,7 +107,28 @@ canvas {
     cursor: not-allowed;
     pointer-events: none;
 }
-
+.songimg{
+    display: inline-block;
+}
+.picalu{
+    max-width: 100%;
+    height: 200px;
+}
+.picalu2{
+    max-width: 100%;
+    height: 200px;
+}
+.life{
+    display: inline-block;
+}
+.king{
+    color: wheat;
+    text-align: center;
+    font-size: larger;
+}
+/* #picdisplay{
+    text-align: center;
+} */
 .pic{
     max-width: 100%;
 }
@@ -109,7 +136,18 @@ canvas {
     max-width: 100%;
     max-height: 600px;
 }
+.piclam{
+    max-width: 100%;
+    max-height: 700px;
+}
 .picxy{
+    max-width: 100%;
+    text-align: center;
+    /* background-color: pink; */
+    background: linear-gradient(rgba(255, 192, 203, 0.761),rgba(0, 0, 255, 0.738),rgba(255, 166, 0, 0.819));
+    margin: 0;
+}
+.picxxyy{
     max-width: 100%;
     text-align: center;
     /* background-color: pink; */
@@ -132,12 +170,24 @@ canvas {
     color: gold;
 }
 .wbc{
-    background-color: rgb(255, 255, 255);
-    color: red;
+    /* background-color: rgb(255, 255, 255);
+    color: red; */
+    color: white;
+    background-color: rgba(220, 20, 60, 0.924);
 }
 .wbc:hover{
-    color: white;
-    background-color: crimson;
+    /* color: white;
+    background-color: crimson; */
+    border-radius: 100vw;
+    background-color: wheat;
+    color: red;
+}
+.wbc2{
+    background-color: none;
+}
+.wbc2:hover{
+    color: purple;
+    background-color: gold;
     border-radius: 100vw;
 }
 .bulba{
@@ -280,7 +330,21 @@ color: black;
     display: inline-block;
 }
 .white{
-    background-color: white;
+    /* background-color: rgba(108, 214, 15, 0.916);
+     */
+    /* background-color: black; */
+    background-image: url(../img/knight.jpg);
+    background-size: contain;
+    /* color: white; */
+    /* background-image: url(../img/waterfire.jpg); */
+
+    /* background-color: rgb(214, 15, 15); */
+
+
+
+}
+.outerali{
+    background-image: url(../img/waterfire.jpg);
 }
 /* .texzt{
     background-color: rgba(255, 255, 255, 0.7117);
@@ -289,7 +353,10 @@ color: black;
 } */
 .texzt{
     /* background-color: rgba(42, 161, 212, 0.712); */
-    background: radial-gradient(azure,rgba(65, 105, 225, 0.395));
+    /* background: radial-gradient(azure,rgba(65, 105, 225, 0.395)); */
+    /* background: radial-gradient(azure,rgba(162, 185, 255, 0.969)); */
+    /* color: peachpuff; */
+    background-color: rgba(0, 0, 0, 0.7117);
     padding: 1vw;
     padding-bottom: 0;
 }
@@ -366,26 +433,30 @@ p a{
 }
 .texzt118{
     background-color: rgba(251, 197, 2, 0);
+    /* background-image: url(../img/spectrum\ copy.png); */
     background-image: url(../img/spectrum\ copy.png);
     padding: 1vw;
     padding-bottom: 0;
 }
+
 .texzt118 p{
     font-size: 20px;
     font-weight: bolder;
     color: wheat;
     text-shadow: black 1px 1px 7px;
 }
-
-.texzt119 p{
-    animation: morpheus 8s infinite;
+.unifying{
+    background-color: rgba(8, 3, 4, 0.568);
 }
+
 .texzt119 h3{
     color: wheat;
 }
 .texzt119{
     background-color: rgba(251, 197, 2, 0);
-    background-image: url(../img/chessnow.jpg);
+    /* background-image: url(../img/chessnow.jpg); */
+    background-image: url(../img/wowtri.jpg);
+
     /* background-size: cover; */
     padding: 1vw;
     padding-bottom: 0;
@@ -396,7 +467,10 @@ p a{
     color: wheat;
     text-shadow: black 1px 1px 7px;
 }
-
+.texzt119 p{
+    /* animation: morpheus 8s infinite; */
+    color: white;
+}
 #left{
     /* background-color: purple; */
     padding: 0;
@@ -434,8 +508,11 @@ p a{
     margin-top: 20px;
     max-width: 100%;
 }
+/* make shiny */
 #cause{
-    color: blue;
+    /* color: azure; */
+    color: rgb(235, 172, 235);
+
     font-style: italic;
 }
 .parallaxnew{
@@ -620,9 +697,12 @@ p a:hover{
 }
 .parallax5{
     /* background-image: url("../img/The_One_TradingCard\ copy\ 3.jpg"); */
-    background-image: url("../img/Avriel.jpeg");
+    /* background-image: url("../img/Avriel.jpeg"); */
+    background-image: url("../img/angel.png");
+    /* background-image: url("../img/elamef.png"); */
 
-    /* background-image: url("../img/forevs\ copy.png"); */
+
+
 
     height: 100vw;
     background-attachment: fixed;
@@ -728,7 +808,14 @@ h1{
     color: orange;
 }
 p{
-    color: rgba(24, 23, 23, 0.918);
+    /* color: rgba(24, 23, 23, 0.918); */
+    color: wheat;
+}
+#elam{
+    color: wheat;
+}
+#elam .cloudy{
+    color: whitesmoke;
 }
 .team{
     padding: 1vw;
@@ -956,10 +1043,10 @@ ul a{
         color: lightblue;
     }
     70%{
-        color: blue;
+        color: rgb(116, 116, 254);
     }
     80%{
-        color: navy;
+        color: rgb(89, 89, 254);
     }
     90%{
         color: wheat;
@@ -999,7 +1086,9 @@ ul a:hover{
     max-width: 90px;
 }
 h3 a{
-    color: red;
+    /* color: rgba(255, 0, 0, 0.837); */
+    color: lightblue;
+
 }
 .specialty{
     color: rgb(54, 3, 54);
@@ -1115,14 +1204,7 @@ footer{
     border-top: 1ch solid black;
 
 }
-.orange{
-    max-width: 100%;
-    max-height: 400px;
-    opacity: 1;
-    animation: wbc 11s infinite 1s;
-    border-bottom: 1ch solid black;
-    border-top: 1ch solid black;
-}
+
 .green{
     max-width: 100%;
     max-height: 400px;
@@ -1211,11 +1293,59 @@ footer{
     min-width: 290px;
     min-height: 210px;
     max-height: 400px;
-    background-image: url(../img/girlcar.jpg);
+    background-image: url(../img/lightcom.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+
+.spotsubmainn223{
+    display:inline-block;
+    min-width: 220px;
+    min-height: 210px;
+    max-height: 400px;
+    background-image: url(../img/lightcom.png);
+    /* background-image: url(../img/oig2.jpeg); */
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.spotsubmainn8889{
+    display:inline-block;
+    min-width: 220px;
+    min-height: 210px;
+    max-height: 400px;
+    /* background-image: url(../img/lightcom.png); */
+    background-image: url(../img/oig4.jpeg);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.spotsubmainn8899{
+    display:inline-block;
+    min-width: 220px;
+    min-height: 210px;
+    max-height: 400px;
+    /* background-image: url(../img/lightcom.png); */
+    background-image: url(../img/oig2.jpeg);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.orange2{
+    max-width: 100%;
+    max-height: 400px;
+    opacity: 1;
+    animation: wbc 11s infinite 1s;
+}
+
+
+
 
 .spotsubmain4{
     /* background-color: blue; */
@@ -1451,6 +1581,7 @@ footer{
     border-bottom: 1ch solid black;
     border-top: 1ch solid black;
 }
+
 /* .green{
     max-width: 100%;
     max-height: 400px;
@@ -1509,6 +1640,12 @@ footer{
     min-height: 210px;
     max-height: 400px;
 }
+.sss a{
+    padding: 0;
+    background-color: none;
+    color: purple;
+    border-radius: 0;
+}
 .spotsubmain4888{
     /* background-color: blue; */
     background-image: url(../img/dj2.jpg);
@@ -1524,7 +1661,9 @@ footer{
 /* background of blue animation is awesome */
 .spotsubmain3888{
     /* background-color: blue; */
-    background-image: url(../img/penthousebeach.jpg);
+    /* background-image: url(../img/penthousebeach.jpg); */
+    background-image: url(../img/wbc.jpeg);
+
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1784,6 +1923,9 @@ div#tetrahedron > div.back {
 .perplex a{
     padding: .4vw;
 }
+.perplex2 a{
+    padding: .4vw;
+}
 
 
 .teroh0{
@@ -1925,8 +2067,14 @@ div#tetrahedron > div.back {
         overflow: auto;
     }
     ul li{
-        background-color: rgba(255, 238, 0, 0.5);
-        color: black;
+        /* background-color: rgba(255, 238, 0, 0.5); */
+        /* background-color: rgba(255, 217, 0, 0.487); */
+
+        /* color: black; */
+        /* color: azure; */
+        color: azure;
+
+
         padding: .5vw;
         display: inline-block;
         padding-left: 0;
@@ -1975,7 +2123,7 @@ div#tetrahedron > div.back {
         margin-top: 20px;
       }
     .teroh3 {
-        background-image: url(../img/wa.jpeg);
+        background-image: url(../img/wartri.jpeg);
         background-attachment: scroll;
         background-size: cover;
         background-position: -31px;
@@ -2039,6 +2187,7 @@ div#tetrahedron > div.back {
       .parallax5 {
         background-attachment: scroll;
         background-size: cover;
+        zoom:117%;
       }
       .parallaxteroh{
         background-attachment: scroll;
@@ -2085,4 +2234,43 @@ div#tetrahedron > div.back {
       .secret{
           display: none;
       }
-  }
+        /* .picalu{
+            max-width: 100%;
+            height: 87px;
+        }
+        .picalu2{
+            max-width: 100%;
+            height: 87px;
+        } */
+    }
+  .kirby a{
+    /* color: pink; */
+    /* background-color: black; */
+    padding: none;
+}
+
+.emergency{
+    color: wheat;
+}
+
+.king a{
+    text-decoration: none;
+    background-color: unset;
+    padding: none;
+    color: wheat;
+    margin: 0;
+    border-radius: unset;
+    font-size: larger;
+}
+.king a:hover{
+    text-decoration: none;
+    background-color: rgb(238, 130, 238, .717);
+    padding: none;
+    color:wheat;
+    margin: 0;
+    border-radius: unset;
+    font-size: larger;
+}
+.king .cloudy{
+    color: azure;
+}
