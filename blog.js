@@ -15,4 +15,4 @@ const monthz = [
 let thismonth = new Date().getMonth();
 console.log(monthz[thismonth]);
 let rightmonth = monthz[thismonth];
-window.location.replace(`http://www.elamahpla.com/${rightmonth}`);
+window.location.replace(`http://www.maxjann.com/${rightmonth}`);
