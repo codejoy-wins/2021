@@ -1640,6 +1640,7 @@ footer{
     min-height: 210px;
     max-height: 400px;
 }
+
 .sss a{
     padding: 0;
     background-color: none;
@@ -2273,4 +2274,14 @@ div#tetrahedron > div.back {
 }
 .king .cloudy{
     color: azure;
+}
+
+.innertextx{
+    background-image: url(../img/perf2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-left: 1vw;
+}
+.innertextx p{
+    color: black;
 }
