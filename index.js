@@ -272,12 +272,12 @@ let songz = [
     `Alika`,
     `WrongSideOfTheSea`,
     `Jfc`,
-    `Lullaby`,
     `notalone`,
     `Alone2`,
     `Alonev2`,
     `Sudoku`,
     `Fireg`,
+    `Bleeding`,
     // `Rapaholic`,
 
 ]
@@ -300,12 +300,12 @@ let songs = [
        `Alika and the Art of Zen Maintanence`,
        `Wrong Side of the Sea`,
        `Jesus F***ing Christ`,
-       `Lullaby`,
        `Not Alone`,
        `Alone`,
        `All Alone`,
        `Sudoku`,
        `Fire Girl`,
+       `Bleeding`,
     //    `Rapaholic`,
 
 ]
