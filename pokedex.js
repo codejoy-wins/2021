@@ -39,6 +39,7 @@ function addPokemonToTeam(pokemonData) {
 function displayPokemonTeam(team) {
     // Use the team array to display the pokemon
     // This is where you would update the HTML to show the pokemon images and names
+    document.getElementById("teamDisplay").innerHTML=``;
     for(let i=0; i < team.length; i++){
         document.getElementById("teamDisplay").innerHTML+=`
         ${team[i].name}
