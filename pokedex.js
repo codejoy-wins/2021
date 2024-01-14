@@ -7,6 +7,7 @@ function getPokemon() {
             document.getElementById('pokemonInfo').innerHTML = 
                 `<h2>${data.name}</h2>
                  <img src="${data.sprites.front_default}" alt="${data.name}">`;
+                 console.log("trying to add pokemon to team");
             addPokemonToTeam(data);
         })
         .catch(error => {
@@ -17,6 +18,7 @@ function getPokemon() {
 }
 // Function to add a pokemon to the team
 function addPokemonToTeam(pokemonData) {
+    console.log("adding pokemon to team");
     // Get the current team from local storage or create a new one if it doesn't exist
     let team = JSON.parse(localStorage.getItem('pokemonTeam')) || [];
 
@@ -32,11 +34,13 @@ function addPokemonToTeam(pokemonData) {
     localStorage.setItem('pokemonTeam', JSON.stringify(team));
 
     // Update the display
+    console.log("trying to update the display");
     displayPokemonTeam(team);
 }
 
 // Function to display the team
 function displayPokemonTeam(team) {
+    console.log("displaying pokemon team");
     // Use the team array to display the pokemon
     // This is where you would update the HTML to show the pokemon images and names
     document.getElementById("teamDisplay").innerHTML=``;
@@ -46,4 +50,38 @@ function displayPokemonTeam(team) {
         <img class="poke" src="${team[i].sprites.front_default}" alt="${team[i].name}">
         `
     }
+}
+// More chatgpt functions
+
+// This function returns the current team data from local storage
+function getTeamData() {
+    console.log("getting team data");
+    // Retrieve the team data stored as a JSON string in local storage
+    const teamJSON = localStorage.getItem('pokemonTeam');
+    
+    // Parse the JSON string back into an array of Pokémon objects
+    const team = teamJSON ? JSON.parse(teamJSON) : [];
+    
+    return team; // This returns the array of Pokémon objects
+}
+
+
+// This function should be called when you want to generate the summary
+function generateSummary() {
+    console.log("generating summary");
+    const team = getTeamData();
+    console.log(`sending team data`, team);
+    console.log(`team[0].name = ${team[0].name}`);
+    fetch('/.netlify/functions/pokemon-summary', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ team })
+    })
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById('summary').innerText = data.summary;
+    })
+    .catch(error => console.error('Error:', error));
 }
