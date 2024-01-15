@@ -66,3 +66,9 @@ p{
     margin: 1vw;
     border-radius: 1vw;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
