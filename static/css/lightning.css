@@ -664,8 +664,9 @@ ol{
     /* background-color: rgba(0, 0, 0, 0.621); */
     color: white;
     /* color: whitesmoke; */
-    /* background-color: rgba(82, 4, 100, 0.904); */
-    background-color: rgba(29, 162, 229, 0.904);
+    /* background-color: rgba(29, 162, 229, 0.904); */
+    background-color: rgba(29, 162, 229, 0.5);
+
 
     padding: 1vw;
     border-radius: 1vw;
@@ -864,7 +865,9 @@ h4{
     display: none;
 }
 body{
-    background-image: url(/static/img/drElam.jpg);
+    /* background-image: url(/static/img/drElam.jpg); */
+    background-image: url(/static/img/think.png);
+    /* background-size: auto; */
     background-size: contain;
 }
 .pic100{
