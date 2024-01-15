@@ -614,7 +614,9 @@ p a{
     max-width: 100%;
 }
 .parallaxfeature3new{
-    background-image: url("../img/RainbowAngel.png");
+    /* background-image: url("../img/RainbowAngel.png"); */
+    background-image: url("../img/godplustrim.png");
+
     height: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
