@@ -147,6 +147,12 @@ canvas {
     background: linear-gradient(rgba(255, 192, 203, 0.761),rgba(0, 0, 255, 0.738),rgba(255, 166, 0, 0.819));
     margin: 0;
 }
+.car{
+    max-width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0;
+}
 .picxxyy{
     max-width: 100%;
     text-align: center;
@@ -710,7 +716,7 @@ p a:hover{
     background-size: contain;
 }
 .parallaxteroh{
-    background-image: url("../img/wa.jpeg");
+    background-image: url("../img/think.png");
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
@@ -1318,7 +1324,7 @@ footer{
     min-height: 210px;
     max-height: 400px;
     /* background-image: url(../img/lightcom.png); */
-    background-image: url(../img/oig4.jpeg);
+    background-image: url(../img/vmanreal.png);
 
     background-size: contain;
     background-repeat: no-repeat;
@@ -1331,6 +1337,18 @@ footer{
     max-height: 400px;
     /* background-image: url(../img/lightcom.png); */
     background-image: url(../img/oig2.jpeg);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.spotsubmainn999{
+    display:inline-block;
+    min-width: 220px;
+    min-height: 210px;
+    max-height: 400px;
+    /* background-image: url(../img/lightcom.png); */
+    background-image: url(../img/vmansketch.png);
 
     background-size: contain;
     background-repeat: no-repeat;
@@ -1946,7 +1964,7 @@ div#tetrahedron > div.back {
 }
 .teroh1{
     /* background-image: url("../img/sensa.jpeg"); */
-    background-image: url("../img/wa.jpeg");
+    background-image: url("../img/think.png");
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
     /* background-image: url("../img/wartri.jpeg"); */
     /* background-image: url("../img/Avriel.jpeg"); */
@@ -1963,7 +1981,7 @@ div#tetrahedron > div.back {
 .teroh2{
     /* background-image: url("../img/sensa.jpeg"); */
     /* background-image: url("../img/wa.jpeg"); */
-    background-image: url("../img/HaloBeautiful\ copy.png");
+    background-image: url("../img/wartri.jpeg");
     /* background-image: url("../img/wartri.jpeg"); */
     /* background-image: url("../img/Avriel.jpeg"); */
 
@@ -1980,7 +1998,7 @@ div#tetrahedron > div.back {
     /* background-image: url("../img/sensa.jpeg"); */
     /* background-image: url("../img/wa.jpeg"); */
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
-    background-image: url("../img/wartri.jpeg");
+    background-image: url("../img/think.png");
     /* background-image: url("../img/Avriel.jpeg"); */
 
     height: 100vw;
@@ -1997,7 +2015,7 @@ div#tetrahedron > div.back {
     /* background-image: url("../img/wa.jpeg"); */
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
     /* background-image: url("../img/wartri.jpeg"); */
-    background-image: url("../img/Avriel.jpeg");
+    background-image: url("../img/vmanreal.png");
 
     height: 100vw;
     background-attachment: fixed;
@@ -2088,7 +2106,7 @@ div#tetrahedron > div.back {
     }
 
     .parallaxnew {
-        background-image: url(../img/Avriel.jpeg);
+        background-image: url(../img/vmanreal.png);
         background-attachment: scroll;
         background-size: cover;
         background-position: -31px;
@@ -2102,35 +2120,30 @@ div#tetrahedron > div.back {
       /* background-image: url("../img/Avriel.jpeg"); */
 
     .teroh0 {
-        background-image: url(../img/sensa.jpeg);
         background-attachment: scroll;
         background-size: cover;
         /* background-position: -31px; */
         margin-top: 20px;
       }
     .teroh1 {
-        background-image: url(../img/wa.jpeg);
         background-attachment: scroll;
         background-size: cover;
         background-position: -31px;
         margin-top: 20px;
       }
     .teroh2 {
-        background-image: url(../img/wartri.jpeg);
         background-attachment: scroll;
         background-size: cover;
         /* background-position: -31px; */
         margin-top: 20px;
       }
     .teroh3 {
-        background-image: url(../img/wartri.jpeg);
         background-attachment: scroll;
         background-size: cover;
         background-position: -31px;
         margin-top: 20px;
       }
     .teroh4 {
-        background-image: url(../img/sensa.jpeg);
         background-attachment: scroll;
         background-size: cover;
         background-position: -31px;
