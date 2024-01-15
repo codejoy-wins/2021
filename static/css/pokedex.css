@@ -38,14 +38,27 @@ p{
 .electric{
     color: gold;
     background-color: black;
+    padding: .5vw;
 }
 .fire{
     color: red;
     background-color: white;
+    padding: .5vw;
 }
 .water{
     color: blue;
     background-color: white;
+    padding: .5vw;
+}
+.psychic{
+    background-color: plum;
+    color: purple;
+    padding: .5vw;
+}
+.flying{
+    color: skyblue;
+    background-color: beige;
+    padding: .5vw;
 }
 .spx{
     display: inline-block;
