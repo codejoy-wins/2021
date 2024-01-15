@@ -4,9 +4,10 @@ function getPokemon() {
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName.toLowerCase()}`)
         .then(response => response.json())
         .then(data => {
+            console.log(`data is ${data}`);
             document.getElementById('pokemonInfo').innerHTML = 
-                `<h2>${data.name}</h2>
-                 <img src="${data.sprites.front_default}" alt="${data.name}">`;
+                `<h2>${data.name} has been added to your team</h2>
+                 <img class="big" src="${data.sprites.front_default}" alt="${data.name}">`;
                  console.log("trying to add pokemon to team");
             addPokemonToTeam(data);
         })
@@ -45,9 +46,21 @@ function displayPokemonTeam(team) {
     // This is where you would update the HTML to show the pokemon images and names
     document.getElementById("teamDisplay").innerHTML=``;
     for(let i=0; i < team.length; i++){
+        console.log(team[i].name);
+        console.log(team[i].types[0].type.name);
+        let poketype = team[i].types[0].type.name;
+        let alttype = "";
+        if(team[i].types.length==2){
+            alttype = team[i].types[1].type.name;
+        }
+
         document.getElementById("teamDisplay").innerHTML+=`
-        ${team[i].name}
+        <div class="pok">
+        ${team[i].name.toUpperCase()}
         <img class="poke" src="${team[i].sprites.front_default}" alt="${team[i].name}">
+        ${poketype}
+        ${alttype}
+        </div>
         `
     }
 }
@@ -81,7 +94,7 @@ function generateSummary() {
     })
     .then(response => response.json())
     .then(data => {
-        document.getElementById('summary').innerText = data.summary;
+        document.getElementById('summary').innerHTML = data.summary;
     })
     .catch(error => console.error('Error:', error));
 }
