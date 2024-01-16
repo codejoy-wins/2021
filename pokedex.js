@@ -98,3 +98,22 @@ function generateSummary() {
     })
     .catch(error => console.error('Error:', error));
 }
+
+function useGPT(){
+    console.log("using chatGPT API");
+    const team = getTeamData();
+    console.log(`sending team data`, team);
+    console.log(`team[1].name = ${team[1].name}`);
+    fetch('/.netlify/functions/gpt', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ team })
+    })
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById('summary').innerHTML = data.summary;
+    })
+    .catch(error => console.error('Error:', error));
+}

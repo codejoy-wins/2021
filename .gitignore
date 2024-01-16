@@ -1,2 +1,15 @@
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Build output directory
+dist/
+
 # Local Netlify folder
-.netlify
+.netlify/
+
+# Optional npm cache & logs
+npm-debug.log
+.npm/
