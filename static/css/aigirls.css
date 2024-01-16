@@ -1,0 +1,115 @@
+*{
+    font-family: 'Spectral', serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(128, 128, 128, 0.561); */
+    background-color: black;
+}
+p{
+    color: rgb(188, 154, 140);
+}
+.vid{
+    max-width: 100%;
+    width: 600px;
+}
+#heading{
+    text-align: center;
+}
+#collage{
+    height: auto;
+    width: 100%;
+}
+#reviews h2{
+    text-align: center;
+}
+#rapper{
+    margin: 0 auto;
+    padding-top: 2px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-size: contain;
+    background-position: center;
+    height: 50vw;
+    background-repeat: no-repeat;
+    color: aqua;
+    text-align: center;
+}
+.option{
+    display: inline-block;
+    padding: 1vw;
+}
+#nav{
+    /* background-color: rgba(226, 208, 43, 0.363); */
+    /* background-color: rgba(30, 215, 247, 0.759); */
+    background-color: rgba(30, 215, 247, 0.117);
+
+    width: 100%;
+}
+#nav:hover{
+    background-color: rgba(30, 215, 247, 0.759);
+}
+#nav a{
+    color: black;
+}
+#nav a:hover{
+    color: azure;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: cell;
+}
+a:hover{
+    color: rgb(88, 133, 61)
+}
+#nav a:hover{
+    font-weight: bold;
+}
+.current{
+    font-weight: bold;
+}
+#poem{
+    text-align: center;
+}
+#nav{
+    text-align: center;
+}
+.pic{
+    max-width: 100%;
+}
+.genre{
+    display: inline-block;
+    position: relative;
+    top: 13vw;
+    padding: 3ch;
+}
+.genre a{
+    color: aqua;
+}
+.genre a:hover{
+    color: forestgreen;
+    cursor: cell;
+}
+#dev a{
+    color: rgb(238, 18, 238);
+
+}
+#dev a:hover{
+    color: rgb(124, 238, 18);
+}
+#dev3{
+    color: black;
+}
+.i{
+    font-style: italic;
+}
+.art{
+    max-width: 100%;
+}
+@media only screen and (max-device-width: 1117px) {
+    #nav{
+        background-color: rgba(135, 207, 235, 0.9);
+    }
+}
