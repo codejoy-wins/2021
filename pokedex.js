@@ -77,6 +77,19 @@ function getTeamData() {
     
     return team; // This returns the array of Pokémon objects
 }
+function getPokemonNamesData(){
+    console.log("getting team data but only an array of names");
+    // Retrieve the team data stored as a JSON string in local storage
+    const teamJSON = localStorage.getItem('pokemonTeam');
+    
+    // Parse the JSON string back into an array of Pokémon objects
+    const team = teamJSON ? JSON.parse(teamJSON) : [];
+
+    console.log(`team is ${team} but I want teamx (names)`);
+    // let teamz = ["pikachu","raichu","ninetales","snorlax","espeon","dragonair"];
+    let teamx = team.map(pokename => pokename.name);
+    return teamx; // This returns the array of Pokémon Names, hopefully
+}
 
 
 // This function should be called when you want to generate the summary
@@ -102,18 +115,23 @@ function generateSummary() {
 function useGPT(){
     console.log("using chatGPT API");
     const team = getTeamData();
+    const teamy = getPokemonNamesData();
+    console.log(`teamy is ${teamy}`);
     console.log(`sending team data`, team);
+    console.log(`sending team data names only`, teamy);
     console.log(`team[1].name = ${team[1].name}`);
+    console.log(`teamy[2] is ${teamy[2]}`);
     fetch('/.netlify/functions/gpt', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ team })
+        body: JSON.stringify({ team: teamy }) // shot in the dark
     })
     .then(response => response.json())
     .then(data => {
-        document.getElementById('summary').innerHTML = data.summary;
+
+        document.getElementById('summary').innerHTML = `Sorry, OpenAI API not Available. Your prompt would have been: <div class="perfect">${data.summary}</div>`;
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => console.error('Error123:', error));
 }

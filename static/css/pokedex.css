@@ -7,6 +7,10 @@ h1{
 p{
     color: blue;
 }
+#summary{
+    padding: 2vw;
+    margin-bottom: 1vw;
+}
 .team{
     background-color: rgb(182, 178, 178);
     padding: 2vw;
@@ -71,4 +75,10 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+.perfect{
+    padding: 1vw;
+    color: rgb(44, 222, 44);
+    background-color: black;
+    margin-top: 1vw;
 }

@@ -1,6 +1,7 @@
-exports.handler = async function(event, context) {
-    // GENERATE IMAGE OF THEIR TEAM WITH AI EVENTUALLY
+const { OpenAI } = require('openai');
+const openai = new OpenAI(process.env.OPENAI_API_KEY);
 
+exports.handler = async function(event, context) {
     // Only proceed if this is a POST request
     if (event.httpMethod !== 'POST') {
         // Return a 405 Method Not Allowed response
@@ -9,15 +10,23 @@ exports.handler = async function(event, context) {
             body: "Method Not Allowed"
         };
     }
-    const stuf = ["hi","gpt"];
+    
     try {
         // Here we know it's a POST request, so we can safely assume there is a body to parse
         const { team } = JSON.parse(event.body);
         console.log("Server Side Code trying to use GPT");
-        console.log(`team is ${team}`);
-        // Generate the summary with team data
-        summary = `some pokemon are more equal than others but ${team[2].name} and ${team[4].name} were the most equal.  We are attempting to reach chatGPT... 
-        `;
+
+        // Construct the prompt for the OpenAI API
+        const prompt = `Write a paragraph about a Pokémon team consisting of ${team.join(', ')}.`;
+
+        // Call the OpenAI API
+        console.log(`this is the part that the thugs skip`);
+// EPIC FAIL trying to use api
+
+// main();
+        // Extract the summary from the OpenAI API response
+        const summary = `Hello ChatGPT, ${prompt}`;
+        console.log(`summary is ${summary}`);
 
         return {
           statusCode: 200,
@@ -25,7 +34,7 @@ exports.handler = async function(event, context) {
         };
 
     } catch (error) {
-        console.error('Error:', error.message);
+        console.error('Error of Max:', error);
         return {
             statusCode: 500,
             body: JSON.stringify({ error: "Internal Server Error" })
