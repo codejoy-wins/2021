@@ -728,7 +728,9 @@ p a:hover{
     background-size: contain;
 }
 .parallax6{
-    background-image: url("../img/dja.png");
+    /* background-image: url("../img/dja.png"); */
+    background-image: url("../img/tr.jpg");
+
     height: 100vw;
     background-attachment: fixed;
     background-position: center;
