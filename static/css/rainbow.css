@@ -70,7 +70,12 @@ body {
     animation: rainbow 3s ease infinite;
     transition: opacity 0.3s ease;
 }
-
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
 @keyframes rainbow {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
