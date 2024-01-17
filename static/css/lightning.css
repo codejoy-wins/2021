@@ -659,7 +659,17 @@ ol{
 .sky{
     color: rgba(29, 162, 229, 0.904);
 }
-
+.rainbowpost{
+    border-radius: 1ch;
+    padding: 3vw;
+    /* background-color: rgba(204, 199, 199, 0.56); */
+    background-color: rgba(245, 245, 245, 0.182);
+    color: black;
+    font-size: larger;
+}
+.rainbowpost p{
+    background-color: rgba(0, 136, 255, 0.643);
+}
 .whitepost p{
     /* background-color: rgba(0, 0, 0, 0.621); */
     color: white;
