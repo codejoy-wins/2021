@@ -26,7 +26,13 @@
     <div class="story-section">
         <div class="story-text">
             <!-- Insert screenplay text here -->
-            <h1>Rainbow's Edge</h1>
+            <div class="heading">
+                <h1>Rainbow's Edge</h1>
+                <div id="audioPlayer" class="audio-player">
+                    <audio id="myAudio" src="static/audio/Scene1.mp3"></audio>
+                    <button id="playButton" class="play-button">Play</button>
+                </div>
+            </div>
             <p>FADE IN:</p>
             <p>EXT. ENCHANTED GARDEN - DAY</p>
 
@@ -137,6 +143,12 @@ TITLE: "RAINBOW'S EDGE" -->
     </div>
     <div class="story-section">
         <div class="story-text">
+            <div class="heading">
+                <div id="audioPlayer2" class="audio-player">
+                    <audio id="myAudio2" src="static/audio/Scene2.mp3"></audio>
+                    <button id="playButton2" class="play-button">Play</button>
+                </div>
+            </div>
             <p>INT. ENCHANTED GARDEN GAZEBO - DAY</p>
 
 <p>The golden light of the late afternoon sun filters through the gazebo's lattice, casting a dappled glow upon Aurora and her newly found rainbow hair. She stands still, looking out into the lush garden, her gaze searching.</p>
@@ -213,6 +225,9 @@ And nothing we won't overcome.</p>
         <div class="story-text">
             <!-- Insert screenplay text here -->
             <h1>Rainbow's Edge</h1>
+            <p>
+                This story was written by ChatGPT and prompted by Maxwell Jann
+            </p>
             <p>FADE Out</p>
             <!-- More screenplay text -->
         </div>
@@ -224,6 +239,6 @@ And nothing we won't overcome.</p>
     <h1>Jann Software</h1>
 
 </div>
-
+    <script src="rainbow.js"></script>
 </body>
 </html>
