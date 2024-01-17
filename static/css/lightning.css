@@ -876,7 +876,9 @@ h4{
 }
 body{
     /* background-image: url(/static/img/drElam.jpg); */
-    background-image: url(/static/img/think.png);
+    /* background-image: url(/static/img/think.png); */
+    background-image: url(/static/img/tr.jpg);
+
     /* background-size: auto; */
     background-size: contain;
 }
