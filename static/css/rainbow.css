@@ -72,9 +72,10 @@ body {
 }
 a{
     text-decoration: none;
+    display: inline-block;
 }
 a:hover{
-    color: blue;
+    color: plum;
 }
 @keyframes rainbow {
     0%{background-position:0% 50%}
