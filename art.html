@@ -3,101 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art</title>
+    <title>Art Gallery</title>
     <link rel="stylesheet" href="static/css/art.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="static/img/mj3.png"/>
-
-
 </head>
-<div id="nav">
-    <div class="option"><a href="alien.html">DJ Aliens</a></div>
-    <div class="option"><a href="blog.html">Blog</a></div>
-    <div class="option"><a href="story.html">Story</a></div>
-    <div class="option"><a href="chess.html">Chess</a></div>
-    <div class="option"><a href="web.html">Web Development</a></div>
-    <div class="option"><a href="comic.html">Articles</a></div>
-    <div class="option"><a href="shop.html">Shop</a></div>
-    <div class="option"><a href="welcome.html">Welcome</a></div>
-    <div class="option"><a href="music.html">Music</a></div>
-    <div class="option"><a href="education.html">Education</a></div>
-    <div class="option"><a href="poem.html">Poem</a></div>
-    <div class="option"><a href="home.html">Reviews</a></div>
-    <div class="option"><a href="videos.html">Videos</a></div>
-    <div class="option"><span class="current">Art</span></div>
-    <div class="option"><a href="game.html">Game Design</a></div>
-</div>
 <body>
-    
-    <div id="rapper">
-        <!-- <div id="dev3">
-            <p>I generated art via text with Artificial Intelligence (i.e. "fire medusa") or Photoshop</a></p>
-        </div> -->
-        <a target="_blank" href="https://youtu.be/nlPfmKerev4"><img src="/static/img/jp.jpg" alt="jp" class="art"></a>
-
-
-        <img class="art" src="static/img/catdragon.png" alt="catdragon">
-        <img class="art" src="static/img/think.png" alt="vman thinker">
-        <img class="art" src="static/img/car.png" alt="car sketch">
-        <img class="art" src="static/img/vmanreal.png" alt="vman">
-
-        <img class="art" src="static/img/Avriel.jpeg" alt="avriel">
-
-        <img class="art" src="static/img/midj1.png" alt="1">
-        <img class="art" src="static/img/RainbowAngel.png" alt="rainbow">
-
-        <img class="art" src="static/img/The_One_TradingCard copy 3.jpg" alt="theone">
-        <!-- <img class="art" src="static/img/Tree_3_TradingCard copy 2.jpg" alt="tree">
-        <img class="art" src="static/img/Tree_of_Elam_2_TradingCard copy.jpg" alt="tree">
-        <img class="art" src="static/img/Tree_of_Elam_Symbol_TradingCard copy.jpg" alt="tree">
-        <img class="art" src="static/img/Tree_of_Elam_TradingCard copy 2.jpg" alt="tree"> -->
-        <img class="art" src="static/img/Cloudland_TradingCard copy 6.jpg" alt="tree">
-        <!-- <img class="art" src="static/img/Zeus_TradingCard copy 2.jpg" alt="tree"> -->
-
-        <!-- <img class="art" src="static/img/Zeus_4_TradingCard copy.jpg" alt="tree"> -->
-        <img class="art" src="static/img/V_TradingCard copy 3.jpg" alt="tree">
-        <!-- <img class="art" src="static/img/White_Cell_TradingCard copy 2.jpg" alt="tree"> -->
-        <img class="art" src="static/img/whiteBloodCell_TradingCard copy.jpg" alt="tree">
-        <!-- <img class="art" src="static/img/Zeus_2_TradingCard copy.jpg" alt="tree"> -->
-
-        <img class="art" src="static/img/Gold Halo copy 2.jpg" alt="tree">
-        <img class="art" src="static/img/King_Elam_TradingCard copy.jpg" alt="king">
-        <img class="art" src="static/img/Elam_the_Dragonslayer_2.jpg" alt="dragonslayer">
-
-        <img class="art" src="static/img/midj2.png" alt="2">
-        <img class="art" src="static/img/midj3.png" alt="3">
-        <img class="art" src="static/img/midj4.png" alt="4">
-        <img class="art" src="static/img/midj5.png" alt="5">
-
-        <div id="dev3">
-            <p>I learned photoshop and put some art on <a href="https://www.artstation.com/artwork/qAVB6D">artstation</a></p>
-        </div>
-        <img src="/static/img/jag.jpg" alt="jag" class="art">
-        <img src="/static/img/worldball.jpg" alt="worldball" class="art">
-        <a target="_blank" href="https://youtu.be/nlPfmKerev4"><img src="/static/img/jp.jpg" alt="jp" class="art"></a>
-        <img src="/static/img/fishbulb.jpg" alt="fishbulb" class="art">
-        <img src="/static/img/tiger.jpg" alt="tiger" class="art">
-        <img src="/static/img/spiderguns.jpg" alt="spider" class="art">
-        
-            <div id="dev3">
-                <p>"A white cell of God's body saving the world"</p>
-            </div>
-            <img class="art" src="static/img/Elam117.png" alt="elam">
-        <img class="art" src="static/img/grid.png" alt="grid">
-
-            <img class="art" src="static/img/vengeance.png" alt="elam">
-            <p>"The Vengeance of God"</p>
-
-
-
-
-
-            <!-- <img src="/static/img/Welcome To Your Doom.png" alt="welcome" class="art"> -->
-        </a>
-
+<!-- ... -->
+<div id="welcomeScreen" class="full-screen-image">
+    <!-- Replace 'placeholder-large.jpg' with your large welcome image -->
+    <img src="static/img/altposter.png" alt="Altposter" id="mainImage">
+    <div class="half-screen left" onmouseenter="hoverEffect('ai')" onmouseleave="resetHover()" onclick="loadArt('ai')">
+        <div class="overlay-text left-text">AI Art</div>
     </div>
+    <div class="half-screen right" onmouseenter="hoverEffect('original')" onmouseleave="resetHover()" onclick="loadArt('original')">
+        <div class="overlay-text right-text">Original Art</div>
+    </div>
+</div>
+<!-- ... -->
+
+
+
+<div id="gallery" class="gallery">
+    <!-- Images will be loaded here by JavaScript -->
+</div>
+<div id="x">
     
+</div>
+
+<script src="art.js"></script>
 </body>
 </html>
