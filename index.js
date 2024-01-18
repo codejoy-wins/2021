@@ -218,6 +218,9 @@ const tris=[
     },
     {
         imgx:"teroh5"
+    },
+    {
+        imgx:"teroh6"
     }
 ]
 // choose random image triangle and make that the main image

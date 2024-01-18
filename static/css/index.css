@@ -51,6 +51,9 @@ html,body .teroh4{
 html,body .teroh5{
     background-color: black;
 }
+html,body .teroh6{
+    background-color: black;
+}
 html, body{
     height: 100%;
     background-color: black;
@@ -2070,6 +2073,18 @@ div#tetrahedron > div.back {
     max-width: 100%;
     padding-top: 200px;
 }
+.teroh6{
+    background-image: url("../img/panthos.png");
+
+    height: 100vw;
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -200px;
+    max-width: 100%;
+    padding-top: 200px;
+}
 
 /* 1366px */
 @media only screen and (max-device-width: 1117px) {
@@ -2197,6 +2212,12 @@ div#tetrahedron > div.back {
         background-attachment: scroll;
         background-size: cover;
         background-position: -31px;
+        margin-top: 20px;
+      }
+      .teroh6 {
+        background-attachment: scroll;
+        background-size: cover;
+        /* background-position: -31px; */
         margin-top: 20px;
       }
 
