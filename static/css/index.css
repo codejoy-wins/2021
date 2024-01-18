@@ -1970,7 +1970,9 @@ div#tetrahedron > div.back {
 
 
 .teroh0{
-    background-image: url("../img/Tigon.png");
+    background-image: url("../img/EternalElam.png");
+    /* background-image: url("../img/Tigon.png"); */
+
     height: 100vw;
     background-attachment: fixed;
     background-position:  center;
