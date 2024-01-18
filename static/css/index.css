@@ -542,6 +542,8 @@ p a{
 .parallaxmew{
     /* background-image: url("../img/GoldElam.jpg"); */
     background-image: url("../img/Emerald.png");
+    /* background-image: url("../img/EternalElam.png"); */
+
 
     height: 100vw;
     background-attachment: fixed;
@@ -791,6 +793,7 @@ p a:hover{
 .ernie{
     /* background-image: url("../img/Elam11.29\ copy\ 2.jpg"); */
     background-image: url("../img/Elam117.png");
+    
 
 
     height: 100vw;
@@ -2038,7 +2041,7 @@ div#tetrahedron > div.back {
     /* background-image: url("../img/wa.jpeg"); */
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
     /* background-image: url("../img/wartri.jpeg"); */
-    background-image: url("../img/vmanreal.png");
+    background-image: url("../img/EternalElam.png");
 
     height: 100vw;
     background-attachment: fixed;
@@ -2201,6 +2204,8 @@ div#tetrahedron > div.back {
         /* background-position: -200px; */
         background-position: 0px;
         background-image: url("../img/cloudland5.png");
+        /* background-image: url("../img/promptos.png"); */
+
         margin-top: 20px;
 
       }
