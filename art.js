@@ -56,6 +56,8 @@ function resetHover() {
 
 function loadArt(type) {
     var gallery = document.getElementById('gallery');
+    var welcome = document.getElementById('welcomeScreen');
+
     // gallery.innerHTML = ''; // Clear the gallery
     if (window.innerWidth > 768) {
         gallery.innerHTML = ''; // Clear the gallery only if not on mobile
@@ -72,7 +74,7 @@ function loadArt(type) {
     
     // Hide the welcome screen after loading the gallery
     if (window.innerWidth > 768) {
-        gallery.innerHTML = ''; // Clear the gallery only if not on mobile
+        welcome.innerHTML = ''; // Clear the welcome
     }
     document.getElementById('welcomeScreen').style.display = 'none';
     document.getElementById('x').innerHTML=`
