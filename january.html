@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="static/img/mj3.png"/>
 
-    <script src="nerves.js"></script>
+    <script src="jann.js"></script>
 </head>
 <div id="nav">
     <div class="option"><a href="alien.html">DJ Aliens</a></div>
@@ -57,15 +57,14 @@
                 <p>
                     For the record, I may be wrong about everything I say in this blog.  I'm just a guy trying to make <a target="_blank" href="videos.html">sense of the world</a>.
                 </p>
-                <div class="songmax">
-                    Flagpole Sitta Cover<audio id="player4" src="static/audio/Flagpole.mp3"></audio>
-                    <button class="songxy" onclick="document.getElementById('player4').play()">Play</button> 
-                    <button class="songyy" onclick="document.getElementById('player4').pause()">Pause</button> 
+                
+                <div id="audioPlayer" class="audio-player">
+                    <audio id="myAudio" src="static/audio/Flagpole.mp3"></audio>
+                    <button id="playButton" class="play-button">Flagpole Sitta</button>
                 </div>
-                <div class="songmax">
-                    Past Lives <audio id="player5" src="static/audio/pastlives.mp3"></audio>
-                    <button class="songxy" onclick="document.getElementById('player5').play()">Play</button> 
-                    <button class="songyy" onclick="document.getElementById('player5').pause()">Pause</button>
+                <div id="audioPlayer2" class="audio-player">
+                    <audio id="myAudio2" src="static/audio/pastlives.mp3"></audio>
+                    <button id="playButton2" class="play-button">Past Lives</button>
                 </div>
                 <h3>1.3.22</h3>
                 
@@ -78,7 +77,9 @@
                 <p>
                     Spent all day yesterday trying to get the OpenAI API to work.  Ran into countless issues.  Will revisit later.  In the meantime, I love this song, and I made some cool ai artwork. Happy 117 day
                 </p>
-                <img src="static/img/aurorafilm.png" alt="film">
+                <a target="_blank" href="https://youtu.be/fSFS50W7WJY?si=LsPK-NmhIW_bP5cS">
+                    <img src="static/img/aurorafilm.png" alt="film">
+                </a>
 
                 <img class="picfloat" src="static/img/Aurora and Tigon.png" alt="aurora">
                 <p>
