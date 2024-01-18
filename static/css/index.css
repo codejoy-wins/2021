@@ -2170,19 +2170,19 @@ div#tetrahedron > div.back {
     .teroh1 {
         background-attachment: scroll;
         background-size: cover;
-        background-position: -31px;
+        /* background-position: -31px; */
         margin-top: 20px;
       }
     .teroh2 {
         background-attachment: scroll;
         background-size: cover;
-        /* background-position: -31px; */
+        background-position: -11px;
         margin-top: 20px;
       }
     .teroh3 {
         background-attachment: scroll;
         background-size: cover;
-        background-position: -31px;
+        /* background-position: -31px; */
         margin-top: 20px;
       }
     .teroh4 {
