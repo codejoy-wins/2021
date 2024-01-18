@@ -75,7 +75,8 @@ h1 a{
     padding-left: 5vw;
 }
 .current2{
-    color: black;
+    color: rgba(128, 230, 243, 0.536);
+    padding: 1vw;
 }
 
 .inline a:hover{
