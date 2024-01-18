@@ -16,13 +16,16 @@ html, body{
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     padding-top: 1.0vw;
-    background-image: url(../img/aurora.jpg);
+    /* background-image: url(../img/aurora.jpg); */
+    background-image: url(../img/craigteroh.png);
+    background-color: aliceblue;
+
     background-size: contain;
 }
 #max{
     max-width: 100%;
     overflow: auto;
-    background-color: rgba(14, 168, 207, 0.37);
+    background-color: rgba(14, 168, 207, 0.756);
     color: whitesmoke;
     height: 1300px;
     margin-top: 4vw;
@@ -107,4 +110,15 @@ h1 a{
 .expo{
     color: aqua;
     font-style: italic;
+}
+.chat{
+    background-color: azure;
+    padding: 3vw;
+}
+.magical{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.501);
+    height: 200px;
+    width: 100%;
+    text-align: center;
 }

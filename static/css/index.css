@@ -1369,7 +1369,9 @@ footer{
     min-height: 210px;
     max-height: 400px;
     /* background-image: url(../img/lightcom.png); */
-    background-image: url(../img/Tigon.png);
+    /* background-image: url(../img/Tigon.png); */
+    background-image: url(../img/craigteroh.png);
+
 
     background-size: contain;
     background-repeat: no-repeat;
@@ -1968,11 +1970,8 @@ div#tetrahedron > div.back {
 
 
 .teroh0{
-    background-image: url("../img/sensa.jpeg");
-    /* background-image: url("../img/wa.jpeg"); */
-    /* background-image: url("../img/HaloBeautiful\ copy.png"); */
-    /* background-image: url("../img/wartri.jpeg"); */
-    /* background-image: url("../img/Avriel.jpeg"); */
+    background-image: url("../img/Tigon.png");
+
 
     height: 100vw;
     background-attachment: fixed;
@@ -1985,10 +1984,9 @@ div#tetrahedron > div.back {
 }
 .teroh1{
     /* background-image: url("../img/sensa.jpeg"); */
-    background-image: url("../img/think.png");
+    background-image: url("../img/Aurora\ and\ Tigon.png");
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
     /* background-image: url("../img/wartri.jpeg"); */
-    /* background-image: url("../img/Avriel.jpeg"); */
 
     height: 100vw;
     background-attachment: fixed;
@@ -2002,9 +2000,8 @@ div#tetrahedron > div.back {
 .teroh2{
     /* background-image: url("../img/sensa.jpeg"); */
     /* background-image: url("../img/wa.jpeg"); */
-    background-image: url("../img/wartri.jpeg");
+    background-image: url("../img/craigteroh.png");
     /* background-image: url("../img/wartri.jpeg"); */
-    /* background-image: url("../img/Avriel.jpeg"); */
 
     height: 100vw;
     background-attachment: fixed;
