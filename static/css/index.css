@@ -2188,7 +2188,7 @@ div#tetrahedron > div.back {
     .teroh4 {
         background-attachment: scroll;
         background-size: cover;
-        background-position: -31px;
+        /* background-position: -31px; */
         margin-top: 20px;
       }
       .teroh5 {
