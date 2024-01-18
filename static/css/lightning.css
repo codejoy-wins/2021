@@ -669,6 +669,7 @@ ol{
 }
 .rainbowpost p{
     background-color: rgba(0, 136, 255, 0.643);
+    color: azure;
 }
 .whitepost p{
     /* background-color: rgba(0, 0, 0, 0.621); */
