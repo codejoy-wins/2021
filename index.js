@@ -25,7 +25,6 @@ c.width = window.innerWidth;
 
 
 //chinese characters - taken from the unicode charset
-var matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
 var matrix2 = "elamahplacloudlandwhitebloodcellELAMAHPLACLOUDLANDWHITEBLOODCELL117$$$117}";
 
 //converting the string into an array of single characters
@@ -76,26 +75,15 @@ setInterval(draw, 35);
 
 // if user is on phone inject text " i see you're on your phone"
 // if user is not on phone inject text "thank you for using your computer"
-
-let xyz = document.getElementById("background-video");
-
 const maxwell = ()=>{
     const burger = document.querySelector('.burger');
     const navs = document.querySelector('.nav-links');
     // 'click'
 
     burger.addEventListener('click', ()=>{
-        console.log("ahhh");
         navs.classList.toggle('super');
         burger.classList.toggle('green');
-
     })
-    // burger.addEventListener('mouseover', ()=>{
-    //     console.log("ahhh");
-    //     navs.classList.toggle('super');
-    //     burger.classList.toggle('green');
-    // })
-
 }
 
 maxwell();
@@ -191,14 +179,7 @@ const nextTime = () =>{
     }
     
 }
-
-// background-image: url("../img/sensa.jpeg");
-    /* background-image: url("../img/wa.jpeg"); */
-    /* background-image: url("../img/HaloBeautiful\ copy.png"); */
-    /* background-image: url("../img/wartri.jpeg"); */
-    /* background-image: url("../img/Avriel.jpeg"); */
-
-
+const featurephotos=["teroh0","teroh1","teroh2","teroh3","teroh4","teroh5","teroh6"];
 
 const tris=[
     {
@@ -223,7 +204,7 @@ const tris=[
         imgx:"teroh6"
     }
 ]
-// choose random image triangle and make that the main image
+// choose random image and make that the main image
 
 let currentri = "parallaxnew";
 
@@ -231,7 +212,9 @@ function craig(){
     console.log("Mr. Teroh");
     let zzz = Math.floor(Math.random()*tris.length);
     console.log(zzz);
-    let trii = tris[zzz].imgx;
+    // let trii = tris[zzz].imgx;
+    let trii = featurephotos[zzz];
+
     console.log(`trii is ${trii}`);
     document.getElementById("teroh").classList.remove(currentri);
     document.getElementById("teroh").classList.add(trii);
@@ -239,16 +222,6 @@ function craig(){
     // if(currentri == "teroh3"){
     //     document.getElementById("picdisplay").innerHTML=`
     //     <img class="piccy" src="static/img/HaloBeautiful\ copy.png" alt="treelam">
-    //     `
-    // }
-    // if(currentri == "teroh2"){
-    //     document.getElementById("picdisplay").innerHTML=`
-    //     <img class="piccy" src="static/img/wa.jpeg" alt="treelam">
-    //     `
-    // }
-    // if(currentri == "teroh4"){
-    //     document.getElementById("outr").innerHTML=`
-    //     <div class="parallaxteroh"></div>
     //     `
     // }
 }
