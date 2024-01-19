@@ -65,15 +65,12 @@ html, body{
     margin: 0 auto;
     /* background-color: rgba(245, 245, 245, 0.65); */
 }
-
 *{
     font-family: 'Nunito', sans-serif;
     font-size: large;
     font-size: 18.117px;
     /* font-weight: bold; */
 }
-
-
 #plum a{
     /* color: rgb(247, 165, 247); */
     color:wheat;
@@ -102,10 +99,6 @@ html, body{
     background-color: black;
     color: rgb(130, 236, 236);
 }
-/* #new{
-    margin: 0;
-    padding: 0;
-} */
 canvas {
     display:block;
     position: absolute;
@@ -132,9 +125,6 @@ canvas {
     text-align: center;
     font-size: larger;
 }
-/* #picdisplay{
-    text-align: center;
-} */
 .pic{
     max-width: 100%;
 }
@@ -1835,14 +1825,6 @@ footer{
     max-height: 600px;
     max-width: 600px;
 }
-/* .pic{
-    max-width: 100%;
-    max-height: 100%;
-}
-.picmain{
-    max-width: 100%;
-    max-height: 590px;
-} */
 .spotsubmain2888{
     display:block;
     /* border: .3vw solid blue; */
