@@ -79,5 +79,6 @@ function loadArt(type) {
     document.getElementById('welcomeScreen').style.display = 'none';
     document.getElementById('x').innerHTML=`
         <div class="xy">Gallery Under Construction - <a href="fly.html">Yours Truly</a></div>
+        <a target="_blank" href="artsave.html">Old Art Page</a>
     `
 }
