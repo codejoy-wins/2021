@@ -181,38 +181,14 @@ const nextTime = () =>{
 }
 const featurephotos=["teroh0","teroh1","teroh2","teroh3","teroh4","teroh5","teroh6"];
 
-const tris=[
-    {
-        imgx:"teroh0"
-    },
-    {
-        imgx:"teroh1"
-    },
-    {
-        imgx:"teroh2"
-    },
-    {
-        imgx:"teroh3"
-    },
-    {
-        imgx:"teroh4"
-    },
-    {
-        imgx:"teroh5"
-    },
-    {
-        imgx:"teroh6"
-    }
-]
 // choose random image and make that the main image
 
 let currentri = "parallaxnew";
 
 function craig(){
     console.log("Mr. Teroh");
-    let zzz = Math.floor(Math.random()*tris.length);
+    let zzz = Math.floor(Math.random()*featurephotos.length);
     console.log(zzz);
-    // let trii = tris[zzz].imgx;
     let trii = featurephotos[zzz];
 
     console.log(`trii is ${trii}`);
