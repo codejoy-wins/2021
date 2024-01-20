@@ -1994,7 +1994,7 @@ div#tetrahedron > div.back {
     /* background-image: url("../img/sensa.jpeg"); */
     /* background-image: url("../img/wa.jpeg"); */
     /* background-image: url("../img/craigteroh.png"); */
-    background-image: url("../img/wbcwarrior.png");
+    background-image: url("../img/purrple.png");
 
     /* background-image: url("../img/wartri.jpeg"); */
 
@@ -2029,7 +2029,7 @@ div#tetrahedron > div.back {
     /* background-image: url("../img/wa.jpeg"); */
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
     /* background-image: url("../img/wartri.jpeg"); */
-    background-image: url("../img/EternalElam.png");
+    background-image: url("../img/worldball.jpg");
 
     height: 100vw;
     background-attachment: fixed;
@@ -2045,7 +2045,7 @@ div#tetrahedron > div.back {
     /* background-image: url("../img/wa.jpeg"); */
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
     /* background-image: url("../img/wartri.jpeg"); */
-    background-image: url("../img/vmanreal.png");
+    background-image: url("../img/jag.jpg");
 
     height: 100vw;
     background-attachment: fixed;
@@ -2169,13 +2169,14 @@ div#tetrahedron > div.back {
     .teroh1 {
         background-attachment: scroll;
         background-size: cover;
-        /* background-position: -31px; */
+        background-position: -117px;
         margin-top: 20px;
       }
     .teroh2 {
         background-attachment: scroll;
         background-size: cover;
-        background-position: -11px;
+        background-position: -71px;
+
         margin-top: 20px;
       }
     .teroh3 {
@@ -2193,7 +2194,7 @@ div#tetrahedron > div.back {
       .teroh5 {
         background-attachment: scroll;
         background-size: cover;
-        background-position: -31px;
+        background-position: -300px;
         margin-top: 20px;
       }
       .teroh6 {
