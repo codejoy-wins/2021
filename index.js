@@ -230,7 +230,8 @@ let songz = [
     `Sudoku`,
     `Fireg`,
     `Bleeding`,
-    `bleedingoutpro`
+    `bleedingoutpro`,
+    `SuperFireMedley`
     // `Rapaholic`,
 
 ]
@@ -260,6 +261,7 @@ let songs = [
        `Fire Girl`,
        `Bleeding Out`,
        `Bleeding Out (pro version)`,
+       `Super Fire Medley`,
     //    `Rapaholic`,
 
 ]
