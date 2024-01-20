@@ -517,7 +517,7 @@ p a{
     font-style: italic;
 }
 .parallaxnew{
-    background-image: url("../img/sensa.jpeg");
+    background-image: url("../img/ElamForever.png");
     /* background-image: url("../img/wa.jpeg"); */
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
     /* background-image: url("../img/wartri.jpeg"); */
@@ -1362,7 +1362,9 @@ footer{
     min-height: 210px;
     max-height: 400px;
     /* background-image: url(../img/lightcom.png); */
-    background-image: url(../img/oig2.jpeg);
+    /* background-image: url(../img/oig2.jpeg); */
+    background-image: url(../img/kmax.png);
+
     /* background-image: url(../img/EternalElam.png); */
 
 
@@ -1969,7 +1971,9 @@ div#tetrahedron > div.back {
 
 
 .teroh0{
-    background-image: url("../img/EternalElam.png");
+    /* background-image: url("../img/EternalElam.png"); */
+    background-image: url("../img/ElamForever.png");
+
     /* background-image: url("../img/Tigon.png"); */
 
     height: 100vw;
@@ -1984,6 +1988,8 @@ div#tetrahedron > div.back {
 .teroh1{
     /* background-image: url("../img/sensa.jpeg"); */
     background-image: url("../img/Aurora\ and\ Tigon.png");
+    /* background-image: url("../img/ElamForever.png"); */
+
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
     /* background-image: url("../img/wartri.jpeg"); */
 
@@ -2018,7 +2024,9 @@ div#tetrahedron > div.back {
     /* background-image: url("../img/wa.jpeg"); */
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
     /* background-image: url("../img/think.png"); */
-    background-image: url("../img/kmax.png");
+    /* background-image: url("../img/kmax.png"); */
+    background-image: url("../img/ElamForever.png");
+
 
 
     height: 100vw;
@@ -2051,7 +2059,7 @@ div#tetrahedron > div.back {
     /* background-image: url("../img/wa.jpeg"); */
     /* background-image: url("../img/HaloBeautiful\ copy.png"); */
     /* background-image: url("../img/wartri.jpeg"); */
-    background-image: url("../img/collage.png");
+    background-image: url("../img/EternalElam.png");
 
     height: 100vw;
     background-attachment: fixed;
