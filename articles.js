@@ -1,4 +1,5 @@
 function godlike(){
+    document.getElementById("think").innerHTML="";
     document.getElementById("title").innerHTML=`
     <h1>Godlike</h1>
     `
@@ -30,6 +31,7 @@ But when I boot up unity in 3d, I feel more godlike than when I am doing any oth
 
 
 function threshold(){
+    document.getElementById("think").innerHTML="";
     document.getElementById("title").innerHTML=`
     <h1>Threshold</h1>
     `
@@ -96,6 +98,8 @@ function threshold(){
 
 
 function google(){
+    document.getElementById("think").innerHTML="";
+
     document.getElementById("title").innerHTML=`
     <h1>Hi Google</h1>
     `
@@ -248,6 +252,8 @@ function google(){
 
 
 function infoverse(){
+    document.getElementById("think").innerHTML="";
+
     document.getElementById("title").innerHTML=`
     <h1>Infoverse</h1>
     `
@@ -300,6 +306,8 @@ function infoverse(){
 
 
 function mandela(){
+    document.getElementById("think").innerHTML="";
+
     document.getElementById("title").innerHTML=`
     <h1>Mandela Effect</h1>
     `
@@ -514,6 +522,8 @@ function logarithm(){
 }
 
 function quantum(){
+    document.getElementById("think").innerHTML="";
+
     document.getElementById("title").innerHTML=`
     <h1>Quantum Circle</h1>
     `
