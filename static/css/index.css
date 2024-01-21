@@ -521,11 +521,6 @@ p a{
 }
 .parallaxnew{
     background-image: url("../img/ElamForever.png");
-    /* background-image: url("../img/wa.jpeg"); */
-    /* background-image: url("../img/HaloBeautiful\ copy.png"); */
-    /* background-image: url("../img/wartri.jpeg"); */
-    /* background-image: url("../img/Avriel.jpeg"); */
-
     height: 100vw;
     background-attachment: fixed;
     background-position:  center;
