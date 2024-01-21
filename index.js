@@ -179,29 +179,24 @@ const nextTime = () =>{
     }
     
 }
-const featurephotos=["teroh0","teroh1","teroh2","teroh3","teroh4","teroh5","teroh6"];
+// const featurephotos=["teroh0","teroh1","teroh2","teroh3","teroh4","teroh5","teroh6"];
 
-// choose random image and make that the main image
+// // choose random image and make that the main image
 
-let currentri = "parallaxnew";
+// let currentri = "parallaxnew";
 
-function craig(){
-    console.log("Mr. Teroh");
-    let zzz = Math.floor(Math.random()*featurephotos.length);
-    console.log(zzz);
-    let trii = featurephotos[zzz];
+// function craig(){
+//     console.log("Mr. Teroh");
+//     let zzz = Math.floor(Math.random()*featurephotos.length);
+//     console.log(zzz);
+//     let trii = featurephotos[zzz];
 
-    console.log(`trii is ${trii}`);
-    document.getElementById("teroh").classList.remove(currentri);
-    document.getElementById("teroh").classList.add(trii);
-    currentri = trii;
-    // if(currentri == "teroh3"){
-    //     document.getElementById("picdisplay").innerHTML=`
-    //     <img class="piccy" src="static/img/HaloBeautiful\ copy.png" alt="treelam">
-    //     `
-    // }
-}
-craig();
+//     console.log(`trii is ${trii}`);
+//     document.getElementById("teroh").classList.remove(currentri);
+//     document.getElementById("teroh").classList.add(trii);
+//     currentri = trii;
+// }
+// craig();
 
 // run craig again every 5 minutes?
 // AmorFati , iDecay, cellPHone2, sinNoMo have been removed due to not being good enough for a first impression

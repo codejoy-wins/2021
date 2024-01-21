@@ -2164,18 +2164,10 @@ div#tetrahedron > div.back {
     }
 
     .parallaxnew {
-        background-image: url(../img/vmanreal.png);
         background-attachment: scroll;
         background-size: cover;
-        background-position: -31px;
         margin-top: 20px;
-
       }
-      /* background-image: url("../img/sensa.jpeg"); */
-      /* background-image: url("../img/wa.jpeg"); */
-      /* background-image: url("../img/HaloBeautiful\ copy.png"); */
-      /* background-image: url("../img/wartri.jpeg"); */
-      /* background-image: url("../img/Avriel.jpeg"); */
 
     .teroh0 {
         background-attachment: scroll;
