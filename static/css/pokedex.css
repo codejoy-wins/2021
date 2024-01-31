@@ -7,9 +7,9 @@ h1{
 p{
     color: blue;
 }
-.picmewthree{
+.pic{
     max-width: 100%;
-    float: left;
+    /* float: left; */
 }
 #summary{
     padding: 2vw;
