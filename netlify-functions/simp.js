@@ -21,8 +21,8 @@ exports.handler = async function(event, context) {
                 { role: "system", content: "You are a helpful assistant." },
                 { role: "user", content: promptMessage.contentx },
               ],
-                temperature: 0.8, // Adjust as needed
-                max_tokens: 199, // Adjust based on your needs
+                temperature: 0.6, // Adjust as needed
+                max_tokens: 170, // Adjust based on your needs
           });
           console.log(completion.choices[0]);
           const summary = completion.choices[0];

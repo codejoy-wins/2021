@@ -134,9 +134,16 @@ function simp(){
     })
     .then(response => response.json())
     .then(data => {
+        try{
+            const magickarp = data.summary.message.content;
+            document.getElementById('magica').innerHTML = `<div class="blue">${magickarp}</div>`;
+        }
+        catch{
+            console.log("failed");
+            document.getElementById('magica').innerHTML = `<div class="perfect">I think the API call request timed out.</div>`
+        }
         // console.log(`we did it simp. data.summary.message.content is  ${data.summary.message.content}`);
-        const magickarp = data.summary.message.content;
-        document.getElementById('magica').innerHTML = `<div class="blue">${magickarp}</div>`;
+        
     })
     .catch(error => console.error('Error123343:', error));
 }
