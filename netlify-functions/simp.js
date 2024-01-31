@@ -9,7 +9,6 @@ exports.handler = async function(event, context) {
         };
     }
     try {
-        const requestBody = JSON.parse(event.body);
         const team = requestBody.team;
         const promptMessage = {
             max: "god?",

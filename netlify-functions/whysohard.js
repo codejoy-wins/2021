@@ -22,7 +22,7 @@ async function main(promptContent) {
   
 }
 // Example usage with a custom prompt
-const badPrompt = "what is 4*4 and how many squares are on a chessboard?";
+const badPrompt = "what is 4*5 and how many squares are on a chessboard?";
 const customPrompt = "Tell me a short fun story about a girl named Bella and her dog.";
 main(badPrompt);
 
