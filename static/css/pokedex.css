@@ -2,10 +2,14 @@
     font-family: 'Nunito', sans-serif;
 }
 h1{
-    color: red;
+    color: purple;
 }
 p{
     color: blue;
+}
+.picmewthree{
+    max-width: 100%;
+    float: left;
 }
 #summary{
     padding: 2vw;
@@ -79,6 +83,12 @@ a:hover{
 .perfect{
     padding: 1vw;
     color: rgb(44, 222, 44);
+    background-color: black;
+    margin-top: 1vw;
+}
+.blue{
+    padding: 1vw;
+    color: rgb(44, 151, 222);
     background-color: black;
     margin-top: 1vw;
 }

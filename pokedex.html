@@ -7,15 +7,13 @@
     <link rel="stylesheet" href="static/css/pokedex.css">
     <link rel="shortcut icon" type="image/png" href="static/img/mj3.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    
     <a href="index.html">
-        <h1>Pokedex</h1>
+        <h1>Mewthree</h1>
     </a>
     <p>
-        Choose any 6 pokemon and get a summary of your team!
+        Choose any 6 pokemon and get an a.i. summary of your team by Mewthree!
     </p>
     <div class="formal">
         <input type="text" id="pokemonInput" placeholder="Enter Pokémon Name">
@@ -23,16 +21,19 @@
     </div>
 
     <div id="pokemonInfo" class="results">
-        Display results of pokemon info here.
+        Gather your team here.
     </div>
 
     <div id="teamDisplay" class="team">
     </div>
-    <div class="formal">
-        <button onclick="generateSummary()">Summarize Pokémon Team</button>
-        <button onclick="useGPT()">Generate ChatGPT Pokemon Team Summary</button>
+    <div id="brick" class="formal">
+        <button id="mew" onclick="simp()"><div id="mewtwo">Challenge Mewthree to a fight!</div></button>
     </div>
-    <div id="summary">
+    <div id="magica">
+        GPT Response will go here.  Requests unfortunately timeout after 10 seconds and I'm working on that.
+    </div>
+    <div id="mewthree">
+        <img class="pic" src="static/img/mewthree.png" alt="mewthree">
     </div>
     <div class="footer">
         Jann Software

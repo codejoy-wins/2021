@@ -91,27 +91,6 @@ function getPokemonNamesData(){
     return teamx; // This returns the array of Pokémon Names, hopefully
 }
 
-
-// This function should be called when you want to generate the summary
-function generateSummary() {
-    console.log("generating summary");
-    const team = getTeamData();
-    console.log(`sending team data`, team);
-    console.log(`team[0].name = ${team[0].name}`);
-    fetch('/.netlify/functions/pokemon-summary', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ team })
-    })
-    .then(response => response.json())
-    .then(data => {
-        document.getElementById('summary').innerHTML = data.summary;
-    })
-    .catch(error => console.error('Error:', error));
-}
-
 function useGPT(){
     console.log("using chatGPT API");
     const team = getTeamData();
@@ -130,8 +109,32 @@ function useGPT(){
     })
     .then(response => response.json())
     .then(data => {
-
-        document.getElementById('summary').innerHTML = `Sorry, OpenAI API not Available. Your prompt would have been: <div class="perfect">${data.summary}</div>`;
+        console.log("client side code equipped with server side chat response");
+        console.log(`we did it. data.summary is  ${data.summary}`);
+        console.log(`we did it. data.summary.message is  ${data.summary.message}`);
+        console.log(`we did it. data.summary.message.content is  ${data.summary.message.content}`);
+        const magic = data.summary.message.content;
+        document.getElementById('magica').innerHTML = `<div class="perfect">${magic}</div>`;
     })
     .catch(error => console.error('Error123:', error));
+}
+// simpler one is not timing out and it works
+function simp(){
+    document.getElementById("brick").innerHTML="Mewthree is psychically analyzing your pokemon team..."
+    console.log("using simp chatGPT API");
+    const teamy = getPokemonNamesData();
+    fetch('/.netlify/functions/simp', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ team: teamy })
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(`we did it simp. data.summary.message.content is  ${data.summary.message.content}`);
+        const magickarp = data.summary.message.content;
+        document.getElementById('magica').innerHTML = `<div class="blue">${magickarp}</div>`;
+    })
+    .catch(error => console.error('Error123343:', error));
 }
