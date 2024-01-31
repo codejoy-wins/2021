@@ -11,18 +11,18 @@ exports.handler = async function(event, context) {
     try {
         const requestBody = JSON.parse(event.body);
         const team = requestBody.team;
-        const promptMessage = {
-            max: "god?",
-            contentx: `Write a paragraph as Mewthree, the new version of Mewtwo, vs. ${team.join(', ')} Describe the fight.`
-        };
+        const trainer = team.join(', ');
+        const promptMessage = 
+            `Write a paragraph from your perspective describing the fight vs. ${trainer}`
+        ;
         const completion = await openai.chat.completions.create({
             model: "gpt-3.5-turbo",
             messages: [
-                { role: "system", content: "You are a helpful assistant." },
-                { role: "user", content: promptMessage.contentx },
+                { role: "system", content: "You are Mewthree, a new and evolved version of Mewtwo" },
+                { role: "user", content: promptMessage },
               ],
-                temperature: 0.7, // Adjust as needed
-                max_tokens: 177, // Adjust based on your needs
+                temperature: 0.8, // Adjust as needed
+                max_tokens: 220, // Adjust based on your needs
           });
           console.log(completion.choices[0]);
           const summary = completion.choices[0];

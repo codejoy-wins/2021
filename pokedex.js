@@ -79,6 +79,6 @@ function simp(){
     .catch(error => {
         console.error('Error117', error);
         const element = document.getElementById('brick');
-        element.innerHTML = `<p>API malfunctioned.  Try simpler pokemon.</p>`;
+        element.innerHTML = `<p> chatGPT timed out.  Try more well known pokemon.</p>`;
     });
 }
