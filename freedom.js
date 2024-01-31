@@ -1,9 +1,9 @@
 let manobj = [
     {
-            "song": "pastlives",
-            "artist": "Børns",
-            "fullsong": "Past Lives",
-            "picture": "",
+        "song": "Angeles",
+        "artist": "Elliot Smith",
+        "fullsong": "Angeles",
+        "picture": ""
     },
     {
         "song": "TTB",
@@ -1406,10 +1406,10 @@ let manobj = [
         "picture": "deathcab.jpg"
     },
     {
-        "song": "Angeles",
-        "artist": "Elliot Smith",
-        "fullsong": "Angeles",
-        "picture": ""
+        "song": "pastlives",
+        "artist": "Børns",
+        "fullsong": "Past Lives",
+        "picture": "",
     },
     {
         "song": "Between",
