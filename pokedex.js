@@ -88,6 +88,7 @@ function getPokemonNamesData(){
     console.log(`team is ${team} but I want teamx (names)`);
     // let teamz = ["pikachu","raichu","ninetales","snorlax","espeon","dragonair"];
     let teamx = team.map(pokename => pokename.name);
+    console.log(`teamx is ${teamx}`);
     return teamx; // This returns the array of Pokémon Names, hopefully
 }
 
@@ -119,9 +120,10 @@ function useGPT(){
     .catch(error => console.error('Error123:', error));
 }
 // simpler one is not timing out and it works
+// randomly stopped working overnight
 function simp(){
     document.getElementById("brick").innerHTML="Mewthree is psychically analyzing your pokemon team..."
-    console.log("using simp chatGPT API");
+    // console.log("using simp chatGPT API");
     const teamy = getPokemonNamesData();
     fetch('/.netlify/functions/simp', {
         method: 'POST',
@@ -132,7 +134,7 @@ function simp(){
     })
     .then(response => response.json())
     .then(data => {
-        console.log(`we did it simp. data.summary.message.content is  ${data.summary.message.content}`);
+        // console.log(`we did it simp. data.summary.message.content is  ${data.summary.message.content}`);
         const magickarp = data.summary.message.content;
         document.getElementById('magica').innerHTML = `<div class="blue">${magickarp}</div>`;
     })
