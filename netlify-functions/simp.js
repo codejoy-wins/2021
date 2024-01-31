@@ -9,7 +9,7 @@ exports.handler = async function(event, context) {
         };
     }
     try {
-        const requestBody = JSON.parse(event.body); // idk why I need this now
+        const requestBody = JSON.parse(event.body);
         const team = requestBody.team;
         const promptMessage = {
             max: "god?",
@@ -22,7 +22,7 @@ exports.handler = async function(event, context) {
                 { role: "user", content: promptMessage.contentx },
               ],
                 temperature: 0.7, // Adjust as needed
-                max_tokens: 160, // Adjust based on your needs
+                max_tokens: 177, // Adjust based on your needs
           });
           console.log(completion.choices[0]);
           const summary = completion.choices[0];
