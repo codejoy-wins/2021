@@ -288,7 +288,7 @@ function conspiracies(){
         </div>
     `
     document.getElementById("picture").innerHTML=`
-    <img src="./static/img/spectral.png" alt="spectral" class="pic2">
+    <img src="./static/img/dioxy.jpg" alt="spectral" class="pic2">
     `
 }
 
