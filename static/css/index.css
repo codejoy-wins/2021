@@ -530,6 +530,13 @@ p a{
     max-width: 100%;
     padding-top: 200px;
 }
+.delta{
+    max-height: 200px;
+    background-color: black;
+    float: left;
+    padding: 40px;
+    margin: 30px;
+}
 .parallaxmew{
     /* background-image: url("../img/GoldElam.jpg"); */
     /* background-image: url("../img/Emerald.png"); */
@@ -2117,6 +2124,11 @@ div#tetrahedron > div.back {
         text-decoration: none;
         color: black;
         background-color: rgba(240, 248, 255, 0.704);
+    }
+    .delta{
+        background-color: black;
+        display: block;
+        float: none;
     }
     .secret2{
         opacity: 1;
