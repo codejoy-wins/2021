@@ -7,7 +7,6 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-/*    background-color: white;*/
     background-color: #f0f0f0;
     color: #333;
     padding: 20px;
@@ -93,7 +92,6 @@ h1:hover{
     height: auto;
     display: block;
     margin: 20px auto;
-    margin-bottom: 0;
 }
 
 .blue {
@@ -105,6 +103,7 @@ h1:hover{
 }
 
 .footer {
+    margin-top: 40px;
     color: #666;
 }
 
@@ -125,14 +124,6 @@ h1:hover{
     background: none;
     border: none;
     cursor: pointer;
-}
-#mew2{
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-#information{
-    text-align: center;
 }
 
 /* Specific styling for dynamic elements */

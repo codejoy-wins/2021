@@ -42,7 +42,7 @@ function displayPokemonTeam(team) {
         </div>
         `
         document.getElementById("magica").innerHTML=`
-        GPT Response will go here.
+        GPT Response will go here.  Requests unfortunately timeout after 10 seconds and I'm working on this.
         `
         document.getElementById("brick").innerHTML=`
         <button id="mew" onclick="simp()"><div id="mewtwo">Challenge Mewthree to a fight!</div></button>
@@ -82,16 +82,3 @@ function simp(){
         element.innerHTML = `<p> chatGPT timed out.  Try more well known pokemon.</p>`;
     });
 }
-document.addEventListener('DOMContentLoaded', function() {
-    // Add event listener for the Enter key within the input field
-    document.getElementById('pokemonInput').addEventListener('keypress', function(event) {
-        if (event.key === "Enter") {
-            event.preventDefault(); // Prevents the form from submitting
-            getPokemon(); // Triggers the function to get and display the Pokemon
-        }
-    });
-    const specialteam = getTeamData();
-    if (specialteam && specialteam.length > 0) {
-        displayPokemonTeam(specialteam);
-    }
-});

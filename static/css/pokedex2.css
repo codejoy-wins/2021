@@ -1,0 +1,91 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    color: purple;
+}
+.pic{
+    max-width: 100%;
+    /* float: left; */
+}
+#summary{
+    padding: 2vw;
+    margin-bottom: 1vw;
+}
+.team{
+    background-color: rgb(182, 178, 178);
+    padding: 2vw;
+}
+.pok{
+    background-color: black;
+    color: wheat;
+    display: inline-block;
+    margin: 1vw;
+    text-align: center;
+    border-radius: 1vw;
+    padding: .5vw;
+}
+.poke{
+    max-width: 100%;
+    display: block;
+}
+#summary{
+    max-width: 100%;
+}
+.big{
+    height: 220px;
+}
+.typhos{
+    background-color: skyblue;
+    color: white;
+    padding: 1vw;
+}
+.electric{
+    color: gold;
+    background-color: black;
+    padding: .5vw;
+}
+.fire{
+    color: red;
+    background-color: white;
+    padding: .5vw;
+}
+.water{
+    color: blue;
+    background-color: white;
+    padding: .5vw;
+}
+.psychic{
+    background-color: plum;
+    color: purple;
+    padding: .5vw;
+}
+.flying{
+    color: skyblue;
+    background-color: beige;
+    padding: .5vw;
+}
+.spx{
+    display: inline-block;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 1vw;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.perfect{
+    padding: 1vw;
+    color: rgb(44, 222, 44);
+    background-color: black;
+    margin-top: 1vw;
+}
+.blue{
+    padding: 1vw;
+    color: rgb(44, 151, 222);
+    background-color: black;
+    margin-top: 1vw;
+}
