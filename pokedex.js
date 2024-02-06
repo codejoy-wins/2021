@@ -75,7 +75,6 @@ function simp(){
     .then(data => {
         const magickarp = data.summary.message.content;
         document.getElementById('magica').innerHTML = `<div class="blue"><p>${magickarp}</p></div>`;
-        document.getElementById('devlog').innerHTML = `<p> Due to a time limit of 10 seconds for responses, I had to reduce the length of mewthree's response</p>`;
     })
     .catch(error => {
         console.error('Error117', error);

@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-/*    background-color: white;*/
+/*    background-color: plum;*/
     background-color: #f0f0f0;
     color: #333;
     padding: 20px;
@@ -37,6 +37,8 @@ p, .footer {
 .formal button {
     padding: 10px 20px;
     background-color: #007bff;
+/*    background-color: purple;*/
+
     color: white;
     border: none;
     border-radius: 5px;
@@ -68,7 +70,9 @@ a:hover{
     color: green;
 }
 h1 {
-    color: #444;
+/*    color: plum;*/
+    color: violet;
+
     text-align: center;
 }
 h1:hover{
@@ -110,7 +114,9 @@ h1:hover{
 
 #mewtwo {
     display: inline-block;
-    background-color: #ffcc00;
+/*    background-color: #ffcc00;*/
+    background-color: violet;
+
     padding: 5px 10px;
     border-radius: 5px;
 }
