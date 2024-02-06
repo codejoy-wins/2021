@@ -21,7 +21,7 @@ exports.handler = async function(event, context) {
                 { role: "system", content: "You are Mewthree, a new and evolved version of Mewtwo" },
                 { role: "user", content: promptMessage },
               ],
-                temperature: 0.8, // Adjust as needed
+                temperature: 0.8, // Adjust as needed. .8 was working before
                 max_tokens: 220, // Adjust based on your needs. 220 never errors
           });
           console.log(completion.choices[0]);
