@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asteroid Miner</title>
+<style>
+  body { background-color: #000; color: #fff; font-family: Arial, sans-serif; }
+  #gameArea { width: 600px; height: 400px; position: relative; background-color: #111; margin: 20px auto; overflow: hidden; }
+  #ship { width: 50px; height: 50px; position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><polygon points="32,4 44,60 32,48 20,60" style="fill:%23FFF;"/></svg>') no-repeat center; background-size: contain; }
+  .asteroid { position: absolute; background-color: grey; border-radius: 50%; }
+  #score { position: absolute; top: 10px; left: 10px; }
+  #upgrades { position: absolute; bottom: 10px; right: 10px; }
+</style>
+</head>
+<body>
+<div id="gameArea">
+  <div id="ship"></div>
+  <div id="score">Score: 0</div>
+  <div id="upgrades"></div>
+</div>
+<script>
+  let score = 0;
+  let gameArea = document.querySelector('#gameArea');
+  let ship = document.querySelector('#ship');
+  let scoreDisplay = document.querySelector('#score');
+  let upgradesDisplay = document.querySelector('#upgrades');
+  let shipSpeed = 55;
+  let asteroidFrequency = 2000;
+  let gameInterval;
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === "ArrowLeft" && ship.offsetLeft > 0) ship.style.left = ship.offsetLeft - shipSpeed + 'px';
+    if (e.key === "ArrowRight" && ship.offsetLeft < (gameArea.offsetWidth - ship.offsetWidth)) ship.style.left = ship.offsetLeft + shipSpeed + 'px';
+  });
+
+  function createAsteroid() {
+    let asteroid = document.createElement('div');
+    asteroid.classList.add('asteroid');
+    let size = Math.random() * 30 + 10; // Asteroids size between 10 and 40
+    asteroid.style.width = size + 'px';
+    asteroid.style.height = size + 'px';
+    asteroid.style.left = Math.random() * (gameArea.offsetWidth - size) + 'px';
+    asteroid.style.top = '0px';
+    gameArea.appendChild(asteroid);
+
+    let speed = Math.random() * 5 + 1;
+    function moveAsteroid() {
+      if (parseInt(asteroid.style.top) < gameArea.offsetHeight) {
+        asteroid.style.top = parseInt(asteroid.style.top) + speed + 'px';
+        requestAnimationFrame(moveAsteroid);
+      } else {
+        asteroid.remove();
+      }
+    }
+    moveAsteroid();
+  }
+
+  function startGame() {
+    gameInterval = setInterval(createAsteroid, asteroidFrequency);
+  }
+
+  startGame();
+</script>
+</body>
+</html>
