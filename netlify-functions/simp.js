@@ -21,7 +21,7 @@ exports.handler = async function(event, context) {
             { role: "user", content: promptMessage },
         ],
             temperature: 0.8, // Adjust as needed. .8 was working before
-            max_tokens: 155, // Adjust based on your needs. 220 never errors
+            max_tokens: 145, // Adjust based on your needs. 220 never errors
         });
     console.log(completion.choices[0]);
     const summary = completion.choices[0];
