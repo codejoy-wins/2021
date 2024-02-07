@@ -177,7 +177,9 @@ canvas {
 .wbc{
     
     color: white;
-    background-color: rgba(220, 20, 60, 0.924);
+/*    background-color: rgba(220, 20, 60, 0.924);*/
+    background-color: rgba(22, 23, 260, 0.924);
+
 }
 .wbc:hover{
 
@@ -187,11 +189,12 @@ canvas {
     color: red;
 }
 .wbc2{
-    background-color: none;
+    background-color: blue;
+    color: azure;
 }
 .wbc2:hover{
-    color: purple;
-    background-color: gold;
+    color: blue;
+    background-color: azure;
     border-radius: 100vw;
 }
 .bulba{
@@ -515,7 +518,9 @@ p a{
 /* make shiny */
 #cause{
     /* color: azure; */
-    color: rgb(235, 172, 235);
+/*    color: rgb(235, 172, 235);*/
+    color: rgb(235, 117, 235);
+
 
     font-style: italic;
 }
@@ -2108,7 +2113,9 @@ div#tetrahedron > div.back {
         /* background-color: cyan; */
         padding: .3vw;
         margin: 1vw;
-        background-color: rgba(203, 135, 235, 0.711);
+/*        background-color: rgba(203, 135, 235, 0.711);*/
+        background-color: blue;
+
         /* background-color: rgba(0, 0, 0, 0.886); */
     }
     .bulba{
@@ -2376,9 +2383,28 @@ div#tetrahedron > div.back {
 .innertextx p{
     color: black;
 }
+.insane{
+    color: wheat;
+}
+.insane a{
+    background-color: transparent;
+/*    color: rgb(172, 141, 100);*/
+    color: azure;
+
+    padding: 0;
+    border-radius: 0;
+}
+.insane a:hover{
+    color: blue;
+    background-color: azure;
+    padding: 1vw;
+    border-radius: 1vw;
+}
 .sane a{
     background-color: transparent;
-    color: rgb(172, 141, 100);
+/*    color: rgb(172, 141, 100);*/
+    color: blue;
+
     padding: 0;
     border-radius: 0;
 }
