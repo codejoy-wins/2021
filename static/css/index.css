@@ -2371,7 +2371,17 @@ div#tetrahedron > div.back {
     background-repeat: no-repeat;
     background-size:cover;
     padding-left: 1vw;
+    padding-top: 1vw;
 }
 .innertextx p{
     color: black;
+}
+.sane a{
+    background-color: transparent;
+    color: rgb(172, 141, 100);
+    padding: 0;
+    border-radius: 0;
+}
+.sane a:hover{
+    color: red;
 }
