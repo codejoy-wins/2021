@@ -571,12 +571,12 @@ ol{
     max-width: 100%;
 }
 .post p{
-    background-color: rgba(250, 189, 250, 0.621);
+    background-color: rgba(250, 189, 250, 0.921);
     padding: 1vw;
     border-radius: 1vw;
 }
 .post1advanced p{
-    background-color: rgba(250, 189, 250, 0.751);
+    background-color: rgba(250, 189, 250, 0.851);
     padding: 1vw;
     border-radius: 1vw;
 }
@@ -652,7 +652,7 @@ ol{
 }
 .post4 p{
     /* background-color: rgba(0, 0, 0, 0.621); */
-    color: rgba(0, 0, 0, 0.621);
+    color: rgba(0, 0, 0);
     /* color: whitesmoke; */
     background-color: rgba(251, 233, 255, 0.904);
     padding: 1vw;
@@ -687,7 +687,7 @@ ol{
     border-radius: 1vw;
 }
 .postpurple p{
-    color: rgba(0, 0, 0, 0.621);
+    color: rgba(0, 0, 0);
     background-color: rgba(226, 183, 236, 0.904);
     padding: 1vw;
     border-radius: 1vw;
