@@ -2,6 +2,7 @@
     /* font-family: 'Spectral', serif; */
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
+
 }
 ul{
     background-color: rgba(0, 255, 255, 0.608);
@@ -627,7 +628,8 @@ ol{
 }
 .post2 p{
     /* background-color: rgba(0, 0, 0, 0.621); */
-    color: rgba(0, 0, 0, 0.621);
+    /* color: rgba(0, 0, 0, 0.621); */
+    color: black;
     /* color: whitesmoke; */
     background-color: rgba(226, 183, 236, 0.904);
     padding: 1vw;
