@@ -869,7 +869,7 @@ ul.nav-links.right{
         rgba(28, 127, 238, .6) 60%,
         rgba(95, 21, 242, .6) 70%,
         rgba(186, 12, 248, .6) 80%,
-        rgba(251, 7, 217, .6) 90%,
+        rgba(251, 7, 174, 0.6) 90%,
         rgba(255, 0, 0, .6) 100%
     );
     padding: 2vw;
@@ -2099,9 +2099,26 @@ div#tetrahedron > div.back {
 /* 1366px */
 @media only screen and (max-device-width: 1117px) {
     ul.nav-links.right{
-        padding: 0;
         /* background-color: rgba(202, 232, 245, 0.316); */
-        background-color: rgba(240, 248, 255, 0.117);
+        /* background: linear-gradient(#e66465, #9198e5); */
+        background: linear-gradient(
+            180deg,
+            rgba(255, 0, 0, .6) 0%,
+            rgba(255, 154, 0, .6) 10%,
+            rgba(208, 222, 33, .6) 20%,
+            rgba(79, 220, 74, .6) 30%,
+            rgba(63, 218, 216, .6) 40%,
+            rgba(47, 201, 226, .6) 50%,
+            rgba(28, 127, 238, .6) 60%,
+            rgba(95, 21, 242, .6) 70%,
+            rgba(186, 12, 248, .6) 80%,
+            rgba(251, 7, 174, 0.6) 90%,
+            rgba(255, 0, 0, .6) 100%
+        );
+        padding: 2vw;
+    }
+    ul.nav-links.right li{
+        padding: 0;
     }
     #specialx{
         /* background-color: rgba(255, 217, 0, 0.654); */
@@ -2141,14 +2158,14 @@ div#tetrahedron > div.back {
         opacity: 1;
     }
     .burger{
-        display: flex;
-        float: none;
+        /* display: flex; */
+        float: right;
     }
     .tiny{
-        float: left;
+        /* float: left; */
     }
     .right{
-        float: left;
+        /* float: left; */
     }
     ul{
         /* display: flex; */
@@ -2157,15 +2174,15 @@ div#tetrahedron > div.back {
 
         /* background-color: white; */
 
-        float: left;
+        /* float: left; */
         overflow: auto;
     }
     ul li{
         color: azure;
 
 
-        padding: .5vw;
-        display: inline-block;
+        padding: 0;
+        /* display: inline-block; */
         padding-left: 0;
     }
     .parallax {
@@ -2341,6 +2358,13 @@ div#tetrahedron > div.back {
     /* background-color: black; */
     padding: none;
 }
+
+
+
+
+
+
+
 
 .emergency{
     color: wheat;
