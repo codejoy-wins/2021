@@ -1,5 +1,11 @@
 let manobj = [
     {
+        "song": "alliwanted",
+        "artist": "Paramore",
+        "fullsong": "All I Wanted",
+        "picture": "",
+    },
+    {
         "song": "Angeles",
         "artist": "Elliot Smith",
         "fullsong": "Angeles",
