@@ -3,7 +3,7 @@ let manobj = [
         "song": "alliwanted",
         "artist": "Paramore",
         "fullsong": "All I Wanted",
-        "picture": "",
+        "picture": "paramore.jpeg",
     },
     {
         "song": "Angeles",
