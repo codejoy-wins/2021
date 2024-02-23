@@ -14,6 +14,13 @@ function conspiracies(){
     </div>
     </div>
 
+    <div class="video">
+    <h1>I saw God at 7/11</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZCRNLG5dU7I?si=D3a21zAjImNUkj3L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+
     <div class="video2">
     <h1>Superjuxtaposition of Nothing and Everything</h1>
     <div class="vid2">
