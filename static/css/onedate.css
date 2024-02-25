@@ -1,0 +1,184 @@
+/* Basic reset for standardizing across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+
+    padding: 0;
+    margin: 0 auto;
+}
+
+#rapper{
+    background-image: url(../img/1d.jpg);
+    background-size: cover;
+}
+
+p, .footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.formal {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    opacity: .6;
+}
+.formal2{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    opacity: .6;
+}
+
+.formal input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.formal button {
+    padding: 10px 20px;
+    background-color: #007bff;
+/*    background-color: purple;*/
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formal button:hover {
+    background-color: #0056b3;
+}
+
+.results, .team, #magica {
+    text-align: center;
+    margin-top: 20px;
+}
+h3{
+    padding: 1vw;
+}
+.pok {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+h1 {
+/*    color: plum;*/
+    color: violet;
+
+    text-align: center;
+}
+h1:hover{
+    color: hotpink;
+}
+.poke {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.piclove{
+    max-width: 100%;
+}
+.pic {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+.picmain {
+    max-width: 100%;
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 0;
+    opacity: .85;
+}
+
+.blue {
+    background-color: #e7f5ff;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.footer {
+    color: azure;
+}
+
+#mewtwo {
+    display: inline-block;
+/*    background-color: #ffcc00;*/
+    background-color: violet;
+
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#mewtwo:hover{
+    background-color: hotpink;
+}
+#instructions{
+    padding: 1vw;
+    font-size: larger;
+}
+#mew {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#mew2{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#information{
+    text-align: center;
+}
+
+/* Specific styling for dynamic elements */
+.big {
+    width: 200px; /* Adjust based on your preference */
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Adjustments for mobile views */
+@media (max-width: 768px) {
+    .formal {
+        flex-direction: column;
+    }
+
+    .formal input[type="text"] {
+        width: 80%; /* Adjust based on your preference */
+    }
+    #rapper{
+        background-size: contain;
+    }
+    .picmain{
+        opacity: 1;
+    }
+}
