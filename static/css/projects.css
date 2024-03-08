@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.hed a{
+    text-decoration: none;
+}
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.project-item {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.project-item:hover {
+    background-color: #f5f5f5;
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-description {
+    display: none;
+}
+.project-image {
+    width: 100%; /* Adjust as needed */
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px; /* Centers the image and adds some spacing */
+}
+.project-vid{
+    max-width: 100%;
+    padding: 2vw;
+    text-align: center;
+}
+
+/* Add to existing styles */
+
+.hidden {
+    display: none;
+}
+
+.project-link {
+    display: none; /* The link is hidden by default */
+    padding: 8px 16px;
+    margin: 10px 0;
+    background-color: #0da3e8;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    background-color: #ff00ff;
+
+}
+#footer{
+    text-align: center;
+}
