@@ -9,6 +9,13 @@ body, html {
     margin: 0 auto;
     padding: 20px;
 }
+a{
+    text-decoration: none;
+    color: blue;
+}
+p{
+    text-align: center;
+}
 .hed a{
     text-decoration: none;
 }
