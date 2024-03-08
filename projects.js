@@ -18,6 +18,18 @@ document.addEventListener('DOMContentLoaded', function() {
          linkURL:"onedate.html",
          videoembed:"",
          },
+         { title: "Blog",
+         description: "A dynamically styled blog that automatically displays all my blog posts from that month", 
+         imageUrl: "static/img/blogexample.png",
+         linkURL:"blog.html",
+         videoembed:"",
+         },
+         { title: "DJ Aliens",
+         description: "A iPod type App that simulates 2 Alien DJ's for you, a male and a female with different tastes",
+         imageUrl: "static/img/djaliensj.jpg",
+         linkURL:"alien.html",
+         videoembed:"",
+         },
         // I should also add video demos for each project, as well as a link
     ];
 
