@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
          { title: "Mewthree",
          description: "A single-page web application that uses artificial intelligence and a pokemon API to let you pick a team of any 6 pokemon and challenge Mewthree to a battle.", 
          imageUrl: "static/img/mewthree.png",
-         linkURL:"onedate.html",
+         linkURL:"pokedex.html",
          videoembed:"",
          },
          { title: "Blog",
