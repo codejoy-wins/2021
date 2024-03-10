@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         description: "I'm learning Unreal Engine 5.3 with my new Macbook Pro M3", 
         imageUrl: "static/img/elamcloud.png",
         linkURL: "",
-        videoembed:"https://www.youtube.com/embed/RD_gv9ljuF0?si=ZlVkygmg-2FsuiWn",
+        videoembed:"https://www.youtube.com/embed/Tait4pePSwo?si=iG3O1nNwmQXQMpzv",
      },
         { title: "OneDate",
          description: "A single-page web application that uses artificial intelligence to generate a date for you in between you and your date's current location.", 
@@ -62,6 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <iframe width="100%" height="315" src="${project.videoembed}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         `;
         video.classList.add('project-vid', 'hidden');
+
         item.appendChild(image);
         item.appendChild(title);
         item.appendChild(description);
