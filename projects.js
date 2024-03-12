@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         imageUrl: "static/img/elamcloud.png",
         linkURL: "",
         videoembed:"https://www.youtube.com/embed/Tait4pePSwo?si=iG3O1nNwmQXQMpzv",
+
      },
         { title: "OneDate",
          description: "A single-page web application that uses artificial intelligence to generate a date for you in between you and your date's current location.", 
