@@ -1,0 +1,201 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.art-options {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.art-options button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    max-width: 200px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+/* ... */
+.full-screen-image {
+    display: flex;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.full-screen-image img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.half-screen {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.half-screen:first-child {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.half-screen:last-child {
+    background: rgba(0, 0, 0, 0.7);
+}
+/* ... */
+
+/* ... */
+.half-screen {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.overlay-text {
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    transition: opacity 0.3s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.left-text {
+    justify-self: start;
+    left: 25%; /* Adjust as needed */
+}
+
+.right-text {
+    justify-self: end;
+    right: 25%; /* Adjust as needed */
+}
+
+.half-screen:hover .overlay-text {
+    visibility: visible;
+    opacity: 1;
+}
+/* ... */
+
+
+/* ... */
+.half-screen {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+/* Style for when the left side is hovered */
+.left:hover {
+    background: rgba(0, 0, 0, 0); /* Light background */
+}
+
+.left:hover ~ .right {
+    background: rgba(0, 0, 0, 0.5); /* Darken the right side */
+}
+
+/* Style for when the right side is hovered */
+.right:hover {
+    background: rgba(0, 0, 0, 0); /* Light background */
+}
+
+.right:hover ~ .left {
+    background: rgba(0, 0, 0, 0.5); /* This won't work because .left is not a sibling that follows .right */
+}
+
+/* ... More styles ... */
+/* ... */
+.light {
+    background: rgba(0, 0, 0, 0); /* Light background */
+}
+
+.dark {
+    background: rgba(0, 0, 0, 0.5); /* Dark background */
+}
+/* ... */
+.xy{
+    color: violet;
+}
+/* ... existing styles ... */
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .half-screen {
+        display: none; /* Hide the clickable halves on mobile */
+    }
+    
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust for smaller screens */
+        gap: 5px; /* Smaller gap for mobile */
+    }
+
+    /* Adjust gallery image styles for mobile */
+    .gallery img {
+        border: 2px solid transparent;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* ... additional styles if necessary ... */

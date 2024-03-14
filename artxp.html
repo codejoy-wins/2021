@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="static/css/art.css">
+    <link rel="shortcut icon" type="image/png" href="static/img/favpy.ico"/>
+
+</head>
+<body>
+<!-- ... -->
+<div id="welcomeScreen" class="full-screen-image">
+    <!-- Replace 'placeholder-large.jpg' with your large welcome image -->
+    <img src="static/img/altposter.png" alt="Altposter" id="mainImage">
+    <div class="half-screen left" onmouseenter="hoverEffect('ai')" onmouseleave="resetHover()" onclick="loadArt('ai')">
+        <div class="overlay-text left-text">AI Art</div>
+    </div>
+    <div class="half-screen right" onmouseenter="hoverEffect('original')" onmouseleave="resetHover()" onclick="loadArt('original')">
+        <div class="overlay-text right-text">Original Art</div>
+    </div>
+</div>
+<!-- ... -->
+
+<div id="gallery" class="gallery">
+    <!-- Images will be loaded here by JavaScript -->
+</div>
+<div id="x">
+
+</div>
+
+<script src="art.js"></script>
+</body>
+</html>

@@ -1,84 +1,77 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Check if the screen width is less than or equal to 768 pixels (common breakpoint for mobile devices)
-    if (window.innerWidth <= 768) {
-        // If on mobile, load both AI and Original galleries
-        loadArt('ai');
-        loadArt('original');
-        window.location.href = "https://www.maxjann.com/artsave/";
-    }
-});
+imgs=[
+    {
+        imgname:"Warilla.jpg",
+        imgdesc:"",
+        category:"ai",
+    },
+    {
+        imgname:"elamfuture.jpg",
+        imgdesc:"",
+        category:"ai",
 
-
-
-// ... rest of your JavaScript code ...
-
-
-
-function showOptions() {
-    document.getElementById('welcomeScreen').style.display = 'none';
-    document.getElementById('artOptions').style.display = 'block';
-}
-
-// ... Existing JavaScript code ...
-
-
-// ChatGPT latest below
-
-function hoverEffect(side) {
-    var leftText = document.querySelector('.left-text');
-    var rightText = document.querySelector('.right-text');
-
-    if (side === 'ai') {
-        leftText.style.opacity = '1';
-        rightText.style.opacity = '0';
-    } else if (side === 'original') {
-        rightText.style.opacity = '1';
-        leftText.style.opacity = '0';
-    }
-    if (side === 'ai') {
-        document.querySelector('.left').classList.add('light');
-        document.querySelector('.right').classList.add('dark');
-    } else if (side === 'original') {
-        document.querySelector('.right').classList.add('light');
-        document.querySelector('.left').classList.add('dark');
-    }
-}
-
-function resetHover() {
-    var leftText = document.querySelector('.left-text');
-    var rightText = document.querySelector('.right-text');
-    leftText.style.opacity = '0.5';
-    rightText.style.opacity = '0.5';
-    document.querySelectorAll('.half-screen').forEach(function (el) {
-        el.classList.remove('dark', 'light');
-    });
-}
-
-function loadArt(type) {
-    var gallery = document.getElementById('gallery');
-    var welcome = document.getElementById('welcomeScreen');
-
-    // gallery.innerHTML = ''; // Clear the gallery
-    if (window.innerWidth > 768) {
-        gallery.innerHTML = ''; // Clear the gallery only if not on mobile
-    }
-    var basePath = type === 'ai' ? 'static/img/ai/' : 'static/img/og/';
-    var count = type === 'ai' ? 20 : 10;
+    },
     
-    for (var i = 1; i <= count; i++) {
-        var img = document.createElement('img');
-        img.src = basePath + i + '.png'; // Assuming images are named 'image1.jpg', 'image2.jpg', etc.
-        img.alt = type + ' art ' + i;
-        gallery.appendChild(img);
-    }
+    {
+        imgname:"ElamForever.png",
+        imgdesc:"",
+        category:"ai",
+
+    },
+    {
+        imgname:"Aurora and Tigon.png",
+        imgdesc:"",
+        category:"ai",
+
+    },
+    {
+        imgname:"angel.png",
+        imgdesc:"",
+        category:"ai",
+
+    },
+    {
+        imgname:"mj3.png",
+        imgdesc:"",
+        category:"ai",
+
+    },
+    {
+        imgname:"Iridielle.jpg",
+        imgdesc:"",
+        category:"ai",
+
+    },
+    {
+        imgname:"Tigon.png",
+        imgdesc:"",
+        category:"ai",
+
+    },
+    {
+        imgname:"snakeeater.jpg",
+        imgdesc:"",
+        category:"ai",
+
+    },
     
-    // Hide the welcome screen after loading the gallery
-    if (window.innerWidth > 768) {
-        welcome.innerHTML = ''; // Clear the welcome
+    {
+        imgname:"",
+        imgdesc:"",
+        category:"ai",
+
+    },
+]
+
+function emitter(){
+    console.log("hey");
+    let targ = document.getElementById("target");
+    for(let i=0; i < imgs.length;i++){
+        targ.innerHTML+= `
+        <div class="phase">
+        <img class="${imgs[i].category}" src="static/img/${imgs[i].imgname}">
+        <p>${imgs[i].imgdesc}</p>
+        </div>
+        `
     }
-    document.getElementById('welcomeScreen').style.display = 'none';
-    document.getElementById('x').innerHTML=`
-        <div class="xy">Gallery Under Construction - <a href="fly.html">Yours Truly</a></div>
-        <a target="_blank" href="artsave.html">Old Art Page</a>
-    `
 }
+emitter();
