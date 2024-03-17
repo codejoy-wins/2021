@@ -228,7 +228,7 @@ let songz = [
     `bleedingoutpro`,
     `SuperFireMedley`,
     `Madly`,
-    // `Rapaholic`,
+    `sb`,
 
 ]
 
@@ -259,7 +259,7 @@ let songs = [
        `Bleeding Out (pro version)`,
        `Super Fire Medley`,
        `Madly`,
-    //    `Rapaholic`,
+       `Santa Barbara`
 
 ]
 
