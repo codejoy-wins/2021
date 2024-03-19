@@ -1,12 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
     const projects = [
-        { title: "Unreal Cloudland", 
-        description: "I'm learning Unreal Engine 5.3 with my new Macbook Pro M3", 
-        imageUrl: "static/img/elamcloud.png",
-        linkURL: "",
-        videoembed:"https://www.youtube.com/embed/mum7DEXXvFI?si=yOqy-TdTsB61-8Pp",
-        date:"2024",
-     },
+        { title: "Homepage",
+         description: "The homepage to my personal website.  The index.html to maxjann.com.  The apple of my all-seeing eye.",
+         imageUrl: "static/img/elamforever.png",
+         linkURL:"index.html",
+         videoembed:"",
+         date:"2020-current",
+
+         },
+        
         { title: "OneDate",
          description: "A single-page web application that uses artificial intelligence to generate a date for you in between you and your date's current location.", 
          imageUrl: "static/img/1d.jpg",
@@ -44,6 +46,13 @@ document.addEventListener('DOMContentLoaded', function() {
          date:"2018",
 
          },
+         { title: "Fantasy Football App", 
+        description: "I built an app that my league used to check power rankings and I used to update player's teams", 
+        imageUrl: "static/img/henry.jpg",
+        linkURL: "",
+        videoembed:"https://www.youtube.com/embed/0Lo2n8dznWY?si=0TGl5-Qkxk-GM36D",
+        date:"2019",
+     },
          { title: "Meme Creator",
          description: "A primitive app that let's you pair images with text... I should revisit this with A.I.s help and add functionality for users to download created custom memes.",
          imageUrl: "static/img/meme.jpg",
@@ -52,6 +61,15 @@ document.addEventListener('DOMContentLoaded', function() {
          date:"2022",
 
          },
+         { title: "Facebook Clone",
+         description: "A fully functional previously deployed fullstack web application that let's users log in, customize their wall background and colors, and post on other users walls.  Used Django / Python / AWS.  Eventually had to take it down due to complications with pythonanywhere.  This project best shows my actual backend skillset.",
+         imageUrl: "static/img/fakebook.png",
+         linkURL:"",
+         videoembed:"https://www.youtube.com/embed/cGj6XZNMmQc?si=-ldn3nU6vq1L0pWK",
+         date:"2022",
+
+         },
+
          { title: "Cards",
          description: "A pokemon app where you choose moves and fight a non-ai enemy but it's a well balanced prototype.",
          imageUrl: "static/img/mew.jpg",
@@ -60,14 +78,13 @@ document.addEventListener('DOMContentLoaded', function() {
          date:"2023",
 
          },
-         { title: "Homepage",
-         description: "The homepage to my personal website.  The index.html to maxjann.com.  The apple of my all-seeing eye.",
-         imageUrl: "static/img/elamforever.png",
-         linkURL:"index.html",
-         videoembed:"",
-         date:"2020-current",
-
-         },
+         { title: "Unreal Cloudland", 
+        description: "I'm learning Unreal Engine 5.3 with my new Macbook Pro M3", 
+        imageUrl: "static/img/elamcloud.png",
+        linkURL: "",
+        videoembed:"https://www.youtube.com/embed/mum7DEXXvFI?si=yOqy-TdTsB61-8Pp",
+        date:"2024",
+     },
         // I should also add video demos for each project, as well as a link
         // videos/ reviews / music  / homepage
     ];
