@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const projects = [
         { title: "Homepage",
-         description: "The homepage to my personal website.  The index.html to maxjann.com.  The apple of my all-seeing eye.",
+         description: "The homepage to my personal website.  The index.html to maxjann.com.",
          imageUrl: "static/img/elamforever.png",
          linkURL:"index.html",
          videoembed:"",
