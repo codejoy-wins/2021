@@ -2395,6 +2395,7 @@ div#tetrahedron > div.back {
     background-size:cover;
     padding-left: 1vw;
     padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 .innertextx p{
     color: black;
