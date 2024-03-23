@@ -1,6 +1,28 @@
 *{
     font-family: 'Spectral', serif;
 }
+#intro{
+    display: block;
+}
+#rez{
+    display: block;
+}
+#rez2{
+    display: none;
+}
+
+@media only screen and (max-device-width: 1117px) {
+    #rez{
+        display: none;
+    }
+    #rez2{
+        display: block;
+    }
+    #intro{
+        display: none;
+    }
+}
+
 .git{
     color: green;
 }
