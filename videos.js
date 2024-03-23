@@ -14,26 +14,10 @@ function conspiracies(){
     </div>
     </div>
 
-    <div class="video">
-    <h1>I saw God at 7/11</h1>
-    <div class="vid2">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZCRNLG5dU7I?si=D3a21zAjImNUkj3L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-    </div>
-
     <div class="video2">
     <h1>Superjuxtaposition of Nothing and Everything</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/oBqng6eTfMc?si=znWwFvLZsiXIJEn1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-    </div>
-
-    
-
-    <div class="video2">
-    <h1>Sermon on a Cloud</h1>
-    <div class="vid2">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2vSqYtBBLkI?si=69DBLZx8JqUsL712" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     </div>
 
@@ -44,14 +28,28 @@ function conspiracies(){
     </div>
     </div>
 
-    
-
     <div class="video">
     <h1>White Rock</h1>
     <div class="vid2">
     <iframe width="100%" height="315" src="https://www.youtube.com/embed/jG6kG1AByaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     </div>
+
+    <div class="video">
+    <h1>I thought I saw God at 7/11</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZCRNLG5dU7I?si=D3a21zAjImNUkj3L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    <div class="video2">
+    <h1>Sermon on a Cloud</h1>
+    <div class="vid2">
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2vSqYtBBLkI?si=69DBLZx8JqUsL712" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+
+    
 
     <div class="video">
     <h1>D.O.G.</h1>

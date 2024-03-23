@@ -8,6 +8,9 @@ body {
     background: #f0f0f0;
     font-family: Arial, sans-serif;
 }
+.instruct{
+    padding: 1vw;
+}
 .card-container {
     perspective: 1000px;
 }
@@ -43,8 +46,9 @@ body {
 
 }
 .card-face.back {
-    background: #333;
-    background-image: url('../img/wartri.jpeg');
+    background:plum;
+    /* background-image: url('../img/wartri.jpeg'); */
+
     background-position: 50%;
     background-size: contain;
     color: rgb(255, 255, 255);

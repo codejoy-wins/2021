@@ -525,8 +525,8 @@ p a{
     font-style: italic;
 }
 .parallaxnew{
-    /* background-image: url("../img/ElamForever.png"); */
-    background-image: url("../img/Warilla.jpg");
+    background-image: url("../img/ElamForever.png");
+    /* background-image: url("../img/Warilla.jpg"); */
 
     height: 100vw;
     background-attachment: fixed;
@@ -632,8 +632,9 @@ p a{
     max-width: 100%;
 }
 .parallaxfeature3new{
-    /* background-image: url("../img/RainbowAngel.png"); */
-    background-image: url("../img/godplustrim.png");
+    /* background-image: url("../img/darkcom.png"); */
+    /* background-image: url("../img/godplustrim.png"); */
+    background-image: url("../img/Warilla.jpg");
 
     height: 100vw;
     background-attachment: fixed;
@@ -1378,8 +1379,8 @@ footer{
     min-height: 210px;
     max-height: 400px;
     /* background-image: url(../img/lightcom.png); */
-    /* background-image: url(../img/oig2.jpeg); */
-    background-image: url(../img/automaticgun.jpg);
+    background-image: url(../img/oig2.jpeg);
+    /* background-image: url(../img/automaticgun.jpg); */
 
     /* background-image: url(../img/EternalElam.png); */
 
