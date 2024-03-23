@@ -68,7 +68,7 @@ function emitter(){
     for(let i=0; i < imgs.length;i++){
         targ.innerHTML+= `
         <div class="phase">
-        <img class="${imgs[i].category}" src="static/img/${imgs[i].imgname}">
+        <img class="${imgs[i].category} pic" src="static/img/${imgs[i].imgname}">
         <p>${imgs[i].imgdesc}</p>
         </div>
         `
