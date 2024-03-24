@@ -868,3 +868,7 @@ body{
 .godlike li{
     color: black;
 }
+.redacted{
+    background-color: black;
+    text-decoration: line-through;
+}
