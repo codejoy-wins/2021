@@ -47,9 +47,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
          },
          { title: "Fantasy Football App", 
-        description: "I built an app that my league used to check power rankings and I used to update player's teams", 
+        description: "The video is a demo of a fullstack web application I built with Python and the Django Framework. The Link will take you to my power rankings where I used a parallax effect to make a fun article for my league to read weekly. ", 
         imageUrl: "static/img/henry.jpg",
-        linkURL: "",
+        linkURL: "fantasy.html",
         videoembed:"https://www.youtube.com/embed/0Lo2n8dznWY?si=0TGl5-Qkxk-GM36D",
         date:"2019",
      },
